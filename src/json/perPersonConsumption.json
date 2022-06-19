@@ -1,0 +1,32 @@
+{
+	"PerPersonConsumption": {
+		"DateTime": "2020-07-01T00:00:00",
+		"Details": [{
+			"Label": "Floor G-14",
+			"Icon": "/AccountResources/Dashboard/Icons/FLG_14.png",
+			"Consumption": {
+				"Value": "1018",
+				"Unit": "kWh",
+				"Label": "1018kWh"
+			},
+			"Cost": {
+				"Value": "93,147",
+				"Unit": "INR",
+				"Label": "93,147INR"
+			}
+		}, {
+			"Label": "Floor 15-16",
+			"Icon": "/AccountResources/Dashboard/Icons/FL15_16.png",
+			"Consumption": {
+				"Value": "363",
+				"Unit": "kWh",
+				"Label": "363kWh"
+			},
+			"Cost": {
+				"Value": "33,215",
+				"Unit": "INR",
+				"Label": "33,215INR"
+			}
+		}]
+	}
+}

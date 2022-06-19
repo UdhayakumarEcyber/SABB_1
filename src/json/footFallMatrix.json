@@ -1,0 +1,6290 @@
+{
+	"EW" :{
+		"FootFallLiveData": {
+			"TotalCampusFootFall": "8",
+			"LastUpdatedISODateTime": "2020-06-08T23:40:00",
+			"WingFullName": "North Wing",
+			"FloorName": "Floor1",
+			"HighestFloorCount": "5"
+		},
+		"FloorWiseHourlyData": {
+			"Floor1": {
+				"CompareFootFall": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "96",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": "138"
+				},
+				"HourlyData": [{
+					"TrendHour": "0",
+					"TrendDate": "2020-06-08T00:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "4",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "200%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "1"
+					}
+				}, {
+					"TrendHour": "1",
+					"TrendDate": "2020-06-08T01:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "Acceptable",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "4",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "200%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "1"
+					}
+				}, {
+					"TrendHour": "2",
+					"TrendDate": "2020-06-08T02:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "unacceptable",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "4",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "200%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "1"
+					}
+				}, {
+					"TrendHour": "3",
+					"TrendDate": "2020-06-08T03:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "4",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "200%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "1"
+					}
+				}, {
+					"TrendHour": "4",
+					"TrendDate": "2020-06-08T04:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "4",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "200%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "1"
+					}
+				}, {
+					"TrendHour": "5",
+					"TrendDate": "2020-06-08T05:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "4",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "200%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "1"
+					}
+				}, {
+					"TrendHour": "6",
+					"TrendDate": "2020-06-08T06:00:00",
+					"CompareFootFall": {
+						"Value": "8",
+						"Status": "Acceptable",
+						"ColorFill": "orange",
+						"PreviousDaySTDEV": "4",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "800%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "1"
+					}
+				}, {
+					"TrendHour": "7",
+					"TrendDate": "2020-06-08T07:00:00",
+					"CompareFootFall": {
+						"Value": "14",
+						"Status": "unacceptable",
+						"ColorFill": "red",
+						"PreviousDaySTDEV": "4",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "1400%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "1"
+					}
+				}, {
+					"TrendHour": "8",
+					"TrendDate": "2020-06-08T08:00:00",
+					"CompareFootFall": {
+						"Value": "35",
+						"Status": "Acceptable",
+						"ColorFill": "orange",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "17%",
+						"Status": "Severely under utilised",
+						"ColorFill": "dark grey",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "9",
+					"TrendDate": "2020-06-08T09:00:00",
+					"CompareFootFall": {
+						"Value": "232",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "113%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "10",
+					"TrendDate": "2020-06-08T10:00:00",
+					"CompareFootFall": {
+						"Value": "282",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "137%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "11",
+					"TrendDate": "2020-06-08T11:00:00",
+					"CompareFootFall": {
+						"Value": "292",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "142%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "12",
+					"TrendDate": "2020-06-08T12:00:00",
+					"CompareFootFall": {
+						"Value": "12530",
+						"Status": "unacceptable",
+						"ColorFill": "red",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "6112%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "13",
+					"TrendDate": "2020-06-08T13:00:00",
+					"CompareFootFall": {
+						"Value": "266",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "129%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "14",
+					"TrendDate": "2020-06-08T14:00:00",
+					"CompareFootFall": {
+						"Value": "282",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "137%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "15",
+					"TrendDate": "2020-06-08T15:00:00",
+					"CompareFootFall": {
+						"Value": "259",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "126%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "16",
+					"TrendDate": "2020-06-08T16:00:00",
+					"CompareFootFall": {
+						"Value": "293",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "142%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "17",
+					"TrendDate": "2020-06-08T17:00:00",
+					"CompareFootFall": {
+						"Value": "277",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "135%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "18",
+					"TrendDate": "2020-06-08T18:00:00",
+					"CompareFootFall": {
+						"Value": "320",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "233",
+						"CurrentDayMean": "406"
+					},
+					"MeasureUtilisation": {
+						"Value": "156%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "205"
+					}
+				}, {
+					"TrendHour": "19",
+					"TrendDate": "2020-06-08T19:00:00",
+					"CompareFootFall": {
+						"Value": "104",
+						"Status": "unacceptable",
+						"ColorFill": "red",
+						"PreviousDaySTDEV": "41",
+						"CurrentDayMean": "18"
+					},
+					"MeasureUtilisation": {
+						"Value": "577%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "18"
+					}
+				}, {
+					"TrendHour": "20",
+					"TrendDate": "2020-06-08T20:00:00",
+					"CompareFootFall": {
+						"Value": "24",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "41",
+						"CurrentDayMean": "18"
+					},
+					"MeasureUtilisation": {
+						"Value": "133%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "18"
+					}
+				}, {
+					"TrendHour": "21",
+					"TrendDate": "2020-06-08T21:00:00",
+					"CompareFootFall": {
+						"Value": "7",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "41",
+						"CurrentDayMean": "18"
+					},
+					"MeasureUtilisation": {
+						"Value": "38%",
+						"Status": "Severely under utilised",
+						"ColorFill": "dark grey",
+						"PreviousDayMean": "18"
+					}
+				}, {
+					"TrendHour": "22",
+					"TrendDate": "2020-06-08T22:00:00",
+					"CompareFootFall": {
+						"Value": "5",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "41",
+						"CurrentDayMean": "18"
+					},
+					"MeasureUtilisation": {
+						"Value": "27%",
+						"Status": "Severely under utilised",
+						"ColorFill": "dark grey",
+						"PreviousDayMean": "18"
+					}
+				}, {
+					"TrendHour": "23",
+					"TrendDate": "2020-06-08T23:00:00",
+					"CompareFootFall": {
+						"Value": "4",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "41",
+						"CurrentDayMean": "18"
+					},
+					"MeasureUtilisation": {
+						"Value": "22%",
+						"Status": "Severely under utilised",
+						"ColorFill": "dark grey",
+						"PreviousDayMean": "18"
+					}
+				}]
+			},
+			"Floor2": {
+				"CompareFootFall": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "94",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": "302"
+				},
+				"HourlyData": [{
+					"TrendHour": "0",
+					"TrendDate": "2020-06-08T00:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "5",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "100%",
+						"Status": "Optimal",
+						"ColorFill": "light green",
+						"PreviousDayMean": "2"
+					}
+				}, {
+					"TrendHour": "1",
+					"TrendDate": "2020-06-08T01:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "5",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "100%",
+						"Status": "Optimal",
+						"ColorFill": "light green",
+						"PreviousDayMean": "2"
+					}
+				}, {
+					"TrendHour": "2",
+					"TrendDate": "2020-06-08T02:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "5",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "100%",
+						"Status": "Optimal",
+						"ColorFill": "light green",
+						"PreviousDayMean": "2"
+					}
+				}, {
+					"TrendHour": "3",
+					"TrendDate": "2020-06-08T03:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "5",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "100%",
+						"Status": "Optimal",
+						"ColorFill": "light green",
+						"PreviousDayMean": "2"
+					}
+				}, {
+					"TrendHour": "4",
+					"TrendDate": "2020-06-08T04:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "5",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "100%",
+						"Status": "Optimal",
+						"ColorFill": "light green",
+						"PreviousDayMean": "2"
+					}
+				}, {
+					"TrendHour": "5",
+					"TrendDate": "2020-06-08T05:00:00",
+					"CompareFootFall": {
+						"Value": "2",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "5",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "100%",
+						"Status": "Optimal",
+						"ColorFill": "light green",
+						"PreviousDayMean": "2"
+					}
+				}, {
+					"TrendHour": "6",
+					"TrendDate": "2020-06-08T06:00:00",
+					"CompareFootFall": {
+						"Value": "8",
+						"Status": "Acceptable",
+						"ColorFill": "orange",
+						"PreviousDaySTDEV": "5",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "400%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "2"
+					}
+				}, {
+					"TrendHour": "7",
+					"TrendDate": "2020-06-08T07:00:00",
+					"CompareFootFall": {
+						"Value": "14",
+						"Status": "unacceptable",
+						"ColorFill": "red",
+						"PreviousDaySTDEV": "5",
+						"CurrentDayMean": "1"
+					},
+					"MeasureUtilisation": {
+						"Value": "700%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "2"
+					}
+				}, {
+					"TrendHour": "8",
+					"TrendDate": "2020-06-08T08:00:00",
+					"CompareFootFall": {
+						"Value": "35",
+						"Status": "Acceptable",
+						"ColorFill": "orange",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "28%",
+						"Status": "Severely under utilised",
+						"ColorFill": "dark grey",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "9",
+					"TrendDate": "2020-06-08T09:00:00",
+					"CompareFootFall": {
+						"Value": "232",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "185%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "10",
+					"TrendDate": "2020-06-08T10:00:00",
+					"CompareFootFall": {
+						"Value": "272",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "217%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "11",
+					"TrendDate": "2020-06-08T11:00:00",
+					"CompareFootFall": {
+						"Value": "282",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "225%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "12",
+					"TrendDate": "2020-06-08T12:00:00",
+					"CompareFootFall": {
+						"Value": "560",
+						"Status": "unacceptable",
+						"ColorFill": "red",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "448%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "13",
+					"TrendDate": "2020-06-08T13:00:00",
+					"CompareFootFall": {
+						"Value": "266",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "212%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "14",
+					"TrendDate": "2020-06-08T14:00:00",
+					"CompareFootFall": {
+						"Value": "716",
+						"Status": "unacceptable",
+						"ColorFill": "red",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "572%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "15",
+					"TrendDate": "2020-06-08T15:00:00",
+					"CompareFootFall": {
+						"Value": "1435",
+						"Status": "unacceptable",
+						"ColorFill": "red",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "1148%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "16",
+					"TrendDate": "2020-06-08T16:00:00",
+					"CompareFootFall": {
+						"Value": "283",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "226%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "17",
+					"TrendDate": "2020-06-08T17:00:00",
+					"CompareFootFall": {
+						"Value": "267",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "213%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "18",
+					"TrendDate": "2020-06-08T18:00:00",
+					"CompareFootFall": {
+						"Value": "220",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "132",
+						"CurrentDayMean": "202"
+					},
+					"MeasureUtilisation": {
+						"Value": "176%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "125"
+					}
+				}, {
+					"TrendHour": "19",
+					"TrendDate": "2020-06-08T19:00:00",
+					"CompareFootFall": {
+						"Value": "124",
+						"Status": "unacceptable",
+						"ColorFill": "red",
+						"PreviousDaySTDEV": "42",
+						"CurrentDayMean": "19"
+					},
+					"MeasureUtilisation": {
+						"Value": "652%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "19"
+					}
+				}, {
+					"TrendHour": "20",
+					"TrendDate": "2020-06-08T20:00:00",
+					"CompareFootFall": {
+						"Value": "24",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "42",
+						"CurrentDayMean": "19"
+					},
+					"MeasureUtilisation": {
+						"Value": "126%",
+						"Status": "OverLoaded",
+						"ColorFill": "dark green",
+						"PreviousDayMean": "19"
+					}
+				}, {
+					"TrendHour": "21",
+					"TrendDate": "2020-06-08T21:00:00",
+					"CompareFootFall": {
+						"Value": "7",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "42",
+						"CurrentDayMean": "19"
+					},
+					"MeasureUtilisation": {
+						"Value": "36%",
+						"Status": "Severely under utilised",
+						"ColorFill": "dark grey",
+						"PreviousDayMean": "19"
+					}
+				}, {
+					"TrendHour": "22",
+					"TrendDate": "2020-06-08T22:00:00",
+					"CompareFootFall": {
+						"Value": "5",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "42",
+						"CurrentDayMean": "19"
+					},
+					"MeasureUtilisation": {
+						"Value": "26%",
+						"Status": "Severely under utilised",
+						"ColorFill": "dark grey",
+						"PreviousDayMean": "19"
+					}
+				}, {
+					"TrendHour": "23",
+					"TrendDate": "2020-06-08T23:00:00",
+					"CompareFootFall": {
+						"Value": "4",
+						"Status": "optimal",
+						"ColorFill": "green",
+						"PreviousDaySTDEV": "42",
+						"CurrentDayMean": "19"
+					},
+					"MeasureUtilisation": {
+						"Value": "21%",
+						"Status": "Severely under utilised",
+						"ColorFill": "dark grey",
+						"PreviousDayMean": "19"
+					}
+				}]
+			},
+			"Floor3": {
+				"CompareFootFall": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": ""
+				},
+				"HourlyData": [{
+					"TrendHour": "0",
+					"TrendDate": "2020-06-08T00:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "1",
+					"TrendDate": "2020-06-08T01:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "2",
+					"TrendDate": "2020-06-08T02:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "3",
+					"TrendDate": "2020-06-08T03:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "4",
+					"TrendDate": "2020-06-08T04:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "5",
+					"TrendDate": "2020-06-08T05:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "6",
+					"TrendDate": "2020-06-08T06:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "7",
+					"TrendDate": "2020-06-08T07:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "8",
+					"TrendDate": "2020-06-08T08:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "9",
+					"TrendDate": "2020-06-08T09:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "10",
+					"TrendDate": "2020-06-08T10:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "11",
+					"TrendDate": "2020-06-08T11:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "12",
+					"TrendDate": "2020-06-08T12:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "13",
+					"TrendDate": "2020-06-08T13:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "14",
+					"TrendDate": "2020-06-08T14:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "15",
+					"TrendDate": "2020-06-08T15:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "16",
+					"TrendDate": "2020-06-08T16:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "17",
+					"TrendDate": "2020-06-08T17:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "18",
+					"TrendDate": "2020-06-08T18:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "19",
+					"TrendDate": "2020-06-08T19:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "20",
+					"TrendDate": "2020-06-08T20:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "21",
+					"TrendDate": "2020-06-08T21:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "22",
+					"TrendDate": "2020-06-08T22:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "23",
+					"TrendDate": "2020-06-08T23:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}]
+			},
+			"Floor4": {
+				"CompareFootFall": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": ""
+				},
+				"HourlyData": [{
+					"TrendHour": "0",
+					"TrendDate": "2020-06-08T00:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "1",
+					"TrendDate": "2020-06-08T01:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "2",
+					"TrendDate": "2020-06-08T02:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "3",
+					"TrendDate": "2020-06-08T03:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "4",
+					"TrendDate": "2020-06-08T04:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "5",
+					"TrendDate": "2020-06-08T05:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "6",
+					"TrendDate": "2020-06-08T06:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "7",
+					"TrendDate": "2020-06-08T07:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "8",
+					"TrendDate": "2020-06-08T08:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "9",
+					"TrendDate": "2020-06-08T09:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "10",
+					"TrendDate": "2020-06-08T10:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "11",
+					"TrendDate": "2020-06-08T11:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "12",
+					"TrendDate": "2020-06-08T12:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "13",
+					"TrendDate": "2020-06-08T13:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "14",
+					"TrendDate": "2020-06-08T14:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "15",
+					"TrendDate": "2020-06-08T15:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "16",
+					"TrendDate": "2020-06-08T16:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "17",
+					"TrendDate": "2020-06-08T17:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "18",
+					"TrendDate": "2020-06-08T18:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "19",
+					"TrendDate": "2020-06-08T19:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "20",
+					"TrendDate": "2020-06-08T20:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "21",
+					"TrendDate": "2020-06-08T21:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "22",
+					"TrendDate": "2020-06-08T22:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "23",
+					"TrendDate": "2020-06-08T23:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}]
+			},
+			"Floor5": {
+				"CompareFootFall": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": ""
+				},
+				"HourlyData": [{
+					"TrendHour": "0",
+					"TrendDate": "2020-06-08T00:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "1",
+					"TrendDate": "2020-06-08T01:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "2",
+					"TrendDate": "2020-06-08T02:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "3",
+					"TrendDate": "2020-06-08T03:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "4",
+					"TrendDate": "2020-06-08T04:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "5",
+					"TrendDate": "2020-06-08T05:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "6",
+					"TrendDate": "2020-06-08T06:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "7",
+					"TrendDate": "2020-06-08T07:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "8",
+					"TrendDate": "2020-06-08T08:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "9",
+					"TrendDate": "2020-06-08T09:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "10",
+					"TrendDate": "2020-06-08T10:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "11",
+					"TrendDate": "2020-06-08T11:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "12",
+					"TrendDate": "2020-06-08T12:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "13",
+					"TrendDate": "2020-06-08T13:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "14",
+					"TrendDate": "2020-06-08T14:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "15",
+					"TrendDate": "2020-06-08T15:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "16",
+					"TrendDate": "2020-06-08T16:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "17",
+					"TrendDate": "2020-06-08T17:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "18",
+					"TrendDate": "2020-06-08T18:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "19",
+					"TrendDate": "2020-06-08T19:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "20",
+					"TrendDate": "2020-06-08T20:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "21",
+					"TrendDate": "2020-06-08T21:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "22",
+					"TrendDate": "2020-06-08T22:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "23",
+					"TrendDate": "2020-06-08T23:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}]
+			},
+			"Floor6": {
+				"CompareFootFall": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": ""
+				},
+				"HourlyData": [{
+					"TrendHour": "0",
+					"TrendDate": "2020-06-08T00:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "1",
+					"TrendDate": "2020-06-08T01:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "2",
+					"TrendDate": "2020-06-08T02:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "3",
+					"TrendDate": "2020-06-08T03:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "4",
+					"TrendDate": "2020-06-08T04:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "5",
+					"TrendDate": "2020-06-08T05:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "6",
+					"TrendDate": "2020-06-08T06:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "7",
+					"TrendDate": "2020-06-08T07:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "8",
+					"TrendDate": "2020-06-08T08:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "9",
+					"TrendDate": "2020-06-08T09:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "10",
+					"TrendDate": "2020-06-08T10:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "11",
+					"TrendDate": "2020-06-08T11:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "12",
+					"TrendDate": "2020-06-08T12:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "13",
+					"TrendDate": "2020-06-08T13:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "14",
+					"TrendDate": "2020-06-08T14:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "15",
+					"TrendDate": "2020-06-08T15:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "16",
+					"TrendDate": "2020-06-08T16:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "17",
+					"TrendDate": "2020-06-08T17:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "18",
+					"TrendDate": "2020-06-08T18:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "19",
+					"TrendDate": "2020-06-08T19:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "20",
+					"TrendDate": "2020-06-08T20:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "21",
+					"TrendDate": "2020-06-08T21:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "22",
+					"TrendDate": "2020-06-08T22:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}, {
+					"TrendHour": "23",
+					"TrendDate": "2020-06-08T23:00:00",
+					"CompareFootFall": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDaySTDEV": "",
+						"CurrentDayMean": ""
+					},
+					"MeasureUtilisation": {
+						"Value": "",
+						"Status": "",
+						"ColorFill": "",
+						"PreviousDayMean": ""
+					}
+				}]
+			}
+		}
+	},
+
+	"WW" :{
+		"FootFallLiveData": {
+			"TotalCampusFootFall": "8",
+			"LastUpdatedISODateTime": "2020-06-08T23:40:00",
+			"WingFullName": "North Wing",
+			"FloorName": "Floor1",
+			"HighestFloorCount": "5"
+		},
+		"FloorWiseHourlyData": {
+			"Floor1": {
+				"CompareFootFall": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "94",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": "136"
+				},
+				"HourlyData": [
+					{
+						"TrendHour": "0",
+						"TrendDate": "2020-06-08T00:00:00",
+						"CompareFootFall": {
+							"Value": "23",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "1",
+						"TrendDate": "2020-06-08T01:00:00",
+						"CompareFootFall": {
+							"Value": "20",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "2",
+						"TrendDate": "2020-06-08T02:00:00",
+						"CompareFootFall": {
+							"Value": "29",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "3",
+						"TrendDate": "2020-06-08T03:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "4",
+						"TrendDate": "2020-06-08T04:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "5",
+						"TrendDate": "2020-06-08T05:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "6",
+						"TrendDate": "2020-06-08T06:00:00",
+						"CompareFootFall": {
+							"Value": "8",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "266%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "7",
+						"TrendDate": "2020-06-08T07:00:00",
+						"CompareFootFall": {
+							"Value": "14",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "466%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "8",
+						"TrendDate": "2020-06-08T08:00:00",
+						"CompareFootFall": {
+							"Value": "35",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "26%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "9",
+						"TrendDate": "2020-06-08T09:00:00",
+						"CompareFootFall": {
+							"Value": "232",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "177%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "10",
+						"TrendDate": "2020-06-08T10:00:00",
+						"CompareFootFall": {
+							"Value": "272",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "207%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "11",
+						"TrendDate": "2020-06-08T11:00:00",
+						"CompareFootFall": {
+							"Value": "282",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "215%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "12",
+						"TrendDate": "2020-06-08T12:00:00",
+						"CompareFootFall": {
+							"Value": "550",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "419%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "13",
+						"TrendDate": "2020-06-08T13:00:00",
+						"CompareFootFall": {
+							"Value": "266",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "203%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "14",
+						"TrendDate": "2020-06-08T14:00:00",
+						"CompareFootFall": {
+							"Value": "272",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "207%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "15",
+						"TrendDate": "2020-06-08T15:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "16",
+						"TrendDate": "2020-06-08T16:00:00",
+						"CompareFootFall": {
+							"Value": "283",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "216%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "17",
+						"TrendDate": "2020-06-08T17:00:00",
+						"CompareFootFall": {
+							"Value": "267",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "203%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "18",
+						"TrendDate": "2020-06-08T18:00:00",
+						"CompareFootFall": {
+							"Value": "220",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "167%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "19",
+						"TrendDate": "2020-06-08T19:00:00",
+						"CompareFootFall": {
+							"Value": "103",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "572%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "20",
+						"TrendDate": "2020-06-08T20:00:00",
+						"CompareFootFall": {
+							"Value": "22",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "122%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "21",
+						"TrendDate": "2020-06-08T21:00:00",
+						"CompareFootFall": {
+							"Value": "7",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "38%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "22",
+						"TrendDate": "2020-06-08T22:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "23",
+						"TrendDate": "2020-06-08T23:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					}
+				]
+			},
+			"Floor2": {
+				"CompareFootFall": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "94",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": "303"
+				},
+				"HourlyData": [
+					{
+						"TrendHour": "0",
+						"TrendDate": "2020-06-08T00:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "1",
+						"TrendDate": "2020-06-08T01:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "2",
+						"TrendDate": "2020-06-08T02:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "3",
+						"TrendDate": "2020-06-08T03:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "4",
+						"TrendDate": "2020-06-08T04:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "5",
+						"TrendDate": "2020-06-08T05:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "6",
+						"TrendDate": "2020-06-08T06:00:00",
+						"CompareFootFall": {
+							"Value": "8",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "400%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "7",
+						"TrendDate": "2020-06-08T07:00:00",
+						"CompareFootFall": {
+							"Value": "14",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "700%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "8",
+						"TrendDate": "2020-06-08T08:00:00",
+						"CompareFootFall": {
+							"Value": "35",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "29%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "9",
+						"TrendDate": "2020-06-08T09:00:00",
+						"CompareFootFall": {
+							"Value": "232",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "193%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "10",
+						"TrendDate": "2020-06-08T10:00:00",
+						"CompareFootFall": {
+							"Value": "272",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "226%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "11",
+						"TrendDate": "2020-06-08T11:00:00",
+						"CompareFootFall": {
+							"Value": "282",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "235%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "12",
+						"TrendDate": "2020-06-08T12:00:00",
+						"CompareFootFall": {
+							"Value": "550",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "458%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "13",
+						"TrendDate": "2020-06-08T13:00:00",
+						"CompareFootFall": {
+							"Value": "266",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "221%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "14",
+						"TrendDate": "2020-06-08T14:00:00",
+						"CompareFootFall": {
+							"Value": "716",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "596%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "15",
+						"TrendDate": "2020-06-08T15:00:00",
+						"CompareFootFall": {
+							"Value": "1435",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "1195%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "16",
+						"TrendDate": "2020-06-08T16:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "17",
+						"TrendDate": "2020-06-08T17:00:00",
+						"CompareFootFall": {
+							"Value": "267",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "222%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "18",
+						"TrendDate": "2020-06-08T18:00:00",
+						"CompareFootFall": {
+							"Value": "220",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "183%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "19",
+						"TrendDate": "2020-06-08T19:00:00",
+						"CompareFootFall": {
+							"Value": "103",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "572%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "20",
+						"TrendDate": "2020-06-08T20:00:00",
+						"CompareFootFall": {
+							"Value": "22",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "122%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "21",
+						"TrendDate": "2020-06-08T21:00:00",
+						"CompareFootFall": {
+							"Value": "7",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "38%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "22",
+						"TrendDate": "2020-06-08T22:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "23",
+						"TrendDate": "2020-06-08T23:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					}
+				]
+			},
+			"Floor3": {
+				"CompareFootFall": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": ""
+				},
+				"HourlyData": [
+					{
+						"TrendHour": "0",
+						"TrendDate": "2020-06-08T00:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "1",
+						"TrendDate": "2020-06-08T01:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "2",
+						"TrendDate": "2020-06-08T02:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "3",
+						"TrendDate": "2020-06-08T03:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "4",
+						"TrendDate": "2020-06-08T04:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "5",
+						"TrendDate": "2020-06-08T05:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "6",
+						"TrendDate": "2020-06-08T06:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "7",
+						"TrendDate": "2020-06-08T07:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "8",
+						"TrendDate": "2020-06-08T08:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "9",
+						"TrendDate": "2020-06-08T09:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "10",
+						"TrendDate": "2020-06-08T10:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "11",
+						"TrendDate": "2020-06-08T11:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "12",
+						"TrendDate": "2020-06-08T12:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "13",
+						"TrendDate": "2020-06-08T13:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "14",
+						"TrendDate": "2020-06-08T14:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "15",
+						"TrendDate": "2020-06-08T15:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "16",
+						"TrendDate": "2020-06-08T16:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "17",
+						"TrendDate": "2020-06-08T17:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "18",
+						"TrendDate": "2020-06-08T18:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "19",
+						"TrendDate": "2020-06-08T19:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "20",
+						"TrendDate": "2020-06-08T20:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "21",
+						"TrendDate": "2020-06-08T21:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "22",
+						"TrendDate": "2020-06-08T22:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "23",
+						"TrendDate": "2020-06-08T23:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					}
+				]
+			}
+			 
+		}
+	},
+
+	"NW" :{
+		"FootFallLiveData": {
+			"TotalCampusFootFall": "8",
+			"LastUpdatedISODateTime": "2020-06-08T23:40:00",
+			"WingFullName": "North Wing",
+			"FloorName": "Floor1",
+			"HighestFloorCount": "5"
+		},
+		"FloorWiseHourlyData": {
+			"Floor1": {
+				"CompareFootFall": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "94",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": "136"
+				},
+				"HourlyData": [
+					{
+						"TrendHour": "0",
+						"TrendDate": "2020-06-08T00:00:00",
+						"CompareFootFall": {
+							"Value": "23",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "1",
+						"TrendDate": "2020-06-08T01:00:00",
+						"CompareFootFall": {
+							"Value": "20",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "2",
+						"TrendDate": "2020-06-08T02:00:00",
+						"CompareFootFall": {
+							"Value": "29",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "3",
+						"TrendDate": "2020-06-08T03:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "4",
+						"TrendDate": "2020-06-08T04:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "5",
+						"TrendDate": "2020-06-08T05:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "6",
+						"TrendDate": "2020-06-08T06:00:00",
+						"CompareFootFall": {
+							"Value": "8",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "266%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "7",
+						"TrendDate": "2020-06-08T07:00:00",
+						"CompareFootFall": {
+							"Value": "14",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "466%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "8",
+						"TrendDate": "2020-06-08T08:00:00",
+						"CompareFootFall": {
+							"Value": "35",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "26%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "9",
+						"TrendDate": "2020-06-08T09:00:00",
+						"CompareFootFall": {
+							"Value": "232",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "177%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "10",
+						"TrendDate": "2020-06-08T10:00:00",
+						"CompareFootFall": {
+							"Value": "272",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "207%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "11",
+						"TrendDate": "2020-06-08T11:00:00",
+						"CompareFootFall": {
+							"Value": "282",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "215%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "12",
+						"TrendDate": "2020-06-08T12:00:00",
+						"CompareFootFall": {
+							"Value": "550",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "419%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "13",
+						"TrendDate": "2020-06-08T13:00:00",
+						"CompareFootFall": {
+							"Value": "266",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "203%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "14",
+						"TrendDate": "2020-06-08T14:00:00",
+						"CompareFootFall": {
+							"Value": "272",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "207%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "15",
+						"TrendDate": "2020-06-08T15:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "16",
+						"TrendDate": "2020-06-08T16:00:00",
+						"CompareFootFall": {
+							"Value": "283",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "216%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "17",
+						"TrendDate": "2020-06-08T17:00:00",
+						"CompareFootFall": {
+							"Value": "267",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "203%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "18",
+						"TrendDate": "2020-06-08T18:00:00",
+						"CompareFootFall": {
+							"Value": "220",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "167%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "19",
+						"TrendDate": "2020-06-08T19:00:00",
+						"CompareFootFall": {
+							"Value": "103",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "572%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "20",
+						"TrendDate": "2020-06-08T20:00:00",
+						"CompareFootFall": {
+							"Value": "22",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "122%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "21",
+						"TrendDate": "2020-06-08T21:00:00",
+						"CompareFootFall": {
+							"Value": "7",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "38%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "22",
+						"TrendDate": "2020-06-08T22:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "23",
+						"TrendDate": "2020-06-08T23:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					}
+				]
+			},
+			"Floor2": {
+				"CompareFootFall": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "94",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": "303"
+				},
+				"HourlyData": [
+					{
+						"TrendHour": "0",
+						"TrendDate": "2020-06-08T00:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "1",
+						"TrendDate": "2020-06-08T01:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "2",
+						"TrendDate": "2020-06-08T02:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "3",
+						"TrendDate": "2020-06-08T03:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "4",
+						"TrendDate": "2020-06-08T04:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "5",
+						"TrendDate": "2020-06-08T05:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "6",
+						"TrendDate": "2020-06-08T06:00:00",
+						"CompareFootFall": {
+							"Value": "8",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "400%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "7",
+						"TrendDate": "2020-06-08T07:00:00",
+						"CompareFootFall": {
+							"Value": "14",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "700%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "8",
+						"TrendDate": "2020-06-08T08:00:00",
+						"CompareFootFall": {
+							"Value": "35",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "29%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "9",
+						"TrendDate": "2020-06-08T09:00:00",
+						"CompareFootFall": {
+							"Value": "232",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "193%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "10",
+						"TrendDate": "2020-06-08T10:00:00",
+						"CompareFootFall": {
+							"Value": "272",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "226%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "11",
+						"TrendDate": "2020-06-08T11:00:00",
+						"CompareFootFall": {
+							"Value": "282",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "235%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "12",
+						"TrendDate": "2020-06-08T12:00:00",
+						"CompareFootFall": {
+							"Value": "550",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "458%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "13",
+						"TrendDate": "2020-06-08T13:00:00",
+						"CompareFootFall": {
+							"Value": "266",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "221%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "14",
+						"TrendDate": "2020-06-08T14:00:00",
+						"CompareFootFall": {
+							"Value": "716",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "596%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "15",
+						"TrendDate": "2020-06-08T15:00:00",
+						"CompareFootFall": {
+							"Value": "1435",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "1195%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "16",
+						"TrendDate": "2020-06-08T16:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "17",
+						"TrendDate": "2020-06-08T17:00:00",
+						"CompareFootFall": {
+							"Value": "267",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "222%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "18",
+						"TrendDate": "2020-06-08T18:00:00",
+						"CompareFootFall": {
+							"Value": "220",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "183%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "19",
+						"TrendDate": "2020-06-08T19:00:00",
+						"CompareFootFall": {
+							"Value": "103",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "572%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "20",
+						"TrendDate": "2020-06-08T20:00:00",
+						"CompareFootFall": {
+							"Value": "22",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "122%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "21",
+						"TrendDate": "2020-06-08T21:00:00",
+						"CompareFootFall": {
+							"Value": "7",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "38%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "22",
+						"TrendDate": "2020-06-08T22:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "23",
+						"TrendDate": "2020-06-08T23:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					}
+				]
+			},
+			"Floor3": {
+				"CompareFootFall": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": ""
+				},
+				"HourlyData": [
+					{
+						"TrendHour": "0",
+						"TrendDate": "2020-06-08T00:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "1",
+						"TrendDate": "2020-06-08T01:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "2",
+						"TrendDate": "2020-06-08T02:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "3",
+						"TrendDate": "2020-06-08T03:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "4",
+						"TrendDate": "2020-06-08T04:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "5",
+						"TrendDate": "2020-06-08T05:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "6",
+						"TrendDate": "2020-06-08T06:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "7",
+						"TrendDate": "2020-06-08T07:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "8",
+						"TrendDate": "2020-06-08T08:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "9",
+						"TrendDate": "2020-06-08T09:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "10",
+						"TrendDate": "2020-06-08T10:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "11",
+						"TrendDate": "2020-06-08T11:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "12",
+						"TrendDate": "2020-06-08T12:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "13",
+						"TrendDate": "2020-06-08T13:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "14",
+						"TrendDate": "2020-06-08T14:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "15",
+						"TrendDate": "2020-06-08T15:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "16",
+						"TrendDate": "2020-06-08T16:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "17",
+						"TrendDate": "2020-06-08T17:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "18",
+						"TrendDate": "2020-06-08T18:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "19",
+						"TrendDate": "2020-06-08T19:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "20",
+						"TrendDate": "2020-06-08T20:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "21",
+						"TrendDate": "2020-06-08T21:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "22",
+						"TrendDate": "2020-06-08T22:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "23",
+						"TrendDate": "2020-06-08T23:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					}
+				]
+			},
+			"Floor4": {
+				"CompareFootFall": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "noData",
+					"FloorColor": "grey"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": ""
+				},
+				"HourlyData": [
+					{
+						"TrendHour": "0",
+						"TrendDate": "2020-06-08T00:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "1",
+						"TrendDate": "2020-06-08T01:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "2",
+						"TrendDate": "2020-06-08T02:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "3",
+						"TrendDate": "2020-06-08T03:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "4",
+						"TrendDate": "2020-06-08T04:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "5",
+						"TrendDate": "2020-06-08T05:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "6",
+						"TrendDate": "2020-06-08T06:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "7",
+						"TrendDate": "2020-06-08T07:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "8",
+						"TrendDate": "2020-06-08T08:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "9",
+						"TrendDate": "2020-06-08T09:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "10",
+						"TrendDate": "2020-06-08T10:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "11",
+						"TrendDate": "2020-06-08T11:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "12",
+						"TrendDate": "2020-06-08T12:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "13",
+						"TrendDate": "2020-06-08T13:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "14",
+						"TrendDate": "2020-06-08T14:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "15",
+						"TrendDate": "2020-06-08T15:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "16",
+						"TrendDate": "2020-06-08T16:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "17",
+						"TrendDate": "2020-06-08T17:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "18",
+						"TrendDate": "2020-06-08T18:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "19",
+						"TrendDate": "2020-06-08T19:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "20",
+						"TrendDate": "2020-06-08T20:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "21",
+						"TrendDate": "2020-06-08T21:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "22",
+						"TrendDate": "2020-06-08T22:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "23",
+						"TrendDate": "2020-06-08T23:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					}
+				]
+			}
+		}
+	},
+	"SW" :{
+		"FootFallLiveData": {
+			"TotalCampusFootFall": "8",
+			"LastUpdatedISODateTime": "2020-06-08T23:40:00",
+			"WingFullName": "North Wing",
+			"FloorName": "Floor1",
+			"HighestFloorCount": "5"
+		},
+		"FloorWiseHourlyData": {
+			"Floor1": {
+				"CompareFootFall": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "94",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": "136"
+				},
+				"HourlyData": [
+					{
+						"TrendHour": "0",
+						"TrendDate": "2020-06-08T00:00:00",
+						"CompareFootFall": {
+							"Value": "23",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "1",
+						"TrendDate": "2020-06-08T01:00:00",
+						"CompareFootFall": {
+							"Value": "20",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "2",
+						"TrendDate": "2020-06-08T02:00:00",
+						"CompareFootFall": {
+							"Value": "29",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "3",
+						"TrendDate": "2020-06-08T03:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "4",
+						"TrendDate": "2020-06-08T04:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "5",
+						"TrendDate": "2020-06-08T05:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "66%",
+							"Status": "UnderLoaded",
+							"ColorFill": "light grey",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "6",
+						"TrendDate": "2020-06-08T06:00:00",
+						"CompareFootFall": {
+							"Value": "8",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "266%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "7",
+						"TrendDate": "2020-06-08T07:00:00",
+						"CompareFootFall": {
+							"Value": "14",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "5",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "466%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "3"
+						}
+					},
+					{
+						"TrendHour": "8",
+						"TrendDate": "2020-06-08T08:00:00",
+						"CompareFootFall": {
+							"Value": "35",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "26%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "9",
+						"TrendDate": "2020-06-08T09:00:00",
+						"CompareFootFall": {
+							"Value": "232",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "177%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "10",
+						"TrendDate": "2020-06-08T10:00:00",
+						"CompareFootFall": {
+							"Value": "272",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "207%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "11",
+						"TrendDate": "2020-06-08T11:00:00",
+						"CompareFootFall": {
+							"Value": "282",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "215%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "12",
+						"TrendDate": "2020-06-08T12:00:00",
+						"CompareFootFall": {
+							"Value": "550",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "419%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "13",
+						"TrendDate": "2020-06-08T13:00:00",
+						"CompareFootFall": {
+							"Value": "266",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "203%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "14",
+						"TrendDate": "2020-06-08T14:00:00",
+						"CompareFootFall": {
+							"Value": "272",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "207%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "15",
+						"TrendDate": "2020-06-08T15:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "16",
+						"TrendDate": "2020-06-08T16:00:00",
+						"CompareFootFall": {
+							"Value": "283",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "216%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "17",
+						"TrendDate": "2020-06-08T17:00:00",
+						"CompareFootFall": {
+							"Value": "267",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "203%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "18",
+						"TrendDate": "2020-06-08T18:00:00",
+						"CompareFootFall": {
+							"Value": "220",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "128",
+							"CurrentDayMean": "124"
+						},
+						"MeasureUtilisation": {
+							"Value": "167%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "131"
+						}
+					},
+					{
+						"TrendHour": "19",
+						"TrendDate": "2020-06-08T19:00:00",
+						"CompareFootFall": {
+							"Value": "103",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "572%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "20",
+						"TrendDate": "2020-06-08T20:00:00",
+						"CompareFootFall": {
+							"Value": "22",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "122%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "21",
+						"TrendDate": "2020-06-08T21:00:00",
+						"CompareFootFall": {
+							"Value": "7",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "38%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "22",
+						"TrendDate": "2020-06-08T22:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "23",
+						"TrendDate": "2020-06-08T23:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					}
+				]
+			},
+			"Floor2": {
+				"CompareFootFall": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"MeasureUtilisation": {
+					"FloorIcon": "WithinRange",
+					"FloorColor": "green"
+				},
+				"DifferentialView": {
+					"TimeRangeMorning": "7:00 am-12:00 pm",
+					"MorningAvgCount": "94",
+					"TimeRangeEvening": "1:00 pm-6:00 pm",
+					"EveningAvgCount": "303"
+				},
+				"HourlyData": [
+					{
+						"TrendHour": "0",
+						"TrendDate": "2020-06-08T00:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "1",
+						"TrendDate": "2020-06-08T01:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "2",
+						"TrendDate": "2020-06-08T02:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "3",
+						"TrendDate": "2020-06-08T03:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "4",
+						"TrendDate": "2020-06-08T04:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "5",
+						"TrendDate": "2020-06-08T05:00:00",
+						"CompareFootFall": {
+							"Value": "2",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "100%",
+							"Status": "Optimal",
+							"ColorFill": "light green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "6",
+						"TrendDate": "2020-06-08T06:00:00",
+						"CompareFootFall": {
+							"Value": "8",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "400%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "7",
+						"TrendDate": "2020-06-08T07:00:00",
+						"CompareFootFall": {
+							"Value": "14",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "4",
+							"CurrentDayMean": "1"
+						},
+						"MeasureUtilisation": {
+							"Value": "700%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "2"
+						}
+					},
+					{
+						"TrendHour": "8",
+						"TrendDate": "2020-06-08T08:00:00",
+						"CompareFootFall": {
+							"Value": "35",
+							"Status": "Acceptable",
+							"ColorFill": "orange",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "29%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "9",
+						"TrendDate": "2020-06-08T09:00:00",
+						"CompareFootFall": {
+							"Value": "232",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "193%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "10",
+						"TrendDate": "2020-06-08T10:00:00",
+						"CompareFootFall": {
+							"Value": "272",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "226%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "11",
+						"TrendDate": "2020-06-08T11:00:00",
+						"CompareFootFall": {
+							"Value": "282",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "235%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "12",
+						"TrendDate": "2020-06-08T12:00:00",
+						"CompareFootFall": {
+							"Value": "550",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "458%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "13",
+						"TrendDate": "2020-06-08T13:00:00",
+						"CompareFootFall": {
+							"Value": "266",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "221%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "14",
+						"TrendDate": "2020-06-08T14:00:00",
+						"CompareFootFall": {
+							"Value": "716",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "596%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "15",
+						"TrendDate": "2020-06-08T15:00:00",
+						"CompareFootFall": {
+							"Value": "1435",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "1195%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "16",
+						"TrendDate": "2020-06-08T16:00:00",
+						"CompareFootFall": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDaySTDEV": "",
+							"CurrentDayMean": ""
+						},
+						"MeasureUtilisation": {
+							"Value": "",
+							"Status": "",
+							"ColorFill": "",
+							"PreviousDayMean": ""
+						}
+					},
+					{
+						"TrendHour": "17",
+						"TrendDate": "2020-06-08T17:00:00",
+						"CompareFootFall": {
+							"Value": "267",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "222%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "18",
+						"TrendDate": "2020-06-08T18:00:00",
+						"CompareFootFall": {
+							"Value": "220",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "120",
+							"CurrentDayMean": "191"
+						},
+						"MeasureUtilisation": {
+							"Value": "183%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "120"
+						}
+					},
+					{
+						"TrendHour": "19",
+						"TrendDate": "2020-06-08T19:00:00",
+						"CompareFootFall": {
+							"Value": "103",
+							"Status": "unacceptable",
+							"ColorFill": "red",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "572%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "20",
+						"TrendDate": "2020-06-08T20:00:00",
+						"CompareFootFall": {
+							"Value": "22",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "122%",
+							"Status": "OverLoaded",
+							"ColorFill": "dark green",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "21",
+						"TrendDate": "2020-06-08T21:00:00",
+						"CompareFootFall": {
+							"Value": "7",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "38%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "22",
+						"TrendDate": "2020-06-08T22:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					},
+					{
+						"TrendHour": "23",
+						"TrendDate": "2020-06-08T23:00:00",
+						"CompareFootFall": {
+							"Value": "5",
+							"Status": "optimal",
+							"ColorFill": "green",
+							"PreviousDaySTDEV": "41",
+							"CurrentDayMean": "20"
+						},
+						"MeasureUtilisation": {
+							"Value": "27%",
+							"Status": "Severely under utilised",
+							"ColorFill": "dark grey",
+							"PreviousDayMean": "18"
+						}
+					}
+				]
+			}			 
+		}
+	}
+}
+ 

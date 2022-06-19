@@ -1,0 +1,15 @@
+{
+	"TicketType": [{
+		"Count": "2",
+		"Name": "UnsolvedTickets",
+		"Icon": "/AccountResources/Dashboard/Icons/UnsolvedTickets.png"
+	}, {
+		"Count": "1",
+		"Name": "SLABreach",
+		"Icon": "/AccountResources/Dashboard/Icons/SLABreach.png"
+	}, {
+		"Count": "100%",
+		"Name": "TicketsBreached",
+		"Icon": "/AccountResources/Dashboard/Icons/TicketsBreached.png"
+	}]
+}

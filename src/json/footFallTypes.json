@@ -1,0 +1,23 @@
+{
+	"FootFallTypes": [{
+		"Name": "Partners",
+		"Value": "30",
+		"Image": "/AccountResources/Dashboard/Icons/Image2.png"
+	}, {
+		"Name": "Sodexho",
+		"Value": "40",
+		"Image": "/AccountResources/Dashboard/Icons/Image3.png"
+	}, {
+		"Name": "Total",
+		"Value": "400",
+		"Image": "/AccountResources/Dashboard/Icons/Image1.png"
+	}, {
+		"Name": "Security",
+		"Value": "20",
+		"Image": "/AccountResources/Dashboard/Icons/Image4.png"
+	}, {
+		"Name": "Others",
+		"Value": "10",
+		"Image": "/AccountResources/Dashboard/Icons/Image5.png"
+	}]
+}

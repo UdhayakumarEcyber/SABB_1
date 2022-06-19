@@ -1,0 +1,140 @@
+{
+    "id":"7cde92e9-9752-493e-f47b-09aa9f5469b4",
+    "author":"yohan",
+    "widgets":[            
+        {
+            "id":"LinkButton",
+            "title":"Link Button",
+            "description":"Link Button"
+        },
+        {
+            "id":"EnvironmentMetrics",
+            "title":"EnvironmentMetrics",
+            "description":"EnvironmentMetrics"
+        },
+        {
+            "id":"Meeting",
+            "title":"Meeting",
+            "description":"Meeting"
+        },
+        {
+            "id":"Cafeteria",
+            "title":"Cafeteria",
+            "description":"Cafeteria"
+        },
+        {
+            "id":"parkingUtilization",
+            "title":"parkingUtilization",
+            "description":"parkingUtilization"
+        },
+        {
+            "id":"AfterHours",
+            "title":"AfterHours",
+            "description":"AfterHours"
+        },
+        {
+            "id":"MaintenanceSchedule",
+            "title":"MaintenanceSchedule",
+            "description":"MaintenanceSchedule"
+        },
+        {
+            "id":"RecentIncident",
+            "title":"RecentIncident",
+            "description":"Adani RecentIncident"
+        },
+	    {
+            "id":"Caughtup",
+            "title":"Caughtup",
+            "description":"Adani Caughtup"
+        },
+	    {
+            "id":"Caughtup1",
+            "title":"Caughtup",
+            "description":"Adani Caughtup"
+        },
+        {
+            "id":"ServiceNow",
+            "title":"ServiceNow",
+            "description":"Adani ServiceNow"
+        },
+        {
+            "id":"Parking",
+            "title":"Parking",
+            "description":"Parking"
+        },
+        {
+            "id":"EnergyConPerPerson",
+            "title":"EnergyConPerPerson",
+            "description":"EnergyConPerPerson"
+        },
+        {
+            "id":"RawBackup",
+            "title":"RawBackup",
+            "description":"RawBackup"
+        },
+        {
+            "id":"ActualBaseline",
+            "title":"ActualBaseline",
+            "description":"ActualBaseline"
+        },
+        {
+            "id":"Carbon",
+            "title":"Carbon",
+            "description":"Carbon"
+        },
+        {
+            "id":"EnergyConsumption",
+            "title":"EnergyConsumption",
+            "description":"EnergyConsumption"
+        },
+        {
+            "id":"FootfallType",
+            "title":"FootfallType",
+            "description":"FootfallType"
+        },
+        {
+            "id":"HotDesking",
+            "title":"HotDesking",
+            "description":"HotDesking"
+        },
+        {
+            "id":"VisitorCount",
+            "title":"VisitorCount",
+            "description":"VisitorCount"
+        },
+        {
+            "id":"DailyCampusFootfall",
+            "title":"DailyCampusFootfall",
+            "description":"DailyCampusFootfall"
+        },
+	    {
+            "id":"Caughtup2",
+            "title":"Caughtup",
+            "description":"Adani Caughtup"
+        }
+
+
+    ],
+    "sidebarLinks":[
+        {
+            "id":"DigitalTwin",
+            "label":"Digital Twin",
+            "description":"Digital Twin"
+        },
+        {
+            "id":"TenantManagement",
+            "label":"Tenant Management",
+            "description":"Tenant Management"
+        },
+        {
+            "id":"IncidentManagement",
+            "label":"Incident Management",
+            "description":"Incident Management"
+        },
+        {
+            "id":"WOManagement",
+            "label":"Work Order Management",
+            "description":"Work Order Management"
+        }
+    ]
+}
