@@ -5,6 +5,8 @@ import '../styles.scss';
 
 
 import SeatBookingDetails from  '../json/hotDeskingInitData.json'
+import hotDeskingLoadData from  '../json/hotDeskingLoadData.json'
+
 
 interface IHotDeskingeProps {
     uxpContext?: IContextProvider
@@ -57,7 +59,10 @@ async function loadHotDeskData(selVal:any){
     let params = {            
         FloorKey: selVal
     }
-    let fdata = await props.uxpContext.executeAction('AdaniDashboard','HotDeskingLoadData',params,{json:true});
+    // let fdata = await props.uxpContext.executeAction('AdaniDashboard','HotDeskingLoadData',params,{json:true});
+    // hotdesking_LoadData(fdata);
+
+    let fdata = hotDeskingLoadData;
     hotdesking_LoadData(fdata);
 }
 
