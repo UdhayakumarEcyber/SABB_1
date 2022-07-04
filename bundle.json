@@ -8,6 +8,11 @@
             "description":"Link Button"
         },
         {
+            "id":"TopIcons",
+            "title":"Top Icons",
+            "description":"Top Icons"
+        },
+        {
             "id":"EnvironmentMetrics",
             "title":"EnvironmentMetrics",
             "description":"EnvironmentMetrics"
@@ -111,8 +116,18 @@
             "id":"Caughtup2",
             "title":"Caughtup",
             "description":"Adani Caughtup"
+        },
+	    {
+            "id":"DigitalTwin",
+            "title":"DigitalTwin",
+            "description":"Adani DigitalTwin"
+        },
+	    {
+            "id":"Alarm_Map",
+            "title":"Alarm Map",
+            "description":"Alarm Map"
         }
-
+        
 
     ],
     "sidebarLinks":[

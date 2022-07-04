@@ -14,6 +14,8 @@ import maintainenceSchedule_InitLoad from  '../json/maintainenceSchedule_InitLoa
 
 import maintainenceSchedule_LoadData from  '../json/maintainenceSchedule_LoadData.json'
 
+import maintainenceSchedule_LoadData1 from  '../json/maintainenceSchedule_LoadData1.json'
+
 interface IMaintenanceScheduleProps2 {
   uxpContext?: IContextProvider;
 }
@@ -87,7 +89,9 @@ const MaintenanceSchedule: React.FunctionComponent<IMaintenanceScheduleProps2> =
 
       //let md = maintainenceSchedule_LoadData;
 
-      let md = (maintainenceSchedule_LoadData as any)[selectedService];
+     // let md = (maintainenceSchedule_LoadData as any)[selectedService];
+
+     let md = (maintainenceSchedule_LoadData1 as any)[selectedService]; 
 
       setselService(md);
       MaintainenceScheduleInit(md);

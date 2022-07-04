@@ -93,7 +93,7 @@
 /*! exports provided: id, author, widgets, sidebarLinks, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"id\":\"7cde92e9-9752-493e-f47b-09aa9f5469b4\",\"author\":\"yohan\",\"widgets\":[{\"id\":\"LinkButton\",\"title\":\"Link Button\",\"description\":\"Link Button\"},{\"id\":\"EnvironmentMetrics\",\"title\":\"EnvironmentMetrics\",\"description\":\"EnvironmentMetrics\"},{\"id\":\"Meeting\",\"title\":\"Meeting\",\"description\":\"Meeting\"},{\"id\":\"Cafeteria\",\"title\":\"Cafeteria\",\"description\":\"Cafeteria\"},{\"id\":\"parkingUtilization\",\"title\":\"parkingUtilization\",\"description\":\"parkingUtilization\"},{\"id\":\"AfterHours\",\"title\":\"AfterHours\",\"description\":\"AfterHours\"},{\"id\":\"MaintenanceSchedule\",\"title\":\"MaintenanceSchedule\",\"description\":\"MaintenanceSchedule\"},{\"id\":\"RecentIncident\",\"title\":\"RecentIncident\",\"description\":\"Adani RecentIncident\"},{\"id\":\"Caughtup\",\"title\":\"Caughtup\",\"description\":\"Adani Caughtup\"},{\"id\":\"Caughtup1\",\"title\":\"Caughtup\",\"description\":\"Adani Caughtup\"},{\"id\":\"ServiceNow\",\"title\":\"ServiceNow\",\"description\":\"Adani ServiceNow\"},{\"id\":\"Parking\",\"title\":\"Parking\",\"description\":\"Parking\"},{\"id\":\"EnergyConPerPerson\",\"title\":\"EnergyConPerPerson\",\"description\":\"EnergyConPerPerson\"},{\"id\":\"RawBackup\",\"title\":\"RawBackup\",\"description\":\"RawBackup\"},{\"id\":\"ActualBaseline\",\"title\":\"ActualBaseline\",\"description\":\"ActualBaseline\"},{\"id\":\"Carbon\",\"title\":\"Carbon\",\"description\":\"Carbon\"},{\"id\":\"EnergyConsumption\",\"title\":\"EnergyConsumption\",\"description\":\"EnergyConsumption\"},{\"id\":\"FootfallType\",\"title\":\"FootfallType\",\"description\":\"FootfallType\"},{\"id\":\"HotDesking\",\"title\":\"HotDesking\",\"description\":\"HotDesking\"},{\"id\":\"VisitorCount\",\"title\":\"VisitorCount\",\"description\":\"VisitorCount\"},{\"id\":\"DailyCampusFootfall\",\"title\":\"DailyCampusFootfall\",\"description\":\"DailyCampusFootfall\"},{\"id\":\"Caughtup2\",\"title\":\"Caughtup\",\"description\":\"Adani Caughtup\"}],\"sidebarLinks\":[{\"id\":\"DigitalTwin\",\"label\":\"Digital Twin\",\"description\":\"Digital Twin\"},{\"id\":\"TenantManagement\",\"label\":\"Tenant Management\",\"description\":\"Tenant Management\"},{\"id\":\"IncidentManagement\",\"label\":\"Incident Management\",\"description\":\"Incident Management\"},{\"id\":\"WOManagement\",\"label\":\"Work Order Management\",\"description\":\"Work Order Management\"}]}");
+module.exports = JSON.parse("{\"id\":\"7cde92e9-9752-493e-f47b-09aa9f5469b4\",\"author\":\"yohan\",\"widgets\":[{\"id\":\"LinkButton\",\"title\":\"Link Button\",\"description\":\"Link Button\"},{\"id\":\"TopIcons\",\"title\":\"Top Icons\",\"description\":\"Top Icons\"},{\"id\":\"EnvironmentMetrics\",\"title\":\"EnvironmentMetrics\",\"description\":\"EnvironmentMetrics\"},{\"id\":\"Meeting\",\"title\":\"Meeting\",\"description\":\"Meeting\"},{\"id\":\"Cafeteria\",\"title\":\"Cafeteria\",\"description\":\"Cafeteria\"},{\"id\":\"parkingUtilization\",\"title\":\"parkingUtilization\",\"description\":\"parkingUtilization\"},{\"id\":\"AfterHours\",\"title\":\"AfterHours\",\"description\":\"AfterHours\"},{\"id\":\"MaintenanceSchedule\",\"title\":\"MaintenanceSchedule\",\"description\":\"MaintenanceSchedule\"},{\"id\":\"RecentIncident\",\"title\":\"RecentIncident\",\"description\":\"Adani RecentIncident\"},{\"id\":\"Caughtup\",\"title\":\"Caughtup\",\"description\":\"Adani Caughtup\"},{\"id\":\"Caughtup1\",\"title\":\"Caughtup\",\"description\":\"Adani Caughtup\"},{\"id\":\"ServiceNow\",\"title\":\"ServiceNow\",\"description\":\"Adani ServiceNow\"},{\"id\":\"Parking\",\"title\":\"Parking\",\"description\":\"Parking\"},{\"id\":\"EnergyConPerPerson\",\"title\":\"EnergyConPerPerson\",\"description\":\"EnergyConPerPerson\"},{\"id\":\"RawBackup\",\"title\":\"RawBackup\",\"description\":\"RawBackup\"},{\"id\":\"ActualBaseline\",\"title\":\"ActualBaseline\",\"description\":\"ActualBaseline\"},{\"id\":\"Carbon\",\"title\":\"Carbon\",\"description\":\"Carbon\"},{\"id\":\"EnergyConsumption\",\"title\":\"EnergyConsumption\",\"description\":\"EnergyConsumption\"},{\"id\":\"FootfallType\",\"title\":\"FootfallType\",\"description\":\"FootfallType\"},{\"id\":\"HotDesking\",\"title\":\"HotDesking\",\"description\":\"HotDesking\"},{\"id\":\"VisitorCount\",\"title\":\"VisitorCount\",\"description\":\"VisitorCount\"},{\"id\":\"DailyCampusFootfall\",\"title\":\"DailyCampusFootfall\",\"description\":\"DailyCampusFootfall\"},{\"id\":\"Caughtup2\",\"title\":\"Caughtup\",\"description\":\"Adani Caughtup\"},{\"id\":\"DigitalTwin\",\"title\":\"DigitalTwin\",\"description\":\"Adani DigitalTwin\"},{\"id\":\"Alarm_Map\",\"title\":\"Alarm Map\",\"description\":\"Alarm Map\"}],\"sidebarLinks\":[{\"id\":\"DigitalTwin\",\"label\":\"Digital Twin\",\"description\":\"Digital Twin\"},{\"id\":\"TenantManagement\",\"label\":\"Tenant Management\",\"description\":\"Tenant Management\"},{\"id\":\"IncidentManagement\",\"label\":\"Incident Management\",\"description\":\"Incident Management\"},{\"id\":\"WOManagement\",\"label\":\"Work Order Management\",\"description\":\"Work Order Management\"}]}");
 
 /***/ }),
 
@@ -108,7 +108,25 @@ module.exports = JSON.parse("{\"id\":\"7cde92e9-9752-493e-f47b-09aa9f5469b4\",\"
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".list-container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  background-color: white;\n  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12);\n  border-radius: 10px;\n  overflow: hidden;\n  padding-top: 60px;\n}\n.list-container .header {\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 60px;\n  padding: 8px 15px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  border-bottom: 1px solid #ccc;\n}\n.list-container .header .title {\n  width: auto;\n  height: auto;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 12px;\n  font-weight: 500;\n}\n.list-container .header .title .icon {\n  width: 30px;\n  height: 30px;\n  background-color: transparent;\n  background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjMuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxOC41IDE4LjEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE4LjUgMTguMTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiM3NTc1NzU7fQoJLnN0MXtmaWxsOiNGRkZGRkY7fQoJLnN0MntmaWxsOiM0MjQyNDI7fQo8L3N0eWxlPgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjgzLjE4NyAtNDA5Ljg3KSI+Cgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjgzLjIsNDE1djEzaDEzdi02LjdsLTEuOSwxLjl2M0gyODV2LTkuM2g2LjdsMS45LTEuOUgyODMuMnogTTI5Ni4yLDQxNWwtNS42LDUuNmwtMS45LTEuOWwtMS45LDEuOWwzLjcsMy43CgkJbDcuNC03LjRMMjk2LjIsNDE1eiIvPgoJPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEgLTIpIj4KCQk8Y2lyY2xlIGNsYXNzPSJzdDEiIGN4PSIyOTcuMSIgY3k9IjQxNi41IiByPSI0LjUiLz4KCQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNMjk3LjQsNDExLjljLTIuOCwwLTUuMSwyLjMtNS4xLDUuMXMyLjMsNS4xLDUuMSw1LjFzNS4xLTIuMyw1LjEtNS4xbDAsMAoJCQlDMzAyLjUsNDE0LjEsMzAwLjIsNDExLjksMjk3LjQsNDExLjl6IE0yOTcuOSw0MTkuNWgtMXYtMWgxVjQxOS41eiBNMjk3LjksNDE3LjVoLTF2LTMuMWgxVjQxNy41eiIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo=\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 60%;\n  margin-right: 10px;\n}\n.list-container .header .title .text {\n  text-transform: uppercase;\n}\n.list-container .header .title .text span {\n  width: auto;\n  height: auto;\n  padding: 6px 15px;\n  border-radius: 50px;\n  margin-left: 80px;\n}\n.list-container .header .title .text span.high {\n  background-color: #ec4b7b;\n  color: white;\n}\n.list-container .header .title .text span.low {\n  background-color: #707070;\n  color: white;\n}\n.list-container .header .title .taskcount {\n  width: auto;\n  height: auto;\n  padding: 6px 15px;\n  border-radius: 50px;\n  margin-left: 80px;\n  background-color: #c0ac53;\n  color: white;\n}\n.list-container .header .title .totalcount {\n  width: auto;\n  height: auto;\n  padding: 6px 15px;\n  border-radius: 50px;\n  margin-left: 80px;\n  background-color: #ec4b7b;\n  color: white;\n  font-size: 14px;\n}\n.list-container .body {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  padding: 0px;\n}\n.list-container .body .data-list-item:nth-child(odd) {\n  background-color: #f8f8f8;\n}\n.list-container .body .list-thumbnail {\n  width: 100%;\n  height: auto;\n  display: flex;\n  justify-content: space-between;\n  padding: 10px;\n}\n.list-container .body .list-thumbnail .left {\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n}\n.list-container .body .list-thumbnail .left .details * {\n  color: #424242;\n  padding: 3px 5px;\n}\n.list-container .body .list-thumbnail .left .details .ref {\n  font-weight: 900;\n  font-size: 14px;\n}\n.list-container .body .list-thumbnail .left .details .user-name {\n  color: #424242;\n  font-size: 12px;\n}\n.list-container .body .list-thumbnail .left .details .type {\n  color: #424242;\n  font-weight: 900;\n  font-size: 14px;\n}\n.list-container .body .list-thumbnail .right {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n.list-container .body .list-thumbnail .right .status {\n  width: auto;\n  height: auto;\n  border-radius: 50px;\n  padding: 5px 15px;\n  background-color: #f8f8f8;\n  font-size: 10px;\n  margin-bottom: 5px;\n  font-weight: 800;\n}\n.list-container .body .list-thumbnail .right .status.pending {\n  background-color: rgba(255, 206, 101, 0.5019607843);\n}\n.list-container .body .list-thumbnail .right .status.review {\n  background-color: #ffce65;\n}\n.list-container .body .list-thumbnail .right .status.new {\n  background-color: #ee3939;\n}\n.list-container .body .list-thumbnail .right .status.await {\n  background-color: #51b456;\n}\n.list-container .body .list-thumbnail .right .status.approval {\n  background-color: #e674d6;\n}\n.list-container .body .list-thumbnail .right .date {\n  font-size: 10px;\n  font-weight: 800;\n}\n\n.icons .title-section .title-icon {\n  opacity: 0.7;\n  height: 16px;\n  width: 16px;\n}\n\n.data-grid-column {\n  padding: 0px 5px;\n  border: none !important;\n}\n.data-grid-column:nth-child(2) .stat-tile {\n  background-color: #f2fef9;\n}\n.data-grid-column:nth-child(3) .stat-tile {\n  background-color: #f2fef9;\n}\n.data-grid-column:nth-child(4) .stat-tile {\n  background-color: #e6eef9;\n}\n\n.stat-tile {\n  width: 100%;\n  height: 109px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  padding: 20px;\n  border-radius: 10px;\n  background-color: #faf8f1;\n  font-size: 10px;\n}\n.stat-tile .top {\n  width: 100%;\n  flex-grow: 0;\n  flex-shrink: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n.stat-tile .top .title {\n  position: relative;\n  padding: 6px 0px;\n  text-transform: uppercase;\n  font-weight: 900;\n  font-size: 9px;\n}\n.stat-tile .top .title:before {\n  content: \"\";\n  width: 15px;\n  height: 15px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  position: absolute;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n}\n.stat-tile .top .count {\n  position: relative;\n  padding: 6px 0;\n  font-size: 20px;\n}\n.stat-tile .bottom {\n  width: 100%;\n  height: 20%;\n  flex-grow: 0;\n  flex-shrink: 0;\n  display: flex;\n  justify-content: space-between;\n}\n.stat-tile .bottom .percentage {\n  font-size: 10px;\n  display: flex;\n  align-items: center;\n}\n.stat-tile .bottom .percentage .icon-bg {\n  width: auto;\n  height: auto;\n  border-radius: 20px;\n  margin-left: 10px;\n  padding: 2px;\n}\n.stat-tile .bottom .percentage .icon-bg .icon-placeholder {\n  background-color: transparent;\n  width: 12px;\n  height: 12px;\n}\n.stat-tile .bottom .percentage .icon-bg .icon-placeholder .icon {\n  width: 100%;\n  height: 100%;\n  background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24iIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPgogIDxwYXRoIGQ9Ik04NjggNTQ1LjVMNTM2LjEgMTYzYTMxLjk2IDMxLjk2IDAgMCAwLTQ4LjMgMEwxNTYgNTQ1LjVhNy45NyA3Ljk3IDAgMCAwIDYgMTMuMmg4MWM0LjYgMCA5LTIgMTIuMS01LjVMNDc0IDMwMC45Vjg2NGMwIDQuNCAzLjYgOCA4IDhoNjBjNC40IDAgOC0zLjYgOC04VjMwMC45bDIxOC45IDI1Mi4zYzMgMy41IDcuNCA1LjUgMTIuMSA1LjVoODFjNi44IDAgMTAuNS04IDYtMTMuMnoiLz4KPC9zdmc+Cg==\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: saturate(100%) brightness(0%) invert(100%);\n}\n.stat-tile .bottom .percentage .icon-bg.up {\n  background-color: #52c4c9;\n}\n.stat-tile .bottom .percentage .icon-bg.down {\n  background-color: #db7a7a;\n}\n.stat-tile .bottom .percentage .icon-bg.down .icon {\n  transform: rotate(180deg);\n}\n.stat-tile .bottom .stat-btn {\n  margin: 0;\n}\n\n.incident-widget .incident-tool-bar {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.incident-widget .incident-tool-bar .incident-tb-label {\n  margin-right: 20px;\n}\n.incident-widget .body {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  padding: 15px;\n  justify-content: space-between;\n}\n.incident-widget .body .incident-tile {\n  background-color: #f8f8f8;\n  min-width: 200px;\n  border-radius: 10px;\n  padding: 10px;\n}\n.incident-widget .body .incident-tile .top {\n  width: 100%;\n  height: 20%;\n  flex-grow: 0;\n  flex-shrink: 0;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.incident-widget .body .incident-tile .top .count {\n  font-size: 20px;\n}\n.incident-widget .body .incident-tile .top .count span {\n  font-size: 12px;\n  color: gray;\n}\n.incident-widget .body .incident-tile .top .percentage {\n  font-size: 10px;\n  display: flex;\n  align-items: center;\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg {\n  width: auto;\n  height: auto;\n  border-radius: 20px;\n  margin-left: 10px;\n  padding: 2px;\n  background-color: #52c4c9;\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg .icon-placeholder {\n  background-color: transparent;\n  width: 12px;\n  height: 12px;\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg .icon-placeholder .icon {\n  width: 100%;\n  height: 100%;\n  background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24iIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPgogIDxwYXRoIGQ9Ik04NjggNTQ1LjVMNTM2LjEgMTYzYTMxLjk2IDMxLjk2IDAgMCAwLTQ4LjMgMEwxNTYgNTQ1LjVhNy45NyA3Ljk3IDAgMCAwIDYgMTMuMmg4MWM0LjYgMCA5LTIgMTIuMS01LjVMNDc0IDMwMC45Vjg2NGMwIDQuNCAzLjYgOCA4IDhoNjBjNC40IDAgOC0zLjYgOC04VjMwMC45bDIxOC45IDI1Mi4zYzMgMy41IDcuNCA1LjUgMTIuMSA1LjVoODFjNi44IDAgMTAuNS04IDYtMTMuMnoiLz4KPC9zdmc+Cg==\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: saturate(100%) brightness(0%) invert(100%);\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg.up {\n  background-color: #52c4c9;\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg.down {\n  background-color: #db7a7a;\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg.down .icon {\n  transform: rotate(180deg);\n}\n.incident-widget .body .incident-tile .bottom {\n  width: 100%;\n  height: 80%;\n  flex-grow: 0;\n  flex-shrink: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.incident-widget .body .incident-tile .bottom .layers-container {\n  background-color: transparent;\n  margin-bottom: 20px;\n}\n.incident-widget .body .incident-tile .bottom .layers-container .layers {\n  width: 60px;\n  height: 60px;\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHRpdGxlPmlvbmljb25zLXY1LWE8L3RpdGxlPjxwYXRoIGQ9Ik0yNTYsMjU2Yy0xMy40NywwLTI2Ljk0LTIuMzktMzcuNDQtNy4xN2wtMTQ4LTY3LjQ5QzYzLjc5LDE3OC4yNiw0OCwxNjkuMjUsNDgsMTUyLjI0czE1Ljc5LTI2LDIyLjU4LTI5LjEyTDIxOS44Niw1NS4wNWMyMC41Ny05LjQsNTEuNjEtOS40LDcyLjE5LDBsMTQ5LjM3LDY4LjA3YzYuNzksMy4wOSwyMi41OCwxMi4xLDIyLjU4LDI5LjEycy0xNS43OSwyNi0yMi41OCwyOS4xMWwtMTQ4LDY3LjQ4QzI4Mi45NCwyNTMuNjEsMjY5LjQ3LDI1NiwyNTYsMjU2Wk00MzIuNzYsMTU1LjE0aDBaIi8+PHBhdGggZD0iTTQ0MS4zNiwyMjYuODEsNDI2LjI3LDIyMCwzODcuNSwyMzcuNzRsLTk0LDQzYy0xMC41LDQuOC0yNCw3LjE5LTM3LjQ0LDcuMTlzLTI2LjkzLTIuMzktMzcuNDItNy4xOWwtOTQuMDctNDNMODUuNzksMjIwbC0xNS4yMiw2Ljg0QzYzLjc5LDIyOS45Myw0OCwyMzksNDgsMjU2czE1Ljc5LDI2LjA4LDIyLjU2LDI5LjE3bDE0OCw2Ny42M0MyMjksMzU3LjYsMjQyLjQ5LDM2MCwyNTYsMzYwczI2Ljk0LTIuNCwzNy40NC03LjE5TDQ0MS4zMSwyODUuMkM0NDguMTIsMjgyLjExLDQ2NCwyNzMuMDksNDY0LDI1NlM0NDguMjMsMjI5LjkzLDQ0MS4zNiwyMjYuODFaIi8+PHBhdGggZD0iTTQ0MS4zNiwzMzAuOCw0MjYuMjcsMzI0LDM4Ny41LDM0MS43M2wtOTQsNDIuOTVjLTEwLjUsNC43OC0yNCw3LjE4LTM3LjQ0LDcuMThzLTI2LjkzLTIuMzktMzcuNDItNy4xOGwtOTQuMDctNDNMODUuNzksMzI0bC0xNS4yMiw2Ljg0QzYzLjc5LDMzMy45Myw0OCwzNDMsNDgsMzYwczE1Ljc5LDI2LjA3LDIyLjU2LDI5LjE1bDE0OCw2Ny41OUMyMjksNDYxLjUyLDI0Mi41NCw0NjQsMjU2LDQ2NHMyNi44OC0yLjQ4LDM3LjM4LTcuMjdsMTQ3LjkyLTY3LjU3QzQ0OC4xMiwzODYuMDgsNDY0LDM3Ny4wNiw0NjQsMzYwUzQ0OC4yMywzMzMuOTMsNDQxLjM2LDMzMC44WiIvPjwvc3ZnPg==\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  filter: saturate(100%) brightness(0%) invert(79%) sepia(8%) saturate(2573%) hue-rotate(111deg) brightness(92%) contrast(77%);\n}\n.incident-widget .body .incident-tile .bottom .label {\n  font-size: 18px;\n}\n\n.discomfort-zones .tool-bar {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.discomfort-zones .body {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  padding: 20px;\n}\n.discomfort-zones .body .list {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  border-radius: 10px;\n  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.12);\n  position: relative;\n}\n.discomfort-zones .body .list .content-block {\n  overflow: auto;\n  padding: 0;\n  position: absolute;\n  top: 60px;\n  left: 0;\n  right: 0;\n  bottom: 0;\n}\n.discomfort-zones .body .list .title-row {\n  width: 100%;\n  height: auto;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 10px;\n  background-color: white;\n}\n.discomfort-zones .body .list .title-row.content {\n  padding: 15px 0px;\n}\n.discomfort-zones .body .list .title-row .cell {\n  flex-grow: 0;\n  flex-shrink: 0;\n  padding: 5px;\n}\n.discomfort-zones .body .list .title-row .cell.large {\n  width: 50%;\n}\n.discomfort-zones .body .list .title-row .cell.small {\n  width: 16%;\n}\n.discomfort-zones .body .list .title-row .cell span {\n  padding: 10px 20px;\n  background-color: #f8f8f8;\n  border-radius: 10px;\n}\n\n.total-tasks .toolbar {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.total-tasks .toolbar .legend {\n  display: flex;\n  align-items: center;\n  margin-right: 15px;\n}\n.total-tasks .toolbar .legend .legend-item {\n  position: relative;\n  padding: 10px 10px 10px 30px;\n  margin: 1px;\n}\n.total-tasks .toolbar .legend .legend-item:before {\n  content: \"\";\n  width: 10px;\n  height: 10px;\n  border-radius: 10px;\n  position: absolute;\n  top: 50%;\n  left: 10px;\n  transform: translateY(-50%);\n}\n.total-tasks .toolbar .legend .legend-item:nth-child(1):before {\n  background-color: #ffce65;\n}\n.total-tasks .toolbar .legend .legend-item:nth-child(2):before {\n  background-color: #20ebcc;\n}\n.total-tasks .toolbar .legend .legend-item:nth-child(3):before {\n  background-color: #d090ff;\n}\n.total-tasks .toolbar .navigation {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.total-tasks .toolbar .navigation .button {\n  width: 30px;\n  height: 30px;\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItY2hldnJvbi1sZWZ0Ij48cG9seWxpbmUgcG9pbnRzPSIxNSAxOCA5IDEyIDE1IDYiPjwvcG9seWxpbmU+PC9zdmc+\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n}\n.total-tasks .toolbar .navigation .button.prev {\n  margin-right: 20px;\n  filter: invert(94%) sepia(0%) saturate(0%) hue-rotate(193deg) brightness(93%) contrast(79%);\n}\n.total-tasks .toolbar .navigation .button.next {\n  transform: rotate(180deg);\n}\n.total-tasks .body {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  padding: 10px 0;\n}\n\n.link-btn-widget-cont > .link {\n  width: 100%;\n  height: 100%;\n  text-decoration: none;\n}\n.link-btn-widget-cont > .link .icon-container {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n.link-btn-widget-cont > .link .icon-container img {\n  width: 40%;\n  height: 40%;\n  object-fit: contain;\n}\n.link-btn-widget-cont > .link .icon-container .text {\n  width: 90%;\n  height: auto;\n  text-align: center;\n  padding: 10px;\n  margin-top: 10px;\n}\n\n.tablelist {\n  width: 100%;\n  height: 100%;\n  overflow: false;\n  float: left;\n  table-layout: fixed;\n}\n.tablelist .tablelisttd {\n  padding: 10px;\n  margin: 5px;\n  width: 25%;\n}\n\n.map-body {\n  height: 100%;\n  width: 100%;\n  margin-top: 4%;\n  margin-left: 12%;\n  position: absolute;\n}\n\n.markerpopup {\n  height: 60px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.markerpopup .workrequest {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.markerpopup .workrequest .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 103.24 125.63'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23424242;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 8%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpath class='cls-1' d='M79.91,18.13H98V120.39H5.24V18.13H23.79a2.62,2.62,0,1,0,0-5.24H2.62A2.63,2.63,0,0,0,0,15.51V123a2.63,2.63,0,0,0,2.62,2.62h98a2.63,2.63,0,0,0,2.62-2.62V15.51a2.63,2.63,0,0,0-2.62-2.62H79.91a2.62,2.62,0,1,0,0,5.24Z'/%3E%3Cpath class='cls-1' d='M59,8.91H57a4.88,4.88,0,1,1-1.43-3.46A4.89,4.89,0,0,1,57,8.91h4a8.92,8.92,0,1,0-8.91,8.92A8.91,8.91,0,0,0,61,8.91Z'/%3E%3Cpath class='cls-1' d='M59.66,11.53h4.66l8.77,10.72h-21a2.62,2.62,0,1,0,0,5.23H78.62a2.61,2.61,0,0,0,2-4.27l-13-15.95a2.62,2.62,0,0,0-2-1h-5.9a2.62,2.62,0,1,0,0,5.23Z'/%3E%3Cpath class='cls-1' d='M44.08,6.3h-5.9a2.62,2.62,0,0,0-2,1l-13.06,16a2.61,2.61,0,0,0,2,4.27H51.66a2.62,2.62,0,1,0,0-5.23h-21l8.77-10.72h4.66a2.62,2.62,0,0,0,0-5.23Z'/%3E%3Cpath class='cls-1' d='M30.53,56.06V54.47H24.21V49.74h4.73v6.32h1.59v0h1.59V48.15a1.6,1.6,0,0,0-1.59-1.59H22.62A1.59,1.59,0,0,0,21,48.15v7.91a1.57,1.57,0,0,0,1.59,1.59h7.91a1.54,1.54,0,0,0,1.12-.47,1.57,1.57,0,0,0,.47-1.12Z'/%3E%3Cpath class='cls-1' d='M38.44,52.9H75.62a1.59,1.59,0,1,0,0-3.17H38.44a1.59,1.59,0,1,0,0,3.17'/%3E%3Cpath class='cls-1' d='M30.53,77.46V75.87H24.21V71.14h4.73v6.32h1.59v0h1.59V69.55a1.6,1.6,0,0,0-.47-1.12A1.57,1.57,0,0,0,30.53,68H22.62a1.61,1.61,0,0,0-1.13.47A1.63,1.63,0,0,0,21,69.55v7.91a1.57,1.57,0,0,0,1.59,1.59h7.91a1.59,1.59,0,0,0,1.59-1.59Z'/%3E%3Cpath class='cls-1' d='M38.44,74.31H75.62a1.59,1.59,0,0,0,0-3.18H38.44a1.59,1.59,0,1,0,0,3.18'/%3E%3Crect class='cls-1' x='22.62' y='92.96' width='7.91' height='7.91'/%3E%3Cpath class='cls-1' d='M30.53,100.87V99.28H24.21V94.55h4.73v6.32h1.59v0h1.59V93a1.59,1.59,0,0,0-1.59-1.59H22.62A1.57,1.57,0,0,0,21,93v7.91a1.59,1.59,0,0,0,1.59,1.59h7.91a1.6,1.6,0,0,0,1.59-1.59Z'/%3E%3Cpath class='cls-1' d='M38.44,97.71H75.62a1.59,1.59,0,0,0,0-3.18H38.44a1.59,1.59,0,0,0,0,3.18'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n}\n.markerpopup .alarm {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.markerpopup .alarm .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.23' height='12.553' viewBox='0 0 12.23 12.553'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M18.852,15.267c-.589-.777-1.748-1.232-1.748-4.71,0-3.57-1.576-5-3.046-5.349-.138-.034-.237-.08-.237-.226V4.872A.938.938,0,0,0,12.9,3.93h-.023a.938.938,0,0,0-.918.941v.111c0,.142-.1.191-.237.226-1.473.348-3.046,1.779-3.046,5.349,0,3.478-1.159,3.929-1.748,4.71a.759.759,0,0,0,.608,1.217H18.255A.76.76,0,0,0,18.852,15.267Zm-1.492.222H8.437a.168.168,0,0,1-.126-.279,4.635,4.635,0,0,0,.8-1.278,8.67,8.67,0,0,0,.547-3.375,5.868,5.868,0,0,1,.8-3.321A2.455,2.455,0,0,1,11.942,6.18a1.341,1.341,0,0,0,.712-.4.3.3,0,0,1,.455-.008,1.386,1.386,0,0,0,.719.409,2.455,2.455,0,0,1,1.481,1.056,5.868,5.868,0,0,1,.8,3.321,8.67,8.67,0,0,0,.547,3.375,4.688,4.688,0,0,0,.823,1.3A.158.158,0,0,1,17.359,15.489Z' transform='translate(-6.775 -3.93)'/%3E%3C/svg%3E\");\n}\n.markerpopup .incident {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.markerpopup .incident .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/png;base64,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\");\n}\n\n.leaflet-popup-content-wrapper,\n.leaflet-popup-tip {\n  color: #333;\n  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);\n}\n\n.leaflet-popup-content {\n  margin: 10px 10px;\n  line-height: 1.4;\n}\n\n.popupwi {\n  width: auto !important;\n  background-color: #d9d9b8;\n}\n\n.pulse {\n  width: 10px;\n  height: 10px;\n  border: 5px solid #ff7300;\n  -webkit-border-radius: 30px;\n  -moz-border-radius: 30px;\n  border-radius: 30px;\n  background-color: #716f42;\n  z-index: 10;\n  position: absolute;\n}\n\n.dotmap1 {\n  border: 10px solid #ff7300;\n  background: transparent;\n  -webkit-border-radius: 60px;\n  -moz-border-radius: 60px;\n  border-radius: 60px;\n  height: 50px;\n  width: 50px;\n  -webkit-animation: pulse 3s ease-out;\n  -moz-animation: pulse 3s ease-out;\n  animation: pulse 3s ease-out;\n  -webkit-animation-iteration-count: infinite;\n  -moz-animation-iteration-count: infinite;\n  animation-iteration-count: infinite;\n  position: absolute;\n  top: -7px;\n  left: -7px;\n  z-index: 1;\n  opacity: 0;\n}\n\n.dotmap2 {\n  border: 10px solid #ff7300;\n  background: transparent;\n  -webkit-border-radius: 60px;\n  -moz-border-radius: 60px;\n  border-radius: 60px;\n  height: 50px;\n  width: 50px;\n  -webkit-animation: pulse 3s ease-out;\n  -moz-animation: pulse 3s ease-out;\n  animation: pulse 3s ease-out;\n  -webkit-animation-iteration-count: infinite;\n  -moz-animation-iteration-count: infinite;\n  animation-iteration-count: infinite;\n  position: absolute;\n  top: -7px;\n  left: 55px;\n  z-index: 1;\n  opacity: 0;\n}\n\n.dotmap3 {\n  border: 10px solid #ff7300;\n  background: transparent;\n  -webkit-border-radius: 60px;\n  -moz-border-radius: 60px;\n  border-radius: 60px;\n  height: 50px;\n  width: 50px;\n  -webkit-animation: pulse 3s ease-out;\n  -moz-animation: pulse 3s ease-out;\n  animation: pulse 3s ease-out;\n  -webkit-animation-iteration-count: infinite;\n  -moz-animation-iteration-count: infinite;\n  animation-iteration-count: infinite;\n  position: absolute;\n  top: -7px;\n  left: 115px;\n  z-index: 1;\n  opacity: 0;\n}\n\n@-moz-keyframes pulse {\n  0% {\n    -moz-transform: scale(0);\n    opacity: 0;\n  }\n  25% {\n    -moz-transform: scale(0);\n    opacity: 0.1;\n  }\n  50% {\n    -moz-transform: scale(0.1);\n    opacity: 0.3;\n  }\n  75% {\n    -moz-transform: scale(0.5);\n    opacity: 0.5;\n  }\n  100% {\n    -moz-transform: scale(1);\n    opacity: 0;\n  }\n}\n@-webkit-keyframes pulse {\n  0% {\n    -webkit-transform: scale(0);\n    opacity: 0;\n  }\n  25% {\n    -webkit-transform: scale(0);\n    opacity: 0.1;\n  }\n  50% {\n    -webkit-transform: scale(0.1);\n    opacity: 0.3;\n  }\n  75% {\n    -webkit-transform: scale(0.5);\n    opacity: 0.5;\n  }\n  100% {\n    -webkit-transform: scale(1);\n    opacity: 0;\n  }\n}\n.erroricon {\n  height: 60px;\n  text-align: center;\n  width: 75px;\n  font-size: 15px;\n  background-position: 0% 0%;\n  background-size: 40%;\n  background-repeat: no-repeat;\n  background-image: url(\"data:image/svg+xml,%0A%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3ClinearGradient id='a' gradientTransform='matrix(1 0 0 -1 0 -13734)' gradientUnits='userSpaceOnUse' x1='0' x2='512' y1='-13990' y2='-13990'%3E%3Cstop offset='0' stop-color='%2300f1ff'/%3E%3Cstop offset='.231' stop-color='%2300d8ff'/%3E%3Cstop offset='.5138' stop-color='%2300c0ff'/%3E%3Cstop offset='.7773' stop-color='%2300b2ff'/%3E%3Cstop offset='1' stop-color='%2300adff'/%3E%3C/linearGradient%3E%3Cpath d='m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0' fill='url(%23a)'/%3E%3Cg fill='%23fff'%3E%3Cpath d='m256 313.332031c-53.65625 0-97.308594-43.652343-97.308594-97.3125 0-53.65625 43.652344-97.308593 97.308594-97.308593s97.308594 43.652343 97.308594 97.308593c0 9.523438-1.375 18.9375-4.085938 27.988281-2.378906 7.9375-10.742187 12.441407-18.675781 10.0625-7.9375-2.378906-12.441406-10.742187-10.0625-18.675781 1.875-6.253906 2.824219-12.773437 2.824219-19.375 0-37.113281-30.195313-67.308593-67.308594-67.308593-37.117188 0-67.3125 30.195312-67.3125 67.308593 0 37.117188 30.195312 67.3125 67.3125 67.3125 6.28125 0 12.5-.863281 18.472656-2.5625 7.972656-2.269531 16.265625 2.351563 18.535156 10.320313 2.269532 7.964844-2.355468 16.265625-10.320312 18.53125-8.644531 2.460937-17.625 3.710937-26.6875 3.710937zm0 0'/%3E%3Cpath d='m260.703125 456h-9.40625c-5.144531 0-9.929687-2.636719-12.679687-6.984375-17.21875-27.238281-38.753907-50.828125-59.585938-73.636719-21.199219-23.21875-41.226562-45.148437-56.625-70.253906-17.75-28.949219-26.394531-58.144531-26.425781-89.257812.101562-88.167969 71.886719-159.867188 160.019531-159.867188s159.917969 71.699219 160.019531 159.832031c-.03125 31.148438-8.675781 60.34375-26.425781 89.289063-15.398438 25.109375-35.425781 47.039062-56.625 70.257812-20.832031 22.808594-42.367188 46.394532-59.585938 73.636719-2.75 4.347656-7.535156 6.984375-12.679687 6.984375zm-4.703125-370c-71.609375 0-129.9375 58.257812-130.019531 129.867188.054687 56.984374 34.878906 95.121093 75.207031 139.28125 18.691406 20.46875 37.929688 41.542968 54.8125 65.820312 16.878906-24.277344 36.121094-45.351562 54.8125-65.820312 40.324219-44.160157 75.148438-82.296876 75.207031-139.3125-.082031-71.578126-58.410156-129.835938-130.019531-129.835938zm0 0'/%3E%3C/g%3E%3C/svg%3E\");\n}\n\n.taskcount {\n  font-size: 15px;\n  text-align: center;\n  color: blue;\n  cursor: pointer;\n}\n\n.sr-modalpopup .modal-panel {\n  max-width: 50%;\n  min-width: 50%;\n  max-height: 50%;\n  min-height: 50%;\n}\n.sr-modalpopup .modal-panel .modal-body {\n  height: 100%;\n  margin-bottom: 0;\n  position: relative;\n}\n\n.sr-mapmodalpopup .modal-panel {\n  max-width: 85%;\n  min-width: 85%;\n  max-height: 90%;\n  min-height: 90%;\n}\n.sr-mapmodalpopup .modal-panel .modal-body {\n  height: 100%;\n  margin-bottom: 0;\n  position: relative;\n}\n\n.my-div-icon {\n  width: 50px;\n  height: 50px;\n  background: transparent;\n}\n\n.map-div-icon {\n  background-repeat: no-repeat;\n  background-image: url(\"data:image/svg+xml,%0A%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3ClinearGradient id='a' gradientTransform='matrix(1 0 0 -1 0 -13734)' gradientUnits='userSpaceOnUse' x1='0' x2='512' y1='-13990' y2='-13990'%3E%3Cstop offset='0' stop-color='%2300f1ff'/%3E%3Cstop offset='.231' stop-color='%2300d8ff'/%3E%3Cstop offset='.5138' stop-color='%2300c0ff'/%3E%3Cstop offset='.7773' stop-color='%2300b2ff'/%3E%3Cstop offset='1' stop-color='%2300adff'/%3E%3C/linearGradient%3E%3Cpath d='m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0' fill='url(%23a)'/%3E%3Cg fill='%23fff'%3E%3Cpath d='m256 313.332031c-53.65625 0-97.308594-43.652343-97.308594-97.3125 0-53.65625 43.652344-97.308593 97.308594-97.308593s97.308594 43.652343 97.308594 97.308593c0 9.523438-1.375 18.9375-4.085938 27.988281-2.378906 7.9375-10.742187 12.441407-18.675781 10.0625-7.9375-2.378906-12.441406-10.742187-10.0625-18.675781 1.875-6.253906 2.824219-12.773437 2.824219-19.375 0-37.113281-30.195313-67.308593-67.308594-67.308593-37.117188 0-67.3125 30.195312-67.3125 67.308593 0 37.117188 30.195312 67.3125 67.3125 67.3125 6.28125 0 12.5-.863281 18.472656-2.5625 7.972656-2.269531 16.265625 2.351563 18.535156 10.320313 2.269532 7.964844-2.355468 16.265625-10.320312 18.53125-8.644531 2.460937-17.625 3.710937-26.6875 3.710937zm0 0'/%3E%3Cpath d='m260.703125 456h-9.40625c-5.144531 0-9.929687-2.636719-12.679687-6.984375-17.21875-27.238281-38.753907-50.828125-59.585938-73.636719-21.199219-23.21875-41.226562-45.148437-56.625-70.253906-17.75-28.949219-26.394531-58.144531-26.425781-89.257812.101562-88.167969 71.886719-159.867188 160.019531-159.867188s159.917969 71.699219 160.019531 159.832031c-.03125 31.148438-8.675781 60.34375-26.425781 89.289063-15.398438 25.109375-35.425781 47.039062-56.625 70.257812-20.832031 22.808594-42.367188 46.394532-59.585938 73.636719-2.75 4.347656-7.535156 6.984375-12.679687 6.984375zm-4.703125-370c-71.609375 0-129.9375 58.257812-130.019531 129.867188.054687 56.984374 34.878906 95.121093 75.207031 139.28125 18.691406 20.46875 37.929688 41.542968 54.8125 65.820312 16.878906-24.277344 36.121094-45.351562 54.8125-65.820312 40.324219-44.160157 75.148438-82.296876 75.207031-139.3125-.082031-71.578126-58.410156-129.835938-130.019531-129.835938zm0 0'/%3E%3C/g%3E%3C/svg%3E\");\n}\n\n.legend {\n  margin-left: 75%;\n  margin-right: 10px;\n  position: absolute;\n  z-index: 900;\n  opacity: 90%;\n}\n.legend .TitleDetails {\n  text-align: center;\n  font-size: 12px;\n}\n\n.workrequestmap {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.workrequestmap .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 103.24 125.63'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23424242;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 8%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpath class='cls-1' d='M79.91,18.13H98V120.39H5.24V18.13H23.79a2.62,2.62,0,1,0,0-5.24H2.62A2.63,2.63,0,0,0,0,15.51V123a2.63,2.63,0,0,0,2.62,2.62h98a2.63,2.63,0,0,0,2.62-2.62V15.51a2.63,2.63,0,0,0-2.62-2.62H79.91a2.62,2.62,0,1,0,0,5.24Z'/%3E%3Cpath class='cls-1' d='M59,8.91H57a4.88,4.88,0,1,1-1.43-3.46A4.89,4.89,0,0,1,57,8.91h4a8.92,8.92,0,1,0-8.91,8.92A8.91,8.91,0,0,0,61,8.91Z'/%3E%3Cpath class='cls-1' d='M59.66,11.53h4.66l8.77,10.72h-21a2.62,2.62,0,1,0,0,5.23H78.62a2.61,2.61,0,0,0,2-4.27l-13-15.95a2.62,2.62,0,0,0-2-1h-5.9a2.62,2.62,0,1,0,0,5.23Z'/%3E%3Cpath class='cls-1' d='M44.08,6.3h-5.9a2.62,2.62,0,0,0-2,1l-13.06,16a2.61,2.61,0,0,0,2,4.27H51.66a2.62,2.62,0,1,0,0-5.23h-21l8.77-10.72h4.66a2.62,2.62,0,0,0,0-5.23Z'/%3E%3Cpath class='cls-1' d='M30.53,56.06V54.47H24.21V49.74h4.73v6.32h1.59v0h1.59V48.15a1.6,1.6,0,0,0-1.59-1.59H22.62A1.59,1.59,0,0,0,21,48.15v7.91a1.57,1.57,0,0,0,1.59,1.59h7.91a1.54,1.54,0,0,0,1.12-.47,1.57,1.57,0,0,0,.47-1.12Z'/%3E%3Cpath class='cls-1' d='M38.44,52.9H75.62a1.59,1.59,0,1,0,0-3.17H38.44a1.59,1.59,0,1,0,0,3.17'/%3E%3Cpath class='cls-1' d='M30.53,77.46V75.87H24.21V71.14h4.73v6.32h1.59v0h1.59V69.55a1.6,1.6,0,0,0-.47-1.12A1.57,1.57,0,0,0,30.53,68H22.62a1.61,1.61,0,0,0-1.13.47A1.63,1.63,0,0,0,21,69.55v7.91a1.57,1.57,0,0,0,1.59,1.59h7.91a1.59,1.59,0,0,0,1.59-1.59Z'/%3E%3Cpath class='cls-1' d='M38.44,74.31H75.62a1.59,1.59,0,0,0,0-3.18H38.44a1.59,1.59,0,1,0,0,3.18'/%3E%3Crect class='cls-1' x='22.62' y='92.96' width='7.91' height='7.91'/%3E%3Cpath class='cls-1' d='M30.53,100.87V99.28H24.21V94.55h4.73v6.32h1.59v0h1.59V93a1.59,1.59,0,0,0-1.59-1.59H22.62A1.57,1.57,0,0,0,21,93v7.91a1.59,1.59,0,0,0,1.59,1.59h7.91a1.6,1.6,0,0,0,1.59-1.59Z'/%3E%3Cpath class='cls-1' d='M38.44,97.71H75.62a1.59,1.59,0,0,0,0-3.18H38.44a1.59,1.59,0,0,0,0,3.18'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n}\n\n.incidentmap {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.incidentmap .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/png;base64,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\");\n}\n\n.alarmmap {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.alarmmap .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.23' height='12.553' viewBox='0 0 12.23 12.553'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M18.852,15.267c-.589-.777-1.748-1.232-1.748-4.71,0-3.57-1.576-5-3.046-5.349-.138-.034-.237-.08-.237-.226V4.872A.938.938,0,0,0,12.9,3.93h-.023a.938.938,0,0,0-.918.941v.111c0,.142-.1.191-.237.226-1.473.348-3.046,1.779-3.046,5.349,0,3.478-1.159,3.929-1.748,4.71a.759.759,0,0,0,.608,1.217H18.255A.76.76,0,0,0,18.852,15.267Zm-1.492.222H8.437a.168.168,0,0,1-.126-.279,4.635,4.635,0,0,0,.8-1.278,8.67,8.67,0,0,0,.547-3.375,5.868,5.868,0,0,1,.8-3.321A2.455,2.455,0,0,1,11.942,6.18a1.341,1.341,0,0,0,.712-.4.3.3,0,0,1,.455-.008,1.386,1.386,0,0,0,.719.409,2.455,2.455,0,0,1,1.481,1.056,5.868,5.868,0,0,1,.8,3.321,8.67,8.67,0,0,0,.547,3.375,4.688,4.688,0,0,0,.823,1.3A.158.158,0,0,1,17.359,15.489Z' transform='translate(-6.775 -3.93)'/%3E%3C/svg%3E\");\n}\n\n.legendmappopup {\n  margin-left: 85%;\n  margin-right: 10px;\n  position: absolute;\n  z-index: 900;\n  opacity: 90%;\n}\n.legendmappopup .TitleDetails {\n  text-align: center;\n  font-size: 12px;\n}\n\n.cafeteria-top-options ul {\n  display: inline-flex;\n}\n.cafeteria-top-options ul li {\n  display: inline-block;\n  height: 20px;\n  width: 66px;\n  padding: 2px 0px;\n  border-radius: 12px;\n  cursor: pointer;\n}\n.cafeteria-top-options ul li a {\n  background: none;\n  color: #424242;\n  padding: 0px 14px;\n  font-size: 10px;\n  outline: none;\n  font-weight: 600;\n}\n.cafeteria-top-options ul li a .meeting_active {\n  background-color: #d4fdc1;\n  color: #000;\n  padding-left: 30px;\n  position: relative;\n  border-radius: 12px;\n}\n\n.cafeteria_utilization-cont {\n  display: inline-block;\n  width: 100%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top {\n  display: inline-block;\n  width: 100%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list {\n  display: inline-block;\n  margin-top: -9px;\n  margin-left: -0.7em;\n  width: 100%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list ul {\n  display: inline-flex;\n  width: 100%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list ul li {\n  display: inline-flex;\n  margin: 0 2%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list ul li .user-icon {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 2.4em;\n  height: 2.1em;\n  background-size: contain;\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.65\" height=\"14.455\" viewBox=\"0 0 20.65 14.455\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23433dd9;%7D%3C/style%3E%3C/defs%3E%3Cg transform=\"translate(-467 -793)\"%3E%3Cpath class=\"a\" d=\"M17.971,14.728a2.581,2.581,0,1,0-2.581-2.581A2.573,2.573,0,0,0,17.971,14.728ZM10.228,13.7a3.1,3.1,0,1,0-3.1-3.1A3.085,3.085,0,0,0,10.228,13.7Zm7.744,3.1c-1.889,0-5.679.95-5.679,2.839v2.323H23.65V19.632C23.65,17.743,19.861,16.793,17.971,16.793ZM10.228,15.76C7.822,15.76,3,16.968,3,19.374v2.581h7.228V19.632a4.07,4.07,0,0,1,2.447-3.583A12.683,12.683,0,0,0,10.228,15.76Z\" transform=\"translate(464 785.5)\"/%3E%3C/g%3E%3C/svg%3E');\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list ul li h4 {\n  display: inline-block;\n  font-size: 17px;\n  line-height: 0.8em;\n  margin-left: 10px;\n  margin-top: 0;\n  width: 100%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list ul li h4 span {\n  display: inline-block;\n  font-size: 10px;\n  line-height: 10px;\n  width: 100%;\n}\n\n.cafeteria_utilization-list.parking_utilization-list ul li:first-child .user-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/blue-user-jeep2.png);\n}\n.cafeteria_utilization-list.parking_utilization-list ul li:nth-child(2) .user-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/emp-parking.png);\n}\n.cafeteria_utilization-list.parking_utilization-list ul li:nth-child(3) .user-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/m-blue-jeep.png);\n}\n.cafeteria_utilization-list.parking_utilization-list ul li:nth-child(4) .user-icon {\n  margin-top: 0px;\n  background-image: url(https://static.iviva.com/images/Adani_UXP/double-jeep.png);\n}\n\n.environment_data {\n  display: flex;\n  margin-top: -6px;\n}\n.environment_data h5 {\n  width: 50%;\n  margin: 0;\n  margin-left: 12px;\n}\n.environment_data .footfall-arrows {\n  width: 50%;\n  text-align: right;\n  margin: -7px 30px 0 0;\n}\n.environment_data .footfall-arrows a {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1.2em;\n  height: 1.2em;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n}\n.environment_data .footfall-arrows a.lft-arrow {\n  left: 10px;\n  top: 0;\n  cursor: pointer;\n  font-size: 16px;\n  margin-right: 3px;\n}\n.environment_data .footfall-arrows a.rgt-arrow {\n  right: 10px;\n  top: 0;\n  cursor: pointer;\n  transform: rotate(180deg);\n  font-size: 16px;\n}\n\n.environment-matrics-widget .floorInfo {\n  display: flex;\n  flex-direction: column;\n  margin-top: -10px;\n}\n.environment-matrics-widget .floorInfo .footfall-arrows {\n  width: 96%;\n  text-align: right;\n  margin: -15px 30px 0 0;\n}\n.environment-matrics-widget .floorInfo .footfall-arrows a {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1em;\n  height: 1em;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n  top: 0;\n  cursor: pointer;\n  font-size: 18px;\n  border-radius: 50%;\n}\n.environment-matrics-widget .floorInfo .footfall-arrows a.lft-arrow {\n  border-radius: 50%;\n}\n.environment-matrics-widget .floorInfo .footfall-arrows a.rgt-arrow {\n  right: 10px;\n  transform: rotate(180deg);\n}\n.environment-matrics-widget .floorInfo .floorName {\n  margin-left: 15px;\n  font-size: 10px;\n}\n.environment-matrics-widget .uxp-select-placeholder {\n  top: -4px;\n  left: 16px;\n  padding: 10px 35px 11px 20px;\n}\n.environment-matrics-widget .uxp-select-option {\n  padding: 15px 37px 15px 23px;\n}\n\n.controls {\n  width: auto;\n  height: auto;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.controls .control-placeholder {\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  background-color: transparent;\n}\n.controls .control-placeholder:nth-child(1) {\n  margin-right: 10px;\n}\n.controls .control-placeholder .control {\n  width: 100%;\n  height: 100%;\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4zMjUiIGhlaWdodD0iMTAuMDYzIiB2aWV3Qm94PSIwIDAgMTAuMzI1IDEwLjA2MyI+PGRlZnM+PHN0eWxlPi5he29wYWNpdHk6MC4yNDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik01LjkzMSwxMi4wMzZsLS41MTIuNTEyYS41NTEuNTUxLDAsMCwxLS43ODEsMEwuMTU5LDguMDcxYS41NTEuNTUxLDAsMCwxLDAtLjc4MWw0LjQ4LTQuNDhhLjU1MS41NTEsMCwwLDEsLjc4MSwwbC41MTIuNTEyYS41NTQuNTU0LDAsMCwxLS4wMDkuNzlMMy4xNDUsNi43NTdIOS43NjhhLjU1Mi41NTIsMCwwLDEsLjU1My41NTN2LjczN2EuNTUyLjU1MiwwLDAsMS0uNTUzLjU1M0gzLjE0NWwyLjc3NywyLjY0NUEuNTUuNTUsMCwwLDEsNS45MzEsMTIuMDM2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDQgLTIuNjQ3KSIvPjwvc3ZnPg==\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 40%;\n  cursor: pointer;\n  margin: 0;\n}\n.controls .control-placeholder .control.next {\n  transform: rotate(180deg);\n}\n.controls .control-placeholder .control.active {\n  filter: saturate(100%) brightness(0%) invert(20%) sepia(2%) saturate(3%) hue-rotate(159deg) brightness(99%) contrast(81%);\n}\n.controls .control-placeholder:hover {\n  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.12);\n}\n\n.afterhours_inner_widget {\n  display: inline-block;\n  width: 100%;\n  margin-top: -8px;\n}\n.afterhours_inner_widget .afterhours_tree {\n  display: inline-flex;\n  width: 98%;\n  /* overflow: auto;\n      height: 230px;*/\n  height: 100%;\n  position: relative;\n}\n.afterhours_inner_widget .afterhours_tree .afterhours-arrow {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 20px;\n  height: 20px;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n  text-align: center;\n  margin: 2px 0 0 20px;\n  position: absolute;\n  left: 50%;\n  margin-left: -10px;\n  cursor: pointer;\n  z-index: 11;\n}\n.afterhours_inner_widget .afterhours_tree .afterhours-arrow#topArrowAfterhours {\n  transform: rotate(90deg);\n  top: -12px;\n}\n.afterhours_inner_widget .afterhours_tree .afterhours-arrow#downArrowAfterhours {\n  bottom: -7px;\n  transform: rotate(270deg);\n}\n.afterhours_inner_widget .afterhours_tree ul {\n  margin: 3px 0 0 0;\n  padding: 0;\n  display: inline-block;\n  width: 92%;\n  margin-left: 5%;\n}\n.afterhours_inner_widget .afterhours_tree ul li {\n  display: inline-block;\n  padding-left: 10px;\n  position: relative;\n  width: 100%;\n  box-sizing: border-box;\n}\n.afterhours_inner_widget .afterhours_tree ul li::before {\n  content: \"\";\n  position: absolute;\n  top: 26px;\n  left: 1px;\n  pointer-events: none;\n  width: 1px;\n  background: #dadada;\n  height: 100%;\n}\n.afterhours_inner_widget .afterhours_tree ul li:last-child::before {\n  display: none;\n}\n.afterhours_inner_widget .afterhours_tree ul li p {\n  font-size: 9px;\n  margin: 4px 0;\n}\n.afterhours_inner_widget .afterhours_tree ul li p span {\n  display: inline-block;\n  width: 100%;\n  position: relative;\n  font-size: 11px;\n}\n.afterhours_inner_widget .afterhours_tree ul li p span::before {\n  content: \"\";\n  position: absolute;\n  top: 5px;\n  left: -13px;\n  width: 7px;\n  height: 7px;\n  text-align: center;\n  pointer-events: none;\n  border-radius: 50%;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+1) p span::before {\n  background-color: #82d963;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+2) p span::before {\n  background-color: #f5ec00;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+3) p span::before {\n  background-color: #d879e1;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+4) p span::before {\n  background-color: #5ee3f4;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5) p span::before {\n  background-color: #7cbef6;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5):nth-child(n+6) p span::before {\n  background-color: #9d7cf6;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5):nth-child(n+7) p span::before {\n  background-color: #f79598;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5):nth-child(n+8) p span::before {\n  background-color: #f6a67c;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5):nth-child(n+9) p span::before {\n  background-color: #1057b4;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5):nth-child(n+10) p span::before {\n  background-color: #0bccb2;\n}\n.afterhours_inner_widget .color_value {\n  display: inline-block;\n  width: 100%;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.afterhours_inner_widget .color_value ul {\n  display: flex;\n  margin: 0;\n  padding: 0;\n  border-radius: 0px 0px 5px 5px;\n  overflow: hidden;\n}\n.afterhours_inner_widget .color_value ul li {\n  display: inline-block;\n  height: 5vh;\n  width: 10vw;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+1) {\n  background-color: #82d963;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+2) {\n  background-color: #f5ec00;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+3) {\n  background-color: #d879e1;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+4) {\n  background-color: #5ee3f4;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+5) {\n  background-color: #7cbef6;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+6) {\n  background-color: #9d7cf6;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+7) {\n  background-color: #f79598;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+8) {\n  background-color: #f6a67c;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+9) {\n  background-color: #1057b4;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+10) {\n  background-color: #0bccb2;\n}\n\n.afterhours-arrow {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 17px;\n  height: 17px;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n  left: 50%;\n  margin-left: -10px;\n  cursor: pointer;\n  z-index: 11;\n  position: relative;\n}\n.afterhours-arrow#topArrowAfterhours {\n  transform: rotate(90deg);\n  top: -10px;\n  margin-bottom: -11px;\n}\n.afterhours-arrow#downArrowAfterhours {\n  transform: rotate(270deg);\n}\n\n.hide {\n  display: none !important;\n}\n\n.visitor-card {\n  padding: 46px 24px 24px 24px;\n}\n.visitor-card .st1 {\n  color: rgba(250, 91, 91, 0.8470588235);\n  margin-top: 10px;\n  display: inline-block;\n  font-size: 18px;\n  margin-bottom: 19px;\n}\n.visitor-card .st2 {\n  color: rgba(250, 91, 91, 0.8470588235);\n  font-size: 18px;\n  margin-top: 5px;\n  display: inline-block;\n  line-height: 1.2em;\n}\n.visitor-card .st3 {\n  font-size: 0.9em;\n}\n.visitor-card .self {\n  font-size: 1.1em;\n  margin: 1em 0 1em 0;\n  color: rgba(66, 66, 66, 0.8470588235);\n  position: relative;\n}\n.visitor-card .self span {\n  font-size: 1.3em;\n  width: 100%;\n  display: inline-block;\n  margin-top: 12px;\n}\n.visitor-card .self .calen {\n  background: url(https://static.iviva.com/images/Adani_UXP/calendar_min_icon.png) no-repeat 0 0;\n  display: inline-block;\n  width: 1.5em;\n  height: 1.5em;\n  background-size: contain;\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n.visitor-card .self .calen .visitor_count {\n  display: inline-block;\n  width: 20px;\n  color: #fff;\n  font-size: 10px;\n  position: absolute;\n  right: -8px;\n  top: -8px;\n  background-color: #5752c9;\n  border-radius: 50%;\n  text-align: center;\n  padding: 5px 0px;\n}\n.visitor-card .st4 {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  align-items: center;\n  font-size: 14px;\n  text-transform: uppercase;\n  color: #424242;\n  position: absolute;\n  bottom: 4em;\n  left: 0px;\n  right: 0px;\n  height: 20px;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.visitor-card .st4 span {\n  cursor: pointer;\n  flex-grow: 0;\n  display: inline-block;\n  font-size: 10px;\n  font-weight: bold;\n  color: #666;\n  background: #e4e4e4;\n  border-radius: 14px;\n  padding: 10px 15px;\n  vertical-align: text-bottom;\n}\n.visitor-card .st4 .st4-lft {\n  display: inline-block;\n  width: 40%;\n  position: relative;\n}\n.visitor-card .st4 .st4-lft .deg-btn {\n  background: #7d0f07;\n  background: -moz-linear-gradient(45deg, #00127f 30%, #6affc2 100%);\n  background: -webkit-linear-gradient(45deg, #00127f 30%, #6affc2 100%);\n  background: linear-gradient(45deg, #00127f 30%, #6affc2 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=\"#00127F\", endColorstr=\"#6AFFC2\",GradientType=1 );\n  color: #ffffff;\n  border-radius: 20px;\n  width: 70px;\n  vertical-align: top;\n  font-size: 12px;\n}\n.visitor-card .st4 .st4-lft .deg-btn em {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/sel-deg-icon.svg);\n  display: inline-block;\n  width: 15px;\n  height: 14px;\n  background-position: center center;\n  background-repeat: no-repeat;\n  margin-right: 5px;\n}\n.visitor-card .st4 .st4-lft p {\n  font-size: 7px;\n  font-weight: normal;\n  color: #666;\n  display: inline-block;\n  position: absolute;\n  bottom: -12px;\n  left: 30px;\n}\n.visitor-card .st4 .st4-rgt {\n  display: inline-flex;\n  width: 60%;\n}\n.visitor-card .st4 .st4-rgt p {\n  font-size: 11px;\n  margin-top: 10px;\n}\n.visitor-card .st4 .st4-rgt span {\n  margin-left: 1.2em;\n}\n\n.cur_month {\n  font-size: 9px;\n  font-weight: 600;\n  color: #424242;\n}\n\n.environment_widget {\n  display: inline-block;\n  width: 100%;\n}\n.environment_widget .wing_angle {\n  float: left;\n  margin: 0 0 10px 10px;\n}\n.environment_widget h5 {\n  display: inline-block;\n  width: 100%;\n  box-sizing: border-box;\n  font-size: 11px;\n  padding: 0 0 10px 10px;\n  text-transform: uppercase;\n  font-weight: 600;\n}\n.environment_widget ul {\n  display: inline-block;\n  width: 100%;\n}\n.environment_widget ul li {\n  display: inline-flex;\n  padding: 2em 2%;\n  width: 50%;\n  border-top: 1px solid #d4d4d4;\n  box-sizing: border-box;\n}\n.environment_widget ul li .env_icon {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 2.5em;\n  height: 2.5em;\n  background-size: contain;\n}\n.environment_widget ul li .env_icon.temp-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/temp-icon.png);\n}\n.environment_widget ul li .env_icon.humanit-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/humanity-icon.png);\n}\n.environment_widget ul li .env_icon.emis-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/emis-icon.png);\n}\n.environment_widget ul li .env_icon.voc-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/voc-icon.png);\n}\n.environment_widget ul li h4 {\n  display: inline-block;\n  font-size: 20px;\n  line-height: 0.8em;\n  margin-left: 10px;\n  margin-top: 0;\n}\n.environment_widget ul li h4 span {\n  display: inline-block;\n  font-size: 11px;\n  width: 100%;\n}\n.environment_widget ul li:nth-child(odd) {\n  border-right: 1px solid #d4d4d4;\n}\n.environment_widget ul li:nth-child(3) {\n  border-top: 1px solid #d4d4d4;\n}\n.environment_widget.serice_ticket ul {\n  display: inline-block;\n  width: 100%;\n  padding: 0;\n  margin: 0;\n}\n.environment_widget.serice_ticket ul li {\n  display: inline-block;\n  padding: 1.1em 12%;\n  width: 100%;\n  border-top: 1px solid #d4d4d4;\n  box-sizing: border-box;\n}\n.environment_widget.serice_ticket ul li:last-child {\n  border-left: 0px solid #d4d4d4;\n}\n.environment_widget.serice_ticket ul li:nth-child(odd) {\n  border-right: 0px solid #d4d4d4;\n}\n.environment_widget.serice_ticket ul li .env_icon {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 2.5em;\n  height: 2.5em;\n  background-size: contain;\n}\n.environment_widget.serice_ticket ul li .env_icon.unsolve-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/un-sol-ticket.png);\n}\n.environment_widget.serice_ticket ul li .env_icon.sla-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/sla-icon.png);\n}\n.environment_widget.serice_ticket ul li .env_icon.Tick_breach-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/breach-icon.png);\n}\n.environment_widget.serice_ticket ul li h4 {\n  display: inline-flex;\n  font-size: 12px;\n  margin: 25px 0px 25px 15px;\n  font-weight: 500;\n  width: 50px;\n}\n.environment_widget.serice_ticket ul li span {\n  padding-left: 5px;\n  width: auto;\n  font-size: 11px;\n}\n\n.maintainence-widget {\n  background-color: #5752c9;\n}\n.maintainence-widget .bluebgdefault {\n  height: 100%;\n}\n\n.visitors_count {\n  float: left;\n  width: 20%;\n  position: relative;\n}\n.visitors_count .filteroverall {\n  display: inline-block;\n  position: absolute;\n  width: 86%;\n  left: 3%;\n  top: 0;\n}\n.visitors_count .filteroverall .filter_sec {\n  display: inline-block;\n  margin: 1em 0 0 1em;\n  background: url(https://static.iviva.com/images/Adani_UXP/filter-icon.svg) no-repeat center center;\n  width: 2.7em;\n  height: 2.7em;\n  background-size: 40% auto;\n  background-color: #b7b7b7;\n  padding: 10px 10px;\n  border-radius: 50%;\n  cursor: pointer;\n  position: relative;\n}\n.visitors_count .filteroverall .filter_sec:hover {\n  background-color: #ffb857;\n}\n.visitors_count .filteroverall .filter-menu {\n  background: #fff;\n  border-radius: 10px;\n  font-size: 10px;\n  padding: 2px 5px;\n  box-shadow: 0px 0px 6px #c1c1c1;\n  width: 100%;\n  position: absolute;\n  top: 42px;\n  left: 5px;\n  z-index: 1;\n  display: none;\n  min-height: 26em;\n}\n.visitors_count .filteroverall .filter-menu.filter-menu-nav {\n  display: inline-block;\n}\n.visitors_count .filteroverall .filter-menu ul {\n  margin: 0;\n  padding: 0;\n}\n.visitors_count .filteroverall .filter-menu ul li {\n  display: inline-block;\n  padding: 2px 0;\n  width: 100%;\n}\n.visitors_count .filteroverall .filter-menu ul li:last-child {\n  border-bottom: 0px solid #d4d4d4;\n}\n.visitors_count .filteroverall .filter-menu ul li a {\n  display: inline-block;\n  padding: 25px 6px;\n  width: 100%;\n  margin: 1px 0;\n  box-sizing: border-box;\n  border-radius: 10px;\n  text-align: center;\n  font-size: 1.3em;\n  background: #fafafa;\n  color: #424242;\n  cursor: pointer;\n}\n.visitors_count .filteroverall .filter-menu ul li a:hover, .visitors_count .filteroverall .filter-menu ul li a.filterfootfall_active {\n  background: #ffb857;\n}\n.visitors_count .filteroverall .filter_menu_close {\n  display: none;\n  background-color: #433636;\n  color: #ffffff;\n  position: absolute;\n  bottom: 10px;\n  border-radius: 50%;\n  text-align: center;\n  font-family: arial;\n  cursor: pointer;\n  transform: translate(-50%, 0);\n  background-image: url(https://static.iviva.com/images/close.svg);\n  background-position: center center;\n  background-size: 44% auto;\n  filter: invert(1);\n  background-repeat: no-repeat;\n  left: 50%;\n  padding: 12px 12px;\n}\n.visitors_count .visitors_count-top {\n  width: 100%;\n  color: #fff;\n  text-align: center;\n  margin-top: 4em;\n  display: inline-block;\n  position: relative;\n  margin-top: 2em;\n}\n.visitors_count .visitors_count-top .visitors_count-no {\n  display: inline-block;\n  font-size: 2em;\n  width: 100%;\n  position: relative;\n}\n.visitors_count .visitors_count-top .visitors_count-no .visitors_icon {\n  display: inline-block;\n  background: url(https://static.iviva.com/images/Adani_UXP/visitors-icon1.svg) no-repeat 0 0;\n  width: 0.5em;\n  height: 0.5em;\n  position: absolute;\n  top: -15px;\n}\n.visitors_count .visitors_count-top .box {\n  position: absolute;\n  left: 12%;\n  width: 80%;\n}\n.visitors_count .visitors_count-top .box .uxp-form-select {\n  min-width: 111px !important;\n  margin-top: -8px;\n  margin-left: 7px;\n}\n.visitors_count .visitors_count-top .box .uxp-form-select .uxp-select-placeholder {\n  padding: 12px !important;\n  color: white;\n  background-color: rgba(133, 130, 204, 0.7882352941);\n  font-size: 9px;\n}\n.visitors_count .visitors_count-top .box .uxp-form-select .uxp-select-placeholder::before {\n  content: \"\";\n  position: absolute;\n  top: 51%;\n  right: 7px;\n  width: 20px;\n  height: 20px;\n  background-color: transparent;\n  transform: translateY(-50%);\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy45MzkiIGhlaWdodD0iOC45MDEiIHZpZXdCb3g9IjAgMCAxMy45MzkgOC45MDEiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOm5vbmU7c3Ryb2tlOiM0MjQyNDI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDozcHg7b3BhY2l0eTowLjYyOTt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0tMTQ0My43Nyw3NDcuNzQybDQuODM2LDUuMjgyLDQuODY0LTUuMjgyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDQ1Ljg4OSAtNzQ1LjYyMykiLz48L3N2Zz4=);\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 50%;\n}\n.visitors_count .visitors_count-top .box select {\n  background-color: rgba(133, 130, 204, 0.7882352941);\n  color: white;\n  padding: 12px;\n  width: 87%;\n  border: none;\n  font-size: 20px;\n  box-shadow: 0 0px 7px rgba(0, 0, 0, 0.2);\n  -webkit-appearance: button;\n  appearance: button;\n  outline: none;\n  padding-left: 29px;\n  font-size: 11px;\n  box-sizing: border-box;\n  border-radius: 12px;\n  height: 38px;\n}\n.visitors_count .visitors_count-top .box select option {\n  padding: 30px;\n}\n.visitors_count .visitors_count-top .box::before {\n  content: \"\";\n  position: absolute;\n  top: 18px;\n  width: 7px;\n  height: 7px;\n  text-align: center;\n  pointer-events: none;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 60% auto;\n  background-color: white;\n  border-radius: 50%;\n  padding: 2px 2px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.021' height='9.361' viewBox='0 0 7.021 9.361'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M4.681,2.633V.585a.585.585,0,0,1,1.17,0V2.633Zm2.048.293H.293A.293.293,0,0,0,0,3.218V3.8A.293.293,0,0,0,.293,4.1H.585v.585a2.926,2.926,0,0,0,2.34,2.867V9.361H4.1V7.547a2.926,2.926,0,0,0,2.34-2.867V4.1h.293A.293.293,0,0,0,7.021,3.8V3.218A.293.293,0,0,0,6.728,2.925ZM2.34,2.633V.585a.585.585,0,0,0-1.17,0V2.633Z'/%3E%3C/svg%3E\");\n}\n.visitors_count .visitors_count-top .box:hover::before {\n  color: rgba(255, 255, 255, 0.6);\n  background-color: rgba(255, 255, 255, 0.2);\n}\n.visitors_count .visitors_count-top p {\n  display: inline-block;\n  text-transform: uppercase;\n  color: #ffffff;\n  margin-top: 10em;\n  font-size: 11px;\n  line-height: 1.2em;\n  padding: 0 0 0 10px;\n  position: relative;\n  width: 80%;\n}\n.visitors_count .visitors_count-top p::before {\n  content: \"\";\n  position: absolute;\n  top: -3px;\n  left: -3px;\n  width: 10px;\n  height: 10px;\n  text-align: center;\n  pointer-events: none;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100% auto;\n  padding: 3px 3px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.149' height='19.38' viewBox='0 0 22.149 19.38'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;opacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M21.743,10.15,19.786,8.193a1.384,1.384,0,0,0-.979-.405h-2.2V4.326A2.076,2.076,0,0,0,14.535,2.25H7.614A2.076,2.076,0,0,0,5.537,4.326V7.787h-2.2a1.385,1.385,0,0,0-.979.405L.405,10.15A1.384,1.384,0,0,0,0,11.129v3.579H5.537v-.692a.692.692,0,0,1,.692-.692H7.614a.692.692,0,0,1,.692.692v.692h5.537v-.692a.692.692,0,0,1,.692-.692h1.384a.692.692,0,0,1,.692.692v.692h5.537v-3.58A1.384,1.384,0,0,0,21.743,10.15Zm-7.9-2.363H8.306V5.019h5.537Zm2.769,9a.692.692,0,0,1-.692.692H14.535a.692.692,0,0,1-.692-.692v-.692H8.306v.692a.692.692,0,0,1-.692.692H6.229a.692.692,0,0,1-.692-.692v-.692H0v4.153A1.384,1.384,0,0,0,1.384,21.63h19.38a1.384,1.384,0,0,0,1.384-1.384V16.093H16.611Z' transform='translate(0 -2.25)'/%3E%3C/svg%3E\");\n}\n.visitors_count .visitors_count-top em {\n  font-size: 0.6em;\n  display: inline-block;\n  margin-top: 0.7em;\n  width: 100%;\n}\n\n.environment_data_widget {\n  display: inline-block;\n  width: 100%;\n  overflow-x: auto;\n  overflow-y: hidden;\n}\n.environment_data_widget .environment_data {\n  display: inline-flex;\n  max-width: 100%;\n  min-width: 100%;\n}\n.environment_data_widget .environment_data .footfall-arrows {\n  position: absolute;\n  right: 5px;\n  top: 45px;\n  cursor: pointer;\n}\n.environment_data_widget .environment_data h5 {\n  display: inline-block;\n  width: 100%;\n  box-sizing: border-box;\n  font-size: 11px;\n  padding: 0 0 10px 10px;\n  text-transform: uppercase;\n  font-weight: 600;\n}\n\n.visitors_chart {\n  background-color: #ffffff;\n  float: right;\n  width: 80%;\n  height: 100%;\n}\n.visitors_chart .visitors_chart_task {\n  display: inline-block;\n  width: 100%;\n  padding: 10px 4% 0px;\n  box-sizing: border-box;\n  text-align: center;\n}\n.visitors_chart .visitors_chart_task ul {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  height: 10px;\n}\n.visitors_chart .visitors_chart_task ul li {\n  display: inline-block;\n  width: 25%;\n}\n.visitors_chart .visitors_chart_task ul li p {\n  display: inline-block;\n  width: 100%;\n  font-size: 9px;\n}\n.visitors_chart .visitors_chart_task ul li h4 {\n  display: inline-block;\n  width: 100%;\n  font-size: 19px;\n  font-weight: 100;\n  margin: 0;\n  position: relative;\n}\n.visitors_chart .visitors_chart_task ul li h4 em {\n  font-size: 0.7em;\n}\n.visitors_chart .visitors_chart_task ul li h4 span.session-pict {\n  display: inline-block;\n  width: 40px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 33.62 19.35'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23424242;%7D.cls-2,.cls-3%7Bisolation:isolate;%7D.cls-3%7Bfont-size:10px;fill:%23fff;font-family:Arial-BoldMT, Arial;font-weight:700;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cimage width='19' height='19' transform='translate(0 0.35)' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAA99JREFUOBFtVEtvW0UU/mbu3EfsPBw7TRyHpnmW0EXjUkRBbRBLVqSt2CGkbFk1P6ELNog/QSUW7OLsygYKQlUlQHVaQNA0aVrSxkmaxO/HvfadfnNN1FbqkebO3DNzvvOdx4zAG8TzMOH7WBQCWaGR1eAM5LVAXmrkLQerzSa23mD6usqWWLYkjji0bQntKaFdzjHOjhTa6M0+z1173fKVvwRFKbGiaOBY0CO9tn6r39GnEo5O9yo9HFe6h6B9ttSuglZcKwsrhEgcw5B9VwiUg8aiRQ0ZQDLGuCPRbGuQHWp+GB00a78DVIMO2qGG1shx44rZtMxHMjQBcU0QwGUMAz2KABZcW8DmfzJuIUZghoZKy4BqBJxCDkuKOZqVCHpHmGS3WrhLMglJVI/wQz02GYVIxiwEnZBAFpKeQkjdo2qAKgErrTZImmAE1aJo2+45S4RYooPLRI/E4W6HAOMJBwuTSRxVm3h7ZAAXp9O4NJfBv0+fo1DtAhkDSRYk6mmEj2UIacoeiQmzQf4t5sJ4LtRCpDwHn56dxXqhjO9uP0SFuWsZShRzPvh/jRBZ1QnDbJeVYDI1DHCHCXZsm8PF7MwQHObs9MkR9oqLqZEmDxxhvdw0yY+EZSAw5hX/5o0mNJWhhp0Bz7YwkezB0sVJtJoBYqHEVMLGhekp3FzbRL1Nb4aB7kSAESgbnIXGGse8cRIxYxHKrP1O0WdIASSd/LZ9QN8+lCvx68MC9lsE02FUzShlTDqprEkhkY9iI5jJQchDikXYazVx78kOavQ+MZZAvM/Dg/1DPCkGzGub55h82pgo6J89x2tGihOE/cSUOKoMkU/0K2QGFW6vl5CJCRwdVlFpNvDLxnPc36ljbNBGuU5mPBs1bpfNDck+yyklSwaI/WJSiURcRl6z6V7kd6oYGR1EXVvYKNSRiiukkzbGUi5D6aZOCF3yPC9ntdso8kI3yZrsJGYzcQzGBUxl3h9PQ1oKK39sYX23jPfGezF32gTSxmHFx8QJF3Vfo6PFl74f3CJ2V0YH3dyHc6nFuCPw336JVQXOZTI4MzqMZ0WG2WggkUrhpwdPMRRrsZl9XjugFYjV3O8Hlw1KdDfN4rMPTt5UqvOOZYm5dKoffBTY6T4uXVgAXwrMnF9A70wWf939GXsV4MypfhZUr3pObCm/VWTzRVGb6aV88fHocn6zer3d0QNTwwpXr36Os+c/QoOv4dfffIVa+QB9PU7pn+3K8nqh9u1Ly1eYHSvvbVXvvDsZ+/7v7erjvZLeLe1uiMmp6XTQ9tc27v/4w+aef+PPR7XlZ8XGrWOb4/kF9gqg+/+VcegAAAAASUVORK5CYII='/%3E%3Cimage width='19' height='19' transform='translate(7.53 0.35)' xlink:href='../../Ellipse%252014/Ellipse%252014.png'/%3E%3Ccircle class='cls-1' cx='24.12' cy='9.5' r='9.5'/%3E%3Cg class='cls-2'%3E%3Ctext class='cls-3' transform='translate(18.45 13)'%3E+8%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  position: absolute;\n  height: 20px;\n  right: 10px;\n}\n.visitors_chart .prev_next a {\n  cursor: pointer;\n}\n.visitors_chart .company_list {\n  display: inline-block;\n  width: 13%;\n  margin: 1% 0px 0 1%;\n}\n.visitors_chart .company_list ul {\n  margin: 0;\n  padding: 0;\n}\n.visitors_chart .company_list ul li {\n  display: inline-block;\n  width: 85%;\n  font-size: 0.65em;\n  padding: 11px 0;\n  word-wrap: break-word;\n}\n.visitors_chart .company_data {\n  display: inline-flex;\n  width: 84%;\n  height: 100%;\n  vertical-align: top;\n}\n.visitors_chart .company_data p.no_maintain {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  width: auto;\n  font-size: 15px;\n  color: #424242;\n  font-weight: bold;\n}\n.visitors_chart .company_data .company_data_data {\n  display: flex;\n  width: 100%;\n  height: 100%;\n  margin-left: 17px;\n}\n.visitors_chart .company_data .ButtonsDiv {\n  position: absolute;\n  display: flex;\n  width: 68%;\n  justify-content: space-around;\n  top: 21em;\n  margin-left: 17px;\n}\n.visitors_chart .company_data .ButtonsDiv .data_events {\n  display: flex;\n  font-size: 10px;\n  background: #bd55ac;\n  border-radius: 20px;\n  width: 57px;\n  height: 15px;\n  padding: 2px 0 0 0;\n  color: #fff;\n  margin-top: 5px;\n  box-shadow: 0 0 5px #383838;\n  cursor: pointer;\n  text-align: center;\n}\n.visitors_chart .company_data .ButtonsDiv .data_events i {\n  width: 14px;\n  text-align: center;\n}\n.visitors_chart .company_data .ButtonsDiv .data_events h6 {\n  width: 55px;\n  margin: 1px 7px;\n  font-size: 7.8px;\n}\n.visitors_chart .company_data .arrows {\n  background: #bd55ac;\n  border-radius: 28%;\n  padding: 4px 4px;\n  height: 17px;\n  width: 18px;\n  margin-top: 4px;\n  /* text-align: center; */\n  position: absolute;\n  top: 21em;\n}\n.visitors_chart .company_data .arrows .updownBtn {\n  font-size: 10px;\n}\n.visitors_chart .company_data .arrows .upBtn {\n  background-image: url(\"https://static.iviva.com/images/dn-arrow1.svg\");\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 10px;\n  height: 10px;\n  background-size: contain;\n  text-align: center;\n  cursor: pointer;\n  z-index: 11;\n  position: relative;\n  transform: rotate(180deg);\n}\n.visitors_chart .company_data .arrows .downBtn {\n  background-image: url(\"https://static.iviva.com/images/dn-arrow1.svg\");\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 10px;\n  height: 10px;\n  background-size: contain;\n  text-align: center;\n  cursor: pointer;\n  z-index: 11;\n  position: relative;\n}\n.visitors_chart .company_data .disabled {\n  opacity: 0.5;\n  pointer-events: none;\n  cursor: not-allowed;\n  padding: 3px 3px;\n}\n.visitors_chart .company_data .company_data_sec {\n  width: 20%;\n  margin: 0 1px 0;\n  height: 280px;\n  display: flex;\n  flex-direction: column;\n  position: relative;\n}\n.visitors_chart .company_data .company_data_sec h6 {\n  display: inline-block;\n  font-size: 8px;\n  width: 100%;\n  text-align: center;\n  margin-top: 13px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec {\n  display: inline-block;\n  box-sizing: border-box;\n  background: rgba(226, 226, 226, 0.7803921569);\n  height: 224px;\n  margin-top: -14px;\n  width: 100%;\n  position: relative;\n  overflow: hidden;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec::-webkit-scrollbar {\n  width: 1px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData {\n  width: 100%;\n  height: 45em;\n  position: relative;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData .parent-card {\n  height: auto;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData hr {\n  margin-bottom: 0px;\n  margin-top: 33px;\n  border-top: 1px solid rgba(220, 254, 255, 0.0392156863) !important;\n  visibility: collapse;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall {\n  display: inline-block;\n  width: 100%;\n  padding: 2em 0;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall.second-orange-overall {\n  padding: 10px 0;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall h5 {\n  position: absolute;\n  top: -5px;\n  left: 0px;\n  margin: 0;\n  color: #fff;\n  background: #ac39c8;\n  border-radius: 100%;\n  text-align: center;\n  padding: 4px 6px;\n  font-size: 10px;\n  box-shadow: 0px 0px 2px rgba(65, 65, 65, 0.6784313725);\n  font-weight: bold;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box {\n  color: #fff;\n  border-radius: 5px;\n  margin: -18px 4px;\n  height: 38px;\n  width: 90%;\n  padding: 12px 0;\n  font-weight: bold;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box span {\n  display: inline-block;\n  font-size: 8px;\n  position: relative;\n  padding-left: 14px;\n  font-weight: bold;\n  width: 90%;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  margin-top: -3px;\n  position: absolute;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box span::before {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"12.417\" height=\"11.406\" viewBox=\"0 0 12.417 11.406\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M0,10.336a1.222,1.222,0,0,0,1.33,1.069h9.756a1.222,1.222,0,0,0,1.33-1.069V4.277H0ZM1.774,6.059A.408.408,0,0,1,2.217,5.7H4.878a.408.408,0,0,1,.443.356V8.2a.408.408,0,0,1-.443.356H2.217A.408.408,0,0,1,1.774,8.2Zm9.313-4.634H9.756V.356A.408.408,0,0,0,9.313,0H8.426a.408.408,0,0,0-.443.356V1.426H4.435V.356A.408.408,0,0,0,3.991,0H3.1a.408.408,0,0,0-.443.356V1.426H1.33A1.222,1.222,0,0,0,0,2.495V3.564H12.417V2.495A1.222,1.222,0,0,0,11.087,1.426Z\"/%3E%3C/svg%3E');\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 1em;\n  height: 1em;\n  content: \"\";\n  position: absolute;\n  left: 2px;\n  background-size: contain;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box p {\n  display: inline-block;\n  font-size: 7px;\n  line-height: 1.5em;\n  margin-left: 4px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box.company-hv-data {\n  position: absolute;\n  cursor: pointer;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box {\n  display: none;\n  width: 174px;\n  background-color: #ffffff;\n  border-radius: 10px;\n  position: fixed;\n  height: fit-content;\n  box-sizing: border-box;\n  padding: 0px 7px;\n  box-shadow: 0px 0px 10px #717171;\n  bottom: -65px;\n  z-index: 3;\n  color: #424242;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box h6 {\n  font-size: 8px;\n  width: 100%;\n  display: inline-block;\n  padding: 0px 0 7px 0;\n  margin-bottom: 0;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box p {\n  font-size: 9px;\n  display: inline-block;\n  line-height: 10px;\n  width: 100%;\n  margin: 5px 0;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul {\n  margin: 5px 0 0 0;\n  padding: 0;\n  display: inline-block;\n  width: 100%;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li {\n  display: inline-block;\n  width: 100%;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li label {\n  display: inline-block;\n  text-transform: uppercase;\n  font-size: 6px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span {\n  font-size: 8px;\n  text-align: right;\n  float: right;\n  margin-top: 6px;\n  width: auto;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle {\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  display: inline-block;\n  margin-right: 4px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Assignment {\n  background-color: rgba(66, 122, 222, 0.7019607843);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Upcoming {\n  background-color: rgba(255, 83, 20, 0.6901960784);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Delayed {\n  background-color: rgba(255, 83, 20, 0.6901960784);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.NotAttended {\n  background-color: rgba(128, 128, 128, 0.5882352941);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Onhold {\n  background-color: rgba(128, 128, 128, 0.8509803922);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.InProgress {\n  background-color: rgba(255, 83, 20, 0.6901960784);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Complete {\n  background-color: rgba(44, 189, 102, 0.8705882353);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Closed {\n  background-color: rgba(128, 128, 128, 0.8509803922);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Cancel {\n  background-color: rgba(255, 0, 0, 0.7215686275);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events {\n  display: inline-block;\n  font-size: 10px;\n  background: #bd55ac;\n  border-radius: 20px;\n  width: 60%;\n  padding: 6px 0 6px 10px;\n  color: #fff;\n  margin-top: 1em;\n  margin-left: 15%;\n  position: absolute;\n  box-shadow: 0 0 5px #383838;\n  left: 0;\n  bottom: 10px;\n  cursor: pointer;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events::before {\n  content: \"\";\n  position: absolute;\n  top: 7px;\n  right: 7px;\n  pointer-events: none;\n  width: 0;\n  height: 0;\n  margin-top: 4px;\n  border-top: 4px solid #f9f9f9;\n  border-left: 4px solid transparent;\n  border-right: 4px solid transparent;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events select#data_events {\n  display: none;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall {\n  position: absolute;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall::before {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23ec4b7b;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cg transform='translate(-0.306)'%3E%3Ccircle class='a' cx='7' cy='7' r='7' transform='translate(0.306)'/%3E%3Cpath class='b' d='M5.275.285,4.227,2.411l-2.346.342a.514.514,0,0,0-.284.877l1.7,1.654-.4,2.336a.513.513,0,0,0,.745.541l2.1-1.1,2.1,1.1a.514.514,0,0,0,.745-.541l-.4-2.336,1.7-1.654a.514.514,0,0,0-.284-.877L7.245,2.411,6.2.285a.514.514,0,0,0-.922,0Z' transform='translate(1.389 2.454)'/%3E%3C/g%3E%3C/svg%3E\");\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 12px;\n  height: 12px;\n  content: \"\";\n  position: absolute;\n  right: 0px;\n  top: -5px;\n  background-size: contain;\n  z-index: 2;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall {\n  background: #ff8354;\n  position: relative;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall .data_box {\n  background: rgba(208, 97, 31, 0.7294117647);\n  margin-top: 0em;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall::before {\n  display: none;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box {\n  background: #8e8e8e;\n  margin-top: 1em;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box {\n  top: -62px;\n  bottom: unset;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box p {\n  margin-top: 1px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont {\n  margin-top: 3px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont h6 {\n  font-size: 10px;\n  text-align: left;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont p {\n  color: #15ca12;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box ul li {\n  padding: 3px 0;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_grey_sec {\n  background-color: rgba(249, 249, 249, 0.9098039216);\n}\n.visitors_chart .company_data .updatePrevCardsTime {\n  display: none;\n}\n.visitors_chart #chart1 {\n  height: 12em;\n  margin: 10px;\n  display: inline-block;\n  width: 95%;\n}\n\n.status-Assignment {\n  background: rgba(66, 122, 222, 0.7019607843);\n}\n\n.status-Assignment-Highlight {\n  background: rgba(87, 144, 232, 0.4);\n}\n\n.status-upcoming-Inprogess-Delayed {\n  background: rgba(255, 83, 20, 0.8509803922);\n}\n\n.status-upcoming-Inprogess-Delayed-Highlight {\n  background: rgba(245, 102, 48, 0.6);\n}\n\n.status-NotAttended-OnHold-Closed {\n  background: rgba(128, 128, 128, 0.8509803922);\n}\n\n.status-NotAttended-OnHold-Closed-Highlight {\n  background: rgba(131, 133, 134, 0.4);\n}\n\n.status-Complete {\n  background: rgba(44, 189, 102, 0.8705882353);\n}\n\n.status-Complete-Hightlight {\n  background: rgba(69, 186, 106, 0.5);\n}\n\n.status-Cancel {\n  background: rgba(255, 0, 0, 0.7215686275);\n}\n\n.status-Cancel-Highlight {\n  background: rgba(255, 0, 0, 0.4);\n}\n\n.company_data_timeslot {\n  margin-top: 26px;\n  width: 100%;\n  position: absolute;\n}\n.company_data_timeslot .timingsOfCards {\n  display: flex;\n  flex-direction: row;\n  justify-self: flex-start;\n}\n.company_data_timeslot .timingsOfCards .HoursText {\n  font-size: 8px;\n  margin: 10px 0 0 -5px;\n  font-weight: 500;\n  width: 15px;\n}\n\n.company_data_timeslot hr {\n  margin: 0 0 26px 8px;\n  width: 563px;\n  border-top: 1px solid rgba(0, 0, 0, 0.1);\n}\n\n.box-overall-removeBackground {\n  margin-top: 0px;\n  background: none !important;\n}\n\n.previous-cards-child {\n  margin-top: -30px !important;\n  height: 21px !important;\n  padding: 3px 2px !important;\n}\n\n.singlehourMeetingCard-Child {\n  height: 22px !important;\n  margin-top: -11px !important;\n  width: 90% !important;\n  padding: 5px 0 0 0 !important;\n}\n\n.boxProprty {\n  display: block;\n  top: 340.900146px;\n  left: 530.746399px;\n  background-color: #ffffff;\n  border-radius: 10px;\n  position: fixed;\n  height: fit-content;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n  padding: 7px 7px;\n  -webkit-box-shadow: 0px 0px 10px #717171;\n  box-shadow: 0px 0px 10px #717171;\n  bottom: -65px;\n  z-index: 3;\n  color: #424242;\n}\n\n.uxp-dashboard-container .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .remove-star-badge::before {\n  background-image: none;\n}\n\n.showTimeSlot {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  height: 303px;\n}\n\n.timeslott {\n  font-size: 8px;\n  margin: 27px 0 0 -20px;\n}\n\n.cards-nums-of-eachday {\n  background: rgba(87, 82, 201, 0.568627451);\n  color: white;\n  position: absolute;\n  height: 12px;\n  width: 13px;\n  text-align: center;\n  top: -7px;\n  font-size: 7px;\n  border-radius: 50%;\n  padding: 3px 0px;\n  font-weight: bolder;\n}\n\n.hide {\n  display: none;\n}\n\n/*caught Up Start*/\n.all_caught_widget {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 100%;\n  height: 100%;\n  background-size: cover;\n  background-image: url(https://static.iviva.com/images/Adani_UXP/all_caught_widget.png);\n  border-radius: 10px;\n  position: relative;\n}\n.all_caught_widget .caught_widget-iviva {\n  background-image: url(https://static.iviva.com/images/Logo.png);\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 100%;\n  height: 100%;\n  background-size: 75% auto;\n}\n.all_caught_widget .footfall-arrowsUp {\n  float: right;\n  width: 30px;\n  position: absolute;\n  right: 1em;\n  top: 1em;\n  cursor: pointer;\n}\n.all_caught_widget .footfall-arrowsUp a.top-arrow {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1em;\n  height: 1em;\n  font-size: 17px;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30.128' height='30.128' viewBox='0 0 30.128 30.128'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;opacity:0.789;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M30.128,15.064A15.064,15.064,0,1,1,15.064,0,15.061,15.061,0,0,1,30.128,15.064ZM12.391,8.018v7.046H8.085a.729.729,0,0,0-.516,1.245l6.979,6.943a.722.722,0,0,0,1.027,0l6.979-6.943a.729.729,0,0,0-.516-1.245h-4.3V8.018a.731.731,0,0,0-.729-.729H13.12A.731.731,0,0,0,12.391,8.018Z' transform='translate(30.128 30.128) rotate(-180)'/%3E%3C/svg%3E\");\n}\n.all_caught_widget h4 {\n  font-size: 1.7em;\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  margin-top: 4em;\n  color: #fff;\n  font-weight: 100;\n}\n\n/* Caught Up end */\n/* Recent Incidents */\n.incident_data .violations_inner_widget {\n  margin-top: -10px;\n}\n.incident_data .violations_inner_widget .inner_widget-top {\n  width: 92%;\n  border-radius: 10px;\n  margin: 1em 4% 0em 4%;\n  display: inline-flex;\n  overflow: hidden;\n  margin-top: 0;\n}\n.incident_data .violations_inner_widget .inner_widget-top p {\n  display: inline-block;\n  width: 100%;\n  font-size: 9px;\n  text-transform: uppercase;\n  box-sizing: border-box;\n}\n.incident_data .violations_inner_widget .inner_widget-top .inner_widget-top-lft {\n  display: inline-block;\n  width: 65%;\n  background-color: #48d1dd;\n  text-align: center;\n}\n.incident_data .violations_inner_widget .inner_widget-top .inner_widget-top-lft p {\n  text-align: right;\n}\n.incident_data .violations_inner_widget .inner_widget-top .inner_widget-top-rgt {\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  background-color: #aae271;\n  height: 40px;\n}\n.incident_data .violations_inner_widget .inner_widget-top .inner_widget-top-rgt h5 {\n  margin: 8px 0 0 0;\n  display: inline-block;\n  width: 100%;\n  font-size: 14px;\n  font-weight: unset;\n}\n.incident_data .violations_inner_widget .inner_widget-top .inner_widget-top-rgt p {\n  margin-top: 0;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall {\n  display: inline-block;\n  width: 88%;\n  overflow-x: auto;\n  overflow-y: hidden;\n  margin: 0px 6%;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub {\n  display: inline-flex;\n  max-width: 1800px;\n  min-width: 100%;\n  height: 177px;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box {\n  display: inline-block;\n  width: 160px;\n  background: #f3f3f3;\n  border-radius: 10px;\n  padding: 10px 8px;\n  box-sizing: border-box;\n  margin-left: 6px;\n  margin-top: 0.5em;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box h6 {\n  font-size: 10px;\n  width: 100%;\n  display: inline-block;\n  margin: 12px 0;\n  font-weight: unset;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box p {\n  font-size: 8px;\n  display: inline-block;\n  line-height: 13px;\n  width: 100%;\n  height: 17px;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box ul {\n  margin: -17px 0 0 0;\n  padding: 0;\n  display: inline-block;\n  width: 100%;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box ul li {\n  display: inline-block;\n  width: 100%;\n  margin-top: -6px;\n  display: flex;\n  justify-content: space-between;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box ul li label {\n  display: inline-block;\n  text-transform: uppercase;\n  font-size: 9px;\n  padding: 8px 0px;\n  margin-bottom: 0;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box ul li span {\n  font-size: 8px;\n  text-align: right;\n  float: right;\n  color: #9b3131 !important;\n  padding: 8px 0;\n  word-break: break-all;\n  width: 60%;\n  text-decoration: none;\n  font-weight: bolder;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box ul li span a {\n  color: #9b3131 !important;\n  text-decoration: none;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box:nth-child(even) {\n  background-color: rgba(227, 95, 95, 0.231372549);\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box:first-child {\n  margin-left: 0;\n}\n.incident_data .footfall-arrows {\n  position: absolute;\n  top: 65%;\n  width: 100%;\n  left: 0;\n  margin: 0;\n}\n.incident_data .footfall-arrows a.lft-arrow {\n  position: absolute;\n  left: 10px;\n  top: 0;\n  cursor: pointer;\n  font-size: 16px;\n}\n.incident_data .footfall-arrows a.rgt-arrow {\n  position: absolute;\n  right: 10px;\n  top: 0;\n  cursor: pointer;\n  font-size: 16px;\n}\n\n.footfall-arrows {\n  float: right;\n  width: 60px;\n  margin-left: 3em;\n}\n.footfall-arrows a {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1em;\n  height: 1em;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n}\n.footfall-arrows a.rgt-arrow {\n  transform: rotate(180deg);\n  margin-left: 5px;\n}\n\n/* Recent Incident End */\n.uxp-form-group .uxp-form-select {\n  min-width: 130px !important;\n}\n\n.box1 {\n  margin-left: -115px;\n  background: #0bccb2;\n  height: 16px;\n}\n\n.disabled {\n  border: 1px solid #999999;\n  background-color: #cccccc;\n  color: #666666;\n  pointer-events: none;\n  cursor: not-allowed !important;\n  opacity: 0.3;\n}\n\n.parking-weblet .action-section {\n  width: 123px;\n  margin-top: 5px;\n}\n.parking-weblet .parking_cur_month {\n  font-weight: 600;\n  color: rgba(117, 108, 108, 0.7882352941);\n  float: left;\n  font-size: 10px;\n}\n.parking-weblet .buttons {\n  float: right;\n  margin-top: -5px;\n  cursor: pointer;\n}\n.parking-weblet .buttons .parking-previous,\n.parking-weblet .buttons .parking-next {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1.2em;\n  height: 1.2em;\n  background-size: contain;\n  font-size: 15px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n}\n.parking-weblet .buttons .parking-next {\n  transform: rotate(180deg);\n  margin-left: 4px;\n}\n.parking-weblet .parkingInfo .parkingData {\n  display: flex;\n  justify-content: center;\n  padding: 8px;\n  font-size: 15px;\n  margin-top: 9px;\n}\n.parking-weblet .parkingInfo .parkingData .floorName {\n  background-color: #e0546d;\n  height: 59px;\n  width: 62px;\n  text-align: center;\n  border-radius: 15%;\n  font-size: 44px;\n  color: white;\n}\n.parking-weblet .parkingInfo .parkingData .floorName h6 {\n  margin: 13px;\n}\n.parking-weblet .parkingInfo .parkingData .floorData {\n  margin: 0px 3px 3px 11px;\n}\n.parking-weblet .parkingInfo .parkingData .floorConsumption {\n  font-size: 32px;\n  color: rgba(0, 0, 0, 0.5294117647);\n}\n.parking-weblet .parkingInfo .parkingData .floorConsumptionUnit {\n  font-size: 16px;\n  margin: 0px 0 0 3px;\n}\n.parking-weblet .parkingInfo .parkingData .parkingCostUnit {\n  font-weight: 600;\n}\n.parking-weblet .parkingInfo .parkingData .parkingPrice {\n  margin-left: 5px;\n  font-weight: 600;\n}\n.parking-weblet .parkingInfo .parkingData .indicateArrow:before {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/green-down-arrow.png);\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 15px;\n  height: 15px;\n  content: \"\";\n  position: absolute;\n  background-size: cover;\n  margin-top: -4px;\n}\n.parking-weblet .parkingInfo .parkingData .up-direction:before {\n  transform: rotate(180deg);\n}\n.parking-weblet .parkingInfo .parkingData .energyConsumed {\n  font-size: 11px;\n  color: black;\n  margin: -2px 0 0 20px;\n}\n\n.energy-consumption-per-person_widget .curr_month {\n  color: #756c6c;\n  font-size: 9px;\n  font-weight: 600;\n  margin-top: -3px;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget {\n  display: inline;\n  margin-top: 22px;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul {\n  display: inline-flex;\n  padding: 11px;\n  text-align: center;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul li {\n  display: inline-block;\n  margin: 0 1%;\n  width: 98%;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul li .person-icon {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 4em;\n  height: 4em;\n  background-size: contain;\n  background-image: url(https://static.iviva.com/images/Adani_UXP/person.png);\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul li h4 {\n  display: inline-block;\n  font-size: 24px;\n  width: 100%;\n  font-weight: 100;\n  margin: 4px 0;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul li span {\n  display: inline-block;\n  font-size: 11px;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul li p {\n  font-size: 15px;\n  margin-top: 7px;\n  width: 100%;\n  font-weight: 600;\n}\n\n.raw-backup-weblet .action-section {\n  width: 66%;\n  margin-top: -9px;\n}\n.raw-backup-weblet .RB_month {\n  font-size: 11px;\n  font-weight: 400;\n  color: #756c6c;\n  margin: 15px 0 0 0;\n  padding: 6px;\n  float: left;\n  width: 37%;\n}\n.raw-backup-weblet .raw-backup-frequency {\n  float: left;\n  margin-left: -15em;\n}\n.raw-backup-weblet .raw-backup-frequency ul {\n  display: inline-flex;\n  margin-left: 20em;\n  margin-top: 15px;\n}\n.raw-backup-weblet .raw-backup-frequency ul li {\n  padding: 2px 8px;\n  margin: 3px 2px;\n  border-radius: 18px;\n  font-size: 10px;\n  cursor: pointer;\n  font-weight: 600;\n  list-style: none;\n  height: 15px;\n}\n.raw-backup-weblet .togglebar {\n  float: right;\n  margin-top: 10px;\n  /* Toggle button */\n}\n.raw-backup-weblet .togglebar input.toggleBtn {\n  -webkit-appearance: none;\n  position: relative;\n  width: 36px;\n  height: 19px;\n  background-color: lightslategray;\n  border-radius: 50px;\n  outline: none;\n  margin-top: 5px;\n}\n.raw-backup-weblet .togglebar input.toggleBtn:before {\n  content: \"\";\n  position: absolute;\n  height: 17px;\n  width: 17px;\n  background-color: white;\n  transition: all 0.6s;\n  border-radius: 50px;\n  margin: 1px;\n}\n.raw-backup-weblet .togglebar input.toggleBtn:checked {\n  background-color: #4d81ca;\n}\n.raw-backup-weblet .togglebar input.toggleBtn:checked:before {\n  transform: translate(100%);\n  transition: all 0.6s;\n}\n\n/* Actual and basline widget start  */\n.actual-baseline-widget .actual-baseline-titlebar {\n  margin-bottom: 44px;\n}\n.actual-baseline-widget .action-section {\n  display: flex;\n  width: 62%;\n}\n.actual-baseline-widget .action-section .baseline_cur_month {\n  font-size: 11px;\n  font-weight: 400;\n  color: #756c6c;\n  margin: 7px 0 0 0;\n  padding: 6px;\n  float: left;\n}\n.actual-baseline-widget .filterInfoBaseline {\n  font-size: 11px;\n  margin: 0px 0 0 2px;\n  font-weight: 400;\n  color: #756c6c;\n}\n.actual-baseline-widget .actual-baseline-btns {\n  margin-left: -10px;\n}\n.actual-baseline-widget .actual-baseline-btns ul {\n  display: inline-flex;\n  margin-left: 20em;\n  margin-top: 4px;\n}\n.actual-baseline-widget .actual-baseline-btns ul li {\n  padding: 4px 8px;\n  margin: 3px 2px;\n  border-radius: 18px;\n  font-size: 9px;\n  font-weight: 600;\n  cursor: pointer;\n  list-style: none;\n  height: 18px;\n}\n.actual-baseline-widget .actual-baseline-btns-child {\n  padding: 3px 8px;\n  margin: 0px 2px;\n  border-radius: 18px;\n  font-size: 11px;\n  font-weight: 500;\n  cursor: pointer;\n}\n.actual-baseline-widget .baseline-widget {\n  text-align: center;\n  font-size: 11px;\n}\n.actual-baseline-widget .baseline-widget .actual {\n  padding: 5px;\n}\n.actual-baseline-widget .baseline-widget .actual b {\n  color: #f690a9;\n}\n.actual-baseline-widget .baseline-widget .baseline b {\n  color: #77b8b7;\n}\n\n/* Actual and basline widget end  */\n/* Carbon Consumption Widget Start */\n.carbon-footprint-widget .action-section {\n  width: 77%;\n}\n.carbon-footprint-widget .action-section .carbon_curr_month {\n  float: left;\n  font-size: 10px;\n  margin-top: 2px;\n}\n.carbon-footprint-widget .action-section .carbon-footprint-frequency {\n  display: flex;\n  float: right;\n}\n.carbon-footprint-widget .action-section .carbon-footprint-frequency .carbon-footprint-frequency-child {\n  padding: 3px 9px;\n  margin: 0 2px;\n  border-radius: 18px;\n  font-size: 9px;\n  font-weight: 600;\n  cursor: pointer;\n  height: 15px;\n}\n.carbon-footprint-widget .carbon-footprint-parts {\n  display: flex;\n  height: 43px;\n  margin-bottom: 20px;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list {\n  margin-left: 45px;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data {\n  display: flex;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-icon {\n  background: #535353;\n  height: 34px;\n  width: 34px;\n  display: flex;\n  justify-content: center;\n  border-radius: 50%;\n  border: 1px solid rgba(153, 153, 153, 0.3882352941);\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .power-cons-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"33\" height=\"33\" viewBox=\"0 0 33 33\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23535353;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ccircle class=\"a\" cx=\"16.5\" cy=\"16.5\" r=\"16.5\"/%3E%3Cpath class=\"b\" d=\"M7.316,1.928,2.571,8.256H7.316L4.153,14.583,15.226,6.674H8.9l4.746-4.746Z\" transform=\"translate(7.385 8.602)\"/%3E%3C/svg%3E');\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .co2-emit-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"33\" height=\"33\" viewBox=\"0 0 33 33\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23535353;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ccircle class=\"a\" cx=\"16.5\" cy=\"16.5\" r=\"16.5\"/%3E%3Cpath class=\"b\" d=\"M7.608,12.061a3.251,3.251,0,0,1,.734-2.08A3.188,3.188,0,0,1,10.2,8.817a4.046,4.046,0,0,1,6.454-2.311,3.955,3.955,0,0,1,1.428,2.22H18.3A3.258,3.258,0,0,1,20.68,9.7a3.2,3.2,0,0,1,.982,2.352,3.253,3.253,0,0,1-.305,1.4,3.377,3.377,0,0,1-.85,1.131v.025a2.07,2.07,0,0,1-.462,1.312,2.007,2.007,0,0,1-1.155.734,2.574,2.574,0,0,1-2.1,1.964,1.443,1.443,0,0,1-1.081,2.385,1.36,1.36,0,0,1-1.015-.429,1.4,1.4,0,0,1-.421-1.023,1.347,1.347,0,0,1,.083-.47h-.083a1.775,1.775,0,0,1-1.758-1.758,1.6,1.6,0,0,1,.248-.883,2.05,2.05,0,0,1-.924-1.032H10.785V15.4a3.323,3.323,0,0,1-2.253-1.048A3.184,3.184,0,0,1,7.608,12.061Zm1.155-.206a2.367,2.367,0,0,0,2.368,2.377,2.32,2.32,0,0,0,1.131-.281,2.529,2.529,0,0,0,.858,1.535,2.448,2.448,0,0,0,1.667.611,2.5,2.5,0,0,0,1.832-.759,1.591,1.591,0,0,0,1.271.586,1.691,1.691,0,0,0,1.7-1.7,2.374,2.374,0,0,0,.784-.858,2.327,2.327,0,0,0,.289-1.131,2.232,2.232,0,0,0-.7-1.667,2.349,2.349,0,0,0-1.692-.685,2.323,2.323,0,0,0-1.263.363,2.729,2.729,0,0,0,.066-.652,2.743,2.743,0,0,0-.85-2.03,2.931,2.931,0,0,0-4.06-.033,2.724,2.724,0,0,0-.883,1.956h-.14a2.3,2.3,0,0,0-1.675.693A2.276,2.276,0,0,0,8.763,11.854Z\" transform=\"translate(1.332 3.3)\"/%3E%3C/svg%3E');\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .trees-off-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"33\" height=\"33\" viewBox=\"0 0 33 33\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23535353;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ccircle class=\"a\" cx=\"16.5\" cy=\"16.5\" r=\"16.5\"/%3E%3Cpath class=\"b\" d=\"M14.215,4.221a.43.43,0,0,1-.2-.369,4.239,4.239,0,0,0-8.443,0,.432.432,0,0,1-.2.369A4.25,4.25,0,0,0,6.717,11.8a1.159,1.159,0,0,0,.738.039,1.953,1.953,0,0,0,.369-1.433,1.4,1.4,0,0,0-.657-.328A2.506,2.506,0,0,1,5.324,7.664,2.466,2.466,0,0,1,5.98,5.981a2.3,2.3,0,0,1,.614-.49,1.451,1.451,0,0,0,.738-1.272,2.357,2.357,0,0,1,.122-.778,2.5,2.5,0,0,1,4.753,0,2.357,2.357,0,0,1,.122.778,1.365,1.365,0,0,0,.739,1.264,1.722,1.722,0,0,1,.612.487,2.445,2.445,0,0,1,.657,1.682,2.485,2.485,0,0,1-2.5,2.5,2.87,2.87,0,0,0-2.869,2.859v1.633a1.528,1.528,0,0,0,.123.739,1.849,1.849,0,0,0,1.475,0,1.421,1.421,0,0,0,.126-.739V12.973A1.109,1.109,0,0,1,11.8,11.864,4.211,4.211,0,0,0,14.225,4.2l-.01.021Z\" transform=\"translate(7 8.769)\"/%3E%3C/svg%3E');\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-CostUnit {\n  margin: 0 0 0 11px;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-CostUnit .carbon-footprint-list-unit {\n  font-weight: 400;\n  font-size: 18px;\n  font-family: \"Segoe UI\", Arial, sans-serif;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-CostUnit .treesTextLabel {\n  margin: 4px 0 0 18px;\n  font-size: 10px;\n  font-weight: 700;\n  color: #5cabff;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-CostUnit .carbon-footprint-list-cost {\n  font-weight: 500;\n  font-size: 11px;\n  margin-top: 5px;\n  font-family: \"Segoe UI\", Arial, sans-serif;\n  font-weight: 400;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-CostUnit .div {\n  display: flex;\n}\n.carbon-footprint-widget .treesBar {\n  margin: -15px 0 0 0;\n  padding: 0 30px 0 37px;\n}\n.carbon-footprint-widget .treesBar .textLabelOfTrees {\n  float: left;\n  margin-left: 10px;\n}\n.carbon-footprint-widget .treesBar .textLabelOfTrees h6 {\n  font-weight: 500;\n  font-size: 11px;\n  font-family: \"Segoe UI\", Arial, sans-serif;\n}\n.carbon-footprint-widget .treesBar .progessBarOfTrees {\n  background: #dee2e6;\n  width: 62%;\n  height: 12px;\n  float: left;\n  margin: 27px 10px;\n  border-radius: 15px;\n  padding: 3px;\n}\n.carbon-footprint-widget .treesBar .progessBarOfTrees .fillBar {\n  background: #4cb6bb;\n  height: 6px;\n  border-radius: 5px;\n}\n.carbon-footprint-widget .treesBar .numOfTrees {\n  float: right;\n  font-weight: 700;\n  color: #4cb6bb;\n  font-size: 11px;\n  font-family: \"Segoe UI\", Arial, sans-serif;\n  margin-top: 22px;\n}\n\n/* Carbon Consumption Widget End */\n/* Energy Consumption Widget Start */\n.energy-consumption .action-section {\n  position: absolute;\n  margin-left: 16em;\n}\n.energy-consumption .action-section .currentDate-energy {\n  font-size: 9.5px;\n  font-weight: 400;\n}\n.energy-consumption .info {\n  display: flex;\n  margin-left: 46px;\n  margin-top: -42px;\n}\n.energy-consumption .costInfo {\n  display: flex;\n}\n.energy-consumption .costInfo h6 {\n  font-size: 11px;\n  font-weight: 700;\n}\n.energy-consumption .costInfo .energyCWTotalCost {\n  font-size: 13px;\n  font-weight: 450;\n  color: #2fb9a5;\n  font-weight: 500;\n}\n.energy-consumption .costInfo .energyCWTitleChild {\n  padding: 0 2px;\n  font-size: 13px;\n  font-weight: 450;\n  color: #2fb9a5;\n  font-weight: 500;\n}\n.energy-consumption .costInfo2 {\n  margin-left: 80px;\n}\n.energy-consumption .energy-consumption-frequency {\n  margin-left: 28em;\n  position: absolute;\n  margin-top: 17px;\n}\n.energy-consumption .energy-consumption-frequency ul {\n  display: inline-flex;\n  margin-left: 20em;\n  margin-top: 4px;\n}\n.energy-consumption .energy-consumption-frequency ul li {\n  padding: 4px 8px;\n  margin: 3px 2px;\n  border-radius: 18px;\n  font-size: 11px;\n  cursor: pointer;\n  list-style: none;\n}\n.energy-consumption .energy-consumption-frequency .energy-consumption-frequency-list {\n  padding: 4px 9px;\n  margin: 0 2px;\n  border-radius: 18px;\n  font-size: 10px;\n  font-weight: 600;\n  cursor: pointer;\n  height: 18px;\n}\n.energy-consumption .energy-consumption-Category {\n  display: flex;\n  justify-content: space-around;\n  height: 87px;\n  margin-top: -10px;\n  border-bottom: 1px solid rgba(128, 128, 128, 0.3019607843);\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-list {\n  margin-bottom: 25px;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-list .energy-consumption-listName h6 {\n  font-size: 11px;\n  font-weight: 900;\n  margin: 0px 0 5px 0px;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data {\n  display: flex;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .energy-consumption-icon {\n  background: #535353;\n  height: 38px;\n  width: 39px;\n  display: flex;\n  justify-content: center;\n  border-radius: 50%;\n  border: 1px solid rgba(153, 153, 153, 0.3882352941);\n  background-repeat: no-repeat;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .power-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"42\" height=\"42\" viewBox=\"0 0 37 37\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23535353;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ccircle class=\"a\" cx=\"16.5\" cy=\"16.5\" r=\"16.5\"/%3E%3Cpath class=\"b\" d=\"M7.316,1.928,2.571,8.256H7.316L4.153,14.583,15.226,6.674H8.9l4.746-4.746Z\" transform=\"translate(7.385 8.602)\"/%3E%3C/svg%3E');\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .gas-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"42\" height=\"42\" viewBox=\"4 -5 10 46\"%3E%3Cdefs%3E%3Cstyle%3E.a,.e%7Bfill:none;%7D.a,.c%7Bstroke:%23ffff;%7D.b%7Bfill:%23ffff;%7D.c%7Bfill:%23fff;%7D.d%7Bstroke:none;%7D%3C/style%3E%3C/defs%3E%3Cg transform=\"translate(-1461 -841)\"%3E%3Cg class=\"a\" transform=\"translate(1461 845)\"%3E%3Crect class=\"d\" width=\"14\" height=\"20\" rx=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" width=\"13\" height=\"19\" rx=\"1.5\"/%3E%3C/g%3E%3Cpath class=\"b\" d=\"M0,0H14a0,0,0,0,1,0,0V2a2,2,0,0,1-2,2H2A2,2,0,0,1,0,2V0A0,0,0,0,1,0,0Z\" transform=\"translate(1461 863)\"/%3E%3Cg class=\"c\" transform=\"translate(1464 841)\"%3E%3Cpath class=\"d\" d=\"M1,0H7A1,1,0,0,1,8,1V2A0,0,0,0,1,8,2H0A0,0,0,0,1,0,2V1A1,1,0,0,1,1,0Z\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" width=\"7\" height=\"1\" rx=\"0.5\"/%3E%3C/g%3E%3Cg class=\"c\" transform=\"translate(1464 843)\"%3E%3Crect class=\"d\" width=\"1\" height=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" height=\"1\"/%3E%3C/g%3E%3Cg class=\"c\" transform=\"translate(1471 843)\"%3E%3Crect class=\"d\" width=\"1\" height=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" height=\"1\"/%3E%3C/g%3E%3Cg class=\"c\" transform=\"translate(1467 843)\"%3E%3Crect class=\"d\" width=\"2\" height=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" width=\"1\" height=\"1\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .water-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"32.12\" height=\"35.778\" viewBox=\"-8 0 31.12 21.778\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23ffff;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M13.677,11.445c-.556,4.481-3.4,5.278-3.4,8.394a3.527,3.527,0,0,0,7.053,0c0-3.116-2.842-3.913-3.4-8.394a.132.132,0,0,0-.256,0Zm-6.533-9.8c-.556,4.481-3.4,5.277-3.4,8.394a3.526,3.526,0,0,0,7.052,0c0-3.116-2.842-3.913-3.4-8.394a.131.131,0,0,0-.255,0Zm13.067,0c-.556,4.481-3.4,5.278-3.4,8.394a3.526,3.526,0,0,0,7.052,0c0-3.116-2.842-3.913-3.4-8.394a.131.131,0,0,0-.255,0Z\" transform=\"translate(-3.746 -1.544)\"/%3E%3C/svg%3E');\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .waste-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"32.12\" height=\"35.778\" viewBox=\"-10 -1 31.12 21.778\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23ffff;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M6.5,9.219a.564.564,0,0,1-.847.6l-1.434-.9L2.425,11.793a1.128,1.128,0,0,0,.955,1.724H5.21a.422.422,0,0,1,.422.422v1.408a.422.422,0,0,1-.422.422H3.383A3.381,3.381,0,0,1,.518,10.6L2.307,7.735l-1.434-.9a.564.564,0,0,1,.172-1.026l3.88-.9a.563.563,0,0,1,.675.422l.9,3.88ZM9.966,2.78l1.453,2.326L9.985,6a.564.564,0,0,0,.172,1.026l3.88.9a.563.563,0,0,0,.675-.422l.9-3.88a.564.564,0,0,0-.847-.6l-1.432.895L11.877,1.587a3.381,3.381,0,0,0-5.731,0L5.513,2.6a.422.422,0,0,0,.134.582l1.194.746a.422.422,0,0,0,.582-.134l.632-1.012A1.128,1.128,0,0,1,9.966,2.78ZM17.5,10.6l-.969-1.551a.422.422,0,0,0-.582-.134l-1.192.745a.422.422,0,0,0-.134.582l.97,1.553a1.128,1.128,0,0,1-.955,1.723H11.264V11.828a.564.564,0,0,0-.961-.4L7.487,14.245a.563.563,0,0,0,0,.8L10.3,17.857a.564.564,0,0,0,.961-.4V15.77h3.375A3.381,3.381,0,0,0,17.5,10.6Z\" transform=\"translate(0 0)\"/%3E%3C/svg%3E');\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .energy-consumption-val-unit {\n  margin: 0px 0 0 7px;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .energy-consumption-val-unit .energy-consumption-unit {\n  font-size: 16px;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .energy-consumption-val-unit .energy-consumption-val {\n  font-weight: 900;\n  font-size: 10px;\n  margin-top: 4px;\n}\n.energy-consumption .energyMatric {\n  display: flex;\n}\n.energy-consumption .energyMatric .energy-consumption-widget {\n  margin: 15px 0 0 35px;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMatricTitle h6 {\n  font-size: 11px;\n  font-weight: 900;\n  margin: 0px;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMDropdownPart {\n  position: relative;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMDropdownPart:focus {\n  outline: none !important;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMDropdownPart .EMDropdownPartName {\n  position: absolute;\n  display: flex;\n  margin: 10px;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMDropdownPart select#EMDropdown {\n  width: 112px;\n  height: 36px;\n  border-radius: 4px;\n  background: #f79606;\n  border: none;\n  font-size: 10px;\n  font-weight: 600;\n  text-align-last: center;\n  margin-top: 5px;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMDropdownPart select#EMDropdown option.EMDropdownList {\n  background: bisque;\n  /* antiquewhite; */\n  font-size: 12px;\n  font-weight: 400;\n  text-align: center;\n  /* #f7960699; */\n}\n.energy-consumption .energyMatric .energy-consumption-widget .energy-consumption-legend .last-list {\n  margin-left: -10px;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .energy-consumption-legend .energy-consumption-legend-list {\n  display: flex;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .energy-consumption-legend .energy-consumption-legend-list .energy-consumption-legend-list-btn1 {\n  background: #f79606;\n  width: 7px;\n  height: 7px;\n  margin-top: 4px;\n  border-radius: 50%;\n  border: 1px solid #999999;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .energy-consumption-legend .energy-consumption-legend-list .energy-consumption-legend-list-btn2 {\n  background: rgba(247, 150, 6, 0.3803921569);\n  width: 7px;\n  height: 7px;\n  border-radius: 50%;\n  margin: 3px 0 0 10px;\n  border: 1px solid #999999;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .energy-consumption-legend .energy-consumption-legend-list .energy-consumption-legend-list-name {\n  font-size: 7px;\n  font-weight: bold;\n  margin: 5px 0 0 2px;\n}\n.energy-consumption .energyMatric .energy-consumption-data {\n  display: flex;\n  width: 84%;\n  justify-content: space-around;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets {\n  margin: -14px 0 0 14px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-date h6 {\n  font-size: 11px;\n  font-weight: 900;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar {\n  height: 53px;\n  width: 170px;\n  display: flex;\n  margin-top: -16px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar1 {\n  height: 59%;\n  border-top-left-radius: 12px;\n  border-bottom-left-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar11 {\n  height: 59%;\n  border-top-right-radius: 12px;\n  border-bottom-right-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar2 {\n  height: 59%;\n  border-top-left-radius: 12px;\n  border-bottom-left-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar21 {\n  height: 59%;\n  border-top-right-radius: 12px;\n  border-bottom-right-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar3 {\n  height: 59%;\n  border-top-left-radius: 12px;\n  border-bottom-left-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar31 {\n  height: 59%;\n  border-top-right-radius: 12px;\n  border-bottom-right-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .WHourProgessBar {\n  background: #f79606;\n  max-width: 70%;\n  min-width: 30%;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .NWHourProgessBar {\n  background: rgba(247, 150, 6, 0.3803921569);\n  max-width: 70%;\n  min-width: 30%;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit {\n  display: flex;\n  margin-top: -16px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .energy-consumption-legend-list-btn1 {\n  background: #f79606;\n  width: 7px;\n  height: 7px;\n  margin-top: 4px;\n  border-radius: 50%;\n  border: 1px solid #999999;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .energy-consumption-legend-list-btn2 {\n  background: rgba(247, 150, 6, 0.3803921569);\n  width: 7px;\n  height: 7px;\n  border-radius: 50%;\n  margin: 3px 0 0 10px;\n  border: 1px solid #999999;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .EMProgressBarText {\n  text-align: center;\n  /* margin-top: 8px; */\n  font-size: 9px;\n  font-weight: 900;\n  margin: 5px 0 0 3px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .WHours {\n  text-align: left;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .NWHours {\n  text-align: right;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .EMValueUnitVal {\n  font-size: 8px;\n  font-weight: 500;\n  /* width: 50%; */\n  margin-top: 5px;\n}\n\n/* Energy Consumption Widget End */\n.footfall_widget .footfall_widget-top {\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  vertical-align: top;\n  margin-top: 0.7em;\n}\n.footfall_widget .footfall_widget-top em.users {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/users.svg);\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 7em;\n  height: 6em;\n  background-size: contain;\n  margin-left: 1em;\n  margin-top: 1em;\n  display: inline-block;\n}\n.footfall_widget .footfall_widget-top h3 {\n  font-size: 2.5em;\n  position: relative;\n  display: inline-block;\n  line-height: 0.6em;\n  margin-top: 0.8em;\n  margin-left: 0em;\n  vertical-align: top;\n}\n.footfall_widget .footfall_widget-top h3 p {\n  display: inline-block;\n  font-size: 17px;\n  text-transform: uppercase;\n  width: 100%;\n  margin-left: 14px;\n}\n.footfall_widget .user-list {\n  display: inline-block;\n  margin-top: 1em;\n  margin-left: 0.5em;\n}\n.footfall_widget .user-list ul {\n  display: inline-block;\n  width: 100%;\n}\n.footfall_widget .user-list ul li {\n  display: inline-flex;\n  margin: -15px 2%;\n}\n.footfall_widget .user-list ul li .user-icon {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 3em;\n  height: 3em;\n  background-size: contain;\n  /*&.partner-user-icon{\n            background-image: url(https://static.iviva.com/images/Adani_UXP/partners-user.png);\n        }\n        &.sudexho-user-icon{\n            background-image: url(https://static.iviva.com/images/Adani_UXP/sodexo-user.png);\n        }\n        &.security-user-icon{\n            background-image: url(https://static.iviva.com/images/Adani_UXP/security-user.png);\n        }*/\n}\n.footfall_widget .user-list ul li h4 {\n  display: inline-block;\n  font-size: 1.6em;\n  line-height: 0.6em;\n  margin-left: 10%;\n  margin-top: 0.2em;\n  font-weight: unset;\n}\n.footfall_widget .user-list ul li h4 span {\n  display: inline-block;\n  font-size: 9px;\n  width: 100%;\n}\n.footfall_widget .user-list ul li:first-child {\n  width: 100%;\n  margin: 0;\n  text-align: center;\n  display: inline-block;\n  margin-bottom: 2em;\n}\n.footfall_widget .user-list ul li:first-child .user-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/users.svg);\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 10em;\n  height: 7em;\n  background-size: contain;\n  margin-left: 1em;\n  margin-top: 0em;\n  display: inline-block;\n}\n.footfall_widget .user-list ul li:first-child h4 {\n  font-size: 39px;\n  position: relative;\n  display: inline-block;\n  line-height: 0.6em;\n  margin-top: 14px;\n  font-weight: 100 !important;\n  margin-left: 0em;\n  vertical-align: top;\n  text-align: left;\n}\n.footfall_widget .user-list ul li:first-child h4 span {\n  display: inline-block;\n  font-size: 12px;\n  text-transform: uppercase;\n  width: 100%;\n  margin-left: 3px;\n}\n.footfall_widget .user-list ul li:first-child .user-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/users.svg) !important;\n}\n\n.HotDesking-widget .visitors_plan .wing_angle1 {\n  margin: 0px 0 0 0;\n}\n.HotDesking-widget .visitors_plan .wing_angle {\n  float: right;\n  margin-right: 1em;\n  position: relative;\n  margin-top: 1em;\n  float: right;\n  margin-right: 1em;\n  position: relative;\n  /* ///  DECORATION CSS ///  */\n  /* ///  END DECORATION CSS  ///  */\n  /* etiqueta <p> con la opcion selecionada  */\n}\n.HotDesking-widget .visitors_plan .wing_angle p {\n  font-size: 0.6em;\n  margin-bottom: 6px;\n}\n.HotDesking-widget .visitors_plan .wing_angle .wing_map {\n  position: absolute;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.181' height='9.361' viewBox='0 0 6.181 9.361'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.73;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.09,0a3.09,3.09,0,0,1,3.09,3.09c0,1.707-3.09,6.271-3.09,6.271S0,4.8,0,3.09A3.09,3.09,0,0,1,3.09,0Z'/%3E%3C/svg%3E\");\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  top: 10px;\n  left: 10px;\n  width: 15px;\n  height: 15px;\n}\n.HotDesking-widget .visitors_plan .wing_angle .wing_map.wing_calen {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9.729' height='8.72' viewBox='0 0 9.729 8.72'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.729;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M0,7.9a.951.951,0,0,0,1.042.818H8.687A.951.951,0,0,0,9.729,7.9V3.27H0Zm1.39-3.27a.318.318,0,0,1,.347-.273H7.992a.318.318,0,0,1,.347.273v1.09A.318.318,0,0,1,7.992,6H1.737a.318.318,0,0,1-.347-.273Zm7.3-3.543H7.644V.273A.318.318,0,0,0,7.3,0H6.6a.318.318,0,0,0-.347.273V1.09H3.475V.273A.318.318,0,0,0,3.127,0H2.432a.318.318,0,0,0-.347.273V1.09H1.042A.951.951,0,0,0,0,1.908v.818H9.729V1.908A.951.951,0,0,0,8.687,1.09Z'/%3E%3C/svg%3E\");\n}\n.HotDesking-widget .visitors_plan .wing_angle .wing_map.wing_floor {\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath d='M497,0C482.634,0,29.318,0,15,0C6.716,0,0,6.716,0,15c0,14.366,0,467.682,0,482c0,8.284,6.716,15,15,15 c14.366,0,467.682,0,482,0c8.284,0,15-6.716,15-15V166V15C512,6.716,505.284,0,497,0z M30,30h121c0,9.412,0,291.444,0,301H30V30z M331,482H30V361c9.412,0,291.444,0,301,0V482z M331,331H181V181h150V331z M482,482H361c0-9.412,0-291.444,0-301h121V482z M482,151c-9.412,0-291.444,0-301,0V30h301V151z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A\");\n  background-size: contain;\n  left: 8px;\n  top: 9px;\n  opacity: 0.6;\n  width: 12px;\n  height: 12px;\n}\n.HotDesking-widget .visitors_plan .wing_angle .dept_wing_map {\n  top: 25px;\n  left: 100px;\n}\n.HotDesking-widget .visitors_plan .wing_angle select.wings {\n  display: inline-block;\n  background: #ffffff;\n  border: none;\n  color: #424242;\n  font-size: 0.6em;\n  padding: 8px 10px 8px 20px;\n  border-radius: 15px;\n  outline: none;\n  box-sizing: border-box;\n  box-shadow: 0px 0px 3px #b9b9b9;\n}\n.HotDesking-widget .visitors_plan .wing_angle select.wings.east_wing {\n  border-radius: 5px;\n}\n.HotDesking-widget .visitors_plan .wing_angle nav {\n  width: 160px;\n  display: inline-block;\n}\n.HotDesking-widget .visitors_plan .wing_angle nav ul {\n  margin-left: 0;\n  padding-left: 0;\n  width: 100%;\n  list-style: none;\n  position: relative;\n  display: inline-table;\n}\n.HotDesking-widget .visitors_plan .wing_angle nav ul ul {\n  display: none;\n  border-radius: 0px;\n  padding: 0;\n  position: absolute;\n  top: 100%;\n  z-index: 1;\n  left: 0;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_center {\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_heg_50 {\n  position: absolute;\n  height: 50%;\n  left: 0;\n  top: 0;\n  width: 100%;\n  background-color: #fd7b52;\n}\n.HotDesking-widget .visitors_plan .wing_angle .icon_select_mate {\n  position: absolute;\n  top: 5px;\n  right: 2%;\n  font-size: 20px;\n  height: 20px;\n  transition: all 275ms;\n}\n.HotDesking-widget .visitors_plan .wing_angle .select_mate {\n  position: relative;\n  float: left;\n  min-width: 120px;\n  width: 135px;\n  min-height: 25px;\n  color: #777;\n  font-weight: 300;\n  background-color: #fff;\n  border-radius: 15px;\n  transition: all 375ms ease-in-out;\n  box-shadow: 0px 0px 3px #b9b9b9;\n}\n.HotDesking-widget .visitors_plan .wing_angle .select_mate select {\n  position: absolute;\n  overflow: hidden;\n  height: 0px;\n  opacity: 0;\n  z-index: -1;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_list_select_mate {\n  position: relative;\n  float: left;\n  width: 100%;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int {\n  position: absolute;\n  left: 0px;\n  top: 0px;\n  z-index: 999;\n  overflow: hidden;\n  height: 0px;\n  width: 100%;\n  background-color: #fff;\n  padding: 0px;\n  margin-bottom: 0px;\n  margin-top: 0px;\n  border-radius: 0px 0px 3px 3px;\n  box-shadow: 1px 4px 10px -2px rgba(0, 0, 0, 0.2);\n  transition: all 375ms ease-in-out;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li {\n  position: relative;\n  float: left;\n  width: 80%;\n  border-bottom: 1px solid #e0e0e0;\n  background-color: #ffffff;\n  list-style-type: none;\n  padding: 13px 10%;\n  margin: 0px;\n  transition: all 275ms ease-in-out;\n  display: block;\n  cursor: pointer;\n  font-size: 11px;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li .strip {\n  display: inline-block;\n  width: 3px;\n  height: 30px;\n  position: absolute;\n  left: 4px;\n  top: 2px;\n  background: #92d971;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li .strip.strip.red-strip {\n  background: #f25b5b;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li:last-child {\n  border-radius: 3px;\n  border-bottom: 0px;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li:hover {\n  background-color: #ffffff;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li:hover .strip {\n  background: #f25b5b;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int .active {\n  background-color: #ffffff;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int .active .strip {\n  background: #f25b5b;\n}\n.HotDesking-widget .visitors_plan .wing_angle .selecionado_opcion {\n  padding: 10px 10%;\n  width: 80%;\n  display: block;\n  margin: 0px;\n  cursor: pointer;\n  font-size: 11px;\n}\n.HotDesking-widget .desk-cont {\n  display: inline-block;\n  background-image: url(https://static.iviva.com/images/Adani_UXP/table.png);\n  background-position: bottom left;\n  background-repeat: no-repeat;\n  width: 100%;\n  height: 28vh;\n  margin-top: 1.2em;\n  background-size: contain;\n}\n.HotDesking-widget .desk-cont .desk-cont_value {\n  width: 24%;\n  margin-left: 5%;\n  margin-top: 4em;\n  float: left;\n}\n.HotDesking-widget .desk-cont .desk-cont_value h3 {\n  display: inline-block;\n  font-size: 2.8em;\n  position: relative;\n  font-weight: 500;\n}\n.HotDesking-widget .desk-cont .desk-cont_value h3 em {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 32px;\n  height: 25px;\n  background-size: contain;\n  position: absolute;\n  top: -15px;\n  right: -30px;\n}\n.HotDesking-widget .desk-cont .desk-cont_value p {\n  display: inline-block;\n  font-size: 0.8em;\n  text-transform: uppercase;\n}\n.HotDesking-widget .desk-cont .desk-cont_value.desk-cont_used {\n  margin-left: 40%;\n}\n.HotDesking-widget .desk-cont .desk-cont_value.desk-cont_used h3 em {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/orange-chair.png);\n}\n.HotDesking-widget .desk-cont .desk-cont_value.desk-cont_avail h3 em {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/green-chair.png);\n}\n\n.Visitor-Count-widget {\n  border-radius: 7px;\n  box-sizing: border-box;\n  position: absolute;\n  box-shadow: 0px 2px 26px rgba(0, 0, 0, 0.0901960784);\n  background-color: #5752c9;\n  flex-direction: row;\n}\n.Visitor-Count-widget .visitors_count {\n  float: left;\n  width: 20%;\n  position: relative;\n}\n.Visitor-Count-widget .visitors_count .filteroverall {\n  display: inline-block;\n  position: absolute;\n  width: 86%;\n  left: 3%;\n  top: 0;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter_sec {\n  display: inline-block;\n  margin: 1em 0 0 1em;\n  background: url(https://static.iviva.com/images/Adani_UXP/filter-icon.svg) no-repeat center center;\n  width: 0.7em;\n  height: 0.7em;\n  background-size: 40% auto;\n  background-color: #b7b7b7;\n  padding: 10px 10px;\n  border-radius: 50%;\n  cursor: pointer;\n  position: relative;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter_sec:hover {\n  background-color: #ffb857;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu {\n  background: #fff;\n  border-radius: 10px;\n  font-size: 10px;\n  padding: 2px 5px;\n  box-shadow: 0px 0px 6px #c1c1c1;\n  width: 100%;\n  position: absolute;\n  top: 42px;\n  left: 5px;\n  z-index: 1;\n  display: none;\n  min-height: 26em;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu.filter-menu-nav {\n  display: inline-block;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul {\n  margin: 0;\n  padding: 0;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul li {\n  display: inline-block;\n  padding: 0 0;\n  width: 100%;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul li:last-child {\n  border-bottom: 0px solid #d4d4d4;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul li a {\n  display: inline-block;\n  padding: 25px 6px;\n  width: 100%;\n  margin: 1px 0;\n  box-sizing: border-box;\n  border-radius: 10px;\n  text-align: center;\n  font-size: 1.3em;\n  background: #fafafa;\n  color: #424242;\n  cursor: pointer;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul li a:hover, .Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul li a.filterfootfall_active {\n  background: #ffb857;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter_menu_close {\n  display: none;\n  background-color: #433636;\n  color: #ffffff;\n  position: absolute;\n  bottom: 10px;\n  border-radius: 50%;\n  text-align: center;\n  font-family: arial;\n  cursor: pointer;\n  transform: translate(-50%, 0);\n  background-image: url(https://static.iviva.com/images/close.svg);\n  background-position: center center;\n  background-size: 44% auto;\n  filter: invert(1);\n  background-repeat: no-repeat;\n  left: 50%;\n  padding: 12px 12px;\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top {\n  width: 100%;\n  color: #fff;\n  text-align: center;\n  margin-top: 5em;\n  display: inline-block;\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top .visitors_count-no {\n  display: inline-block;\n  font-size: 3em;\n  width: 100%;\n  position: relative;\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top .visitors_count-no .visitors_icon {\n  display: inline-block;\n  background: url(https://static.iviva.com/images/Adani_UXP/visitors-icon1.svg) no-repeat 0 0;\n  width: 1.5em;\n  height: 1.5em;\n  position: absolute;\n  top: -15px;\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top p {\n  font-size: 10px;\n  display: inline-block;\n  margin-top: 0.5em;\n  text-transform: uppercase;\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top p::before {\n  content: \"\";\n  position: absolute;\n  top: -2px;\n  left: -5px;\n  width: 7px;\n  height: 10px;\n  text-align: center;\n  pointer-events: none;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100% auto;\n  padding: 3px 3px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.149' height='19.38' viewBox='0 0 22.149 19.38'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;opacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M21.743,10.15,19.786,8.193a1.384,1.384,0,0,0-.979-.405h-2.2V4.326A2.076,2.076,0,0,0,14.535,2.25H7.614A2.076,2.076,0,0,0,5.537,4.326V7.787h-2.2a1.385,1.385,0,0,0-.979.405L.405,10.15A1.384,1.384,0,0,0,0,11.129v3.579H5.537v-.692a.692.692,0,0,1,.692-.692H7.614a.692.692,0,0,1,.692.692v.692h5.537v-.692a.692.692,0,0,1,.692-.692h1.384a.692.692,0,0,1,.692.692v.692h5.537v-3.58A1.384,1.384,0,0,0,21.743,10.15Zm-7.9-2.363H8.306V5.019h5.537Zm2.769,9a.692.692,0,0,1-.692.692H14.535a.692.692,0,0,1-.692-.692v-.692H8.306v.692a.692.692,0,0,1-.692.692H6.229a.692.692,0,0,1-.692-.692v-.692H0v4.153A1.384,1.384,0,0,0,1.384,21.63h19.38a1.384,1.384,0,0,0,1.384-1.384V16.093H16.611Z' transform='translate(0 -2.25)'/%3E%3C/svg%3E\");\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top em {\n  font-size: 0.6em;\n  display: inline-block;\n  margin-top: 0.7em;\n  width: 100%;\n}\n.Visitor-Count-widget .visitors_chart .visitors_data .visitors_chart_top .visitor_chart_details ul {\n  list-style: none;\n  display: flex;\n  flex-direction: row;\n}\n.Visitor-Count-widget .visitors_chart .visitors_data .visitors_chart_top .visitor_chart_details ul li {\n  display: flex;\n  flex-direction: row;\n  margin: 15px 35px 0 28px;\n  font-size: 9px;\n}\n.Visitor-Count-widget .visitors_chart .visitors_data .visitors_chart_top .visitor_chart_details ul li h5 {\n  margin: 7px 0 0 8px;\n  font-size: 12px;\n  font-weight: 500;\n}\n.Visitor-Count-widget .visitors_chart .prev_next {\n  list-style: none;\n  margin-left: 47em;\n  margin-top: -32px;\n  width: 13%;\n}\n.Visitor-Count-widget .visitors_chart .prev_next ul {\n  display: flex;\n  flex-direction: row;\n  list-style: none;\n  padding: 0;\n}\n.Visitor-Count-widget .visitors_chart .prev_next ul li {\n  font-size: 9px;\n  margin-right: 7px;\n}\n.Visitor-Count-widget .visitors_chart .prev_next ul li a {\n  display: inline-block;\n  padding: 3px 11px;\n  background: #f1f1f1;\n  border-radius: 15px;\n  cursor: pointer;\n}\n.Visitor-Count-widget .visitors_chart .prev_next a {\n  cursor: pointer;\n}\n.Visitor-Count-widget .visitors_count-bot {\n  width: 100%;\n  display: inline-block;\n  margin-top: 7em;\n  text-align: center;\n}\n.Visitor-Count-widget .visitors_count-bot .visitors_count-bot-grey {\n  /* margin-top: 1.5em;\n    background: #f1f1f1;\n    border-radius: 5px;\n    width: 90%;\n    padding: 10px 10px;\n    box-sizing: border-box;\n    margin-left: 5%;*/\n  margin-top: 1.5em;\n  background: #f1f1f1;\n  border-radius: 5px;\n  width: 84%;\n  padding: 10px 10px;\n  box-sizing: border-box;\n  margin-left: 7%;\n  text-align: center;\n}\n.Visitor-Count-widget .visitors_count-bot p {\n  font-size: 1em;\n  color: rgba(250, 91, 91, 0.8470588235);\n  font-weight: 600;\n}\n.Visitor-Count-widget .visitors_count-bot em {\n  font-size: 9px;\n  color: rgba(250, 91, 91, 0.8470588235);\n  font-weight: 600;\n}\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-tabs,\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-data {\n  display: inline-flex;\n  padding: 0;\n}\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-tabs li,\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-data li {\n  display: inline-block;\n}\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-tabs li a,\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-data li a {\n  background: none;\n  color: #fff;\n  padding: 7px 6px;\n  font-size: 8px;\n  outline: none;\n  font-weight: 600;\n  cursor: pointer;\n}\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-tabs li a.meeting_active,\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-data li a.data_meeting_active {\n  background-color: #fff;\n  color: #424242;\n  position: relative;\n  border-radius: 12px;\n  padding: 4px 4px;\n}\n\n.Daily-Campus-Footfall-widget {\n  display: flex;\n  flex-direction: row;\n}\n.Daily-Campus-Footfall-widget .footfall-scroll-arrow {\n  /*  width: 15px;\n        background-color: #9c9c9cb3;\n        height: 93%;\n        vertical-align: top;\n        float: right;\n        border-radius: 4px;\n        margin-right: 0px;\n        position: absolute;\n        top: 10px;           \n        cursor: pointer;*/\n  width: 23px;\n  /* background-color: #9c9c9c52;*/\n  background-color: #e6e4e4;\n  box-shadow: -2px 0px 7px 0px rgba(0, 0, 0, 0.2196078431);\n  height: 93%;\n  vertical-align: top;\n  float: right;\n  border-radius: 6px;\n  margin-right: 0px;\n  position: absolute;\n  top: 15px;\n  /* right: 9px; */\n  cursor: pointer;\n}\n.Daily-Campus-Footfall-widget .footfall-scroll-arrow .footfall_arrow {\n  /* width: 0; \n              height: 0; \n              border-top: 8px solid transparent;\n              border-bottom: 8px solid transparent;\n              text-align: center;\n              border-left: 8px solid#424242;\n              position: absolute;\n              top: 50%;\n              left: 4px;\n              margin-top: -2px;*/\n  width: 0;\n  height: 0;\n  border-top: 8px solid transparent;\n  border-bottom: 8px solid transparent;\n  text-align: center;\n  border-left: 8px solid #424242;\n  position: absolute;\n  top: 50%;\n  left: 4px;\n  margin-top: -2px;\n}\n.Daily-Campus-Footfall-widget .footfall-scroll-arrow#RTLS_slide_lft {\n  height: 260px;\n  right: -35px;\n  transform: rotate(180deg);\n  z-index: 2;\n  top: 10px;\n  width: 14px;\n}\n.Daily-Campus-Footfall-widget .footfall-scroll-arrow#RTLS_slide_rgt {\n  right: 11px;\n  height: 260px;\n  z-index: 2;\n  top: 10px;\n  width: 14px;\n}\n.Daily-Campus-Footfall-widget .visitors_count {\n  float: left;\n  width: 23%;\n  position: relative;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall {\n  display: inline-block;\n  position: absolute;\n  width: 86%;\n  left: 3%;\n  top: 0;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter_sec {\n  display: inline-block;\n  margin: 1.5em 0 0 1.5em;\n  background: url(https://static.iviva.com/images/Adani_UXP/filter-icon.svg) no-repeat center center;\n  width: 2.5em;\n  height: 2.5em;\n  background-size: 40% auto;\n  background-color: #b7b7b7;\n  padding: 10px 10px;\n  border-radius: 50%;\n  cursor: pointer;\n  position: relative;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter_sec:hover {\n  background-color: #ffb857;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu {\n  display: none;\n  background: #fff;\n  border-radius: 10px;\n  font-size: 10px;\n  padding: 2px 5px;\n  box-shadow: 0px 0px 6px #c1c1c1;\n  width: 100%;\n  top: 42px;\n  left: 17px;\n  height: 21em;\n  z-index: 1;\n  min-height: unset;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul {\n  margin: 0;\n  padding: 0;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul li {\n  display: inline-block;\n  padding: 1px 0;\n  width: 100%;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul li:last-child {\n  border-bottom: 0px solid #d4d4d4;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul li a {\n  display: inline-block;\n  padding: 19px 6px;\n  width: 100%;\n  margin: 1px 0;\n  box-sizing: border-box;\n  border-radius: 10px;\n  text-align: center;\n  font-size: 1.3em;\n  background: #fafafa;\n  color: #424242;\n  cursor: pointer;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul li a:hover, .Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul li a.filterfootfall_active {\n  background: #ffb857;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter_menu_close {\n  display: flex;\n  background-color: #433636;\n  border-radius: 50%;\n  text-align: center;\n  font-family: arial;\n  cursor: pointer;\n  transform: translate(-50%, 0);\n  background-image: url(https://static.iviva.com/images/close.svg);\n  background-position: center center;\n  background-size: 44% auto;\n  filter: invert(1);\n  background-repeat: no-repeat;\n  left: 50%;\n  padding: 12px 12px;\n}\n.Daily-Campus-Footfall-widget .visitors_count .wing_angle {\n  left: 58%;\n  position: absolute;\n  top: 7%;\n}\n.Daily-Campus-Footfall-widget .visitors_count .wing_angle .footfall_wrapper .wing_map {\n  position: absolute;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.181' height='9.361' viewBox='0 0 6.181 9.361'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.73;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.09,0a3.09,3.09,0,0,1,3.09,3.09c0,1.707-3.09,6.271-3.09,6.271S0,4.8,0,3.09A3.09,3.09,0,0,1,3.09,0Z'/%3E%3C/svg%3E\");\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  top: 7px;\n  left: 10px;\n  width: 15px;\n  height: 15px;\n}\n.Daily-Campus-Footfall-widget .visitors_count .wing_angle .footfall_wrapper select.dropdown_footfall {\n  display: inline-block;\n  background: #ffffff;\n  border: none;\n  color: #424242;\n  font-size: 0.6em;\n  padding: 5px 25px 4px 20px;\n  height: 22px;\n  border-radius: 15px;\n  outline: none;\n  box-sizing: border-box;\n  box-shadow: 0px 0px 3px #b9b9b9;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata {\n  top: 21%;\n  position: absolute;\n  text-align: center;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec {\n  position: relative;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-top {\n  width: 100%;\n  color: #fff;\n  text-align: center;\n  margin-top: 3em;\n  display: inline-block;\n  left: 3px;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-top .visitors_count-no {\n  display: inline-block;\n  font-size: 40px;\n  width: 100%;\n  position: relative;\n  font-weight: 100;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-top .visitors_count-no .visitors_icon {\n  display: inline-block;\n  background: url(https://static.iviva.com/images/Adani_UXP/visitors-icon1.svg) no-repeat 0 0;\n  width: 0.5em;\n  height: 0.5em;\n  position: absolute;\n  top: -15px;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-top p {\n  font-size: 1.3em;\n  width: 100%;\n  font-weight: 400;\n  display: inline-block;\n  text-transform: uppercase;\n  color: black;\n  margin: 5px 0;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-top em {\n  font-size: 8px;\n  display: inline-block;\n  margin-top: 0.3em;\n  width: 100%;\n  font-style: normal;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-bot {\n  width: 91%;\n  display: inline-block;\n  text-align: center;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-bot-grey {\n  margin-top: 1.5em;\n  background: #f1f1f1;\n  border-radius: 5px;\n  padding: 10px 10px;\n  box-sizing: border-box;\n  margin-left: 7%;\n  text-align: center;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-bot-grey p {\n  font-size: 1em;\n  color: rgba(250, 91, 91, 0.8470588235);\n  font-weight: 600;\n  margin: 0px 0 3px 0;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-bot-grey em {\n  font-size: 9px;\n  color: rgba(250, 91, 91, 0.8470588235);\n  font-weight: 600;\n  font-style: normal;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-tabs,\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-data {\n  display: inline-flex;\n  padding: 0;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-tabs li,\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-data li {\n  display: inline-block;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-tabs li a,\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-data li a {\n  background: none;\n  color: #fff;\n  padding: 7px 6px;\n  font-size: 8px;\n  outline: none;\n  font-weight: 600;\n  cursor: pointer;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-tabs li a.meeting_active,\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-data li a.data_meeting_active {\n  background-color: #fff;\n  color: #424242;\n  position: relative;\n  border-radius: 12px;\n  padding: 4px 4px;\n}\n.Daily-Campus-Footfall-widget .floor_details {\n  display: inline-block;\n  width: 77%;\n  overflow: auto;\n  margin-top: 5px;\n  min-height: 17em;\n  margin-left: 3.7em;\n  height: 97%;\n  margin-right: 2em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont {\n  display: inline-block;\n  width: auto;\n  max-width: 130%;\n  min-width: 100%;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .floor-thead-time {\n  display: inline-block;\n  padding: 3px 0px;\n  width: 64px;\n  text-align: center;\n  font-size: 10px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .floor-thead-time.time-txt {\n  width: 56px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .footfall_data-header {\n  position: sticky;\n  top: 0px;\n  background: #ffffff;\n  z-index: 2;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .footfall_data-header ul {\n  margin: 0;\n  padding: 0;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .floor-no {\n  display: inline-block;\n  padding: 0;\n  width: 51px;\n  text-align: center;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul {\n  display: inline-flex;\n  width: 100%;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li {\n  display: inline-block;\n  font-size: 12px;\n  padding: 7px 3px;\n  background-color: #fff;\n  box-sizing: border-box;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data {\n  display: inline-block;\n  padding: 9px 0px;\n  background: rgba(66, 66, 66, 0.1803921569);\n  border-radius: 100px;\n  font-size: 10px;\n  width: 63.5px;\n  color: #424242;\n  font-weight: bold;\n  position: relative;\n  text-align: center;\n  cursor: pointer;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.table-txt {\n  background: transparent;\n  color: #f25b5b;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.table-txt .steps_mark_red {\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 7px;\n  height: 10px;\n  display: inline-block;\n  margin-right: 1px;\n  position: relative;\n  top: 1px;\n  background-size: 100% auto;\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"15.986\" height=\"22.416\" viewBox=\"0 0 15.986 22.416\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23F25B5B;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M11.757,3.856c-1.879,0-3.4,2.509-3.4,5.6a49.058,49.058,0,0,0,.851,6.368c.333,2.209,1.143,4.039,2.552,4.039s2.354-1.221,2.354-3.452c0-.76-.625-1.97-.652-3-.051-1.863,1.249-2.606,1.249-4.328,0-3.095-1.072-5.229-2.95-5.229Zm9.181,6.4c-1.879,0-2.95,2.134-2.95,5.229,0,1.722,1.3,2.465,1.249,4.328-.028,1.033-.652,2.243-.652,3,0,2.231.944,3.452,2.354,3.452s2.219-1.831,2.552-4.039a49.057,49.057,0,0,0,.851-6.368C24.34,12.77,22.817,10.261,20.938,10.261Z\" transform=\"translate(-8.355 -3.856)\"/%3E%3C/svg%3E');\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.optimal, .Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.Optimal {\n  background: #92d971;\n  color: #424242;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.Acceptable {\n  background: #49f2aa;\n  color: #424242;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.OverLoaded {\n  background: #ffb550;\n  color: #424242;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.grey-box_data {\n  background: #dddddd;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.NA {\n  background: rgba(66, 66, 66, 0.1803921569);\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.noData {\n  background: rgba(66, 66, 66, 0.1803921569);\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.unacceptable {\n  background: #f25b5b;\n  color: #ffffff;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.Severely {\n  background: #faf11a;\n  color: #424242;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.UnderLoaded {\n  background: rgba(113, 217, 174, 0.4509803922);\n  color: #424242;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data .steps_mark {\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 8px;\n  height: 9px;\n  display: inline-block;\n  margin-right: 2px;\n  position: relative;\n  top: 1px;\n  filter: invert(1);\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data .steps_mark.steps_mark_white {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.256' height='8.772' viewBox='0 0 6.256 8.772'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;opacity:0.63;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M9.686,3.856c-.735,0-1.332.982-1.332,2.193a19.2,19.2,0,0,0,.333,2.492c.13.864.447,1.581,1,1.581s.921-.478.921-1.351c0-.3-.244-.771-.255-1.175-.02-.729.489-1.02.489-1.694,0-1.211-.419-2.046-1.155-2.046Zm3.593,2.506c-.735,0-1.155.835-1.155,2.046,0,.674.509.965.489,1.694-.011.4-.255.878-.255,1.175,0,.873.37,1.351.921,1.351s.868-.716,1-1.581a19.2,19.2,0,0,0,.333-2.492C14.611,7.344,14.015,6.362,13.279,6.362Z' transform='translate(-8.355 -3.856)'/%3E%3C/svg%3E\");\n  background-size: 100%;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data .steps_mark.steps_mark_grey {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.256' height='8.772' viewBox='0 0 6.256 8.772'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23a2a2a2;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M9.686,3.856c-.735,0-1.332.982-1.332,2.193a19.2,19.2,0,0,0,.333,2.492c.13.864.447,1.581,1,1.581s.921-.478.921-1.351c0-.3-.244-.771-.255-1.175-.02-.729.489-1.02.489-1.694,0-1.211-.419-2.046-1.155-2.046Zm3.593,2.506c-.735,0-1.155.835-1.155,2.046,0,.674.509.965.489,1.694-.011.4-.255.878-.255,1.175,0,.873.37,1.351.921,1.351s.868-.716,1-1.581a19.2,19.2,0,0,0,.333-2.492C14.611,7.344,14.015,6.362,13.279,6.362Z' transform='translate(-8.355 -3.856)'/%3E%3C/svg%3E\");\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data .tooltip {\n  display: none;\n  position: absolute;\n  bottom: -17px;\n  left: 10px;\n  background: #ffffff;\n  padding: 5px 10px;\n  border: 1px solid #d5d5d5;\n  font-size: 11px;\n  z-index: 1;\n  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2784313725);\n  color: #424242;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  white-space: nowrap;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data:hover .tooltip {\n  display: block;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow {\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1.2em;\n  height: 1.2em;\n  display: inline-block;\n  border-radius: 50%;\n  text-align: center;\n  margin-right: 4px;\n  position: relative;\n  top: 2px;\n  padding: 1px;\n  background-size: 50% auto;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.WithinRange {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80px' height='80px' viewBox='0 0 5.449 6.787'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.01,7.372,5.325,9.687a.407.407,0,0,1,0,.577l-.385.385a.407.407,0,0,1-.577,0L2.721,9.009,1.08,10.65a.407.407,0,0,1-.577,0l-.386-.385a.407.407,0,0,1,0-.577L2.432,7.373A.407.407,0,0,1,3.01,7.372ZM2.432,4.1.116,6.418A.407.407,0,0,0,.116,7L.5,7.38a.407.407,0,0,0,.577,0L2.719,5.739,4.36,7.38a.407.407,0,0,0,.577,0L5.322,7a.407.407,0,0,0,0-.577L3.007,4.1A.4.4,0,0,0,2.432,4.1Z' transform='translate(0.004 -3.983)'/%3E%3C/svg%3E\");\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.WithoutRange {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.449' height='6.787' viewBox='0 0 5.449 6.787'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.01,7.372,5.325,9.687a.407.407,0,0,1,0,.577l-.385.385a.407.407,0,0,1-.577,0L2.721,9.009,1.08,10.65a.407.407,0,0,1-.577,0l-.386-.385a.407.407,0,0,1,0-.577L2.432,7.373A.407.407,0,0,1,3.01,7.372ZM2.432,4.1.116,6.418A.407.407,0,0,0,.116,7L.5,7.38a.407.407,0,0,0,.577,0L2.719,5.739,4.36,7.38a.407.407,0,0,0,.577,0L5.322,7a.407.407,0,0,0,0-.577L3.007,4.1A.4.4,0,0,0,2.432,4.1Z' transform='translate(0.004 -3.983)'/%3E%3C/svg%3E\");\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.noData {\n  background-image: url(\"data:image/svg+xml,%3Csvg height='365pt' viewBox='0 0 365.71733 365' width='365pt' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff'%3E%3Cpath d='m356.339844 296.347656-286.613282-286.613281c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503906-12.5 32.769532 0 45.25l286.613281 286.613282c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082032c12.523438-12.480468 12.523438-32.75.019532-45.25zm0 0'/%3E%3Cpath d='m295.988281 9.734375-286.613281 286.613281c-12.5 12.5-12.5 32.769532 0 45.25l15.082031 15.082032c12.503907 12.5 32.769531 12.5 45.25 0l286.632813-286.59375c12.503906-12.5 12.503906-32.765626 0-45.246094l-15.082032-15.082032c-12.5-12.523437-32.765624-12.523437-45.269531-.023437zm0 0'/%3E%3C/g%3E%3C/svg%3E\");\n  background-size: 50% auto;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.Up {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.449' height='6.787' viewBox='0 0 5.449 6.787'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.01,7.372,5.325,9.687a.407.407,0,0,1,0,.577l-.385.385a.407.407,0,0,1-.577,0L2.721,9.009,1.08,10.65a.407.407,0,0,1-.577,0l-.386-.385a.407.407,0,0,1,0-.577L2.432,7.373A.407.407,0,0,1,3.01,7.372ZM2.432,4.1.116,6.418A.407.407,0,0,0,.116,7L.5,7.38a.407.407,0,0,0,.577,0L2.719,5.739,4.36,7.38a.407.407,0,0,0,.577,0L5.322,7a.407.407,0,0,0,0-.577L3.007,4.1A.4.4,0,0,0,2.432,4.1Z' transform='translate(0.004 -3.983)'/%3E%3C/svg%3E\");\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.Down {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.449' height='6.787' viewBox='0 0 5.449 6.787'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.01,7.372,5.325,9.687a.407.407,0,0,1,0,.577l-.385.385a.407.407,0,0,1-.577,0L2.721,9.009,1.08,10.65a.407.407,0,0,1-.577,0l-.386-.385a.407.407,0,0,1,0-.577L2.432,7.373A.407.407,0,0,1,3.01,7.372ZM2.432,4.1.116,6.418A.407.407,0,0,0,.116,7L.5,7.38a.407.407,0,0,0,.577,0L2.719,5.739,4.36,7.38a.407.407,0,0,0,.577,0L5.322,7a.407.407,0,0,0,0-.577L3.007,4.1A.4.4,0,0,0,2.432,4.1Z' transform='translate(0.004 -3.983)'/%3E%3C/svg%3E\");\n  transform: rotate(180deg);\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.Cross {\n  background-image: url(\"data:image/svg+xml,%3Csvg height='365pt' viewBox='0 0 365.71733 365' width='365pt' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff'%3E%3Cpath d='m356.339844 296.347656-286.613282-286.613281c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503906-12.5 32.769532 0 45.25l286.613281 286.613282c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082032c12.523438-12.480468 12.523438-32.75.019532-45.25zm0 0'/%3E%3Cpath d='m295.988281 9.734375-286.613281 286.613281c-12.5 12.5-12.5 32.769532 0 45.25l15.082031 15.082032c12.503907 12.5 32.769531 12.5 45.25 0l286.632813-286.59375c12.503906-12.5 12.503906-32.765626 0-45.246094l-15.082032-15.082032c-12.5-12.523437-32.765624-12.523437-45.269531-.023437zm0 0'/%3E%3C/g%3E%3C/svg%3E\");\n  background-size: 50% auto;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li h3 {\n  display: inline-block;\n  font-size: 9px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .footfall_data ul {\n  margin: 0;\n  padding: 0;\n  height: 36px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .footfall_data ul li:first-child {\n  position: sticky;\n  left: 0;\n  z-index: 1;\n  background: #fff;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor {\n  display: block;\n  width: 83%;\n  margin-top: 6em;\n  text-align: center;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor {\n  float: left;\n  width: 26%;\n  margin-top: 3.5em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p {\n  font-size: 12px;\n  width: 46%;\n  position: relative;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p span.floor_arrow {\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1.2em;\n  height: 1.2em;\n  display: inline-block;\n  border-radius: 50%;\n  text-align: center;\n  margin-right: 3px;\n  position: relative;\n  top: 2px;\n  padding: 1px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p span.floor_arrow.floor_up_arrow {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.449' height='6.787' viewBox='0 0 5.449 6.787'%3E%3Cpath d='M3.01,7.372,5.325,9.687a.407.407,0,0,1,0,.577l-.385.385a.407.407,0,0,1-.577,0L2.721,9.009,1.08,10.65a.407.407,0,0,1-.577,0l-.386-.385a.407.407,0,0,1,0-.577L2.432,7.373A.407.407,0,0,1,3.01,7.372ZM2.432,4.1.116,6.418A.407.407,0,0,0,.116,7L.5,7.38a.407.407,0,0,0,.577,0L2.719,5.739,4.36,7.38a.407.407,0,0,0,.577,0L5.322,7a.407.407,0,0,0,0-.577L3.007,4.1A.4.4,0,0,0,2.432,4.1Z' transform='translate(0.004 -3.983)'/%3E%3C/svg%3E\");\n  background-color: #92d971;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p a {\n  width: 0;\n  height: 0;\n  position: absolute;\n  left: 34px;\n  cursor: pointer;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p a.floor_up-arrow {\n  border-bottom: 5px solid #424242;\n  border-left: 5px solid transparent;\n  border-right: 5px solid transparent;\n  top: -15px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p a.floor_down-arrow {\n  border-top: 5px solid #424242;\n  border-left: 5px solid transparent;\n  border-right: 5px solid transparent;\n  bottom: -15px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section {\n  float: left;\n  width: 74%;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont {\n  display: inline-block;\n  vertical-align: top;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont h3 {\n  display: inline-block;\n  width: 3.2em;\n  text-align: center;\n  padding: 1em 0em;\n  border-radius: 10px;\n  color: #424242;\n  font-size: 2em;\n  position: relative;\n  min-height: 1.1em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont h3 em {\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 10px;\n  height: 16px;\n  display: inline-block;\n  margin-right: 1px;\n  position: absolute;\n  top: 15px;\n  background-size: 100% auto;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.256' height='8.772' viewBox='0 0 6.256 8.772'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23a2a2a2;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M9.686,3.856c-.735,0-1.332.982-1.332,2.193a19.2,19.2,0,0,0,.333,2.492c.13.864.447,1.581,1,1.581s.921-.478.921-1.351c0-.3-.244-.771-.255-1.175-.02-.729.489-1.02.489-1.694,0-1.211-.419-2.046-1.155-2.046Zm3.593,2.506c-.735,0-1.155.835-1.155,2.046,0,.674.509.965.489,1.694-.011.4-.255.878-.255,1.175,0,.873.37,1.351.921,1.351s.868-.716,1-1.581a19.2,19.2,0,0,0,.333-2.492C14.611,7.344,14.015,6.362,13.279,6.362Z' transform='translate(-8.355 -3.856)'/%3E%3C/svg%3E\");\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont p {\n  display: inline-block;\n  font-size: 15px;\n  vertical-align: top;\n  padding-top: 2.5em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont.floor-section-lft h3 {\n  background-color: #ffcc98;\n  margin-left: 1em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont.floor-section-rgt h3 {\n  background-color: #b6e59f;\n  margin-right: 1em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor.diffetent_view .floor p a.floor_up-arrow {\n  border-bottom: 7px solid #424242;\n  border-left: 7px solid transparent;\n  border-right: 7px solid transparent;\n  top: -15px;\n  left: 33px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor.diffetent_view .floor p a.floor_down-arrow {\n  border-top: 7px solid #424242;\n  border-left: 7px solid transparent;\n  border-right: 7px solid transparent;\n  bottom: -15px;\n  left: 33px;\n}\n.Daily-Campus-Footfall-widget .meet_room_top {\n  display: inline-block;\n  width: 100%;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab {\n  display: inline-block;\n  width: 100%;\n  margin-left: 10px;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .tab {\n  overflow: hidden;\n  height: auto;\n  font-size: 12px;\n  padding: 0;\n  line-height: normal;\n  margin-top: 1em;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .tab button {\n  padding: 4px 10px;\n  display: inline-block;\n  text-align: center;\n  box-sizing: border-box;\n  font-size: 11px;\n  font-weight: 900;\n  font-family: inherit;\n  border: 0px;\n  color: #424242;\n  cursor: pointer;\n  background: transparent;\n  outline: none;\n  border-radius: 20px;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .tab button:hover {\n  background-color: #424242;\n  color: #fff;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .tab .active {\n  background-color: #424242;\n  color: #fff;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .prev_next {\n  float: right;\n  margin-left: 0;\n  margin-right: 1em;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .prev_next ul li a {\n  background: none;\n  color: rgba(36, 35, 35, 0.4588235294);\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .prev_next ul li:last-child a {\n  color: #242323;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .tabcontent {\n  display: none;\n  width: 100%;\n}", ""]);
+exports.push([module.i, ".list-container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  background-color: white;\n  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12);\n  border-radius: 10px;\n  overflow: hidden;\n  padding-top: 60px;\n}\n.list-container .header {\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 60px;\n  padding: 8px 15px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  border-bottom: 1px solid #ccc;\n}\n.list-container .header .title {\n  width: auto;\n  height: auto;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 12px;\n  font-weight: 500;\n}\n.list-container .header .title .icon {\n  width: 30px;\n  height: 30px;\n  background-color: transparent;\n  background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjMuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxOC41IDE4LjEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE4LjUgMTguMTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiM3NTc1NzU7fQoJLnN0MXtmaWxsOiNGRkZGRkY7fQoJLnN0MntmaWxsOiM0MjQyNDI7fQo8L3N0eWxlPgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjgzLjE4NyAtNDA5Ljg3KSI+Cgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjgzLjIsNDE1djEzaDEzdi02LjdsLTEuOSwxLjl2M0gyODV2LTkuM2g2LjdsMS45LTEuOUgyODMuMnogTTI5Ni4yLDQxNWwtNS42LDUuNmwtMS45LTEuOWwtMS45LDEuOWwzLjcsMy43CgkJbDcuNC03LjRMMjk2LjIsNDE1eiIvPgoJPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEgLTIpIj4KCQk8Y2lyY2xlIGNsYXNzPSJzdDEiIGN4PSIyOTcuMSIgY3k9IjQxNi41IiByPSI0LjUiLz4KCQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNMjk3LjQsNDExLjljLTIuOCwwLTUuMSwyLjMtNS4xLDUuMXMyLjMsNS4xLDUuMSw1LjFzNS4xLTIuMyw1LjEtNS4xbDAsMAoJCQlDMzAyLjUsNDE0LjEsMzAwLjIsNDExLjksMjk3LjQsNDExLjl6IE0yOTcuOSw0MTkuNWgtMXYtMWgxVjQxOS41eiBNMjk3LjksNDE3LjVoLTF2LTMuMWgxVjQxNy41eiIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo=\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 60%;\n  margin-right: 10px;\n}\n.list-container .header .title .text {\n  text-transform: uppercase;\n}\n.list-container .header .title .text span {\n  width: auto;\n  height: auto;\n  padding: 6px 15px;\n  border-radius: 50px;\n  margin-left: 80px;\n}\n.list-container .header .title .text span.high {\n  background-color: #ec4b7b;\n  color: white;\n}\n.list-container .header .title .text span.low {\n  background-color: #707070;\n  color: white;\n}\n.list-container .header .title .taskcount {\n  width: auto;\n  height: auto;\n  padding: 6px 15px;\n  border-radius: 50px;\n  margin-left: 80px;\n  background-color: #c0ac53;\n  color: white;\n}\n.list-container .header .title .totalcount {\n  width: auto;\n  height: auto;\n  padding: 6px 15px;\n  border-radius: 50px;\n  margin-left: 80px;\n  background-color: #ec4b7b;\n  color: white;\n  font-size: 14px;\n}\n.list-container .body {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  padding: 0px;\n}\n.list-container .body .data-list-item:nth-child(odd) {\n  background-color: #f8f8f8;\n}\n.list-container .body .list-thumbnail {\n  width: 100%;\n  height: auto;\n  display: flex;\n  justify-content: space-between;\n  padding: 10px;\n}\n.list-container .body .list-thumbnail .left {\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n}\n.list-container .body .list-thumbnail .left .details * {\n  color: #424242;\n  padding: 3px 5px;\n}\n.list-container .body .list-thumbnail .left .details .ref {\n  font-weight: 900;\n  font-size: 14px;\n}\n.list-container .body .list-thumbnail .left .details .user-name {\n  color: #424242;\n  font-size: 12px;\n}\n.list-container .body .list-thumbnail .left .details .type {\n  color: #424242;\n  font-weight: 900;\n  font-size: 14px;\n}\n.list-container .body .list-thumbnail .right {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n.list-container .body .list-thumbnail .right .status {\n  width: auto;\n  height: auto;\n  border-radius: 50px;\n  padding: 5px 15px;\n  background-color: #f8f8f8;\n  font-size: 10px;\n  margin-bottom: 5px;\n  font-weight: 800;\n}\n.list-container .body .list-thumbnail .right .status.pending {\n  background-color: rgba(255, 206, 101, 0.5019607843);\n}\n.list-container .body .list-thumbnail .right .status.review {\n  background-color: #ffce65;\n}\n.list-container .body .list-thumbnail .right .status.new {\n  background-color: #ee3939;\n}\n.list-container .body .list-thumbnail .right .status.await {\n  background-color: #51b456;\n}\n.list-container .body .list-thumbnail .right .status.approval {\n  background-color: #e674d6;\n}\n.list-container .body .list-thumbnail .right .date {\n  font-size: 10px;\n  font-weight: 800;\n}\n\n.icons .title-section .title-icon {\n  opacity: 0.7;\n  height: 16px;\n  width: 16px;\n}\n\n.data-grid-column {\n  padding: 0px 5px;\n  border: none !important;\n}\n.data-grid-column:nth-child(2) .stat-tile {\n  background-color: #f2fef9;\n}\n.data-grid-column:nth-child(3) .stat-tile {\n  background-color: #f2fef9;\n}\n.data-grid-column:nth-child(4) .stat-tile {\n  background-color: #e6eef9;\n}\n\n.stat-tile {\n  width: 100%;\n  height: 109px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  padding: 20px;\n  border-radius: 10px;\n  background-color: #faf8f1;\n  font-size: 10px;\n}\n.stat-tile .top {\n  width: 100%;\n  flex-grow: 0;\n  flex-shrink: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n.stat-tile .top .title {\n  position: relative;\n  padding: 6px 0px;\n  text-transform: uppercase;\n  font-weight: 900;\n  font-size: 9px;\n}\n.stat-tile .top .title:before {\n  content: \"\";\n  width: 15px;\n  height: 15px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  position: absolute;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n}\n.stat-tile .top .count {\n  position: relative;\n  padding: 6px 0;\n  font-size: 20px;\n}\n.stat-tile .bottom {\n  width: 100%;\n  height: 20%;\n  flex-grow: 0;\n  flex-shrink: 0;\n  display: flex;\n  justify-content: space-between;\n}\n.stat-tile .bottom .percentage {\n  font-size: 10px;\n  display: flex;\n  align-items: center;\n}\n.stat-tile .bottom .percentage .icon-bg {\n  width: auto;\n  height: auto;\n  border-radius: 20px;\n  margin-left: 10px;\n  padding: 2px;\n}\n.stat-tile .bottom .percentage .icon-bg .icon-placeholder {\n  background-color: transparent;\n  width: 12px;\n  height: 12px;\n}\n.stat-tile .bottom .percentage .icon-bg .icon-placeholder .icon {\n  width: 100%;\n  height: 100%;\n  background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24iIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPgogIDxwYXRoIGQ9Ik04NjggNTQ1LjVMNTM2LjEgMTYzYTMxLjk2IDMxLjk2IDAgMCAwLTQ4LjMgMEwxNTYgNTQ1LjVhNy45NyA3Ljk3IDAgMCAwIDYgMTMuMmg4MWM0LjYgMCA5LTIgMTIuMS01LjVMNDc0IDMwMC45Vjg2NGMwIDQuNCAzLjYgOCA4IDhoNjBjNC40IDAgOC0zLjYgOC04VjMwMC45bDIxOC45IDI1Mi4zYzMgMy41IDcuNCA1LjUgMTIuMSA1LjVoODFjNi44IDAgMTAuNS04IDYtMTMuMnoiLz4KPC9zdmc+Cg==\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: saturate(100%) brightness(0%) invert(100%);\n}\n.stat-tile .bottom .percentage .icon-bg.up {\n  background-color: #52c4c9;\n}\n.stat-tile .bottom .percentage .icon-bg.down {\n  background-color: #db7a7a;\n}\n.stat-tile .bottom .percentage .icon-bg.down .icon {\n  transform: rotate(180deg);\n}\n.stat-tile .bottom .stat-btn {\n  margin: 0;\n}\n\n.incident-widget .incident-tool-bar {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.incident-widget .incident-tool-bar .incident-tb-label {\n  margin-right: 20px;\n}\n.incident-widget .body {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  padding: 15px;\n  justify-content: space-between;\n}\n.incident-widget .body .incident-tile {\n  background-color: #f8f8f8;\n  min-width: 200px;\n  border-radius: 10px;\n  padding: 10px;\n}\n.incident-widget .body .incident-tile .top {\n  width: 100%;\n  height: 20%;\n  flex-grow: 0;\n  flex-shrink: 0;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.incident-widget .body .incident-tile .top .count {\n  font-size: 20px;\n}\n.incident-widget .body .incident-tile .top .count span {\n  font-size: 12px;\n  color: gray;\n}\n.incident-widget .body .incident-tile .top .percentage {\n  font-size: 10px;\n  display: flex;\n  align-items: center;\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg {\n  width: auto;\n  height: auto;\n  border-radius: 20px;\n  margin-left: 10px;\n  padding: 2px;\n  background-color: #52c4c9;\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg .icon-placeholder {\n  background-color: transparent;\n  width: 12px;\n  height: 12px;\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg .icon-placeholder .icon {\n  width: 100%;\n  height: 100%;\n  background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24iIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPgogIDxwYXRoIGQ9Ik04NjggNTQ1LjVMNTM2LjEgMTYzYTMxLjk2IDMxLjk2IDAgMCAwLTQ4LjMgMEwxNTYgNTQ1LjVhNy45NyA3Ljk3IDAgMCAwIDYgMTMuMmg4MWM0LjYgMCA5LTIgMTIuMS01LjVMNDc0IDMwMC45Vjg2NGMwIDQuNCAzLjYgOCA4IDhoNjBjNC40IDAgOC0zLjYgOC04VjMwMC45bDIxOC45IDI1Mi4zYzMgMy41IDcuNCA1LjUgMTIuMSA1LjVoODFjNi44IDAgMTAuNS04IDYtMTMuMnoiLz4KPC9zdmc+Cg==\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: saturate(100%) brightness(0%) invert(100%);\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg.up {\n  background-color: #52c4c9;\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg.down {\n  background-color: #db7a7a;\n}\n.incident-widget .body .incident-tile .top .percentage .icon-bg.down .icon {\n  transform: rotate(180deg);\n}\n.incident-widget .body .incident-tile .bottom {\n  width: 100%;\n  height: 80%;\n  flex-grow: 0;\n  flex-shrink: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.incident-widget .body .incident-tile .bottom .layers-container {\n  background-color: transparent;\n  margin-bottom: 20px;\n}\n.incident-widget .body .incident-tile .bottom .layers-container .layers {\n  width: 60px;\n  height: 60px;\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHRpdGxlPmlvbmljb25zLXY1LWE8L3RpdGxlPjxwYXRoIGQ9Ik0yNTYsMjU2Yy0xMy40NywwLTI2Ljk0LTIuMzktMzcuNDQtNy4xN2wtMTQ4LTY3LjQ5QzYzLjc5LDE3OC4yNiw0OCwxNjkuMjUsNDgsMTUyLjI0czE1Ljc5LTI2LDIyLjU4LTI5LjEyTDIxOS44Niw1NS4wNWMyMC41Ny05LjQsNTEuNjEtOS40LDcyLjE5LDBsMTQ5LjM3LDY4LjA3YzYuNzksMy4wOSwyMi41OCwxMi4xLDIyLjU4LDI5LjEycy0xNS43OSwyNi0yMi41OCwyOS4xMWwtMTQ4LDY3LjQ4QzI4Mi45NCwyNTMuNjEsMjY5LjQ3LDI1NiwyNTYsMjU2Wk00MzIuNzYsMTU1LjE0aDBaIi8+PHBhdGggZD0iTTQ0MS4zNiwyMjYuODEsNDI2LjI3LDIyMCwzODcuNSwyMzcuNzRsLTk0LDQzYy0xMC41LDQuOC0yNCw3LjE5LTM3LjQ0LDcuMTlzLTI2LjkzLTIuMzktMzcuNDItNy4xOWwtOTQuMDctNDNMODUuNzksMjIwbC0xNS4yMiw2Ljg0QzYzLjc5LDIyOS45Myw0OCwyMzksNDgsMjU2czE1Ljc5LDI2LjA4LDIyLjU2LDI5LjE3bDE0OCw2Ny42M0MyMjksMzU3LjYsMjQyLjQ5LDM2MCwyNTYsMzYwczI2Ljk0LTIuNCwzNy40NC03LjE5TDQ0MS4zMSwyODUuMkM0NDguMTIsMjgyLjExLDQ2NCwyNzMuMDksNDY0LDI1NlM0NDguMjMsMjI5LjkzLDQ0MS4zNiwyMjYuODFaIi8+PHBhdGggZD0iTTQ0MS4zNiwzMzAuOCw0MjYuMjcsMzI0LDM4Ny41LDM0MS43M2wtOTQsNDIuOTVjLTEwLjUsNC43OC0yNCw3LjE4LTM3LjQ0LDcuMThzLTI2LjkzLTIuMzktMzcuNDItNy4xOGwtOTQuMDctNDNMODUuNzksMzI0bC0xNS4yMiw2Ljg0QzYzLjc5LDMzMy45Myw0OCwzNDMsNDgsMzYwczE1Ljc5LDI2LjA3LDIyLjU2LDI5LjE1bDE0OCw2Ny41OUMyMjksNDYxLjUyLDI0Mi41NCw0NjQsMjU2LDQ2NHMyNi44OC0yLjQ4LDM3LjM4LTcuMjdsMTQ3LjkyLTY3LjU3QzQ0OC4xMiwzODYuMDgsNDY0LDM3Ny4wNiw0NjQsMzYwUzQ0OC4yMywzMzMuOTMsNDQxLjM2LDMzMC44WiIvPjwvc3ZnPg==\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  filter: saturate(100%) brightness(0%) invert(79%) sepia(8%) saturate(2573%) hue-rotate(111deg) brightness(92%) contrast(77%);\n}\n.incident-widget .body .incident-tile .bottom .label {\n  font-size: 18px;\n}\n\n.discomfort-zones .tool-bar {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.discomfort-zones .body {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  padding: 20px;\n}\n.discomfort-zones .body .list {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  border-radius: 10px;\n  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.12);\n  position: relative;\n}\n.discomfort-zones .body .list .content-block {\n  overflow: auto;\n  padding: 0;\n  position: absolute;\n  top: 60px;\n  left: 0;\n  right: 0;\n  bottom: 0;\n}\n.discomfort-zones .body .list .title-row {\n  width: 100%;\n  height: auto;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 10px;\n  background-color: white;\n}\n.discomfort-zones .body .list .title-row.content {\n  padding: 15px 0px;\n}\n.discomfort-zones .body .list .title-row .cell {\n  flex-grow: 0;\n  flex-shrink: 0;\n  padding: 5px;\n}\n.discomfort-zones .body .list .title-row .cell.large {\n  width: 50%;\n}\n.discomfort-zones .body .list .title-row .cell.small {\n  width: 16%;\n}\n.discomfort-zones .body .list .title-row .cell span {\n  padding: 10px 20px;\n  background-color: #f8f8f8;\n  border-radius: 10px;\n}\n\n.total-tasks .toolbar {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.total-tasks .toolbar .legend {\n  display: flex;\n  align-items: center;\n  margin-right: 15px;\n}\n.total-tasks .toolbar .legend .legend-item {\n  position: relative;\n  padding: 10px 10px 10px 30px;\n  margin: 1px;\n}\n.total-tasks .toolbar .legend .legend-item:before {\n  content: \"\";\n  width: 10px;\n  height: 10px;\n  border-radius: 10px;\n  position: absolute;\n  top: 50%;\n  left: 10px;\n  transform: translateY(-50%);\n}\n.total-tasks .toolbar .legend .legend-item:nth-child(1):before {\n  background-color: #ffce65;\n}\n.total-tasks .toolbar .legend .legend-item:nth-child(2):before {\n  background-color: #20ebcc;\n}\n.total-tasks .toolbar .legend .legend-item:nth-child(3):before {\n  background-color: #d090ff;\n}\n.total-tasks .toolbar .navigation {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.total-tasks .toolbar .navigation .button {\n  width: 30px;\n  height: 30px;\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItY2hldnJvbi1sZWZ0Ij48cG9seWxpbmUgcG9pbnRzPSIxNSAxOCA5IDEyIDE1IDYiPjwvcG9seWxpbmU+PC9zdmc+\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n}\n.total-tasks .toolbar .navigation .button.prev {\n  margin-right: 20px;\n  filter: invert(94%) sepia(0%) saturate(0%) hue-rotate(193deg) brightness(93%) contrast(79%);\n}\n.total-tasks .toolbar .navigation .button.next {\n  transform: rotate(180deg);\n}\n.total-tasks .body {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  padding: 10px 0;\n}\n\n.link-btn-widget-cont > .link {\n  width: 100%;\n  height: 100%;\n  text-decoration: none;\n}\n.link-btn-widget-cont > .link .icon-container {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n.link-btn-widget-cont > .link .icon-container img {\n  width: 40%;\n  height: 40%;\n  object-fit: contain;\n}\n.link-btn-widget-cont > .link .icon-container .text {\n  width: 90%;\n  height: auto;\n  text-align: center;\n  padding: 10px;\n  margin-top: 10px;\n}\n\n.tablelist {\n  width: 100%;\n  height: 100%;\n  overflow: false;\n  float: left;\n  table-layout: fixed;\n}\n.tablelist .tablelisttd {\n  padding: 10px;\n  margin: 5px;\n  width: 25%;\n}\n\n.map-body {\n  height: 100%;\n  width: 100%;\n  margin-top: 4%;\n  margin-left: 12%;\n  position: absolute;\n}\n\n.markerpopup {\n  height: 60px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.markerpopup .workrequest {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.markerpopup .workrequest .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 103.24 125.63'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23424242;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 8%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpath class='cls-1' d='M79.91,18.13H98V120.39H5.24V18.13H23.79a2.62,2.62,0,1,0,0-5.24H2.62A2.63,2.63,0,0,0,0,15.51V123a2.63,2.63,0,0,0,2.62,2.62h98a2.63,2.63,0,0,0,2.62-2.62V15.51a2.63,2.63,0,0,0-2.62-2.62H79.91a2.62,2.62,0,1,0,0,5.24Z'/%3E%3Cpath class='cls-1' d='M59,8.91H57a4.88,4.88,0,1,1-1.43-3.46A4.89,4.89,0,0,1,57,8.91h4a8.92,8.92,0,1,0-8.91,8.92A8.91,8.91,0,0,0,61,8.91Z'/%3E%3Cpath class='cls-1' d='M59.66,11.53h4.66l8.77,10.72h-21a2.62,2.62,0,1,0,0,5.23H78.62a2.61,2.61,0,0,0,2-4.27l-13-15.95a2.62,2.62,0,0,0-2-1h-5.9a2.62,2.62,0,1,0,0,5.23Z'/%3E%3Cpath class='cls-1' d='M44.08,6.3h-5.9a2.62,2.62,0,0,0-2,1l-13.06,16a2.61,2.61,0,0,0,2,4.27H51.66a2.62,2.62,0,1,0,0-5.23h-21l8.77-10.72h4.66a2.62,2.62,0,0,0,0-5.23Z'/%3E%3Cpath class='cls-1' d='M30.53,56.06V54.47H24.21V49.74h4.73v6.32h1.59v0h1.59V48.15a1.6,1.6,0,0,0-1.59-1.59H22.62A1.59,1.59,0,0,0,21,48.15v7.91a1.57,1.57,0,0,0,1.59,1.59h7.91a1.54,1.54,0,0,0,1.12-.47,1.57,1.57,0,0,0,.47-1.12Z'/%3E%3Cpath class='cls-1' d='M38.44,52.9H75.62a1.59,1.59,0,1,0,0-3.17H38.44a1.59,1.59,0,1,0,0,3.17'/%3E%3Cpath class='cls-1' d='M30.53,77.46V75.87H24.21V71.14h4.73v6.32h1.59v0h1.59V69.55a1.6,1.6,0,0,0-.47-1.12A1.57,1.57,0,0,0,30.53,68H22.62a1.61,1.61,0,0,0-1.13.47A1.63,1.63,0,0,0,21,69.55v7.91a1.57,1.57,0,0,0,1.59,1.59h7.91a1.59,1.59,0,0,0,1.59-1.59Z'/%3E%3Cpath class='cls-1' d='M38.44,74.31H75.62a1.59,1.59,0,0,0,0-3.18H38.44a1.59,1.59,0,1,0,0,3.18'/%3E%3Crect class='cls-1' x='22.62' y='92.96' width='7.91' height='7.91'/%3E%3Cpath class='cls-1' d='M30.53,100.87V99.28H24.21V94.55h4.73v6.32h1.59v0h1.59V93a1.59,1.59,0,0,0-1.59-1.59H22.62A1.57,1.57,0,0,0,21,93v7.91a1.59,1.59,0,0,0,1.59,1.59h7.91a1.6,1.6,0,0,0,1.59-1.59Z'/%3E%3Cpath class='cls-1' d='M38.44,97.71H75.62a1.59,1.59,0,0,0,0-3.18H38.44a1.59,1.59,0,0,0,0,3.18'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n}\n.markerpopup .alarm {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.markerpopup .alarm .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.23' height='12.553' viewBox='0 0 12.23 12.553'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M18.852,15.267c-.589-.777-1.748-1.232-1.748-4.71,0-3.57-1.576-5-3.046-5.349-.138-.034-.237-.08-.237-.226V4.872A.938.938,0,0,0,12.9,3.93h-.023a.938.938,0,0,0-.918.941v.111c0,.142-.1.191-.237.226-1.473.348-3.046,1.779-3.046,5.349,0,3.478-1.159,3.929-1.748,4.71a.759.759,0,0,0,.608,1.217H18.255A.76.76,0,0,0,18.852,15.267Zm-1.492.222H8.437a.168.168,0,0,1-.126-.279,4.635,4.635,0,0,0,.8-1.278,8.67,8.67,0,0,0,.547-3.375,5.868,5.868,0,0,1,.8-3.321A2.455,2.455,0,0,1,11.942,6.18a1.341,1.341,0,0,0,.712-.4.3.3,0,0,1,.455-.008,1.386,1.386,0,0,0,.719.409,2.455,2.455,0,0,1,1.481,1.056,5.868,5.868,0,0,1,.8,3.321,8.67,8.67,0,0,0,.547,3.375,4.688,4.688,0,0,0,.823,1.3A.158.158,0,0,1,17.359,15.489Z' transform='translate(-6.775 -3.93)'/%3E%3C/svg%3E\");\n}\n.markerpopup .incident {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.markerpopup .incident .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AABSY0lEQVR42u2dB7gkVZm/v+o+Fbpu375p8jAzTIAhDMwAEgYGHAUFxbwYUdecwVVXBXWVVTD/VUy4gophV8ywiqtgAiWsARdBMYAJyUlymvB/znBqLIaZ7rr3Vn8V+q3nOc8+Mt3v3fp+59Tv66pT3yfCwcHBwcHBwTHZ45BD1nqHHLK2kRoePHjw4MGDB69avMn+8eaWAx48ePDgwYNXLd5ksw5zyCFr/dQwU80+4MGDBw8ePHj6vKn8cfsHg9Twp3ky8ODBgwcPHjxF3lT+eHjIIWuj1AineTLw4MGDBw8ePEXeVP64/YOt1IimeTLw4MGDBw8ePEVewsz6Qbu7MD7kkLVDqWH/d2OKfxgePHjw4MGDp8/z3KbBRtY/bv9gOzWGpnky8ODBgwcPHjxdXrKBsHcCkPrjndRoT/Nk2vDgwYMHDx48VZ6XemugewLgPhyn/h8Ycf93OieTcEbgwYMHDx48eCq8ZANhkEoAvG4fjlK3HjoEGx48ePDgwaskL3lrYHMC0CtTaG3x7IFgw4MHDx48eNXixam3BmwCYHo9I4hSCcAQwYYHDx48ePAqx0s8PEkA/G63/o3LEJIEICbY8ODBgwcPXuV46bcGWl2LBrlNAX4qAYgINjx48ODBg1dJXieVAES9Nv2lE4DplCtEPHjw4MGDB69YXpIAxF393H2pmXpHEPOHBw8ePHjwqsvrZNrDl0oADOYPDx48ePDgVZ7Xnky53ybmDw8ePHjw4A0Qb5odhQg2PHjw4MGDV3EewYEHDx48ePAwf4IDDx48ePDgYf4EGx48ePDgwcP8CTY8ePDgwYOH+cODBw8ePHjwMH948ODBgwcPXhnNP/PbfwQbHjx48ODBqwUvKf2fuUhQm2DDgwcPHjx4lTd/kykBSPUT7hBsePDgwYMHr9Lmn/T76Z4AuA/H7td/h2DDgwcPHjx4lTX/0HX79buW/ncfjtyv/3aqtzDBhgcPHjx48KrFi9zYnAD0yhRaqQSgTbDhwYMHDx68yvFi5+dJAmB6PSOIUgnAEMGGBw8ePHjwKsdLPDxJAPxut/6NyxCSBCAm2PDgwYMHD17leMnd+yQBCLuZf9NlB0HqeQHBhgcPHjx48KrH66QSgKjXpr90AhBmrhJEsOHBgwcPHryy8ZIEIO7q5+5LzdQ7gpg/PHjw4MGDV11eJ9MevlQCYDB/ePDgwYMHr/K89mTK/TYxf3jw4MGDB2+AeFM1foINDx48ePDg1YNHcODBgwcPHjzMn+DAg1cTni39+UQROVlELvI870pjzOW+738/iqK3zZkze1fiBw8e5k9w4MGrF+8IEblCRDba4XneRmOaG40xqdG83/O8T4vIBPGDBw/zJzjw4FWbF4vIaYnxdzH/Tf/dfeZ6EXkk8YMHD/Mn2PDgVZM3LiL/O0nzT8Z9IvJs9IAHD/Mn2PDgVe+X/wVTNP9krBORJ6EHPHj1NP/Mb/8RbHjwKsX7yjTNPxl3i8hK9IAHr1a8pPR/5iJBbYIND14leC/NyfyTcZm7o4Ae8ODVw/xNpgQg1U+4Q7DhwSs9bzsRuSNH80/G+9EDHrxamH/S76d7AuA+HLtf/x2CDQ9e6Xmn9cH87bi/2WyuQA948Cpt/qHr9ut3Lf3vPhy5X//tVG9hgg0PXjl5B/TJ/Dd9z/f976EHPHiV5UVubE4AemUKrVQC0CbY8OCVmveTfpl/whseHn48esCDVzle7Pw8SQBMr2cEUSoBGCLY8OCVmve4fpu/Hb7v/wI94MGrFC/x8CQB8Lvd+jcuQ0gSgJhgw4NXap79/CX9Nv+E12g0nooe8OBVgpfcvU8SgLCb+TdddhCknhcQbHjwys17rpb5O97vRMSgBzx4ped1UglA1GvTXzoBCDNXCSLY8OAVxQs9z/uzovkn46XoAQ9e6XlJAhB39XP3pWbqHUHMHx68kvM8z3tNAeZvx9Xp4kDoAQ9eKXmdTHv4UgmAwfzhwSs/L45bI8aYGwsw/2Qcix7w4JWa155Mud8m5g8PXjV4YRi8u0Dzt+PvruMgesCDV2XeVI2fYMODp8+bP3/uEmPMHQWa/4NKBKMvPHj14BEcePBKzgvD4D9KYP523CMiC9AXHjzMn2DDg9dn3qxZM1caY+4rgfkn4zPoCw8e5k+w4cHrMy8Igi+XyPztWN9sNndDX3jwMH948OD1iTc2NnqAMWZDicw/aRR0JvrCg4f5w4MHr0+8IPDPKpv5J7yRkc6h6AsPHuYPDx68nHmdzvDhZTV/1yjoQvSFB6865p/57T+CDQ9esTzfNz8rq/mnGgU9EX3hwSs9Lyn9n7lIUJtgw4NXDC+O42eV3fwd71LXnRB94cErr/mbTAlAqp9wh2DDg6fP22+/vcc8z/tNBcw/Gc9DX3jwSmv+Sb+f7gmA+3Dsfv13CDY8ePo8z/NeWCHzt+Mvtksh+sKDVzrzD123X79r6X/34cj9+m+negsTbHjwlHgjIx3bce/KCpl/Ml6HvvDglYoXubE5AeiVKbRSCUCbYMODp8771wqavx03icgI+sKDVwpe7Pw8SQBMr2cEUSoBGCLY8OCp80ackVbN/JNxAvrCg1c4L/HwJAHwu936Ny5DSBKAmGDDg1cI750VNn877hSRuegLD15hvOTufZIAhN3Mv+mygyD1vIBgw4Onz5vrDLSq5p+MT6AvPHiF8TqpBCDqtekvnQCEmasEEWx48PLmnVQD87fjfmOaO6EvPHiF8JIEIO7q5+5LzdQ7gpg/PHjF8HawxlkD808aBZ2OvvDgFcLrZNrDl0oADOYPD16hvC/VxfwT3ujoyCPQFx48dV57MuV+m5g/PHiF8vYSkQ11Mn/XKOgc9IUHr6S8qRo/wYYHL1fe2XUz/1SjoMegLzx4tAiGBw/eQ4+D62r+jvdLEfGYL/DgYf7w4MH7x2GN8Wc1Nv9kPJP5Ag8e5g8PHrx/HE8dAPO34woR8Zkv8OBh/vDgwROxdbl/PwDmn4xXMV/gwcP84cGDJ/LSATJ/O64TkTbzBR48zB8evEHmtUTk6gEy/2S8jfkCD16x5p/57T+CDQ9eX3jHDKD523GbiMxkvsCDVwgvKf2fuUhQm2DDg5crb0xEbhlA80/GicwXePAKMX+TKQFI9RPuEGx48HLlvXeAzd+Oe40xS5kv8OCpmn/S76d7AuA+HLtf/x2CDQ9ebrztROTuATb/Td8LAv9LzBd48NTMP3Tdfv2upf/dhyP367+d6i1MsOHBmz7vlEE3f8fbMDY2egDzBR68vvMiNzYnAL0yhVYqAWgTbHjwcuHtJCLrCjLrc0Xk9SKyVkR2EZE9ReTJIvJhEbm2iGQiCPyzmS/w4PWVFzs/TxIA0+sZQZRKAIYINjx4ufG+VoD5n+PMvtsRisjLROTmAhoFPZL5Ag9eX3iJhycJgN/t1r9xGUKSAMQEGx683Hj7KpvrOs/z/mWSTXjmiMgPle9MXMh8gQcvd15y9z5JAMJu5t902UGQel5AsOHBy4/3Qz3zN3c1Go3Dp3K+M2dOhHaDnvIegqcwX+DBy5XXSSUAUa9Nf+kEIMxcJYhgw4OX5ThM8Zf//Y1G4wnTOd/Vq/cZDwL/W4obCH8rIk3mCzx4ufGSBCDu6ufuS83UO4KYPzx4+fHsevql4m31o/M4391333W2MeZixbcHXsx8gQcvN14n0x6+VAJgMH948HLnPVPR/M/I83yNadq3Fu5QenXwKtcfgfkHD970ee3JlPttYv7w4OXO8z3Pu1zJ/G9J19jP8XyPVqwbcAzzDx48Rd5UjZ9gw4PX496/571KcTf90X06X/ts/ldKRYNucX0SmH/w4CnzCA48eDnxhoaGho0x1ymZ/2UiYvp4vo9QrBj4XuYfPHiYPzx4leWFYXi84qt0T1E43+8olQu+2/f9hcw/ePAwf3jwKsdbsGD+YmPMbUrmf6HS+a4SkQ1KjYI+x/yDBw/zhwevcrwwDD+mWERnreL5/pdSr4B1ExPj+zD/4MHD/OHBqwxvzpzZK4wx9yiZ//8on+8SEblPqVHQmcw/ePAwf3jwKsMLguC/lMx/g7str32+H1FsFLSG+QcPXv7mn/ntP4IND1423vj42GpjzHql8rn/VcT5BkEwxxhzh2ILY+YfPHj58ZLS/5mLBLUJNjx4vXlB4P+Pkvnb2/BLizrfKArfrbjH4XHMP3jwcjN/kykBSPUT7hBsePC680ZGOocqmb8dHy3yfHfccdl2xpgblM73EhFpMP/gwZu2+Sf9fronAO7Dsfv13yHY8OB15/m+OV/J/G1t/tlFn28UhW9QbBT0XOYfPHjTMv/Qdfv1u5b+dx+O3K//dqq3MMGGB28rvKGh+GmKZvj2MsRvfHwsEpE/KjUK+rOIhMw/ePCmxIvc2JwA9MoUWqkEoE2w4cHbOm/Nmv1GPc+7RMn8bxCRTonid6Rio6DXMP/gwZs0L3Z+niQAptczgiiVAAwRbHjwts1rNLx/VjL/rZpgwfGztxF/qdQo6MZ08sP8gwevJy/x8CQB8Lvd+jcuQ0gSgJhgw4PX8zb4n5XM/y8lvQ1+mGKjoOOZf/DgZeIld++TBCDsZv5Nlx0EqecFBBsevO68VyuZvx3/XOL4/VCpUdCdQeDPY/7Bg9eT10klAFGvTX/pBCDMXCWIYMMbXN6wiFyvZP5bfRWuRPHbR8H8XaOg4BTmHzx4PXlJAhB39XP3pWbqHUHMHx683rx/V9wA9/gKxO+rSo2C7p85c8aezD948LryOpn28KUSAIP5w4OXiTdLRG5XMv+fVCR+y0VknU6joODrzGd48Lry2pMp99vE/OHBy8z7iJL527GmQvH7pFKjoA3NZnNv5jM8eNPkTdX4CTa8AeUtTlriKpj/N6sUP9/3bYngu5QaBX2P+QwPHi2C4cHT5H1ByfzXi8iKqsUvDMMPKDYKehTzGR48zB8ePA3eShHZoPTe+2erGL8lS7ZfaIy5WalR0C9cMSLmMzx4mD88eH3lfVvJ/O8RkUVVjV8UhW9W7I3wDOYzPHiYPzx4/eQ9XLHi3QerHL+RkU4sIn9VKpJ0ud1+wHyGBw/zhwevX7wLlMz/NhGZUYP4vUCxTsIrmM/w4GH+8OD1g/ckJfO34601iZ9tOfprpQ2T14rIEPMZHrzMTI/gwIPXm2eN7DdK5n9dHMedGsXviYqPTf6N+QwPXm/jd3V/MhcJahNseAPMe4GS+dvvHVXD+J2nFL/bwjCYxXyGB6+r+ZtMCUCqn3CHYMMbUJ5t93ulkvlfsddeq8ZrqMcaxUZBH2M+w4O3TfNP+v10TwDch2P3679DsOENKO9ftcyr1Wq9sMZ6fFOpUdC9s2fP2o35DA/eQ/w8dN1+/a6l/92HI/frv53qLUyw4Q0Sb0REbtIwf2PMJWvXrhmtsR4rXGVDjUZBpzGf4cF7EC9yY3MC0CtTaKUSgDbBhjeAvBN0zL+5sd1uHzEAepyq1ChofbPZXMl8hgdvEy92fp4kAKbXM4IolQAMEWx4A8ibKyJ3api/7/s/GQQ9fN9sb4y5R6lR0JnMZ3jwNnt4kgD43W79G5chJAlATLDhDSjvJKVn1htHR0cOHhQ9wjD8mGKjoIOYz/AGmJfcvU8SgLCb+TdddhCknhcQbHiDyNtBRO7XMP8g8L85SHosWrRwsTHmNqVGQRcwn+ENMK+TSgCiXpv+0glAmLlKEMGGVz/elzTM3xizbsaMib0HTY8wDN+u2CjoycxneAPKSxKAuKufuy81U+8IYv7wBpW3Z9LuV2G3+ucHUY92e6gtItcoNQq6zFVyZH3AGzReJ9MevlQCYDB/eAPOO0vD/I0xd8+ePWunAdbjZYqNgl7I+oA3gLz2ZMr9NjF/eAPOO1jJ/O2v/xMHXA/7KtLvlRoF2UqOLdYHPHhbB0zJ+Ak2vBrx7Br4mc576ubWMAxnoIc8TbFR0BtYH/Dg5XgQbHg14j1VqUiN/e9vQo9/JF1KjYJujqJwgvUBDx7mDw9e+jCe5/1OyfyvFpEYPR782EWpUdAHWR/w4GH+8OD942eo571Uyfztv78UPR5ynKVUdOnuefPm7Mz6gAcP84cHT4aH20PGmKuVzP/3bvMbejz42EPx1cvPsj7gwSM48OA1wjB8m5L5b3Sb3tBj68cXlfZgrDOmuQvrAx7mT3DgDTBv0aIFC40xf1cy/5+7TW/osZXDGLODMc37lJKxr7M+4A26+Wd++49gw6sjLwzDExUb0xyCHr30CD6pqMd+6AFvQHlJ6f/MRYLaBBtenXh2M5jdFKZkNmejR2/edtvN38EYc6dSo6Bz0APegJq/yZQApPoJdwg2vDrx7GYwJfO3m9v2Qo9svDAM3qPYKOix6AFvwMw/6ffTPQFwH47dr/8OwYZXF57twGc78Sn90vwyemTnxXFrRESuV2oUdLGINNAD3oCYf+i6/fpdS/+7D0fu13871VuYYMOrPC8Igv9WMv/7RWQH9Jg079WKjYKegx7wBoAXubE5AeiVKbRSCUCbYMOrA290dORgJfO34xNFnO9+++09NjExvu/Q0NCzW63o2DAMj/c87wQROT7DeIeIHCMizxORA+I47hSgbyAif1JqFPQn9/dYH/DqyoudnycJgOn1jCBKJQBDBBteXXi+75+rZP53ishcxfONGo3G033f/++cX21c5/v+/0ZR9NZ58+bupKjvsxUbBb2a9QGvprzEw5MEwO9269+4DCFJAGKCDa8uvHZ76MmKG8zeqXS+w/YXu+d5N2gU0fE87wsiskxB34Z7Rq/RKOiGVqs1ynqDVzNecvc+SQDCbubfdNlBkHpeQLDh1YK3du2aEc/zfqlk/jeJyIjC+T5JRP6m2MUw+cx9LsEJ+6zvY7UaBdm3D1hv8GrG66QSgKjXpr90AhBmrhJEsOFVgNdoNJ6lZP52vL7P52uN9ySN2vk9eDahWtxnfX+k1CjoTluHgPUGr0a8JAGIu/q5+1Iz9Y4g5g+vNryZMyesYV6uZP5X2ufxfTzf4cQUCzb/zbfPReRhfTzffRXMf9MIw+Bk1hu8GvE6mfbwpRIAg/nDqyHvlUpmaMcL+3i+sYicVyLzT8bfRWRVH/X9utL52l4EO7De4NWE155Mud8m5g+vhrwhEblWyQx/IyLNPp2v/ezXSmj+ybgqeesh/0ZBzV0e6OKncr5fZL3BGyjeVI2fYMOrAO8timb45D6e79ElNv9kfH/p0sWmH/r+o3Rz38/Xlm7ek/UGT2gRTHDgVZo3Q0RuVTLDC/p4vktF5J6Sm/+m70VR9C/90PcfzZtUzvcs1hs8zJ/gwKs27wOKZvjwPp7v16pg/o5389Klixf0qVHQBxTP92DWGzzMn+DAqyZvof3VrGSG/9PH811RIfPfNKIoens/9I2iaFxEblY635+JiMd6g4f5E2x41eOdqmSGG9I74PM+X8/zPlkl83fjqgUL5vt90vcNiuf7NNYbPMyfYMOrFm9XEVmvZIb/2a/ztfULjDG3VMv8N/Me2Sd9I1drQeN8f29fQmC9wcP8CTa86vDOUDJDWxJ3Sb/Ot91uH15R89/o9l/0S98XKp7vy1hv8Opo/pnf/iPY8CrEO0DRHD7Sz/ONovAdFTV/O37ex/nSdDUXNM73mqGhoWHWG7wa8ZLS/5mLBLUJNryK8H6sZIa3i8isfp5vEAT/XVHzt+PerRVFynG+PEmvUVD4dtYbvBqZv8mUAKT6CXcINrwK8B6naIZv7/f5+r5/UUXNPxnb9Xm+nK90vrctWrRwMesNXg3MP+n30z0BcB+O3a//DsGGV3Ke/e+/0uofH8etkX6frzHmygqb/8Yt+wP0Yb4cpNcoKPwY6w1exc0/dN1+/a6l/92HI/frv53qLUyw4ZWV9xxFM3yNxvl6nve3Cpu/HfspzJdvKb3aeI/vm+1Zb/Aqyovc2JwA9MoUWqkEoE2w4ZWYF4jIn5TM8M+7777rDKXzvbLC5m/HXv2eL81mc6UxzfVK53sq6w1eBXmx8/MkATC9nhFEqQRgiGDDKznv1Vpm2Gq1Xqp4vr+tsPnbsVxjvgRBcJrS+draEitYb/AqxEs8PEkA/G63/o3LEJIEICbY8ErOGxaR63XM0Fx64IGrxxTP9+cVNn875mvMl9mzZ62wt+iVzvebrF94FeEld++TBCDsZv5Nlx0EqecFBBte2Xn/rmWG7fbQM5TP90cVNn87RrTmSxAEH1M83zWsX3gV4HVSCUDUa9NfOgEIM1cJItjwiuPNcu/j990Mfd+/sIDz/VaFzd+OptZ8CcNg1mRaP0/zfM9j/cKrAC9JAOKufu6+1Ey9I4j5w6sC78NaZjgy0jm0gPP9YoXN/64C5stbFM/3iaxfeCXndTLt4UslAAbzh1cR3mJXba7vZhgE/v8UdL4nV9T87feuL2C+DNnSvUrn++t0pUPWL7wS8tqTKffbxPzhVYj3BSUzXD8+Pra6oPP9YEXN3zL+XNB8eYXi+b6A9Quv8rypGj/BhlcQb6WIbNAwwyAI/qvA831HNc1/056JSwuaL/Yd5z8one+VIyOdmPULry48ggOvCrxvK5nhPbNmzdi1wPN9YxXN33JSmyaLmC9P1zrfKArfzPqFh/kTbHg6vIO0zNC+Wlbw+b6iiubvEoDvFzhfvC1rKPTxfG9esmT7haxfeJg/wYbXf94FSrXfb3OvlhV5vs+tovm7BOCMgufLIYqNgj7A+oWH+cOD11/ekxTN8K0lON+nVNH8He9zJYjf2UrJ4l2+72/H+oWH+cOD1x9e0/O83yiZ17XulbJC49doNA6rqPnbf/9o0fFrNpt7G9PcoHS+n2T9wsP84cHrA8/zvBcqmtcryxC/Tmf4URU1fzveXYb5FwTB15TOd92WzY9Yv/DKbP6Z3/4j2PCK5NlXrYwxf1MyrytExC9D/MbHxw6oqPlvdFX5Cp9/M2fO2MMYc59S/L7K+oVXAV5S+j9zkaA2wYZXFM++aqVoXs8qS/xmzZq5e0XN345/Kcv8C4LgFMX47cv6hVdy8zeZEoBUP+EOwYZXBG/x4kXb2VetlMzrl+4VslLEb+HC7ZZW1PzteGFZ5l8QBHNF5A6l+P2Q9QuvxOaf9PvpngC4D8fu13+HYMMrgheG4fsVzeuwMsVvl12Wz6qo+W90xXjKNP/eoRi/w1i/8Epo/qHr9ut3Lf3vPhy5X//tVG9hgg1PjTd//tzl9hUrJfP6Ydnit3LlCttsZn0Fzd+Ow0s2/zoicoNS/P4vfSeJ6wG8EvAiNzYnAL0yhVYqAWgTbHjavDAMPqVoXvuWNH63VtD87Xh4CeffvyjG70iuB/BKwoudnycJgOn1jCBKJQBDBBueNs/t3r5fyby+XuL4XVVB87djrxLOv1BE/qwUvz+Oj49FXA/gFcxLPDxJAPxut/6NyxCSBCAm2PCK4D3w/raKedn3t3cqcfx+W0Hzt2PHks6/5yo2CnoD1wN4BfKSu/dJAhB2M/+myw6C1PMCgg1PnTc2NnqQreCmZF6nlDx+P6+g+dsxr6Tzz37mV0rxu2HHHZdtx/UAXkG8TioBiHpt+ksnAGHmKkEEG17OPN/3f6BkXneLyHYlj9+PKmj+G92mu7LOv8O14hdF4bu5HsAriJckAHFXP3dfaqbeEcT84RXCa7eHHq9oXu+tQPy+VUHzt6NZ8vl3jlKjoDuCIJjD9QBeAbxOpj18qQTAYP7wiuR5nvczJfO6RUTGKhC/0ypo/neWff41m439FeP3Ea4H8ArgtSdT7reJ+cMrktdoNJ6qaF7HVCR+p1TM/O33rqvC/AsC/1tK8btPRJZwPYBXSt5UjZ9gw8uLN2fO7EBEfqdkXvbVulZF4vfBipm/ZfypCvNvYmJ8H2PMOqX4/SfXA3i0CIYHb+u8lyia10srFL93VMv8mxt937+0KvMvCPzPKsVvg4is4noAD/OHB+/BvNZkCt5M07zsXQZTofi9sUrmbzm+719Ylfnn+/5C9zaIRvy+w/UAHuYPD96DeccomtdTKxa/V1bJ/O0IAv97FZt/71WM3yO4HsDD/OHBe+AYczvyNS6+P9uy3W/Z49doeM+rkvm7OwCnV2w+Z56DOcTvp1wP4GH+8OA9cLxH0bwOrlr84jg+skrm73ifreB8fqNi/I7gegAP84c36Lz5InKXknmdXcX4DQ+3n1wx87f//tEKzme7D+VvSvH7nX3rhesBvCLNP/PbfwQbXp94JyuZ14Z0d7oqxW9kpPPoipm/He+u6Hx+kV6joOjVXA/gFcRLSv9nLhLUJtjwcubt5DrxaZjXl6oav/HxsQMqZv52vLmi87kpIpcpxe+aXXbZaS7XA3gFmL/JlACk+gl3CDa8nHlfUzKv+0Vkh6rGb8aMid0rZv52vLrC8/kpeo2Con/negBP2fyTfj/dEwD34dj9+u8QbHg58vZRNK+Tqhw/10imSuZvxwsrPp8vUGoUdGsYhjO4HsBTMv/Qdfv1u5b+dx+O3K//dqq3MMGGlwfvB0rmdaeIzK1BkaQqmb8dT6/yfG40Go9QjN/7uR7AU+BFbmxOAHplCq1UAtAm2PBy4h2qaF7vrEH8bJa+vkLmb8djqz6fg8A/Syl+94jIAq4v8PrIi52fJwmA6fWMIEolAEMEG15OPGtmv1Qyr5tarWisJvG7tULmb8dBVZ/PD2y+NOuV4vcZri/w+sRLPDxJAPxut/6NyxCSBCAm2PBy5D1T0bxeX6P4XVUh87djzzrM5yDwT1OKn73DsyvXF3g585K790kCEHYz/6bLDoLU8wKCDS8vni8ilyuZ119XrNh5Zo3i97sKmb8dO9ZhPhtjlojIvUrxO4PrC7yceZ1UAhD12vSXTgDCzFWCCDa8bLxXaJlXqxW9ombx+0WFzN+OeTWazx9SjN8BXF/g5chLEoC4q5+7LzVT7whi/vDy5A2JyLU65mV+u3r1PuM1i9+PKmT+dgzXaD7PFJHblOL3E64v8HLkdTLt4UslAAbzh9cH3lu0zGtoaOjIGsbvWxUyfzuaNZvPb1WM3+O5vsDLideeTLnfJuYPrw+8GVvuYu+Xefm+/9Oa6nFahcz/zhrO563ewepT/C5dunSx4foCT403VeMn2PAyHB/QMq9OZ/jwmupxSkXM337vuprO51cq7mF5OdcXeEXwCA68PHkLXaGTvpuXLdxSYz0+VBHzt4w/1nQ+P+Qtlv7dyTJXrlq12yyuL/Awf3hV5n1G6ZfrhrGx0QNqrMfx1TD/TY9hLqnxfH6GYqOgN3N9gYf5w6sqb9ekhG2/L5ZBEHypznp4nndMFczfcnzfv7DG68M+Kv2FUqOgm20lS64v8DB/eFXknaF02/q+mTMndquzHlEUva4K5u8exXyvzuuj0WgcppiMncD1BR7mD69qvAO0nlkHQfAfddcjjlsvr4L5uzsAp9ddD9/3f6Skx6Zullxf4GH+8KrE+7HSbdI7giCYU3c9hobi51TB/B3v1LrrMTo6stbuO1HS4xNcX+D1w/wzv/1HsOFN4jhc0WzePgh6DA+3n1IR87f//pFBWB++739DSY/7t+ytwPUK3jR5Sen/zEWC2gQbXpZHpJ7n/UrJbK5PSs7WXY9OZ/hRFTF/O941COvDGLPcmbOGHl/h+gIvR/M3mRKAVD/hDsGG19P9G95zFc3m1YOiR7PZXFUR87fjzQO0Pk5S1GNvrlfwcjD/pN9P9wTAfTh2v/47BBtet2N8fCwyxvxFyWz+JCLBAOmxpCLmb8fRA7Q+7P6TO5T0+D7XK3jTNP/Qdfv1u5b+dx+O3K//dqq3MMGGt1VeFIVvVDSb5w6YHrMqYv52vGDA1sfxinocyvUK3hR5kRubE4BemUIrlQC0CTa8bfGWLVsyzxhzg5LZ/Mo+bRgwPeKKmL8dTxuw9dERkRuV9PjlypUrmlyv4E2SFzs/TxIA0+sZQZRKAIYINrxuvCgK361oNo8bQD28pKpiyc3fjscO4Pp4rZYecdx6AdcreJPgJR6eJAB+t1v/xmUISQIQE2x43XgLFsxfZt/HVzKbHw+wHrdWwPztOGgA10coIn9RahT0p4c9bI8ZXK/gZeAld++TBCDsZv5Nlx0EqecFBBteV14YBv+haDb7D7AeV1XA/O3YY0DXxz9r6dFqRa/negUvA6+TSgCiXpv+0glAmLlKEMEeWN6sWTN3N8bcq2Q2Zwy4Hr+rgPnbscOArg/7+UuUKmBeH8dxh+sVvB68JAGIu/q5+1Iz9Y4g5g+vJ8924VMym/Wuu+Ag6/GLCpj/xnTt+sGrg9F4gqIeb+V6Ba8Hr5NpD18qATCYP7wsvPHxsQOMaa5XMptT0UPOqYD5b0yqMw7q+vB9/wIlPW4TkZlcr+B14bUnU+63ifnDy8rzff+7SmZzj4gsRA85swLmb0djkNfHyEjn0Yp6nMj1Ct60eVM1foI9mLzh4fZhimbzAfTYdJxWAfO/g/WxKTn+lpIe94rIYtYHPFoEw1PjeZ53gZLZ2FffJtBj03FKyc3ffu9a1sem3g0rRGSdkh5fYH3Aw/zhqfAajcaTFc3mLejxwOF53oklN3/L+CPrbTPv00p6bBCRlVyv4GH+8PrKW7Bgvi8iv1Yym2tFZAg9HuCFYfC+cpu/LVLjX8J623xsJyJ3K+nxba5X8DB/eP3mPV/RbF6JHulyy9FxZTZ/y7E74FlvDzrep6jHWq5X8DB/eP3iRSLyVyWzuVxEfPT4B89Wfyuz+dsRBP7ZrLcHHeMicouSHhdyvYKH+cPrF+91imbzTPR4MC+OWy8vs/m7OwCns94echyj1ygoPpLrFbxJMD2CAy8Lb0REblIym4tc9zv0SPHiuPXsMpu/453KenvI0dqyj0MfGwX9fvXqfca5XsHrZfyu7k/mIkFtgj3QvBMUzeZQ9Njq2xePKbn523//MOttq8dL9BoFtY7megWvh/mbTAlAqp9wh2APLG+OiNypZDY/QI9t8g4oufnb8U7W21aPpoj8VqlR0NXDw+0hrn/wtmH+Sb+f7gmA+3Dsfv13CPbA8j6uaDb7osc2eStLbv52vIn1tvWj0WgcoajHMVz/4G3Fz0PX7dfvWvrffThyv/7bqd7CBHuweMtE5H4ls/kaenTlLSm5+dtxNOtt2zzf93+mpId982CM6x+8FC9yY3MC0CtTaKUSgDbBHkjeaUpmY8um7oQeXXmzSm7+dryA9bZtXqczfLiiHu/l+gfP8WLn50kCYHo9I4hSCcAQwR5I3p6uzKiG2ZyMHj15ccnN346nst6683zfP1tJj7tdNUL0GGxe4uFJAuB3u/VvXIaQJAAxwR5Y3llKZnOXiMxHj548r1tCVpJGQY9hvXXnNZvNPXol1jnq8Sn0GGhecvc+SQDCbubfdNlBkHpeQLAHk/dIxV+a70GPzLzbSmz+dhzIesvE+4KSHvbR2s7oMbC8TioBiHpt+ksnAGHmKkEEu468nyqZ/y1RFE6gR2be1SU2fzv2YL1l4i0WkXuV9nScjh4Dy0sSgLirn7svNVPvCGL+g8s7QvE287HoMSne70ps/hvdWyOst2y8Dyvu6dgfPQaS18m0hy+VABjMf6B5ZkuT6aPZXLXLLstnocekeL8osflvdEWjWG/ZeDO39UinD/qeix4DyWtPptxvE/MfeN5LtJ4xR1F0NHpMmndOic3fjjbrbVK8t2mtt6Gh+GnoAW+bewBkigfBrg3vIU1L+mc25g/77rvXBHpM+jizxOZvR4P1NimeTZiu02kU5P/mwANXj6EHvNwOgl0r3hu1NpgNDcXPRY/JH57nfbnE5n8H621KvFdpPdaJ49bL0AMe5g9vy2PMlQ/V+CVyEXpMjRcE/udKav72e9ew3qbE80XkCqVGQX8dHR1poQc8zB9e+niP1u7y4eHhJ6DH1HhhGJxUUvO3jCtYb1NuFHSk4p2d16AHPMwfXnLMd9X4+m7+vu//AD2mzgvD8H3lNP9Nd3Z+xXqbGm/t2jW2RPDFSsndjSLSQQ94BAeeuDr8Gs8gN4yNjR6EHlPnRVF0XBnN3yV3F7Deps4bHm4/RTG5Ox494BEceMtdudC+b0AKguBr6DE9XhRF/1pG839AX/8s9J0ez/f9c5T0vTNdswE9BtP8M7/9R7Bry/uq0nvl901MjK9Cj+nxGg3v+WU0f3cH4BvoOz1es9ncV1Hfj6PHwPKS0v+ZiwS1CXbtePtomUMQBJ9Cj1x4R5TR/B3vM+ibC+8rSvreLyI7oMdAmr/JlACk+gl3CHbteD9QevXoLt/356NHLrxDS2r+G11te/SdPm9HZ84a+n4JPQbO/JN+P90TAPfh2P367xDsWvEOVTSHd6JHbrwDSmr+drwTfXPjfUJJ3w0ishd6DIz5h67br9+19L/7cOR+/bdTvYUJdvV5nud5FymZw00iMoIeufFWltT87TgWfXPjzXUb9TT0PRs9BoIXubE5AeiVKbRSCUCbYNeD12g0nqloDq9Dj1x5S0tq/nYchb658t6ppW+7PfRE9Kg1L3Z+niQAptczgiiVAAwR7HrwZs6cCI0xf1Qyh7+KSIgeufJml9T87Xg++ubKs3fOblIq4vR/a9euGUWPWvISD08SAL/brX/jMoQkAYgJdn14URS9VtEcXoAeufPikpq/HU9F39x5r9PSd2gofj561I6X3L1PEoCwm/k3XXYQpJ4XEOya8JYvXzbHGHOdkjn8RkSa6JE7z3Mbt8pm/nYchr658+wdtL8ova1zhb1DiB614nVSCUDUa9NfOgEIM1cJItiV4EVReLyiOTwJPfrGu62E5m/HGvTtx54d7/mK+r4CPWrFSxKAuKufuy81U+8IYv414i1atHCxMeY2JXM4Hz36yru6hOZvxyr0zZ+3Zs1+o77vX6ak77UiMoQeteF1Mu3hSyUABvOvHy8Mw48qmsNB6NFX3u9LaP52LEPf/vDa7aFnKur7b+hRG157MuV+m5h//Xhz5sxeYYy5R+nicSZ69J13UQnNf2O6uQz69qNRkLlASV/7iGkGegwQb6rGT7DLzwuC4D+VzMFuTtsdPfrL8zzv3BKa/8bk1jH69qsRVONARX0/iB6DySM4NeJNTIzvZ0xzvZI5fAE9+s/zff+7JTR/m/w10LfvvP9W0vdeEdkePTB/glPp24b+mUrmYC8Yi9Gj/7wgCL5eMvO343b0VeHtKiLrlfT9HHpg/gSnorxOZ/hRiubwYfTQ4QVB8PmSmb/93jXoq8b7jJK+NtHYDT0wf4JdQZ7neT9WMofbRWQWeujwwjD4RMnMf1MRGfRV4y0QkbuV9D0TPTB/gl29DUOPVzSH49BDjxeGwfvLZf6baslfjL6qvPdr6Ts83D4MPTB/gl0R3tKli22np18pmcP1IjKMHqp3do4tk/lbju/756OvKm9cRP6ulNz9FD3qaf6Z3/4j2JXiPUfRHF6NHuq8V5XJ/O0IAv8s9FXnvUmvUdDQkehRK15S+j9zkaA2wa4ELxCRPymZw5/c30MPXd7zymT+7g7AN9BXnWc7Q16t1CjodwsWzPfRozbmbzIlAKl+wh2CXQne0Yrm8Bz0KIR3RJnM3/E+jb76PM/zXqZYFOqF6FEL80/6/XRPANyHY/frv0OwS88bds/kNczB7jFooEchvMNKZv72309EX33e3nvvOeb75g9KdSGuFJEWelTa/EPX7dfvWvrffThyv/7bqd7CBLu8vOMUfxkejh6F8daUzPztOAF9i+ENDcXPVawL8Qb0qCwvcmNzAtArU2ilEoA2wS41b5Z7H1/D/M9Fj0J5K0tm/nYci77F8Xzf/ELp1dCbRWQMPSrHi52fJwmA6fWMIEolAEMEu/S8DyveFt4fPQrlLS2Z+dtxFPoWx2s0Ggcrvhr6HvSoFC/x8CQB8Lvd+jcuQ0gSgJhgl5632NXi1zD/M9CjcN7skpn/RvdmAvoWy/uO0gbgu0RkPnpUgpfcvU8SgLCb+TdddhCknhcQ7PLzPq9YG3xX9CicN1Qy89/o3kxA32J5q1xXRo07gSejRyV4nVQCEPXa9JdOAMLMVYIIdpG83Xt1B8vRHD6DHqXgeekLfQnMf6N7MwF9i+f9l9KPgXUishN6lJ6XJABxVz93X2qm3hHE/KvBO1PJ/O8RkYXoURrebSUy/43uzQT0LZ63RETuU9oj8nX0KD2vk2kPXyoBMJh/ZXgHKe4G/3/oUSre1SUy/43uzQT0LQfvI1p7RDqd4YPRo9S89mTK/TYx/0rxzlcy/1vDMJyJHqWqAPf7Epn/RvdmAvqWg/eQV4L72CjoPPSoAW+qxk+wC+M9UfFVsH9Dj3LxjDEXl8j8N7o3E9C3PLzjtPaItNvtp6JHfXgEp/w8W8Hp10rmf83y5cvmoEe5eLb9bonMf6N7MwF9y8PbVBZcqVHQJa4FOXpg/gRbgfd8rWd8URS9Fj3Kx7Ptd0tk/vaNBA99S/eY6NWKj4megx6YP8HuPy8Skb/qvAdu/viwh+0xAz3KxwuC4OslMX87bkPf8vFWrdptwvfNn5XuFG21NTh6YP7w8uW9TqsIzNBQ/AL0KCcvCPzPlcT87feuRt9y8uI4frHinaJXowfmD69/vBERuVFpd+/Fa9euGUWPcvI8z/twSczfMi5H33Ly7Bo2xvxKKVm8QUQ66IH5w+sP73it8q/Dw+2noEepeSeUw/wfSBbRo7y8RqPxWMVk8e3oUR3zz/z2H8EunDdHRO7UMH/f989Fj9Lzji2D+bv5ch56lJ73Q6X5ckf6lVD0KC0vKf2fuUhQm2AXyvu41nu9o6Mjj0SP0vOOKoP52xEE/nfRo/S8fRTny0fRo/TmbzIlAKl+wh2CXRhvmYjcr3MxD85Aj0rwnlcG83d3AL6OHpXgfVVpvtyXVIZEj1Kaf9Lvp3sC4D4cu1//HYJdGO80pYv5uvHxsb3QoxK8I8pg/o73afSoBG+56+KnMV++iB6lNP/Qdfv1u5b+dx+O3K//dqq3MMHW5e1pC61oXMyDwD8VPSrDO6wk5m///UT0qAzvk0rzZcPISOdA9CgVL3JjcwLQK1NopRKANsEuhPddpXKed/m+vwA9KsNbUxLz3+jeTkHfavDmichdSm+H/AA9SsOLnZ8nCYDp9YwgSiUAQwS7EN4jFS/m70WPSvFWlcT87TgGPSrFe5fWfBkeHn4CehTOSzw8SQD8brf+jcsQkgQgJtjF8DzP+6nSxfwWERlDj0rxlpXE/O14FXpUijcqIjfpbBA1F61cuaKJHoXxkrv3SQIQdjP/pssOgtTzAoJdAK/RaDxV8WL+RvSoHG92Scx/o3sjAX2r9ePi9Yrz5WnoURivk0oAol6b/tIJQJi5ShDBzpU3Z87swBjzB6XF+TcRaaFH5XhDJTF/O/4JParFW7Fi55m+b/6mNF9+LyIGPQrhJQlA3NXP3ZeaqXcEMf+CeK1WdJTixfzF6FFJXkPr7ZAMvEPRo3q8OG69UnG+vAw9CuF1Mu3hSyUABvMvjrfLLstn+b65Ruli/lsRaaJHZW/j3l4C87fjAPSoHm/16n3GjTGXKc2Xa9xdK/TQ5bUnU+63ifkXy4ui6G2KF/Mj0KO6PGPMtSUwfztWokdlGwU9SXG+vBk9SsqbqvET7Px4ixcvWmSM+bvSxfyn6FFtnu+bK0pg/huTsq/oW1neeUrz5VYRmUAPWgTD2wovDMMPKV7MH4ke1ebZNrwlMH87ZqFHpXlrFOfLB9AD84e3BW/evDk7G2PuVrqYfxc9qs/zff/8Epi/HTF6VJ73TaX5co+ILEQPzB9eiheGwalKF/MNIrIHelSf5/v+WSUwfzufPPSoPG+FiKxXKi99Knpg/vAca8aMiYcZ01yndDE/DT3qwfM87ysFm78dt6FHbXinKpWXXj82NrovemD+8B74JXe6kvnf50rIokc9eJ8u2Pzt965Cj9rwFrpb9H2vMBkE/nfQA/MfeF6n03mE4m3cj6NHrXgnFmz+lvEH9KgV7wNaFSZHRjqHoUex5p/57T+C3bfbuD9UMv87bJVh9KgV74RizX9Ty9f/Q49a8exrercqNQq6ED0K4yWl/zMXCWoT7NyLcBym+Az3ePSoHe/YIs3/gYu4fx561Ivned5bFCtMPhE9CjF/kykBSPUT7hDs/HiuReZFSuZ/o4h00KN2vKOKNH87gsD/LnrUi7fTTjvOfnCVyb6+nfRrypGrm3/S76d7AuA+HLtf/x2CnSvvGYobuF6HHrXkPb9I83d3AL6GHvXjtVqt1ygWmXoBeqiZf+i6/fpdS/+7D0fu13871VuYYE+f54vI5Urm/1cRCdGjlrynFmn+jvcp9Kgfb99995owxlyutEH5ShGJ0KPvvMiNzQlAr0yhlUoA2gQ7N94rFHdvPx89ass7rGDzt//+IfSoJ6/RaDxdcY/Sv6JHX3mx8/MkATC9nhFEqQRgiGDnxhtyrTE1zP8hz9fQo1a8NQWbf9fNpehbeZ69PfwzpR8rN4nIKHr0hZd4eJIA+N1u/RuXISQJQEywc+W9WfHVrSeiR615qwo2fzveiB615h2seL16F3rkzkvu3icJQNjN/JsuOwhSzwsIdn68CdcSU2MxnYcetectK9j87XgletSed5bS2yZ3icg89MiV10klAFGvTX/pBCDMXCWIYGfl/T/F97YPRI/a8+YUbP52/DN61J63h2v6pLHh9JPokSsvSQDirn7uvtRMvSOI+efLe0id7T4upjPRYyB47YLN345/Qo+B4H1RacPpuvHxsb3QIzdeJ9MevlQCYDD/vvA+o2T+tqXn7uhRf97SpYuNMc0NBZq/HYeix0DwlrpmYgqNgoIz0CM3Xnsy5X6bmH9feLuIyDqloi2fR4/B4Rlj7ijQ/O3YHz0GhvdRrT0no6MjB6OHIm+qxk+wM/FOVzL/e0Vke/QYHN4/SrYWYv4bk7tN6DEQvNm2qZhShclz0aMYHsHJl7e/YrnWE9FjsHi+b64o0PztWIIeA9Uo6B2Ke04OQw/Mv+q8c5XM/7YgCGajx2DxjDEXF2j+dsxEj8HhLVu2ZJ4x5galx06/dMWI0APzryTvcMVa7f+OHoPH8zzvewWav301zKDHoDUKio5RfOx0JHpg/lXk2X/7lZL5X28zc/QYSN5nCjJ/O65Cj8Hj7bnnypnGmL8o3Xn6o4gE6IH5V433bK1GLVEUvgE9Bpb3poLM344foMegNgrynqN45+ko9MD8q8SzGeufdBq1mD/bjBw9Bpb3mILM337vg+gxsDw7LlZKPq8XkWH0yN/8M7/9R7AnxTtaq0tbHMcvQY+B5o11K9Paz/kXx/GR6DHQvMcqJp/HoUeuvKT0f+YiQW2CnYk37DLWvpu/7/uXHnjg6jH0GHje/2qbvzHNddtvv3B79Bh43o+Uks/bRWQWeuRm/iZTApDqJ9wh2JmO47RatLbbQ09DD3gicoyy+dvk8xz0gCci+yomnx9Bj1zMP+n30z0BcB+O3a//DsHuedh3om/TMH/f989HD3juWLC1xwD9nH9x3HoFesBzx9eVks/7ZsyY2B09pmX+oev263ct/e8+HLlf/+1Ub2GCve3jRK1a2SMjnUehB7zUcYaW+Rtjbt5ll53mogc8d+y0Za+TPjYK+jJ6TJkXubE5AeiVKbRSCUCbYHc9Frta/H03/yDwz2Tyw9viOEAr+Yyi8F3oAW+L42Sl+bdhbGx0DXpMmhc7P08SANPrGUGUSgCGCHbP4/MaF19jzLqxsdG90QPeVo5vKsy/GxYvXrQdesDb4pgvIncpNQr6HnpMipd4eJIA+N1u/RuXISQJQEywex62I9p6jckfBP7n0QPe1g5jzHJjzD39nH+tVvRy9IC3tcPzvPcoNgp6BHpk4iV375MEIOxm/k2XHQSp5wVM/t7HmRrmby/uvm8WoQe8bfFarehNffzlddbKlSua6AFva7ztt1+4wBhzi1KjoJ+iRyZeJ5UARL02/aUTgDBzlaDBDvaBOua/ifcB9IDXjWfrQgSB/60+JJ9XBkEwBz3gdeNFUfRWxUZBR6BHT16SAMRd/dx9qZl6RxDzz3bb63wl879VRCbQA14v3g47LJ3red6FOZr/Lc1mc3f0gNeLt/vuu842xlyl1Cjod0k3SvTYJq+TaQ9fKgEwmH+2o9FoPEnxmdeb0QPeJHijInJeDuZ/Q7PZ3BM94GXleZ73IsVGQS9Fj6689mTK/TYx/2zHggXzfWPMZUrmf42IxOgBb5K8loh8eurP/M1Fxpgl6AFvkjy7T+Q3So2Crt7atRE9JsmbqvEParDtbmgl87fj5egBbxq8J4jIFZOYf3eEYXjczJkTIfGDN0XekxQbBR2LHrQIVuPtvvuuM3zfXKlk/n/o9ZyLyQ8vA88XkSNF5CwRuW8b5aUvtZu4Fi5csIj4wcuBd75So6C/i8g4emD+Krwo6t+rVlvhPQM94OXMs48G9mo0Gk+M4/hZnc7wYxYtWriY+MHLmXeQYqOg96MH5t933tKli+27rjcpmf8v7IsG6AEPHryK8r6l1CjontmzZ+6MHph/X3lhGL5P8T3XR6MHPHjwKszbzVZJVWoU9J/ogfn3jTd//rwdjTF3KZn/99EDHjx4NeB9TqlR0PqJifH90APz7wsvDINTlMzfjr3RAx48eDXg2fLl9yg1CjoTPSbF9AhOBt6sWTNWGdO8T8n8v4oe8ODBqwvP87wPKRZNOwA9ehu/q/uTuUhQe5Anv+/7X1Uy/3UispzJCg8evLrwFiyYv9gYc5vS21M/QY+e5m8yJQCpfsKdQZ38IyMd2/Bng1J5y08yWeHBg1c3XhSFxytuoH48emzT/JN+P90TAPfh2P367wxwbeuzlMz/LhGZx2SFBw9e3Xg777zjPGPMtUp3Ui+17VrQ4yF+Hrpuv37X0v/uw5H79d9O9RYeqMnfaDQOUWxs8W4mKzx48Gr8Y+qVitfT56HHg3iRG5sTgF6ZQiuVALQHdPL/VGmy3uw6uDFZ4cGDV1eeceXNNRoF/UVEQvTYxIudnycJgOn1jCBKJQBDAzpZ/0nJ/O14AxcPePDgDQDv6YqNgl6HHps9PEkA/G63/o3LEJIEIB7glpa/VTL/v7n67Fw84MGDV3eeNZ+fKzUKuklERgZYj+TufZIAhN3Mv+mygyD1vGBQJ+uLlcx/o/tbXDzgwYM3KLxDFBsFnTDAenRSCUDUa9NfOgEIM1cJqt9ktb/Gr1Iy/9+6uw1cPODBgzdIvLOVGgXdOXfu7B0GVI8kAYi7+rn7UjP1jqA3wJP1jYrPqP6Jiwc8ePAGkLeXiGzQaBQUhsGnB1SPTqY9fKkEwAy4+Y+5Hfka5v+/XDzgwYM3wLzTlBoF3T9jxsReA6hHezLlfpsDbv7i3sXfqLRB5RFcPODBgzfAvGUicp9So6BvoMe2AVMy/poFZ76rxqdh/t/l4gEPHrxB53med5JSo6ANWbqsDroegxycTyqZv52Ie3DxgKfMs5tNdxCRw0XkpSJyjOd5x4Vh+I5WKzo2juMXj4x0Hr148aLtiB88Ld68eXOXGmPuVGoU9H30wPy3xlvuOvFpvJryRS4e8JR4S1wxFNvP4vZJzOfLROTjIvJYEQnQA16fGwW9V7FR0KPRA/Pf8viqkvnfJyJLuXjA6yPPlvl8moicm9N8vlFE3i8i26MHvH7wdthhyXbGmBuVGgVd5IoRoQeTddOxt2JRio9x8YDXJ569qD1DRC7v03y2d8hOFpG56AGvD42CXqPYKOiZ6MFkTY7vK5n/HUEQzGWxw+sDb0cROUdpD4t9lHCUbbeKHvBy5NnGPX9WqsBqk2Qf82eyPlrJ/O33TmCxw+sD70WKb6+ked+fN2/OMvSAlyPvuYpF2F416Oaf+e2/mgbHc8+DNC6WNy5dung+ix1ejjz7rP8kxboVD+H5vrlmbGz0QPSAlxPP/u9fKc3n60SkPaB6JKX/MxcJatcwOM/QulhGUfgmFju8HHn2duk3ijT/FO+O4eH2Y9AXXk68wxXn81sH1PxNpgQg1U+4U7Pg2Oc/f9C5WJorV63abRaLHV6Ov/zLYv4J704R2R994eXEO0dpPt+23XbzlgyY+Sf9fronAO7Dsfv136lZcF6udbGM49YrWOzwcuSdVDLzT/de3wF94eXA209rPodh8IkBMv/Qdfv1u5b+dx+O3K//dqq3cB2CMyQi1+g8I/UvO/DA1WMsdng58V5UUvNPxqVufaEvvOnyvqE0n++dNWvm7gOgR+TG5gSgV6bQSiUA7RoF581aF8t2e+hZLHZ4OfF2LGi3/2R5H0dfeDnwdra1JzTmcxD4X6q5HrHz8yQBML2eEUSpBGCoRsGZEJFbNS6Wvu9fyGKHlxPPU3zPPw/ew9EXXg6Ngj6l2ChoZU31SDw8SQD8brf+jcsQkgQgrtnk+n9aF8tOZ/gxLHZ4OfGeUSHzt+Ni13wIfeFNmTd79qydjDF3K83nb9dQj+TufZIAhN3Mv+mygyD1vKBOk2uBiNyjcbEMAv87LHZ4OfFMH8v79pN3JPrCmy4vDMMTFefz2prFr5NKAKJem/7SCUCYuUpQdYLzaaWL5fqxsdH9WOzwcuI9rYLmb8cl9i4u+sKbDm/x4kWLjDF/V5rPF9YsfkkCEHf1c/elZuodwbqZ/y6KG0q+yGKHlyPv3Aqa/6bRaDTWoi+86fI8zztGcT4/pUbx62Taw5dKAEwNzd8ep+tcLM29xpglLHZ4OfGWVNX87feCwP8s+sLLgdcSkb8pzeffbrl/pcLxa0+m3G+zpua/v+LF8sMsdng58l5XVfN3vJtXr95nHH3h5cB7keJ8fvFA6TFV45dqvEryY6WL5W0iMpPFDi9H3lkVNv9NY3R05JHoCy8Hnv1VfpnSfL7K3XWgRXCVT6bRaDxO8WL5NhY7vBx59oJ3e5XN3w7XCAt94eXBe4rifD4G86/wySxdutgYYy5Rulhubi3JYoeXE2+Hqpu/430efeHlyLtAaT7fsmjRgoWYf0UnV6vVerHixfIoFie8nHmH18D8M71axXyBNwnew/UaBYUnYv4VnFyrVu024fvmL0oXyz+KSMDihJcz76U1MP/keSr6wsuT922l+Xz33LlzdsH8Kza5Wq3ojYoXy2ezOOH1gXdMDcx/o2tghL7w8uTtLiLrleq6fA7zr9DkWr58h/nGmOuVLm625nmDxQmvD2+vHFcD87djA/rC68P6+ILSfF7nOhPWzvwzv/1XpckVReG7FC9uj2VxwusHLwzDd9TA/O24H33h5c2bOXPGCld4TWM+n16z+CWl/zMXCWpXYXItXLjdUmPM7UoXt3NYnPD6+Bjr2BqYvx03oy+8/jQKCk5SnM/718j8TaYEINVPuFOFyRWGwScUL277sTjh9YsXx/GLa2D+SWlV9IWXOy/5wac0n8+tifkn/X66JwDuw7H79d8p+2SYNWvm7vaWkNJk+AaLE14/eSMjnUfXwPy32Wed+QIvD57neW9TnM+Pq7j5h67br9+19L/7cOR+/bdTvYVLOxmCwD9N6eK2znUXZHHC6xtv8eJF29XA/O14H/rC6yNvSESuVZrPl2xt03dF4he5sTkB6JUptFIJQLvMk2FsbHQ/z/PWK13cPs3ihKfEu6zi5m/HEegLr8+8VyrO5+dWMH6x8/MkATC9nhFEqQRgqAK3gc5UurjdLSILWJzwlHgfr7j5b0g3yEJfeH3i+SJyudL6+LOIhBWKX+LhSQLgd7v1b1yGkCQAcdknQ6PReLjixe39LE54irzHVtj87TgffeEp8Z6huD5eU5H4JXfvkwQg7Gb+TZcdBKnnBVWYDOcrXdz+LiLjLE54ijxbYvrGipr/5h4Z6AtPgWeN7RdK6+PGpUsXz69A/DqpBCDqtekvnQCEmasEFTsZnqh4cXsTixNeAbz3V9T87eOyCfSFp8h7tNb6iKLwvRWIX5IAxF393H2pmXpHsArmb8evlS5u14hIzOKEVwBve/fmSZXM346Poy+8AnjfU1ofd86fP2/Hksevk2kPXyoBMBUxf3s8T/Hi9nIWJ7wCeSdXzPzv9X2zPfrCK4D3MLv5VKdRUHBKyePXnky532aFzN/uwvyL0sXtDyJiWJzwCuTNFZHbK2L+9nvvRl94RfE8z/uK0vqwfS6WVT5+UzX+Ak/mtYoXt6ezOOGVgHdURcz/j8uXL5uDvvCK4k1MjO9hjLlfaX18qU7xq8JkGMmyMzqni9sv3O5SFie8onkNz/N+UHLzXz883D4UfeEVzQvD4FNK68PWutgL89c7meMVL26PYjHBKwtv3rw5y3zfXFPWLoFhGP4b+sIrA89u0LMb9ZTWx9mYv87JzBGRO5Qubt9jMcErG29sbPRAY8wdZTP/IPA/v3btmlH0hVcWnud5Jyiuj0dh/v3nfUzx4rY3iwleGXnDw+3HeJ53Z1nM3/f90/fdd68J9IVXMl4n6+PiHNbHgx4XY/7585aKyH1KF7evsJjglZy3v4jcVIZf/pg/vBLz2DBeA/O3xxeVLm721Y4dWUzwKsDbQUQuLWrDn33mz21/eCXnZXplPKf18QfXmKgS5p/57b8SnMyebrelxsXtP1hM8CrEG+rVNbAfr/qx2x9ehXj/rLg+XlGB+CWl/zMXCWoXfDLfVRLvbt/3F7CY4FWQZ7tiXtzvCn+2yA/v+cOrGG+bZeP7kBxfW/L14bmKv82sJYKHtlJfWPNkHqH4y+ZjLCZ4FeY1ReRIEbmkD419Pk55X3gV5j1TsVHQCSU2/6TfT/cEwH04dr/+OwWezP8qmf+GiYnxVSwmeDXgeY1GY20Q+J81xtw8xfWxwbXaPoqufvBqwLPl3K9UKqd9+6JFC5aU0PxD1+3X71r63304cr/+26newton80+KrzKdy2KCVzfe6tX7jI+OjjwyisI3eZ73eRG5UESuEpG7nMnbTa83i8hvReTbIvI+ETlCRGYSP3g1471Dq5x2EAQfK1n8Ijc2JwC9MoVWKgFoF3AyTXdRUrlt02q1XsdiggcPHrza8lYo9tK417XyLkP8YufnSQJgej0jiFIJwFBB4r1YswXqrFkzd2cxwYMHD159ecaYqxR7aXyuBPFLPDxJAPxut/6NyxCSBCAuSLyWiPxNsf/5dSwmePDgwas3LwiCbyj20lgvIrsVeL7J3fskAQi7mX/TZQdB6nlBUeK9QdH87fP/H7OY4MGDB6/evCgK363cSOvMAs+3k0oAol6b/tIJQJi5SlD+JzPmNiVt1Nqw4fv+V1hM8ODBg1dvXqvVOrqARloHFXS+SQIQd/Vz96Vm6h1Br0Dx3q1p/o73KRYTPHjw4NWb12q1XlJAF80LCjrfTqY9fKkEwBRs/vPd60ma5m///T9ZTPDgwYNXb57neS8pqIvmkws43/Zkyv02CzZ/e3yyAPO34xwWEzx48ODVnndcQS20L3OvtpcvflM1/pxPZkdblKQA87fj765eNIsJHjx48OrLO6PAFtovpEXwto+vFGT+ydifxQQPHjx4teXZ1sC3FmT+9ntX7rLL8lmY/0OPvQs2fztOYTHBgwcPXm15zyzQ/F2joOitmP8Wh+d5PyjY/De1OhWRpSwmePDgwasdzz5/v7RI83esWxYvXrQI83dHo9E4rATmn4wfbLkXgMUEDx48eJXnvaUE5p80Cvog5i8iK1euaBpj/q8k5p+MD7GY4MGDB682vCeIyLoymL/j3eVeeR9c87ffi+PW80pm/sn46IIF830WEzx48OBVmvcM93i3LOaffObkos0/89t//RBvr71Wjfu+uaKE5r/pe75vLpwxY2JvFhM8ePDgVY43IiInleW2/1Z49o7ETgXFLyn9n7lIUDtv8Vqt1mvLav4p3n1hGHxmfHzsYSxOePDgwSs9b0JEjhGRG0ps/sn4ekHmbzIlAKl+wp08xdt55x3nGWOuLbn5b8n7uasidbCbZCxOePDgwSuQZ9+rbzab+4jI0a7z3n0l9Y9tjf2UzT/p99M9AXAfjt2v/07OLRnfUTHz39qw1QN/JyI/FZGfbDk8z/uJ75sLfN+/8B/DXGD/+9Y+32vAgwcPHrxNrJ/7vv8bY8x1nudtqKh/JONHiuYfum6/ftfS/+7Dkfv13071Fp62+W+//cLtjTG3Vtz84cGDBw8evDx4j1W4cxK5sTkB6JUptFIJQDuv2zZhGH6EyQAPHjx48OBtGhcn9Wf6ZP6x8/MkATC9nhFEqQRgKC/znzNn9q7GmHuYDPDgwYMHD97m8ew+mX/i4UkC4He79W9chpAkAHGeGzaCwP88kwEePHjw4MF7EO9Pq1btNpGz+Sd375MEIOxm/k2XHQSp5wW5mf/Y2Kht+LOOyQAPHjx48OA9mNdqRcfk/LZEJ5UARL02/aUTgDBzlaCMuxc9zzudyQAPHjx48OBtlXfjjjsu2y7HVyWTBCDu6ufuS83UO4K5mn+z2dybyQAPHjx48OBtmxeG4b/neOe9k2kPXyoBMHmbv/vjpzEZ4MGDBw8evK6860QkzMl/25Mp99vsk/nPmkx1JiYDPHjw4MEbYN6zVCsuTtX4M/7xVzEZ4MGDBw8evEy8M4sqt9yPWs/fZTLAgwcPHjx4mXj3iEirDuZvyw3ewWSABw8ePHjwMvMeUXXzt8dyJgM8ePDgwYM3Kd5rqm7+9jiUyQAPHjx48OBNivfhqpu/PZ7GZIAHDx48ePAmxftc1c3fHkcwGeDBgwcPHrxJ8U7tt/lnfvtvGn98LZMBHjx48ODBmxTv/f0y/1Tp/8xFgtpT/OOzmQzw4MGDBw/epFgv6qP5m0wJQKqfcGcaf/wyJgM8ePDgwYOXeezQJ/NP+v10TwDch2P3678zjT9+HJMBHjx48ODByzQu6pP5h67br9+19L/7cOR+/bdTvYWn8sdne553B5MBHjx48ODB6z4aDe/ZOZt/w/l5lE4AemUKrVQC0J7OHw/D8K1MBnjw4MGDB68r77w1a/Ybzdn8Y+fnSQJgej0jiFIJwNB0+xMfeODqsSDwz2YywIMHDx48eFvlXTtr1sxdcjb/xMOTBMDvduvfuAwhSQDi6Zp/ciI777zjPN/3z2EywIMHDx48eA/iXTc6OrI6Z/NP7t4nCUDYzfybLjsIUs8LcjH/5GRmzpwIReRDIrKByQAPHjx48OB55/Xhl3+yby9JAKJem/7SCUCYuUrQ1IoGrRaRc5gM8ODBgwdvQHlXep73kj4880+/tdd2d/K9Xl9qpt4R7Kf5p4+93B2BK5gM8ODBgwev5ry/i8iXReQpc+bMDvqw23/Lmj1DWQv+NN0eAC3z3/KYLyKHi8jRIvIuz/M+HgT+qUEQfO4fw/+s53mfEpFTJjvs9+z34cGDBw8evD7zThaRk1xJ3zeKyNNFZIWINPpU4W9rvPZkyv02CzR/ePDgwYMHD542b6rGT7DhwYMHDx68evAIDjx48ODBg4f5Exx48ODBgwcP8yfY8ODBgwcPHuZPsOHBgwcPHjzMHx48ePDgwYOH+cODBw8ePHjwymj+md/+I9jw4MGDBw9eLXhJ6f/MRYLaBBsePHjw4MGrvPmbTAlAqp9wh2DDgwcPHjx4lTb/pN9P9wTAfTh2v/47BBsePHjw4MGrrPmHrtuv37X0v/tw5H79t1O9hQk2PHjw4MGDVy1e5MbmBKBXptBKJQBtgg0PHjx48OBVjhc7P08SANPrGUGUSgCGCDY8ePDgwYNXOV7i4UkC4He79W9chpAkADHBhgcPHjx48CrHS+7eJwlA2M38my47CFLPCwg2PHjw4MGDVz1eJ5UARL02/aUTgDBzlSCCDQ8ePHjw4JWNlyQAcVc/d19qpt4RxPzhwYMHDx686vI6mfbwpRIAg/nDgwcPHjx4lee1J1Put4n5w4MHDx48eAPEm6rxE2x48ODBgwevHjyCAw8ePHjw4GH+BAcePHjw4MHD/B/8x9M9Ajo5lAuGBw8ePHjw4CnypvLH0z0C2jmUC4YHDx48ePDgKfKm8sfjVH3hoRzKBcODBw8ePHjwFHmT/eNeqkdAK9VcwIMHDx48ePDgVYMnk3n7L9UiOEqNcJonAw8ePHjw4MHT5zWzFgnyUj0CkuFP84/DgwcPHjx48PR5JlMCkPqwnxomhz8ODx48ePDgwSuGlykBaG45ZBoHPHjw4MGDB68UPK9XttBIDW+afxwePHjw4MGDVxLe/weDqINtYY7I5QAAAABJRU5ErkJggg==\");\n}\n\n.leaflet-popup-content-wrapper,\n.leaflet-popup-tip {\n  color: #333;\n  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);\n}\n\n.leaflet-popup-content {\n  margin: 10px 10px;\n  line-height: 1.4;\n}\n\n.popupwi {\n  width: auto !important;\n  background-color: #d9d9b8;\n}\n\n.pulse {\n  width: 10px;\n  height: 10px;\n  border: 5px solid #ff7300;\n  -webkit-border-radius: 30px;\n  -moz-border-radius: 30px;\n  border-radius: 30px;\n  background-color: #716f42;\n  z-index: 10;\n  position: absolute;\n}\n\n.dotmap1 {\n  border: 10px solid #ff7300;\n  background: transparent;\n  -webkit-border-radius: 60px;\n  -moz-border-radius: 60px;\n  border-radius: 60px;\n  height: 50px;\n  width: 50px;\n  -webkit-animation: pulse 3s ease-out;\n  -moz-animation: pulse 3s ease-out;\n  animation: pulse 3s ease-out;\n  -webkit-animation-iteration-count: infinite;\n  -moz-animation-iteration-count: infinite;\n  animation-iteration-count: infinite;\n  position: absolute;\n  top: -7px;\n  left: -7px;\n  z-index: 1;\n  opacity: 0;\n}\n\n.dotmap2 {\n  border: 10px solid #ff7300;\n  background: transparent;\n  -webkit-border-radius: 60px;\n  -moz-border-radius: 60px;\n  border-radius: 60px;\n  height: 50px;\n  width: 50px;\n  -webkit-animation: pulse 3s ease-out;\n  -moz-animation: pulse 3s ease-out;\n  animation: pulse 3s ease-out;\n  -webkit-animation-iteration-count: infinite;\n  -moz-animation-iteration-count: infinite;\n  animation-iteration-count: infinite;\n  position: absolute;\n  top: -7px;\n  left: 55px;\n  z-index: 1;\n  opacity: 0;\n}\n\n.dotmap3 {\n  border: 10px solid #ff7300;\n  background: transparent;\n  -webkit-border-radius: 60px;\n  -moz-border-radius: 60px;\n  border-radius: 60px;\n  height: 50px;\n  width: 50px;\n  -webkit-animation: pulse 3s ease-out;\n  -moz-animation: pulse 3s ease-out;\n  animation: pulse 3s ease-out;\n  -webkit-animation-iteration-count: infinite;\n  -moz-animation-iteration-count: infinite;\n  animation-iteration-count: infinite;\n  position: absolute;\n  top: -7px;\n  left: 115px;\n  z-index: 1;\n  opacity: 0;\n}\n\n@-moz-keyframes pulse {\n  0% {\n    -moz-transform: scale(0);\n    opacity: 0;\n  }\n  25% {\n    -moz-transform: scale(0);\n    opacity: 0.1;\n  }\n  50% {\n    -moz-transform: scale(0.1);\n    opacity: 0.3;\n  }\n  75% {\n    -moz-transform: scale(0.5);\n    opacity: 0.5;\n  }\n  100% {\n    -moz-transform: scale(1);\n    opacity: 0;\n  }\n}\n@-webkit-keyframes pulse {\n  0% {\n    -webkit-transform: scale(0);\n    opacity: 0;\n  }\n  25% {\n    -webkit-transform: scale(0);\n    opacity: 0.1;\n  }\n  50% {\n    -webkit-transform: scale(0.1);\n    opacity: 0.3;\n  }\n  75% {\n    -webkit-transform: scale(0.5);\n    opacity: 0.5;\n  }\n  100% {\n    -webkit-transform: scale(1);\n    opacity: 0;\n  }\n}\n.erroricon {\n  height: 60px;\n  text-align: center;\n  width: 75px;\n  font-size: 15px;\n  background-position: 0% 0%;\n  background-size: 40%;\n  background-repeat: no-repeat;\n  background-image: url(\"data:image/svg+xml,%0A%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3ClinearGradient id='a' gradientTransform='matrix(1 0 0 -1 0 -13734)' gradientUnits='userSpaceOnUse' x1='0' x2='512' y1='-13990' y2='-13990'%3E%3Cstop offset='0' stop-color='%2300f1ff'/%3E%3Cstop offset='.231' stop-color='%2300d8ff'/%3E%3Cstop offset='.5138' stop-color='%2300c0ff'/%3E%3Cstop offset='.7773' stop-color='%2300b2ff'/%3E%3Cstop offset='1' stop-color='%2300adff'/%3E%3C/linearGradient%3E%3Cpath d='m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0' fill='url(%23a)'/%3E%3Cg fill='%23fff'%3E%3Cpath d='m256 313.332031c-53.65625 0-97.308594-43.652343-97.308594-97.3125 0-53.65625 43.652344-97.308593 97.308594-97.308593s97.308594 43.652343 97.308594 97.308593c0 9.523438-1.375 18.9375-4.085938 27.988281-2.378906 7.9375-10.742187 12.441407-18.675781 10.0625-7.9375-2.378906-12.441406-10.742187-10.0625-18.675781 1.875-6.253906 2.824219-12.773437 2.824219-19.375 0-37.113281-30.195313-67.308593-67.308594-67.308593-37.117188 0-67.3125 30.195312-67.3125 67.308593 0 37.117188 30.195312 67.3125 67.3125 67.3125 6.28125 0 12.5-.863281 18.472656-2.5625 7.972656-2.269531 16.265625 2.351563 18.535156 10.320313 2.269532 7.964844-2.355468 16.265625-10.320312 18.53125-8.644531 2.460937-17.625 3.710937-26.6875 3.710937zm0 0'/%3E%3Cpath d='m260.703125 456h-9.40625c-5.144531 0-9.929687-2.636719-12.679687-6.984375-17.21875-27.238281-38.753907-50.828125-59.585938-73.636719-21.199219-23.21875-41.226562-45.148437-56.625-70.253906-17.75-28.949219-26.394531-58.144531-26.425781-89.257812.101562-88.167969 71.886719-159.867188 160.019531-159.867188s159.917969 71.699219 160.019531 159.832031c-.03125 31.148438-8.675781 60.34375-26.425781 89.289063-15.398438 25.109375-35.425781 47.039062-56.625 70.257812-20.832031 22.808594-42.367188 46.394532-59.585938 73.636719-2.75 4.347656-7.535156 6.984375-12.679687 6.984375zm-4.703125-370c-71.609375 0-129.9375 58.257812-130.019531 129.867188.054687 56.984374 34.878906 95.121093 75.207031 139.28125 18.691406 20.46875 37.929688 41.542968 54.8125 65.820312 16.878906-24.277344 36.121094-45.351562 54.8125-65.820312 40.324219-44.160157 75.148438-82.296876 75.207031-139.3125-.082031-71.578126-58.410156-129.835938-130.019531-129.835938zm0 0'/%3E%3C/g%3E%3C/svg%3E\");\n}\n\n.taskcount {\n  font-size: 15px;\n  text-align: center;\n  color: blue;\n  cursor: pointer;\n}\n\n.sr-modalpopup .modal-panel {\n  max-width: 50%;\n  min-width: 50%;\n  max-height: 50%;\n  min-height: 50%;\n}\n.sr-modalpopup .modal-panel .modal-body {\n  height: 100%;\n  margin-bottom: 0;\n  position: relative;\n}\n\n.sr-mapmodalpopup .modal-panel {\n  max-width: 85%;\n  min-width: 85%;\n  max-height: 90%;\n  min-height: 90%;\n}\n.sr-mapmodalpopup .modal-panel .modal-body {\n  height: 100%;\n  margin-bottom: 0;\n  position: relative;\n}\n\n.my-div-icon {\n  width: 50px;\n  height: 50px;\n  background: transparent;\n}\n\n.map-div-icon {\n  background-repeat: no-repeat;\n  background-image: url(\"data:image/svg+xml,%0A%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3ClinearGradient id='a' gradientTransform='matrix(1 0 0 -1 0 -13734)' gradientUnits='userSpaceOnUse' x1='0' x2='512' y1='-13990' y2='-13990'%3E%3Cstop offset='0' stop-color='%2300f1ff'/%3E%3Cstop offset='.231' stop-color='%2300d8ff'/%3E%3Cstop offset='.5138' stop-color='%2300c0ff'/%3E%3Cstop offset='.7773' stop-color='%2300b2ff'/%3E%3Cstop offset='1' stop-color='%2300adff'/%3E%3C/linearGradient%3E%3Cpath d='m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0' fill='url(%23a)'/%3E%3Cg fill='%23fff'%3E%3Cpath d='m256 313.332031c-53.65625 0-97.308594-43.652343-97.308594-97.3125 0-53.65625 43.652344-97.308593 97.308594-97.308593s97.308594 43.652343 97.308594 97.308593c0 9.523438-1.375 18.9375-4.085938 27.988281-2.378906 7.9375-10.742187 12.441407-18.675781 10.0625-7.9375-2.378906-12.441406-10.742187-10.0625-18.675781 1.875-6.253906 2.824219-12.773437 2.824219-19.375 0-37.113281-30.195313-67.308593-67.308594-67.308593-37.117188 0-67.3125 30.195312-67.3125 67.308593 0 37.117188 30.195312 67.3125 67.3125 67.3125 6.28125 0 12.5-.863281 18.472656-2.5625 7.972656-2.269531 16.265625 2.351563 18.535156 10.320313 2.269532 7.964844-2.355468 16.265625-10.320312 18.53125-8.644531 2.460937-17.625 3.710937-26.6875 3.710937zm0 0'/%3E%3Cpath d='m260.703125 456h-9.40625c-5.144531 0-9.929687-2.636719-12.679687-6.984375-17.21875-27.238281-38.753907-50.828125-59.585938-73.636719-21.199219-23.21875-41.226562-45.148437-56.625-70.253906-17.75-28.949219-26.394531-58.144531-26.425781-89.257812.101562-88.167969 71.886719-159.867188 160.019531-159.867188s159.917969 71.699219 160.019531 159.832031c-.03125 31.148438-8.675781 60.34375-26.425781 89.289063-15.398438 25.109375-35.425781 47.039062-56.625 70.257812-20.832031 22.808594-42.367188 46.394532-59.585938 73.636719-2.75 4.347656-7.535156 6.984375-12.679687 6.984375zm-4.703125-370c-71.609375 0-129.9375 58.257812-130.019531 129.867188.054687 56.984374 34.878906 95.121093 75.207031 139.28125 18.691406 20.46875 37.929688 41.542968 54.8125 65.820312 16.878906-24.277344 36.121094-45.351562 54.8125-65.820312 40.324219-44.160157 75.148438-82.296876 75.207031-139.3125-.082031-71.578126-58.410156-129.835938-130.019531-129.835938zm0 0'/%3E%3C/g%3E%3C/svg%3E\");\n}\n\n.legend {\n  margin-left: 75%;\n  margin-right: 10px;\n  position: absolute;\n  z-index: 900;\n  opacity: 90%;\n}\n.legend .TitleDetails {\n  text-align: center;\n  font-size: 12px;\n}\n\n.workrequestmap {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.workrequestmap .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 103.24 125.63'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23424242;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 8%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpath class='cls-1' d='M79.91,18.13H98V120.39H5.24V18.13H23.79a2.62,2.62,0,1,0,0-5.24H2.62A2.63,2.63,0,0,0,0,15.51V123a2.63,2.63,0,0,0,2.62,2.62h98a2.63,2.63,0,0,0,2.62-2.62V15.51a2.63,2.63,0,0,0-2.62-2.62H79.91a2.62,2.62,0,1,0,0,5.24Z'/%3E%3Cpath class='cls-1' d='M59,8.91H57a4.88,4.88,0,1,1-1.43-3.46A4.89,4.89,0,0,1,57,8.91h4a8.92,8.92,0,1,0-8.91,8.92A8.91,8.91,0,0,0,61,8.91Z'/%3E%3Cpath class='cls-1' d='M59.66,11.53h4.66l8.77,10.72h-21a2.62,2.62,0,1,0,0,5.23H78.62a2.61,2.61,0,0,0,2-4.27l-13-15.95a2.62,2.62,0,0,0-2-1h-5.9a2.62,2.62,0,1,0,0,5.23Z'/%3E%3Cpath class='cls-1' d='M44.08,6.3h-5.9a2.62,2.62,0,0,0-2,1l-13.06,16a2.61,2.61,0,0,0,2,4.27H51.66a2.62,2.62,0,1,0,0-5.23h-21l8.77-10.72h4.66a2.62,2.62,0,0,0,0-5.23Z'/%3E%3Cpath class='cls-1' d='M30.53,56.06V54.47H24.21V49.74h4.73v6.32h1.59v0h1.59V48.15a1.6,1.6,0,0,0-1.59-1.59H22.62A1.59,1.59,0,0,0,21,48.15v7.91a1.57,1.57,0,0,0,1.59,1.59h7.91a1.54,1.54,0,0,0,1.12-.47,1.57,1.57,0,0,0,.47-1.12Z'/%3E%3Cpath class='cls-1' d='M38.44,52.9H75.62a1.59,1.59,0,1,0,0-3.17H38.44a1.59,1.59,0,1,0,0,3.17'/%3E%3Cpath class='cls-1' d='M30.53,77.46V75.87H24.21V71.14h4.73v6.32h1.59v0h1.59V69.55a1.6,1.6,0,0,0-.47-1.12A1.57,1.57,0,0,0,30.53,68H22.62a1.61,1.61,0,0,0-1.13.47A1.63,1.63,0,0,0,21,69.55v7.91a1.57,1.57,0,0,0,1.59,1.59h7.91a1.59,1.59,0,0,0,1.59-1.59Z'/%3E%3Cpath class='cls-1' d='M38.44,74.31H75.62a1.59,1.59,0,0,0,0-3.18H38.44a1.59,1.59,0,1,0,0,3.18'/%3E%3Crect class='cls-1' x='22.62' y='92.96' width='7.91' height='7.91'/%3E%3Cpath class='cls-1' d='M30.53,100.87V99.28H24.21V94.55h4.73v6.32h1.59v0h1.59V93a1.59,1.59,0,0,0-1.59-1.59H22.62A1.57,1.57,0,0,0,21,93v7.91a1.59,1.59,0,0,0,1.59,1.59h7.91a1.6,1.6,0,0,0,1.59-1.59Z'/%3E%3Cpath class='cls-1' d='M38.44,97.71H75.62a1.59,1.59,0,0,0,0-3.18H38.44a1.59,1.59,0,0,0,0,3.18'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n}\n\n.incidentmap {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.incidentmap .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AABSY0lEQVR42u2dB7gkVZm/v+o+Fbpu375p8jAzTIAhDMwAEgYGHAUFxbwYUdecwVVXBXWVVTD/VUy4gophV8ywiqtgAiWsARdBMYAJyUlymvB/znBqLIaZ7rr3Vn8V+q3nOc8+Mt3v3fp+59Tv66pT3yfCwcHBwcHBwTHZ45BD1nqHHLK2kRoePHjw4MGDB69avMn+8eaWAx48ePDgwYNXLd5ksw5zyCFr/dQwU80+4MGDBw8ePHj6vKn8cfsHg9Twp3ky8ODBgwcPHjxF3lT+eHjIIWuj1AineTLw4MGDBw8ePEXeVP64/YOt1IimeTLw4MGDBw8ePEVewsz6Qbu7MD7kkLVDqWH/d2OKfxgePHjw4MGDp8/z3KbBRtY/bv9gOzWGpnky8ODBgwcPHjxdXrKBsHcCkPrjndRoT/Nk2vDgwYMHDx48VZ6XemugewLgPhyn/h8Ycf93OieTcEbgwYMHDx48eCq8ZANhkEoAvG4fjlK3HjoEGx48ePDgwaskL3lrYHMC0CtTaG3x7IFgw4MHDx48eNXixam3BmwCYHo9I4hSCcAQwYYHDx48ePAqx0s8PEkA/G63/o3LEJIEICbY8ODBgwcPXuV46bcGWl2LBrlNAX4qAYgINjx48ODBg1dJXieVAES9Nv2lE4DplCtEPHjw4MGDB69YXpIAxF393H2pmXpHEPOHBw8ePHjwqsvrZNrDl0oADOYPDx48ePDgVZ7Xnky53ybmDw8ePHjw4A0Qb5odhQg2PHjw4MGDV3EewYEHDx48ePAwf4IDDx48ePDgYf4EGx48ePDgwcP8CTY8ePDgwYOH+cODBw8ePHjwMH948ODBgwcPXhnNP/PbfwQbHjx48ODBqwUvKf2fuUhQm2DDgwcPHjx4lTd/kykBSPUT7hBsePDgwYMHr9Lmn/T76Z4AuA/H7td/h2DDgwcPHjx4lTX/0HX79buW/ncfjtyv/3aqtzDBhgcPHjx48KrFi9zYnAD0yhRaqQSgTbDhwYMHDx68yvFi5+dJAmB6PSOIUgnAEMGGBw8ePHjwKsdLPDxJAPxut/6NyxCSBCAm2PDgwYMHD17leMnd+yQBCLuZf9NlB0HqeQHBhgcPHjx48KrH66QSgKjXpr90AhBmrhJEsOHBgwcPHryy8ZIEIO7q5+5LzdQ7gpg/PHjw4MGDV11eJ9MevlQCYDB/ePDgwYMHr/K89mTK/TYxf3jw4MGDB2+AeFM1foINDx48ePDg1YNHcODBgwcPHjzMn+DAg1cTni39+UQROVlELvI870pjzOW+738/iqK3zZkze1fiBw8e5k9w4MGrF+8IEblCRDba4XneRmOaG40xqdG83/O8T4vIBPGDBw/zJzjw4FWbF4vIaYnxdzH/Tf/dfeZ6EXkk8YMHD/Mn2PDgVZM3LiL/O0nzT8Z9IvJs9IAHD/Mn2PDgVe+X/wVTNP9krBORJ6EHPHj1NP/Mb/8RbHjwKsX7yjTNPxl3i8hK9IAHr1a8pPR/5iJBbYIND14leC/NyfyTcZm7o4Ae8ODVw/xNpgQg1U+4Q7DhwSs9bzsRuSNH80/G+9EDHrxamH/S76d7AuA+HLtf/x2CDQ9e6Xmn9cH87bi/2WyuQA948Cpt/qHr9ut3Lf3vPhy5X//tVG9hgg0PXjl5B/TJ/Dd9z/f976EHPHiV5UVubE4AemUKrVQC0CbY8OCVmveTfpl/whseHn48esCDVzle7Pw8SQBMr2cEUSoBGCLY8OCVmve4fpu/Hb7v/wI94MGrFC/x8CQB8Lvd+jcuQ0gSgJhgw4NXap79/CX9Nv+E12g0nooe8OBVgpfcvU8SgLCb+TdddhCknhcQbHjwys17rpb5O97vRMSgBzx4ped1UglA1GvTXzoBCDNXCSLY8OAVxQs9z/uzovkn46XoAQ9e6XlJAhB39XP3pWbqHUHMHx68kvM8z3tNAeZvx9Xp4kDoAQ9eKXmdTHv4UgmAwfzhwSs/L45bI8aYGwsw/2Qcix7w4JWa155Mud8m5g8PXjV4YRi8u0Dzt+PvruMgesCDV2XeVI2fYMODp8+bP3/uEmPMHQWa/4NKBKMvPHj14BEcePBKzgvD4D9KYP523CMiC9AXHjzMn2DDg9dn3qxZM1caY+4rgfkn4zPoCw8e5k+w4cHrMy8Igi+XyPztWN9sNndDX3jwMH948OD1iTc2NnqAMWZDicw/aRR0JvrCg4f5w4MHr0+8IPDPKpv5J7yRkc6h6AsPHuYPDx68nHmdzvDhZTV/1yjoQvSFB6865p/57T+CDQ9esTzfNz8rq/mnGgU9EX3hwSs9Lyn9n7lIUJtgw4NXDC+O42eV3fwd71LXnRB94cErr/mbTAlAqp9wh2DDg6fP22+/vcc8z/tNBcw/Gc9DX3jwSmv+Sb+f7gmA+3Dsfv13CDY8ePo8z/NeWCHzt+Mvtksh+sKDVzrzD123X79r6X/34cj9+m+negsTbHjwlHgjIx3bce/KCpl/Ml6HvvDglYoXubE5AeiVKbRSCUCbYMODp8771wqavx03icgI+sKDVwpe7Pw8SQBMr2cEUSoBGCLY8OCp80ackVbN/JNxAvrCg1c4L/HwJAHwu936Ny5DSBKAmGDDg1cI750VNn877hSRuegLD15hvOTufZIAhN3Mv+mygyD1vIBgw4Onz5vrDLSq5p+MT6AvPHiF8TqpBCDqtekvnQCEmasEEWx48PLmnVQD87fjfmOaO6EvPHiF8JIEIO7q5+5LzdQ7gpg/PHjF8HawxlkD808aBZ2OvvDgFcLrZNrDl0oADOYPD16hvC/VxfwT3ujoyCPQFx48dV57MuV+m5g/PHiF8vYSkQ11Mn/XKOgc9IUHr6S8qRo/wYYHL1fe2XUz/1SjoMegLzx4tAiGBw/eQ4+D62r+jvdLEfGYL/DgYf7w4MH7x2GN8Wc1Nv9kPJP5Ag8e5g8PHrx/HE8dAPO34woR8Zkv8OBh/vDgwROxdbl/PwDmn4xXMV/gwcP84cGDJ/LSATJ/O64TkTbzBR48zB8evEHmtUTk6gEy/2S8jfkCD16x5p/57T+CDQ9eX3jHDKD523GbiMxkvsCDVwgvKf2fuUhQm2DDg5crb0xEbhlA80/GicwXePAKMX+TKQFI9RPuEGx48HLlvXeAzd+Oe40xS5kv8OCpmn/S76d7AuA+HLtf/x2CDQ9ebrztROTuATb/Td8LAv9LzBd48NTMP3Tdfv2upf/dhyP367+d6i1MsOHBmz7vlEE3f8fbMDY2egDzBR68vvMiNzYnAL0yhVYqAWgTbHjwcuHtJCLrCjLrc0Xk9SKyVkR2EZE9ReTJIvJhEbm2iGQiCPyzmS/w4PWVFzs/TxIA0+sZQZRKAIYINjx4ufG+VoD5n+PMvtsRisjLROTmAhoFPZL5Ag9eX3iJhycJgN/t1r9xGUKSAMQEGx683Hj7KpvrOs/z/mWSTXjmiMgPle9MXMh8gQcvd15y9z5JAMJu5t902UGQel5AsOHBy4/3Qz3zN3c1Go3Dp3K+M2dOhHaDnvIegqcwX+DBy5XXSSUAUa9Nf+kEIMxcJYhgw4OX5ThM8Zf//Y1G4wnTOd/Vq/cZDwL/W4obCH8rIk3mCzx4ufGSBCDu6ufuS83UO4KYPzx4+fHsevql4m31o/M4391333W2MeZixbcHXsx8gQcvN14n0x6+VAJgMH948HLnPVPR/M/I83yNadq3Fu5QenXwKtcfgfkHD970ee3JlPttYv7w4OXO8z3Pu1zJ/G9J19jP8XyPVqwbcAzzDx48Rd5UjZ9gw4PX496/571KcTf90X06X/ts/ldKRYNucX0SmH/w4CnzCA48eDnxhoaGho0x1ymZ/2UiYvp4vo9QrBj4XuYfPHiYPzx4leWFYXi84qt0T1E43+8olQu+2/f9hcw/ePAwf3jwKsdbsGD+YmPMbUrmf6HS+a4SkQ1KjYI+x/yDBw/zhwevcrwwDD+mWERnreL5/pdSr4B1ExPj+zD/4MHD/OHBqwxvzpzZK4wx9yiZ//8on+8SEblPqVHQmcw/ePAwf3jwKsMLguC/lMx/g7str32+H1FsFLSG+QcPXv7mn/ntP4IND1423vj42GpjzHql8rn/VcT5BkEwxxhzh2ILY+YfPHj58ZLS/5mLBLUJNjx4vXlB4P+Pkvnb2/BLizrfKArfrbjH4XHMP3jwcjN/kykBSPUT7hBsePC680ZGOocqmb8dHy3yfHfccdl2xpgblM73EhFpMP/gwZu2+Sf9fronAO7Dsfv13yHY8OB15/m+OV/J/G1t/tlFn28UhW9QbBT0XOYfPHjTMv/Qdfv1u5b+dx+O3K//dqq3MMGGB28rvKGh+GmKZvj2MsRvfHwsEpE/KjUK+rOIhMw/ePCmxIvc2JwA9MoUWqkEoE2w4cHbOm/Nmv1GPc+7RMn8bxCRTonid6Rio6DXMP/gwZs0L3Z+niQAptczgiiVAAwRbHjwts1rNLx/VjL/rZpgwfGztxF/qdQo6MZ08sP8gwevJy/x8CQB8Lvd+jcuQ0gSgJhgw4PX8zb4n5XM/y8lvQ1+mGKjoOOZf/DgZeIld++TBCDsZv5Nlx0EqecFBBsevO68VyuZvx3/XOL4/VCpUdCdQeDPY/7Bg9eT10klAFGvTX/pBCDMXCWIYMMbXN6wiFyvZP5bfRWuRPHbR8H8XaOg4BTmHzx4PXlJAhB39XP3pWbqHUHMHx683rx/V9wA9/gKxO+rSo2C7p85c8aezD948LryOpn28KUSAIP5w4OXiTdLRG5XMv+fVCR+y0VknU6joODrzGd48Lry2pMp99vE/OHBy8z7iJL527GmQvH7pFKjoA3NZnNv5jM8eNPkTdX4CTa8AeUtTlriKpj/N6sUP9/3bYngu5QaBX2P+QwPHi2C4cHT5H1ByfzXi8iKqsUvDMMPKDYKehTzGR48zB8ePA3eShHZoPTe+2erGL8lS7ZfaIy5WalR0C9cMSLmMzx4mD88eH3lfVvJ/O8RkUVVjV8UhW9W7I3wDOYzPHiYPzx4/eQ9XLHi3QerHL+RkU4sIn9VKpJ0ud1+wHyGBw/zhwevX7wLlMz/NhGZUYP4vUCxTsIrmM/w4GH+8OD1g/ckJfO34601iZ9tOfprpQ2T14rIEPMZHrzMTI/gwIPXm2eN7DdK5n9dHMedGsXviYqPTf6N+QwPXm/jd3V/MhcJahNseAPMe4GS+dvvHVXD+J2nFL/bwjCYxXyGB6+r+ZtMCUCqn3CHYMMbUJ5t93ulkvlfsddeq8ZrqMcaxUZBH2M+w4O3TfNP+v10TwDch2P3679DsOENKO9ftcyr1Wq9sMZ6fFOpUdC9s2fP2o35DA/eQ/w8dN1+/a6l/92HI/frv53qLUyw4Q0Sb0REbtIwf2PMJWvXrhmtsR4rXGVDjUZBpzGf4cF7EC9yY3MC0CtTaKUSgDbBhjeAvBN0zL+5sd1uHzEAepyq1ChofbPZXMl8hgdvEy92fp4kAKbXM4IolQAMEWx4A8ibKyJ3api/7/s/GQQ9fN9sb4y5R6lR0JnMZ3jwNnt4kgD43W79G5chJAlATLDhDSjvJKVn1htHR0cOHhQ9wjD8mGKjoIOYz/AGmJfcvU8SgLCb+TdddhCknhcQbHiDyNtBRO7XMP8g8L85SHosWrRwsTHmNqVGQRcwn+ENMK+TSgCiXpv+0glAmLlKEMGGVz/elzTM3xizbsaMib0HTY8wDN+u2CjoycxneAPKSxKAuKufuy81U+8IYv7wBpW3Z9LuV2G3+ucHUY92e6gtItcoNQq6zFVyZH3AGzReJ9MevlQCYDB/eAPOO0vD/I0xd8+ePWunAdbjZYqNgl7I+oA3gLz2ZMr9NjF/eAPOO1jJ/O2v/xMHXA/7KtLvlRoF2UqOLdYHPHhbB0zJ+Ak2vBrx7Br4mc576ubWMAxnoIc8TbFR0BtYH/Dg5XgQbHg14j1VqUiN/e9vQo9/JF1KjYJujqJwgvUBDx7mDw9e+jCe5/1OyfyvFpEYPR782EWpUdAHWR/w4GH+8OD942eo571Uyfztv78UPR5ynKVUdOnuefPm7Mz6gAcP84cHT4aH20PGmKuVzP/3bvMbejz42EPx1cvPsj7gwSM48OA1wjB8m5L5b3Sb3tBj68cXlfZgrDOmuQvrAx7mT3DgDTBv0aIFC40xf1cy/5+7TW/osZXDGLODMc37lJKxr7M+4A26+Wd++49gw6sjLwzDExUb0xyCHr30CD6pqMd+6AFvQHlJ6f/MRYLaBBtenXh2M5jdFKZkNmejR2/edtvN38EYc6dSo6Bz0APegJq/yZQApPoJdwg2vDrx7GYwJfO3m9v2Qo9svDAM3qPYKOix6AFvwMw/6ffTPQFwH47dr/8OwYZXF57twGc78Sn90vwyemTnxXFrRESuV2oUdLGINNAD3oCYf+i6/fpdS/+7D0fu13871VuYYMOrPC8Igv9WMv/7RWQH9Jg079WKjYKegx7wBoAXubE5AeiVKbRSCUCbYMOrA290dORgJfO34xNFnO9+++09NjExvu/Q0NCzW63o2DAMj/c87wQROT7DeIeIHCMizxORA+I47hSgbyAif1JqFPQn9/dYH/DqyoudnycJgOn1jCBKJQBDBBteXXi+75+rZP53ishcxfONGo3G033f/++cX21c5/v+/0ZR9NZ58+bupKjvsxUbBb2a9QGvprzEw5MEwO9269+4DCFJAGKCDa8uvHZ76MmKG8zeqXS+w/YXu+d5N2gU0fE87wsiskxB34Z7Rq/RKOiGVqs1ynqDVzNecvc+SQDCbubfdNlBkHpeQLDh1YK3du2aEc/zfqlk/jeJyIjC+T5JRP6m2MUw+cx9LsEJ+6zvY7UaBdm3D1hv8GrG66QSgKjXpr90AhBmrhJEsOFVgNdoNJ6lZP52vL7P52uN9ySN2vk9eDahWtxnfX+k1CjoTluHgPUGr0a8JAGIu/q5+1Iz9Y4g5g+vNryZMyesYV6uZP5X2ufxfTzf4cQUCzb/zbfPReRhfTzffRXMf9MIw+Bk1hu8GvE6mfbwpRIAg/nDqyHvlUpmaMcL+3i+sYicVyLzT8bfRWRVH/X9utL52l4EO7De4NWE155Mud8m5g+vhrwhEblWyQx/IyLNPp2v/ezXSmj+ybgqeesh/0ZBzV0e6OKncr5fZL3BGyjeVI2fYMOrAO8timb45D6e79ElNv9kfH/p0sWmH/r+o3Rz38/Xlm7ek/UGT2gRTHDgVZo3Q0RuVTLDC/p4vktF5J6Sm/+m70VR9C/90PcfzZtUzvcs1hs8zJ/gwKs27wOKZvjwPp7v16pg/o5389Klixf0qVHQBxTP92DWGzzMn+DAqyZvof3VrGSG/9PH811RIfPfNKIoens/9I2iaFxEblY635+JiMd6g4f5E2x41eOdqmSGG9I74PM+X8/zPlkl83fjqgUL5vt90vcNiuf7NNYbPMyfYMOrFm9XEVmvZIb/2a/ztfULjDG3VMv8N/Me2Sd9I1drQeN8f29fQmC9wcP8CTa86vDOUDJDWxJ3Sb/Ot91uH15R89/o9l/0S98XKp7vy1hv8Opo/pnf/iPY8CrEO0DRHD7Sz/ONovAdFTV/O37ex/nSdDUXNM73mqGhoWHWG7wa8ZLS/5mLBLUJNryK8H6sZIa3i8isfp5vEAT/XVHzt+PerRVFynG+PEmvUVD4dtYbvBqZv8mUAKT6CXcINrwK8B6naIZv7/f5+r5/UUXNPxnb9Xm+nK90vrctWrRwMesNXg3MP+n30z0BcB+O3a//DsGGV3Ke/e+/0uofH8etkX6frzHmygqb/8Yt+wP0Yb4cpNcoKPwY6w1exc0/dN1+/a6l/92HI/frv53qLUyw4ZWV9xxFM3yNxvl6nve3Cpu/HfspzJdvKb3aeI/vm+1Zb/Aqyovc2JwA9MoUWqkEoE2w4ZWYF4jIn5TM8M+7777rDKXzvbLC5m/HXv2eL81mc6UxzfVK53sq6w1eBXmx8/MkATC9nhFEqQRgiGDDKznv1Vpm2Gq1Xqp4vr+tsPnbsVxjvgRBcJrS+draEitYb/AqxEs8PEkA/G63/o3LEJIEICbY8ErOGxaR63XM0Fx64IGrxxTP9+cVNn875mvMl9mzZ62wt+iVzvebrF94FeEld++TBCDsZv5Nlx0EqecFBBte2Xn/rmWG7fbQM5TP90cVNn87RrTmSxAEH1M83zWsX3gV4HVSCUDUa9NfOgEIM1cJItjwiuPNcu/j990Mfd+/sIDz/VaFzd+OptZ8CcNg1mRaP0/zfM9j/cKrAC9JAOKufu6+1Ey9I4j5w6sC78NaZjgy0jm0gPP9YoXN/64C5stbFM/3iaxfeCXndTLt4UslAAbzh1cR3mJXba7vZhgE/v8UdL4nV9T87feuL2C+DNnSvUrn++t0pUPWL7wS8tqTKffbxPzhVYj3BSUzXD8+Pra6oPP9YEXN3zL+XNB8eYXi+b6A9Quv8rypGj/BhlcQb6WIbNAwwyAI/qvA831HNc1/056JSwuaL/Yd5z8one+VIyOdmPULry48ggOvCrxvK5nhPbNmzdi1wPN9YxXN33JSmyaLmC9P1zrfKArfzPqFh/kTbHg6vIO0zNC+Wlbw+b6iiubvEoDvFzhfvC1rKPTxfG9esmT7haxfeJg/wYbXf94FSrXfb3OvlhV5vs+tovm7BOCMgufLIYqNgj7A+oWH+cOD11/ekxTN8K0lON+nVNH8He9zJYjf2UrJ4l2+72/H+oWH+cOD1x9e0/O83yiZ17XulbJC49doNA6rqPnbf/9o0fFrNpt7G9PcoHS+n2T9wsP84cHrA8/zvBcqmtcryxC/Tmf4URU1fzveXYb5FwTB15TOd92WzY9Yv/DKbP6Z3/4j2PCK5NlXrYwxf1MyrytExC9D/MbHxw6oqPlvdFX5Cp9/M2fO2MMYc59S/L7K+oVXAV5S+j9zkaA2wYZXFM++aqVoXs8qS/xmzZq5e0XN345/Kcv8C4LgFMX47cv6hVdy8zeZEoBUP+EOwYZXBG/x4kXb2VetlMzrl+4VslLEb+HC7ZZW1PzteGFZ5l8QBHNF5A6l+P2Q9QuvxOaf9PvpngC4D8fu13+HYMMrgheG4fsVzeuwMsVvl12Wz6qo+W90xXjKNP/eoRi/w1i/8Epo/qHr9ut3Lf3vPhy5X//tVG9hgg1PjTd//tzl9hUrJfP6Ydnit3LlCttsZn0Fzd+Ow0s2/zoicoNS/P4vfSeJ6wG8EvAiNzYnAL0yhVYqAWgTbHjavDAMPqVoXvuWNH63VtD87Xh4CeffvyjG70iuB/BKwoudnycJgOn1jCBKJQBDBBueNs/t3r5fyby+XuL4XVVB87djrxLOv1BE/qwUvz+Oj49FXA/gFcxLPDxJAPxut/6NyxCSBCAm2PCK4D3w/raKedn3t3cqcfx+W0Hzt2PHks6/5yo2CnoD1wN4BfKSu/dJAhB2M/+myw6C1PMCgg1PnTc2NnqQreCmZF6nlDx+P6+g+dsxr6Tzz37mV0rxu2HHHZdtx/UAXkG8TioBiHpt+ksnAGHmKkEEG17OPN/3f6BkXneLyHYlj9+PKmj+G92mu7LOv8O14hdF4bu5HsAriJckAHFXP3dfaqbeEcT84RXCa7eHHq9oXu+tQPy+VUHzt6NZ8vl3jlKjoDuCIJjD9QBeAbxOpj18qQTAYP7wiuR5nvczJfO6RUTGKhC/0ypo/neWff41m439FeP3Ea4H8ArgtSdT7reJ+cMrktdoNJ6qaF7HVCR+p1TM/O33rqvC/AsC/1tK8btPRJZwPYBXSt5UjZ9gw8uLN2fO7EBEfqdkXvbVulZF4vfBipm/ZfypCvNvYmJ8H2PMOqX4/SfXA3i0CIYHb+u8lyia10srFL93VMv8mxt937+0KvMvCPzPKsVvg4is4noAD/OHB+/BvNZkCt5M07zsXQZTofi9sUrmbzm+719Ylfnn+/5C9zaIRvy+w/UAHuYPD96DeccomtdTKxa/V1bJ/O0IAv97FZt/71WM3yO4HsDD/OHBe+AYczvyNS6+P9uy3W/Z49doeM+rkvm7OwCnV2w+Z56DOcTvp1wP4GH+8OA9cLxH0bwOrlr84jg+skrm73ifreB8fqNi/I7gegAP84c36Lz5InKXknmdXcX4DQ+3n1wx87f//tEKzme7D+VvSvH7nX3rhesBvCLNP/PbfwQbXp94JyuZ14Z0d7oqxW9kpPPoipm/He+u6Hx+kV6joOjVXA/gFcRLSv9nLhLUJtjwcubt5DrxaZjXl6oav/HxsQMqZv52vLmi87kpIpcpxe+aXXbZaS7XA3gFmL/JlACk+gl3CDa8nHlfUzKv+0Vkh6rGb8aMid0rZv52vLrC8/kpeo2Con/negBP2fyTfj/dEwD34dj9+u8QbHg58vZRNK+Tqhw/10imSuZvxwsrPp8vUGoUdGsYhjO4HsBTMv/Qdfv1u5b+dx+O3K//dqq3MMGGlwfvB0rmdaeIzK1BkaQqmb8dT6/yfG40Go9QjN/7uR7AU+BFbmxOAHplCq1UAtAm2PBy4h2qaF7vrEH8bJa+vkLmb8djqz6fg8A/Syl+94jIAq4v8PrIi52fJwmA6fWMIEolAEMEG15OPGtmv1Qyr5tarWisJvG7tULmb8dBVZ/PD2y+NOuV4vcZri/w+sRLPDxJAPxut/6NyxCSBCAm2PBy5D1T0bxeX6P4XVUh87djzzrM5yDwT1OKn73DsyvXF3g585K790kCEHYz/6bLDoLU8wKCDS8vni8ilyuZ119XrNh5Zo3i97sKmb8dO9ZhPhtjlojIvUrxO4PrC7yceZ1UAhD12vSXTgDCzFWCCDa8bLxXaJlXqxW9ombx+0WFzN+OeTWazx9SjN8BXF/g5chLEoC4q5+7LzVT7whi/vDy5A2JyLU65mV+u3r1PuM1i9+PKmT+dgzXaD7PFJHblOL3E64v8HLkdTLt4UslAAbzh9cH3lu0zGtoaOjIGsbvWxUyfzuaNZvPb1WM3+O5vsDLideeTLnfJuYPrw+8GVvuYu+Xefm+/9Oa6nFahcz/zhrO563ewepT/C5dunSx4foCT403VeMn2PAyHB/QMq9OZ/jwmupxSkXM337vuprO51cq7mF5OdcXeEXwCA68PHkLXaGTvpuXLdxSYz0+VBHzt4w/1nQ+P+Qtlv7dyTJXrlq12yyuL/Awf3hV5n1G6ZfrhrGx0QNqrMfx1TD/TY9hLqnxfH6GYqOgN3N9gYf5w6sqb9ekhG2/L5ZBEHypznp4nndMFczfcnzfv7DG68M+Kv2FUqOgm20lS64v8DB/eFXknaF02/q+mTMndquzHlEUva4K5u8exXyvzuuj0WgcppiMncD1BR7mD69qvAO0nlkHQfAfddcjjlsvr4L5uzsAp9ddD9/3f6Skx6Zullxf4GH+8KrE+7HSbdI7giCYU3c9hobi51TB/B3v1LrrMTo6stbuO1HS4xNcX+D1w/wzv/1HsOFN4jhc0WzePgh6DA+3n1IR87f//pFBWB++739DSY/7t+ytwPUK3jR5Sen/zEWC2gQbXpZHpJ7n/UrJbK5PSs7WXY9OZ/hRFTF/O941COvDGLPcmbOGHl/h+gIvR/M3mRKAVD/hDsGG19P9G95zFc3m1YOiR7PZXFUR87fjzQO0Pk5S1GNvrlfwcjD/pN9P9wTAfTh2v/47BBtet2N8fCwyxvxFyWz+JCLBAOmxpCLmb8fRA7Q+7P6TO5T0+D7XK3jTNP/Qdfv1u5b+dx+O3K//dqq3MMGGt1VeFIVvVDSb5w6YHrMqYv52vGDA1sfxinocyvUK3hR5kRubE4BemUIrlQC0CTa8bfGWLVsyzxhzg5LZ/Mo+bRgwPeKKmL8dTxuw9dERkRuV9PjlypUrmlyv4E2SFzs/TxIA0+sZQZRKAIYINrxuvCgK361oNo8bQD28pKpiyc3fjscO4Pp4rZYecdx6AdcreJPgJR6eJAB+t1v/xmUISQIQE2x43XgLFsxfZt/HVzKbHw+wHrdWwPztOGgA10coIn9RahT0p4c9bI8ZXK/gZeAld++TBCDsZv5Nlx0EqecFBBteV14YBv+haDb7D7AeV1XA/O3YY0DXxz9r6dFqRa/negUvA6+TSgCiXpv+0glAmLlKEMEeWN6sWTN3N8bcq2Q2Zwy4Hr+rgPnbscOArg/7+UuUKmBeH8dxh+sVvB68JAGIu/q5+1Iz9Y4g5g+vJ8924VMym/Wuu+Ag6/GLCpj/xnTt+sGrg9F4gqIeb+V6Ba8Hr5NpD18qATCYP7wsvPHxsQOMaa5XMptT0UPOqYD5b0yqMw7q+vB9/wIlPW4TkZlcr+B14bUnU+63ifnDy8rzff+7SmZzj4gsRA85swLmb0djkNfHyEjn0Yp6nMj1Ct60eVM1foI9mLzh4fZhimbzAfTYdJxWAfO/g/WxKTn+lpIe94rIYtYHPFoEw1PjeZ53gZLZ2FffJtBj03FKyc3ffu9a1sem3g0rRGSdkh5fYH3Aw/zhqfAajcaTFc3mLejxwOF53oklN3/L+CPrbTPv00p6bBCRlVyv4GH+8PrKW7Bgvi8iv1Yym2tFZAg9HuCFYfC+cpu/LVLjX8J623xsJyJ3K+nxba5X8DB/eP3mPV/RbF6JHulyy9FxZTZ/y7E74FlvDzrep6jHWq5X8DB/eP3iRSLyVyWzuVxEfPT4B89Wfyuz+dsRBP7ZrLcHHeMicouSHhdyvYKH+cPrF+91imbzTPR4MC+OWy8vs/m7OwCns94echyj1ygoPpLrFbxJMD2CAy8Lb0REblIym4tc9zv0SPHiuPXsMpu/453KenvI0dqyj0MfGwX9fvXqfca5XsHrZfyu7k/mIkFtgj3QvBMUzeZQ9Njq2xePKbn523//MOttq8dL9BoFtY7megWvh/mbTAlAqp9wh2APLG+OiNypZDY/QI9t8g4oufnb8U7W21aPpoj8VqlR0NXDw+0hrn/wtmH+Sb+f7gmA+3Dsfv13CPbA8j6uaDb7osc2eStLbv52vIn1tvWj0WgcoajHMVz/4G3Fz0PX7dfvWvrffThyv/7bqd7CBHuweMtE5H4ls/kaenTlLSm5+dtxNOtt2zzf93+mpId982CM6x+8FC9yY3MC0CtTaKUSgDbBHkjeaUpmY8um7oQeXXmzSm7+dryA9bZtXqczfLiiHu/l+gfP8WLn50kCYHo9I4hSCcAQwR5I3p6uzKiG2ZyMHj15ccnN346nst6683zfP1tJj7tdNUL0GGxe4uFJAuB3u/VvXIaQJAAxwR5Y3llKZnOXiMxHj548r1tCVpJGQY9hvXXnNZvNPXol1jnq8Sn0GGhecvc+SQDCbubfdNlBkHpeQLAHk/dIxV+a70GPzLzbSmz+dhzIesvE+4KSHvbR2s7oMbC8TioBiHpt+ksnAGHmKkEEu468nyqZ/y1RFE6gR2be1SU2fzv2YL1l4i0WkXuV9nScjh4Dy0sSgLirn7svNVPvCGL+g8s7QvE287HoMSne70ps/hvdWyOst2y8Dyvu6dgfPQaS18m0hy+VABjMf6B5ZkuT6aPZXLXLLstnocekeL8osflvdEWjWG/ZeDO39UinD/qeix4DyWtPptxvE/MfeN5LtJ4xR1F0NHpMmndOic3fjjbrbVK8t2mtt6Gh+GnoAW+bewBkigfBrg3vIU1L+mc25g/77rvXBHpM+jizxOZvR4P1NimeTZiu02kU5P/mwANXj6EHvNwOgl0r3hu1NpgNDcXPRY/JH57nfbnE5n8H621KvFdpPdaJ49bL0AMe5g9vy2PMlQ/V+CVyEXpMjRcE/udKav72e9ew3qbE80XkCqVGQX8dHR1poQc8zB9e+niP1u7y4eHhJ6DH1HhhGJxUUvO3jCtYb1NuFHSk4p2d16AHPMwfXnLMd9X4+m7+vu//AD2mzgvD8H3lNP9Nd3Z+xXqbGm/t2jW2RPDFSsndjSLSQQ94BAeeuDr8Gs8gN4yNjR6EHlPnRVF0XBnN3yV3F7Deps4bHm4/RTG5Ox494BEceMtdudC+b0AKguBr6DE9XhRF/1pG839AX/8s9J0ez/f9c5T0vTNdswE9BtP8M7/9R7Bry/uq0nvl901MjK9Cj+nxGg3v+WU0f3cH4BvoOz1es9ncV1Hfj6PHwPKS0v+ZiwS1CXbtePtomUMQBJ9Cj1x4R5TR/B3vM+ibC+8rSvreLyI7oMdAmr/JlACk+gl3CHbteD9QevXoLt/356NHLrxDS2r+G11te/SdPm9HZ84a+n4JPQbO/JN+P90TAPfh2P367xDsWvEOVTSHd6JHbrwDSmr+drwTfXPjfUJJ3w0ishd6DIz5h67br9+19L/7cOR+/bdTvYUJdvV5nud5FymZw00iMoIeufFWltT87TgWfXPjzXUb9TT0PRs9BoIXubE5AeiVKbRSCUCbYNeD12g0nqloDq9Dj1x5S0tq/nYchb658t6ppW+7PfRE9Kg1L3Z+niQAptczgiiVAAwR7HrwZs6cCI0xf1Qyh7+KSIgeufJml9T87Xg++ubKs3fOblIq4vR/a9euGUWPWvISD08SAL/brX/jMoQkAYgJdn14URS9VtEcXoAeufPikpq/HU9F39x5r9PSd2gofj561I6X3L1PEoCwm/k3XXYQpJ4XEOya8JYvXzbHGHOdkjn8RkSa6JE7z3Mbt8pm/nYchr658+wdtL8ova1zhb1DiB614nVSCUDUa9NfOgEIM1cJItiV4EVReLyiOTwJPfrGu62E5m/HGvTtx54d7/mK+r4CPWrFSxKAuKufuy81U+8IYv414i1atHCxMeY2JXM4Hz36yru6hOZvxyr0zZ+3Zs1+o77vX6ak77UiMoQeteF1Mu3hSyUABvOvHy8Mw48qmsNB6NFX3u9LaP52LEPf/vDa7aFnKur7b+hRG157MuV+m5h//Xhz5sxeYYy5R+nicSZ69J13UQnNf2O6uQz69qNRkLlASV/7iGkGegwQb6rGT7DLzwuC4D+VzMFuTtsdPfrL8zzv3BKa/8bk1jH69qsRVONARX0/iB6DySM4NeJNTIzvZ0xzvZI5fAE9+s/zff+7JTR/m/w10LfvvP9W0vdeEdkePTB/glPp24b+mUrmYC8Yi9Gj/7wgCL5eMvO343b0VeHtKiLrlfT9HHpg/gSnorxOZ/hRiubwYfTQ4QVB8PmSmb/93jXoq8b7jJK+NtHYDT0wf4JdQZ7neT9WMofbRWQWeujwwjD4RMnMf1MRGfRV4y0QkbuV9D0TPTB/gl29DUOPVzSH49BDjxeGwfvLZf6baslfjL6qvPdr6Ts83D4MPTB/gl0R3tKli22np18pmcP1IjKMHqp3do4tk/lbju/756OvKm9cRP6ulNz9FD3qaf6Z3/4j2JXiPUfRHF6NHuq8V5XJ/O0IAv8s9FXnvUmvUdDQkehRK15S+j9zkaA2wa4ELxCRPymZw5/c30MPXd7zymT+7g7AN9BXnWc7Q16t1CjodwsWzPfRozbmbzIlAKl+wh2CXQne0Yrm8Bz0KIR3RJnM3/E+jb76PM/zXqZYFOqF6FEL80/6/XRPANyHY/frv0OwS88bds/kNczB7jFooEchvMNKZv72309EX33e3nvvOeb75g9KdSGuFJEWelTa/EPX7dfvWvrffThyv/7bqd7CBLu8vOMUfxkejh6F8daUzPztOAF9i+ENDcXPVawL8Qb0qCwvcmNzAtArU2ilEoA2wS41b5Z7H1/D/M9Fj0J5K0tm/nYci77F8Xzf/ELp1dCbRWQMPSrHi52fJwmA6fWMIEolAEMEu/S8DyveFt4fPQrlLS2Z+dtxFPoWx2s0Ggcrvhr6HvSoFC/x8CQB8Lvd+jcuQ0gSgJhgl5632NXi1zD/M9CjcN7skpn/RvdmAvoWy/uO0gbgu0RkPnpUgpfcvU8SgLCb+TdddhCknhcQ7PLzPq9YG3xX9CicN1Qy89/o3kxA32J5q1xXRo07gSejRyV4nVQCEPXa9JdOAMLMVYIIdpG83Xt1B8vRHD6DHqXgeekLfQnMf6N7MwF9i+f9l9KPgXUishN6lJ6XJABxVz93X2qm3hHE/KvBO1PJ/O8RkYXoURrebSUy/43uzQT0LZ63RETuU9oj8nX0KD2vk2kPXyoBMJh/ZXgHKe4G/3/oUSre1SUy/43uzQT0LQfvI1p7RDqd4YPRo9S89mTK/TYx/0rxzlcy/1vDMJyJHqWqAPf7Epn/RvdmAvqWg/eQV4L72CjoPPSoAW+qxk+wC+M9UfFVsH9Dj3LxjDEXl8j8N7o3E9C3PLzjtPaItNvtp6JHfXgEp/w8W8Hp10rmf83y5cvmoEe5eLb9bonMf6N7MwF9y8PbVBZcqVHQJa4FOXpg/gRbgfd8rWd8URS9Fj3Kx7Ptd0tk/vaNBA99S/eY6NWKj4megx6YP8HuPy8Skb/qvAdu/viwh+0xAz3KxwuC4OslMX87bkPf8vFWrdptwvfNn5XuFG21NTh6YP7w8uW9TqsIzNBQ/AL0KCcvCPzPlcT87feuRt9y8uI4frHinaJXowfmD69/vBERuVFpd+/Fa9euGUWPcvI8z/twSczfMi5H33Ly7Bo2xvxKKVm8QUQ66IH5w+sP73it8q/Dw+2noEepeSeUw/wfSBbRo7y8RqPxWMVk8e3oUR3zz/z2H8EunDdHRO7UMH/f989Fj9Lzji2D+bv5ch56lJ73Q6X5ckf6lVD0KC0vKf2fuUhQm2AXyvu41nu9o6Mjj0SP0vOOKoP52xEE/nfRo/S8fRTny0fRo/TmbzIlAKl+wh2CXRhvmYjcr3MxD85Aj0rwnlcG83d3AL6OHpXgfVVpvtyXVIZEj1Kaf9Lvp3sC4D4cu1//HYJdGO80pYv5uvHxsb3QoxK8I8pg/o73afSoBG+56+KnMV++iB6lNP/Qdfv1u5b+dx+O3K//dqq3MMHW5e1pC61oXMyDwD8VPSrDO6wk5m///UT0qAzvk0rzZcPISOdA9CgVL3JjcwLQK1NopRKANsEuhPddpXKed/m+vwA9KsNbUxLz3+jeTkHfavDmichdSm+H/AA9SsOLnZ8nCYDp9YwgSiUAQwS7EN4jFS/m70WPSvFWlcT87TgGPSrFe5fWfBkeHn4CehTOSzw8SQD8brf+jcsQkgQgJtjF8DzP+6nSxfwWERlDj0rxlpXE/O14FXpUijcqIjfpbBA1F61cuaKJHoXxkrv3SQIQdjP/pssOgtTzAoJdAK/RaDxV8WL+RvSoHG92Scx/o3sjAX2r9ePi9Yrz5WnoURivk0oAol6b/tIJQJi5ShDBzpU3Z87swBjzB6XF+TcRaaFH5XhDJTF/O/4JParFW7Fi55m+b/6mNF9+LyIGPQrhJQlA3NXP3ZeaqXcEMf+CeK1WdJTixfzF6FFJXkPr7ZAMvEPRo3q8OG69UnG+vAw9CuF1Mu3hSyUABvMvjrfLLstn+b65Ruli/lsRaaJHZW/j3l4C87fjAPSoHm/16n3GjTGXKc2Xa9xdK/TQ5bUnU+63ifkXy4ui6G2KF/Mj0KO6PGPMtSUwfztWokdlGwU9SXG+vBk9SsqbqvET7Px4ixcvWmSM+bvSxfyn6FFtnu+bK0pg/huTsq/oW1neeUrz5VYRmUAPWgTD2wovDMMPKV7MH4ke1ebZNrwlMH87ZqFHpXlrFOfLB9AD84e3BW/evDk7G2PuVrqYfxc9qs/zff/8Epi/HTF6VJ73TaX5co+ILEQPzB9eiheGwalKF/MNIrIHelSf5/v+WSUwfzufPPSoPG+FiKxXKi99Knpg/vAca8aMiYcZ01yndDE/DT3qwfM87ysFm78dt6FHbXinKpWXXj82NrovemD+8B74JXe6kvnf50rIokc9eJ8u2Pzt965Cj9rwFrpb9H2vMBkE/nfQA/MfeF6n03mE4m3cj6NHrXgnFmz+lvEH9KgV7wNaFSZHRjqHoUex5p/57T+C3bfbuD9UMv87bJVh9KgV74RizX9Ty9f/Q49a8exrercqNQq6ED0K4yWl/zMXCWoT7NyLcBym+Az3ePSoHe/YIs3/gYu4fx561Ivned5bFCtMPhE9CjF/kykBSPUT7hDs/HiuReZFSuZ/o4h00KN2vKOKNH87gsD/LnrUi7fTTjvOfnCVyb6+nfRrypGrm3/S76d7AuA+HLtf/x2CnSvvGYobuF6HHrXkPb9I83d3AL6GHvXjtVqt1ygWmXoBeqiZf+i6/fpdS/+7D0fu13871VuYYE+f54vI5Urm/1cRCdGjlrynFmn+jvcp9Kgfb99995owxlyutEH5ShGJ0KPvvMiNzQlAr0yhlUoA2gQ7N94rFHdvPx89ass7rGDzt//+IfSoJ6/RaDxdcY/Sv6JHX3mx8/MkATC9nhFEqQRgiGDnxhtyrTE1zP8hz9fQo1a8NQWbf9fNpehbeZ69PfwzpR8rN4nIKHr0hZd4eJIA+N1u/RuXISQJQEywc+W9WfHVrSeiR615qwo2fzveiB615h2seL16F3rkzkvu3icJQNjN/JsuOwhSzwsIdn68CdcSU2MxnYcetectK9j87XgletSed5bS2yZ3icg89MiV10klAFGvTX/pBCDMXCWIYGfl/T/F97YPRI/a8+YUbP52/DN61J63h2v6pLHh9JPokSsvSQDirn7uvtRMvSOI+efLe0id7T4upjPRYyB47YLN345/Qo+B4H1RacPpuvHxsb3QIzdeJ9MevlQCYDD/vvA+o2T+tqXn7uhRf97SpYuNMc0NBZq/HYeix0DwlrpmYgqNgoIz0CM3Xnsy5X6bmH9feLuIyDqloi2fR4/B4Rlj7ijQ/O3YHz0GhvdRrT0no6MjB6OHIm+qxk+wM/FOVzL/e0Vke/QYHN4/SrYWYv4bk7tN6DEQvNm2qZhShclz0aMYHsHJl7e/YrnWE9FjsHi+b64o0PztWIIeA9Uo6B2Ke04OQw/Mv+q8c5XM/7YgCGajx2DxjDEXF2j+dsxEj8HhLVu2ZJ4x5galx06/dMWI0APzryTvcMVa7f+OHoPH8zzvewWav301zKDHoDUKio5RfOx0JHpg/lXk2X/7lZL5X28zc/QYSN5nCjJ/O65Cj8Hj7bnnypnGmL8o3Xn6o4gE6IH5V433bK1GLVEUvgE9Bpb3poLM344foMegNgrynqN45+ko9MD8q8SzGeufdBq1mD/bjBw9Bpb3mILM337vg+gxsDw7LlZKPq8XkWH0yN/8M7/9R7AnxTtaq0tbHMcvQY+B5o11K9Paz/kXx/GR6DHQvMcqJp/HoUeuvKT0f+YiQW2CnYk37DLWvpu/7/uXHnjg6jH0GHje/2qbvzHNddtvv3B79Bh43o+Uks/bRWQWeuRm/iZTApDqJ9wh2JmO47RatLbbQ09DD3gicoyy+dvk8xz0gCci+yomnx9Bj1zMP+n30z0BcB+O3a//DsHuedh3om/TMH/f989HD3juWLC1xwD9nH9x3HoFesBzx9eVks/7ZsyY2B09pmX+oev263ct/e8+HLlf/+1Ub2GCve3jRK1a2SMjnUehB7zUcYaW+Rtjbt5ll53mogc8d+y0Za+TPjYK+jJ6TJkXubE5AeiVKbRSCUCbYHc9Frta/H03/yDwz2Tyw9viOEAr+Yyi8F3oAW+L42Sl+bdhbGx0DXpMmhc7P08SANPrGUGUSgCGCHbP4/MaF19jzLqxsdG90QPeVo5vKsy/GxYvXrQdesDb4pgvIncpNQr6HnpMipd4eJIA+N1u/RuXISQJQEywex62I9p6jckfBP7n0QPe1g5jzHJjzD39nH+tVvRy9IC3tcPzvPcoNgp6BHpk4iV375MEIOxm/k2XHQSp5wVM/t7HmRrmby/uvm8WoQe8bfFarehNffzlddbKlSua6AFva7ztt1+4wBhzi1KjoJ+iRyZeJ5UARL02/aUTgDBzlaDBDvaBOua/ifcB9IDXjWfrQgSB/60+JJ9XBkEwBz3gdeNFUfRWxUZBR6BHT16SAMRd/dx9qZl6RxDzz3bb63wl879VRCbQA14v3g47LJ3red6FOZr/Lc1mc3f0gNeLt/vuu842xlyl1Cjod0k3SvTYJq+TaQ9fKgEwmH+2o9FoPEnxmdeb0QPeJHijInJeDuZ/Q7PZ3BM94GXleZ73IsVGQS9Fj6689mTK/TYx/2zHggXzfWPMZUrmf42IxOgBb5K8loh8eurP/M1Fxpgl6AFvkjy7T+Q3So2Crt7atRE9JsmbqvEParDtbmgl87fj5egBbxq8J4jIFZOYf3eEYXjczJkTIfGDN0XekxQbBR2LHrQIVuPtvvuuM3zfXKlk/n/o9ZyLyQ8vA88XkSNF5CwRuW8b5aUvtZu4Fi5csIj4wcuBd75So6C/i8g4emD+Krwo6t+rVlvhPQM94OXMs48G9mo0Gk+M4/hZnc7wYxYtWriY+MHLmXeQYqOg96MH5t933tKli+27rjcpmf8v7IsG6AEPHryK8r6l1CjontmzZ+6MHph/X3lhGL5P8T3XR6MHPHjwKszbzVZJVWoU9J/ogfn3jTd//rwdjTF3KZn/99EDHjx4NeB9TqlR0PqJifH90APz7wsvDINTlMzfjr3RAx48eDXg2fLl9yg1CjoTPSbF9AhOBt6sWTNWGdO8T8n8v4oe8ODBqwvP87wPKRZNOwA9ehu/q/uTuUhQe5Anv+/7X1Uy/3UispzJCg8evLrwFiyYv9gYc5vS21M/QY+e5m8yJQCpfsKdQZ38IyMd2/Bng1J5y08yWeHBg1c3XhSFxytuoH48emzT/JN+P90TAPfh2P367wxwbeuzlMz/LhGZx2SFBw9e3Xg777zjPGPMtUp3Ui+17VrQ4yF+Hrpuv37X0v/uw5H79d9O9RYeqMnfaDQOUWxs8W4mKzx48Gr8Y+qVitfT56HHg3iRG5sTgF6ZQiuVALQHdPL/VGmy3uw6uDFZ4cGDV1eeceXNNRoF/UVEQvTYxIudnycJgOn1jCBKJQBDAzpZ/0nJ/O14AxcPePDgDQDv6YqNgl6HHps9PEkA/G63/o3LEJIEIB7glpa/VTL/v7n67Fw84MGDV3eeNZ+fKzUKuklERgZYj+TufZIAhN3Mv+mygyD1vGBQJ+uLlcx/o/tbXDzgwYM3KLxDFBsFnTDAenRSCUDUa9NfOgEIM1cJqt9ktb/Gr1Iy/9+6uw1cPODBgzdIvLOVGgXdOXfu7B0GVI8kAYi7+rn7UjP1jqA3wJP1jYrPqP6Jiwc8ePAGkLeXiGzQaBQUhsGnB1SPTqY9fKkEwAy4+Y+5Hfka5v+/XDzgwYM3wLzTlBoF3T9jxsReA6hHezLlfpsDbv7i3sXfqLRB5RFcPODBgzfAvGUicp9So6BvoMe2AVMy/poFZ76rxqdh/t/l4gEPHrxB53med5JSo6ANWbqsDroegxycTyqZv52Ie3DxgKfMs5tNdxCRw0XkpSJyjOd5x4Vh+I5WKzo2juMXj4x0Hr148aLtiB88Ld68eXOXGmPuVGoU9H30wPy3xlvuOvFpvJryRS4e8JR4S1wxFNvP4vZJzOfLROTjIvJYEQnQA16fGwW9V7FR0KPRA/Pf8viqkvnfJyJLuXjA6yPPlvl8moicm9N8vlFE3i8i26MHvH7wdthhyXbGmBuVGgVd5IoRoQeTddOxt2JRio9x8YDXJ569qD1DRC7v03y2d8hOFpG56AGvD42CXqPYKOiZ6MFkTY7vK5n/HUEQzGWxw+sDb0cROUdpD4t9lHCUbbeKHvBy5NnGPX9WqsBqk2Qf82eyPlrJ/O33TmCxw+sD70WKb6+ked+fN2/OMvSAlyPvuYpF2F416Oaf+e2/mgbHc8+DNC6WNy5dung+ix1ejjz7rP8kxboVD+H5vrlmbGz0QPSAlxPP/u9fKc3n60SkPaB6JKX/MxcJatcwOM/QulhGUfgmFju8HHn2duk3ijT/FO+O4eH2Y9AXXk68wxXn81sH1PxNpgQg1U+4U7Pg2Oc/f9C5WJorV63abRaLHV6Ov/zLYv4J704R2R994eXEO0dpPt+23XbzlgyY+Sf9fronAO7Dsfv136lZcF6udbGM49YrWOzwcuSdVDLzT/de3wF94eXA209rPodh8IkBMv/Qdfv1u5b+dx+O3K//dqq3cB2CMyQi1+g8I/UvO/DA1WMsdng58V5UUvNPxqVufaEvvOnyvqE0n++dNWvm7gOgR+TG5gSgV6bQSiUA7RoF581aF8t2e+hZLHZ4OfF2LGi3/2R5H0dfeDnwdra1JzTmcxD4X6q5HrHz8yQBML2eEUSpBGCoRsGZEJFbNS6Wvu9fyGKHlxPPU3zPPw/ew9EXXg6Ngj6l2ChoZU31SDw8SQD8brf+jcsQkgQgrtnk+n9aF8tOZ/gxLHZ4OfGeUSHzt+Ni13wIfeFNmTd79qydjDF3K83nb9dQj+TufZIAhN3Mv+mygyD1vKBOk2uBiNyjcbEMAv87LHZ4OfFMH8v79pN3JPrCmy4vDMMTFefz2prFr5NKAKJem/7SCUCYuUpQdYLzaaWL5fqxsdH9WOzwcuI9rYLmb8cl9i4u+sKbDm/x4kWLjDF/V5rPF9YsfkkCEHf1c/elZuodwbqZ/y6KG0q+yGKHlyPv3Aqa/6bRaDTWoi+86fI8zztGcT4/pUbx62Taw5dKAEwNzd8ep+tcLM29xpglLHZ4OfGWVNX87feCwP8s+sLLgdcSkb8pzeffbrl/pcLxa0+m3G+zpua/v+LF8sMsdng58l5XVfN3vJtXr95nHH3h5cB7keJ8fvFA6TFV45dqvEryY6WL5W0iMpPFDi9H3lkVNv9NY3R05JHoCy8Hnv1VfpnSfL7K3XWgRXCVT6bRaDxO8WL5NhY7vBx59oJ3e5XN3w7XCAt94eXBe4rifD4G86/wySxdutgYYy5Rulhubi3JYoeXE2+Hqpu/430efeHlyLtAaT7fsmjRgoWYf0UnV6vVerHixfIoFie8nHmH18D8M71axXyBNwnew/UaBYUnYv4VnFyrVu024fvmL0oXyz+KSMDihJcz76U1MP/keSr6wsuT922l+Xz33LlzdsH8Kza5Wq3ojYoXy2ezOOH1gXdMDcx/o2tghL7w8uTtLiLrleq6fA7zr9DkWr58h/nGmOuVLm625nmDxQmvD2+vHFcD87djA/rC68P6+ILSfF7nOhPWzvwzv/1XpckVReG7FC9uj2VxwusHLwzDd9TA/O24H33h5c2bOXPGCld4TWM+n16z+CWl/zMXCWpXYXItXLjdUmPM7UoXt3NYnPD6+Bjr2BqYvx03oy+8/jQKCk5SnM/718j8TaYEINVPuFOFyRWGwScUL277sTjh9YsXx/GLa2D+SWlV9IWXOy/5wac0n8+tifkn/X66JwDuw7H79d8p+2SYNWvm7vaWkNJk+AaLE14/eSMjnUfXwPy32Wed+QIvD57neW9TnM+Pq7j5h67br9+19L/7cOR+/bdTvYVLOxmCwD9N6eK2znUXZHHC6xtv8eJF29XA/O14H/rC6yNvSESuVZrPl2xt03dF4he5sTkB6JUptFIJQLvMk2FsbHQ/z/PWK13cPs3ihKfEu6zi5m/HEegLr8+8VyrO5+dWMH6x8/MkATC9nhFEqQRgqAK3gc5UurjdLSILWJzwlHgfr7j5b0g3yEJfeH3i+SJyudL6+LOIhBWKX+LhSQLgd7v1b1yGkCQAcdknQ6PReLjixe39LE54irzHVtj87TgffeEp8Z6huD5eU5H4JXfvkwQg7Gb+TZcdBKnnBVWYDOcrXdz+LiLjLE54ijxbYvrGipr/5h4Z6AtPgWeN7RdK6+PGpUsXz69A/DqpBCDqtekvnQCEmasEFTsZnqh4cXsTixNeAbz3V9T87eOyCfSFp8h7tNb6iKLwvRWIX5IAxF393H2pmXpHsArmb8evlS5u14hIzOKEVwBve/fmSZXM346Poy+8AnjfU1ofd86fP2/Hksevk2kPXyoBMBUxf3s8T/Hi9nIWJ7wCeSdXzPzv9X2zPfrCK4D3MLv5VKdRUHBKyePXnky532aFzN/uwvyL0sXtDyJiWJzwCuTNFZHbK2L+9nvvRl94RfE8z/uK0vqwfS6WVT5+UzX+Ak/mtYoXt6ezOOGVgHdURcz/j8uXL5uDvvCK4k1MjO9hjLlfaX18qU7xq8JkGMmyMzqni9sv3O5SFie8onkNz/N+UHLzXz883D4UfeEVzQvD4FNK68PWutgL89c7meMVL26PYjHBKwtv3rw5y3zfXFPWLoFhGP4b+sIrA89u0LMb9ZTWx9mYv87JzBGRO5Qubt9jMcErG29sbPRAY8wdZTP/IPA/v3btmlH0hVcWnud5Jyiuj0dh/v3nfUzx4rY3iwleGXnDw+3HeJ53Z1nM3/f90/fdd68J9IVXMl4n6+PiHNbHgx4XY/7585aKyH1KF7evsJjglZy3v4jcVIZf/pg/vBLz2DBeA/O3xxeVLm721Y4dWUzwKsDbQUQuLWrDn33mz21/eCXnZXplPKf18QfXmKgS5p/57b8SnMyebrelxsXtP1hM8CrEG+rVNbAfr/qx2x9ehXj/rLg+XlGB+CWl/zMXCWoXfDLfVRLvbt/3F7CY4FWQZ7tiXtzvCn+2yA/v+cOrGG+bZeP7kBxfW/L14bmKv82sJYKHtlJfWPNkHqH4y+ZjLCZ4FeY1ReRIEbmkD419Pk55X3gV5j1TsVHQCSU2/6TfT/cEwH04dr/+OwWezP8qmf+GiYnxVSwmeDXgeY1GY20Q+J81xtw8xfWxwbXaPoqufvBqwLPl3K9UKqd9+6JFC5aU0PxD1+3X71r63304cr/+26newton80+KrzKdy2KCVzfe6tX7jI+OjjwyisI3eZ73eRG5UESuEpG7nMnbTa83i8hvReTbIvI+ETlCRGYSP3g1471Dq5x2EAQfK1n8Ijc2JwC9MoVWKgFoF3AyTXdRUrlt02q1XsdiggcPHrza8lYo9tK417XyLkP8YufnSQJgej0jiFIJwFBB4r1YswXqrFkzd2cxwYMHD159ecaYqxR7aXyuBPFLPDxJAPxut/6NyxCSBCAuSLyWiPxNsf/5dSwmePDgwas3LwiCbyj20lgvIrsVeL7J3fskAQi7mX/TZQdB6nlBUeK9QdH87fP/H7OY4MGDB6/evCgK363cSOvMAs+3k0oAol6b/tIJQJi5SlD+JzPmNiVt1Nqw4fv+V1hM8ODBg1dvXqvVOrqARloHFXS+SQIQd/Vz96Vm6h1Br0Dx3q1p/o73KRYTPHjw4NWb12q1XlJAF80LCjrfTqY9fKkEwBRs/vPd60ma5m///T9ZTPDgwYNXb57neS8pqIvmkws43/Zkyv02CzZ/e3yyAPO34xwWEzx48ODVnndcQS20L3OvtpcvflM1/pxPZkdblKQA87fj765eNIsJHjx48OrLO6PAFtovpEXwto+vFGT+ydifxQQPHjx4teXZ1sC3FmT+9ntX7rLL8lmY/0OPvQs2fztOYTHBgwcPXm15zyzQ/F2joOitmP8Wh+d5PyjY/De1OhWRpSwmePDgwasdzz5/v7RI83esWxYvXrQI83dHo9E4rATmn4wfbLkXgMUEDx48eJXnvaUE5p80Cvog5i8iK1euaBpj/q8k5p+MD7GY4MGDB682vCeIyLoymL/j3eVeeR9c87ffi+PW80pm/sn46IIF830WEzx48OBVmvcM93i3LOaffObkos0/89t//RBvr71Wjfu+uaKE5r/pe75vLpwxY2JvFhM8ePDgVY43IiInleW2/1Z49o7ETgXFLyn9n7lIUDtv8Vqt1mvLav4p3n1hGHxmfHzsYSxOePDgwSs9b0JEjhGRG0ps/sn4ekHmbzIlAKl+wp08xdt55x3nGWOuLbn5b8n7uasidbCbZCxOePDgwSuQZ9+rbzab+4jI0a7z3n0l9Y9tjf2UzT/p99M9AXAfjt2v/07OLRnfUTHz39qw1QN/JyI/FZGfbDk8z/uJ75sLfN+/8B/DXGD/+9Y+32vAgwcPHrxNrJ/7vv8bY8x1nudtqKh/JONHiuYfum6/ftfS/+7Dkfv13071Fp62+W+//cLtjTG3Vtz84cGDBw8evDx4j1W4cxK5sTkB6JUptFIJQDuv2zZhGH6EyQAPHjx48OBtGhcn9Wf6ZP6x8/MkATC9nhFEqQRgKC/znzNn9q7GmHuYDPDgwYMHD97m8ew+mX/i4UkC4He79W9chpAkAHGeGzaCwP88kwEePHjw4MF7EO9Pq1btNpGz+Sd375MEIOxm/k2XHQSp5wW5mf/Y2Kht+LOOyQAPHjx48OA9mNdqRcfk/LZEJ5UARL02/aUTgDBzlaCMuxc9zzudyQAPHjx48OBtlXfjjjsu2y7HVyWTBCDu6ufuS83UO4K5mn+z2dybyQAPHjx48OBtmxeG4b/neOe9k2kPXyoBMHmbv/vjpzEZ4MGDBw8evK6860QkzMl/25Mp99vsk/nPmkx1JiYDPHjw4MEbYN6zVCsuTtX4M/7xVzEZ4MGDBw8evEy8M4sqt9yPWs/fZTLAgwcPHjx4mXj3iEirDuZvyw3ewWSABw8ePHjwMvMeUXXzt8dyJgM8ePDgwYM3Kd5rqm7+9jiUyQAPHjx48OBNivfhqpu/PZ7GZIAHDx48ePAmxftc1c3fHkcwGeDBgwcPHrxJ8U7tt/lnfvtvGn98LZMBHjx48ODBmxTv/f0y/1Tp/8xFgtpT/OOzmQzw4MGDBw/epFgv6qP5m0wJQKqfcGcaf/wyJgM8ePDgwYOXeezQJ/NP+v10TwDch2P3678zjT9+HJMBHjx48ODByzQu6pP5h67br9+19L/7cOR+/bdTvYWn8sdne553B5MBHjx48ODB6z4aDe/ZOZt/w/l5lE4AemUKrVQC0J7OHw/D8K1MBnjw4MGDB68r77w1a/Ybzdn8Y+fnSQJgej0jiFIJwNB0+xMfeODqsSDwz2YywIMHDx48eFvlXTtr1sxdcjb/xMOTBMDvduvfuAwhSQDi6Zp/ciI777zjPN/3z2EywIMHDx48eA/iXTc6OrI6Z/NP7t4nCUDYzfybLjsIUs8LcjH/5GRmzpwIReRDIrKByQAPHjx48OB55/Xhl3+yby9JAKJem/7SCUCYuUrQ1IoGrRaRc5gM8ODBgwdvQHlXep73kj4880+/tdd2d/K9Xl9qpt4R7Kf5p4+93B2BK5gM8ODBgwev5ry/i8iXReQpc+bMDvqw23/Lmj1DWQv+NN0eAC3z3/KYLyKHi8jRIvIuz/M+HgT+qUEQfO4fw/+s53mfEpFTJjvs9+z34cGDBw8evD7zThaRk1xJ3zeKyNNFZIWINPpU4W9rvPZkyv02CzR/ePDgwYMHD542b6rGT7DhwYMHDx68evAIDjx48ODBg4f5Exx48ODBgwcP8yfY8ODBgwcPHuZPsOHBgwcPHjzMHx48ePDgwYOH+cODBw8ePHjwymj+md/+I9jw4MGDBw9eLXhJ6f/MRYLaBBsePHjw4MGrvPmbTAlAqp9wh2DDgwcPHjx4lTb/pN9P9wTAfTh2v/47BBsePHjw4MGrrPmHrtuv37X0v/tw5H79t1O9hQk2PHjw4MGDVy1e5MbmBKBXptBKJQBtgg0PHjx48OBVjhc7P08SANPrGUGUSgCGCDY8ePDgwYNXOV7i4UkC4He79W9chpAkADHBhgcPHjx48CrHS+7eJwlA2M38my47CFLPCwg2PHjw4MGDVz1eJ5UARL02/aUTgDBzlSCCDQ8ePHjw4JWNlyQAcVc/d19qpt4RxPzhwYMHDx686vI6mfbwpRIAg/nDgwcPHjx4lee1J1Put4n5w4MHDx48eAPEm6rxE2x48ODBgwevHjyCAw8ePHjw4GH+BAcePHjw4MHD/B/8x9M9Ajo5lAuGBw8ePHjw4CnypvLH0z0C2jmUC4YHDx48ePDgKfKm8sfjVH3hoRzKBcODBw8ePHjwFHmT/eNeqkdAK9VcwIMHDx48ePDgVYMnk3n7L9UiOEqNcJonAw8ePHjw4MHT5zWzFgnyUj0CkuFP84/DgwcPHjx48PR5JlMCkPqwnxomhz8ODx48ePDgwSuGlykBaG45ZBoHPHjw4MGDB68UPK9XttBIDW+afxwePHjw4MGDVxLe/weDqINtYY7I5QAAAABJRU5ErkJggg==\");\n}\n\n.alarmmap {\n  height: auto;\n  text-align: center;\n  width: auto;\n  font-size: 15px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.alarmmap .icon {\n  height: 30px;\n  width: 60px;\n  margin-bottom: 5px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.23' height='12.553' viewBox='0 0 12.23 12.553'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M18.852,15.267c-.589-.777-1.748-1.232-1.748-4.71,0-3.57-1.576-5-3.046-5.349-.138-.034-.237-.08-.237-.226V4.872A.938.938,0,0,0,12.9,3.93h-.023a.938.938,0,0,0-.918.941v.111c0,.142-.1.191-.237.226-1.473.348-3.046,1.779-3.046,5.349,0,3.478-1.159,3.929-1.748,4.71a.759.759,0,0,0,.608,1.217H18.255A.76.76,0,0,0,18.852,15.267Zm-1.492.222H8.437a.168.168,0,0,1-.126-.279,4.635,4.635,0,0,0,.8-1.278,8.67,8.67,0,0,0,.547-3.375,5.868,5.868,0,0,1,.8-3.321A2.455,2.455,0,0,1,11.942,6.18a1.341,1.341,0,0,0,.712-.4.3.3,0,0,1,.455-.008,1.386,1.386,0,0,0,.719.409,2.455,2.455,0,0,1,1.481,1.056,5.868,5.868,0,0,1,.8,3.321,8.67,8.67,0,0,0,.547,3.375,4.688,4.688,0,0,0,.823,1.3A.158.158,0,0,1,17.359,15.489Z' transform='translate(-6.775 -3.93)'/%3E%3C/svg%3E\");\n}\n\n.legendmappopup {\n  margin-left: 85%;\n  margin-right: 10px;\n  position: absolute;\n  z-index: 900;\n  opacity: 90%;\n}\n.legendmappopup .TitleDetails {\n  text-align: center;\n  font-size: 12px;\n}\n\n.cafeteria-top-options ul {\n  display: inline-flex;\n}\n.cafeteria-top-options ul li {\n  display: inline-block;\n  height: 20px;\n  width: 66px;\n  padding: 2px 0px;\n  border-radius: 12px;\n  cursor: pointer;\n}\n.cafeteria-top-options ul li a {\n  background: none;\n  color: #424242;\n  padding: 0px 14px;\n  font-size: 10px;\n  outline: none;\n  font-weight: 600;\n}\n.cafeteria-top-options ul li a .meeting_active {\n  background-color: #d4fdc1;\n  color: #000;\n  padding-left: 30px;\n  position: relative;\n  border-radius: 12px;\n}\n\n.cafeteria_utilization-cont {\n  display: inline-block;\n  width: 100%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top {\n  display: inline-block;\n  width: 100%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list {\n  display: inline-block;\n  margin-top: -9px;\n  margin-left: -0.7em;\n  width: 100%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list ul {\n  display: inline-flex;\n  width: 100%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list ul li {\n  display: inline-flex;\n  margin: 0 2%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list ul li .user-icon {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 2.4em;\n  height: 2.1em;\n  background-size: contain;\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.65\" height=\"14.455\" viewBox=\"0 0 20.65 14.455\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23433dd9;%7D%3C/style%3E%3C/defs%3E%3Cg transform=\"translate(-467 -793)\"%3E%3Cpath class=\"a\" d=\"M17.971,14.728a2.581,2.581,0,1,0-2.581-2.581A2.573,2.573,0,0,0,17.971,14.728ZM10.228,13.7a3.1,3.1,0,1,0-3.1-3.1A3.085,3.085,0,0,0,10.228,13.7Zm7.744,3.1c-1.889,0-5.679.95-5.679,2.839v2.323H23.65V19.632C23.65,17.743,19.861,16.793,17.971,16.793ZM10.228,15.76C7.822,15.76,3,16.968,3,19.374v2.581h7.228V19.632a4.07,4.07,0,0,1,2.447-3.583A12.683,12.683,0,0,0,10.228,15.76Z\" transform=\"translate(464 785.5)\"/%3E%3C/g%3E%3C/svg%3E');\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list ul li h4 {\n  display: inline-block;\n  font-size: 17px;\n  line-height: 0.8em;\n  margin-left: 10px;\n  margin-top: 0;\n  width: 100%;\n}\n.cafeteria_utilization-cont .cafeteria_utilization-cont-top .cafeteria_utilization-list ul li h4 span {\n  display: inline-block;\n  font-size: 10px;\n  line-height: 10px;\n  width: 100%;\n}\n\n.cafeteria_utilization-list.parking_utilization-list ul li:first-child .user-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/blue-user-jeep2.png);\n}\n.cafeteria_utilization-list.parking_utilization-list ul li:nth-child(2) .user-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/emp-parking.png);\n}\n.cafeteria_utilization-list.parking_utilization-list ul li:nth-child(3) .user-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/m-blue-jeep.png);\n}\n.cafeteria_utilization-list.parking_utilization-list ul li:nth-child(4) .user-icon {\n  margin-top: 0px;\n  background-image: url(https://static.iviva.com/images/Adani_UXP/double-jeep.png);\n}\n\n.environment_data {\n  display: flex;\n  margin-top: -6px;\n}\n.environment_data h5 {\n  width: 50%;\n  margin: 0;\n  margin-left: 12px;\n}\n.environment_data .footfall-arrows {\n  width: 50%;\n  text-align: right;\n  margin: -7px 30px 0 0;\n}\n.environment_data .footfall-arrows a {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1.2em;\n  height: 1.2em;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n}\n.environment_data .footfall-arrows a.lft-arrow {\n  left: 10px;\n  top: 0;\n  cursor: pointer;\n  font-size: 16px;\n  margin-right: 3px;\n}\n.environment_data .footfall-arrows a.rgt-arrow {\n  right: 10px;\n  top: 0;\n  cursor: pointer;\n  transform: rotate(180deg);\n  font-size: 16px;\n}\n\n.environment-matrics-widget .floorInfo {\n  display: flex;\n  flex-direction: column;\n  margin-top: -10px;\n}\n.environment-matrics-widget .floorInfo .footfall-arrows {\n  width: 96%;\n  text-align: right;\n  margin: -15px 30px 0 0;\n}\n.environment-matrics-widget .floorInfo .footfall-arrows a {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1em;\n  height: 1em;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n  top: 0;\n  cursor: pointer;\n  font-size: 18px;\n  border-radius: 50%;\n}\n.environment-matrics-widget .floorInfo .footfall-arrows a.lft-arrow {\n  border-radius: 50%;\n}\n.environment-matrics-widget .floorInfo .footfall-arrows a.rgt-arrow {\n  right: 10px;\n  transform: rotate(180deg);\n}\n.environment-matrics-widget .floorInfo .floorName {\n  margin-left: 15px;\n  font-size: 10px;\n}\n.environment-matrics-widget .uxp-select-placeholder {\n  top: -4px;\n  left: 16px;\n  padding: 10px 35px 11px 20px;\n}\n.environment-matrics-widget .uxp-select-option {\n  padding: 15px 37px 15px 23px;\n}\n\n.controls {\n  width: auto;\n  height: auto;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.controls .control-placeholder {\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  background-color: transparent;\n}\n.controls .control-placeholder:nth-child(1) {\n  margin-right: 10px;\n}\n.controls .control-placeholder .control {\n  width: 100%;\n  height: 100%;\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4zMjUiIGhlaWdodD0iMTAuMDYzIiB2aWV3Qm94PSIwIDAgMTAuMzI1IDEwLjA2MyI+PGRlZnM+PHN0eWxlPi5he29wYWNpdHk6MC4yNDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik01LjkzMSwxMi4wMzZsLS41MTIuNTEyYS41NTEuNTUxLDAsMCwxLS43ODEsMEwuMTU5LDguMDcxYS41NTEuNTUxLDAsMCwxLDAtLjc4MWw0LjQ4LTQuNDhhLjU1MS41NTEsMCwwLDEsLjc4MSwwbC41MTIuNTEyYS41NTQuNTU0LDAsMCwxLS4wMDkuNzlMMy4xNDUsNi43NTdIOS43NjhhLjU1Mi41NTIsMCwwLDEsLjU1My41NTN2LjczN2EuNTUyLjU1MiwwLDAsMS0uNTUzLjU1M0gzLjE0NWwyLjc3NywyLjY0NUEuNTUuNTUsMCwwLDEsNS45MzEsMTIuMDM2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDQgLTIuNjQ3KSIvPjwvc3ZnPg==\");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 40%;\n  cursor: pointer;\n  margin: 0;\n}\n.controls .control-placeholder .control.next {\n  transform: rotate(180deg);\n}\n.controls .control-placeholder .control.active {\n  filter: saturate(100%) brightness(0%) invert(20%) sepia(2%) saturate(3%) hue-rotate(159deg) brightness(99%) contrast(81%);\n}\n.controls .control-placeholder:hover {\n  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.12);\n}\n\n.afterhours_inner_widget {\n  display: inline-block;\n  width: 100%;\n  margin-top: -8px;\n}\n.afterhours_inner_widget .afterhours_tree {\n  display: inline-flex;\n  width: 98%;\n  /* overflow: auto;\n      height: 230px;*/\n  height: 100%;\n  position: relative;\n}\n.afterhours_inner_widget .afterhours_tree .afterhours-arrow {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 20px;\n  height: 20px;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n  text-align: center;\n  margin: 2px 0 0 20px;\n  position: absolute;\n  left: 50%;\n  margin-left: -10px;\n  cursor: pointer;\n  z-index: 11;\n}\n.afterhours_inner_widget .afterhours_tree .afterhours-arrow#topArrowAfterhours {\n  transform: rotate(90deg);\n  top: -12px;\n}\n.afterhours_inner_widget .afterhours_tree .afterhours-arrow#downArrowAfterhours {\n  bottom: -7px;\n  transform: rotate(270deg);\n}\n.afterhours_inner_widget .afterhours_tree ul {\n  margin: 3px 0 0 0;\n  padding: 0;\n  display: inline-block;\n  width: 92%;\n  margin-left: 5%;\n}\n.afterhours_inner_widget .afterhours_tree ul li {\n  display: inline-block;\n  padding-left: 10px;\n  position: relative;\n  width: 100%;\n  box-sizing: border-box;\n}\n.afterhours_inner_widget .afterhours_tree ul li::before {\n  content: \"\";\n  position: absolute;\n  top: 26px;\n  left: 1px;\n  pointer-events: none;\n  width: 1px;\n  background: #dadada;\n  height: 100%;\n}\n.afterhours_inner_widget .afterhours_tree ul li:last-child::before {\n  display: none;\n}\n.afterhours_inner_widget .afterhours_tree ul li p {\n  font-size: 9px;\n  margin: 4px 0;\n}\n.afterhours_inner_widget .afterhours_tree ul li p span {\n  display: inline-block;\n  width: 100%;\n  position: relative;\n  font-size: 11px;\n}\n.afterhours_inner_widget .afterhours_tree ul li p span::before {\n  content: \"\";\n  position: absolute;\n  top: 5px;\n  left: -13px;\n  width: 7px;\n  height: 7px;\n  text-align: center;\n  pointer-events: none;\n  border-radius: 50%;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+1) p span::before {\n  background-color: #82d963;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+2) p span::before {\n  background-color: #f5ec00;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+3) p span::before {\n  background-color: #d879e1;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+4) p span::before {\n  background-color: #5ee3f4;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5) p span::before {\n  background-color: #7cbef6;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5):nth-child(n+6) p span::before {\n  background-color: #9d7cf6;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5):nth-child(n+7) p span::before {\n  background-color: #f79598;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5):nth-child(n+8) p span::before {\n  background-color: #f6a67c;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5):nth-child(n+9) p span::before {\n  background-color: #1057b4;\n}\n.afterhours_inner_widget .afterhours_tree ul li:nth-child(n+5):nth-child(n+10) p span::before {\n  background-color: #0bccb2;\n}\n.afterhours_inner_widget .color_value {\n  display: inline-block;\n  width: 100%;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.afterhours_inner_widget .color_value ul {\n  display: flex;\n  margin: 0;\n  padding: 0;\n  border-radius: 0px 0px 5px 5px;\n  overflow: hidden;\n}\n.afterhours_inner_widget .color_value ul li {\n  display: inline-block;\n  height: 5vh;\n  width: 10vw;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+1) {\n  background-color: #82d963;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+2) {\n  background-color: #f5ec00;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+3) {\n  background-color: #d879e1;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+4) {\n  background-color: #5ee3f4;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+5) {\n  background-color: #7cbef6;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+6) {\n  background-color: #9d7cf6;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+7) {\n  background-color: #f79598;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+8) {\n  background-color: #f6a67c;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+9) {\n  background-color: #1057b4;\n}\n.afterhours_inner_widget .color_value ul li:nth-child(n+10) {\n  background-color: #0bccb2;\n}\n\n.afterhours-arrow {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 17px;\n  height: 17px;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n  left: 50%;\n  margin-left: -10px;\n  cursor: pointer;\n  z-index: 11;\n  position: relative;\n}\n.afterhours-arrow#topArrowAfterhours {\n  transform: rotate(90deg);\n  top: -10px;\n  margin-bottom: -11px;\n}\n.afterhours-arrow#downArrowAfterhours {\n  transform: rotate(270deg);\n}\n\n.hide {\n  display: none !important;\n}\n\n.visitor-card {\n  padding: 46px 24px 24px 24px;\n}\n.visitor-card .st1 {\n  color: rgba(250, 91, 91, 0.8470588235);\n  margin-top: 10px;\n  display: inline-block;\n  font-size: 18px;\n  margin-bottom: 19px;\n}\n.visitor-card .st2 {\n  color: rgba(250, 91, 91, 0.8470588235);\n  font-size: 18px;\n  margin-top: 5px;\n  display: inline-block;\n  line-height: 1.2em;\n}\n.visitor-card .st3 {\n  font-size: 0.9em;\n}\n.visitor-card .self {\n  font-size: 1.1em;\n  margin: 1em 0 1em 0;\n  color: rgba(66, 66, 66, 0.8470588235);\n  position: relative;\n}\n.visitor-card .self span {\n  font-size: 1.3em;\n  width: 100%;\n  display: inline-block;\n  margin-top: 12px;\n}\n.visitor-card .self .calen {\n  background: url(https://static.iviva.com/images/Adani_UXP/calendar_min_icon.png) no-repeat 0 0;\n  display: inline-block;\n  width: 1.5em;\n  height: 1.5em;\n  background-size: contain;\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n.visitor-card .self .calen .visitor_count {\n  display: inline-block;\n  width: 20px;\n  color: #fff;\n  font-size: 10px;\n  position: absolute;\n  right: -8px;\n  top: -8px;\n  background-color: #5752c9;\n  border-radius: 50%;\n  text-align: center;\n  padding: 5px 0px;\n}\n.visitor-card .st4 {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  align-items: center;\n  font-size: 14px;\n  text-transform: uppercase;\n  color: #424242;\n  position: absolute;\n  bottom: 4em;\n  left: 0px;\n  right: 0px;\n  height: 20px;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.visitor-card .st4 span {\n  cursor: pointer;\n  flex-grow: 0;\n  display: inline-block;\n  font-size: 10px;\n  font-weight: bold;\n  color: #666;\n  background: #e4e4e4;\n  border-radius: 14px;\n  padding: 10px 15px;\n  vertical-align: text-bottom;\n}\n.visitor-card .st4 .st4-lft {\n  display: inline-block;\n  width: 40%;\n  position: relative;\n}\n.visitor-card .st4 .st4-lft .deg-btn {\n  background: #7d0f07;\n  background: -moz-linear-gradient(45deg, #00127f 30%, #6affc2 100%);\n  background: -webkit-linear-gradient(45deg, #00127f 30%, #6affc2 100%);\n  background: linear-gradient(45deg, #00127f 30%, #6affc2 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=\"#00127F\", endColorstr=\"#6AFFC2\",GradientType=1 );\n  color: #ffffff;\n  border-radius: 20px;\n  width: 70px;\n  vertical-align: top;\n  font-size: 12px;\n}\n.visitor-card .st4 .st4-lft .deg-btn em {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/sel-deg-icon.svg);\n  display: inline-block;\n  width: 15px;\n  height: 14px;\n  background-position: center center;\n  background-repeat: no-repeat;\n  margin-right: 5px;\n}\n.visitor-card .st4 .st4-lft p {\n  font-size: 7px;\n  font-weight: normal;\n  color: #666;\n  display: inline-block;\n  position: absolute;\n  bottom: -12px;\n  left: 30px;\n}\n.visitor-card .st4 .st4-rgt {\n  display: inline-flex;\n  width: 60%;\n}\n.visitor-card .st4 .st4-rgt p {\n  font-size: 11px;\n  margin-top: 10px;\n}\n.visitor-card .st4 .st4-rgt span {\n  margin-left: 1.2em;\n}\n\n.cur_month {\n  font-size: 9px;\n  font-weight: 600;\n  color: #424242;\n}\n\n.environment_widget {\n  display: inline-block;\n  width: 100%;\n}\n.environment_widget .wing_angle {\n  float: left;\n  margin: 0 0 10px 10px;\n}\n.environment_widget h5 {\n  display: inline-block;\n  width: 100%;\n  box-sizing: border-box;\n  font-size: 11px;\n  padding: 0 0 10px 10px;\n  text-transform: uppercase;\n  font-weight: 600;\n}\n.environment_widget ul {\n  display: inline-block;\n  width: 100%;\n}\n.environment_widget ul li {\n  display: inline-flex;\n  padding: 2em 2%;\n  width: 50%;\n  border-top: 1px solid #d4d4d4;\n  box-sizing: border-box;\n}\n.environment_widget ul li .env_icon {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 2.5em;\n  height: 2.5em;\n  background-size: contain;\n}\n.environment_widget ul li .env_icon.temp-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/temp-icon.png);\n}\n.environment_widget ul li .env_icon.humanit-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/humanity-icon.png);\n}\n.environment_widget ul li .env_icon.emis-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/emis-icon.png);\n}\n.environment_widget ul li .env_icon.voc-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/voc-icon.png);\n}\n.environment_widget ul li h4 {\n  display: inline-block;\n  font-size: 20px;\n  line-height: 0.8em;\n  margin-left: 10px;\n  margin-top: 0;\n}\n.environment_widget ul li h4 span {\n  display: inline-block;\n  font-size: 11px;\n  width: 100%;\n}\n.environment_widget ul li:nth-child(odd) {\n  border-right: 1px solid #d4d4d4;\n}\n.environment_widget ul li:nth-child(3) {\n  border-top: 1px solid #d4d4d4;\n}\n.environment_widget.serice_ticket ul {\n  display: inline-block;\n  width: 100%;\n  padding: 0;\n  margin: 0;\n}\n.environment_widget.serice_ticket ul li {\n  display: inline-block;\n  padding: 1.1em 12%;\n  width: 100%;\n  border-top: 1px solid #d4d4d4;\n  box-sizing: border-box;\n}\n.environment_widget.serice_ticket ul li:last-child {\n  border-left: 0px solid #d4d4d4;\n}\n.environment_widget.serice_ticket ul li:nth-child(odd) {\n  border-right: 0px solid #d4d4d4;\n}\n.environment_widget.serice_ticket ul li .env_icon {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 2.5em;\n  height: 2.5em;\n  background-size: contain;\n}\n.environment_widget.serice_ticket ul li .env_icon.unsolve-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/un-sol-ticket.png);\n}\n.environment_widget.serice_ticket ul li .env_icon.sla-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/sla-icon.png);\n}\n.environment_widget.serice_ticket ul li .env_icon.Tick_breach-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/breach-icon.png);\n}\n.environment_widget.serice_ticket ul li h4 {\n  display: inline-flex;\n  font-size: 12px;\n  margin: 25px 0px 25px 15px;\n  font-weight: 500;\n  width: 50px;\n}\n.environment_widget.serice_ticket ul li span {\n  padding-left: 5px;\n  width: auto;\n  font-size: 11px;\n}\n\n.maintainence-widget {\n  background-color: #5752c9;\n}\n.maintainence-widget .bluebgdefault {\n  height: 100%;\n}\n\n.visitors_count {\n  float: left;\n  width: 20%;\n  position: relative;\n}\n.visitors_count .filteroverall {\n  display: inline-block;\n  position: absolute;\n  width: 86%;\n  left: 3%;\n  top: 0;\n}\n.visitors_count .filteroverall .filter_sec {\n  display: inline-block;\n  margin: 1em 0 0 1em;\n  background: url(https://static.iviva.com/images/Adani_UXP/filter-icon.svg) no-repeat center center;\n  width: 2.7em;\n  height: 2.7em;\n  background-size: 40% auto;\n  background-color: #b7b7b7;\n  padding: 10px 10px;\n  border-radius: 50%;\n  cursor: pointer;\n  position: relative;\n}\n.visitors_count .filteroverall .filter_sec:hover {\n  background-color: #ffb857;\n}\n.visitors_count .filteroverall .filter-menu {\n  background: #fff;\n  border-radius: 10px;\n  font-size: 10px;\n  padding: 2px 5px;\n  box-shadow: 0px 0px 6px #c1c1c1;\n  width: 100%;\n  position: absolute;\n  top: 42px;\n  left: 5px;\n  z-index: 1;\n  display: none;\n  min-height: 26em;\n}\n.visitors_count .filteroverall .filter-menu.filter-menu-nav {\n  display: inline-block;\n}\n.visitors_count .filteroverall .filter-menu ul {\n  margin: 0;\n  padding: 0;\n}\n.visitors_count .filteroverall .filter-menu ul li {\n  display: inline-block;\n  padding: 2px 0;\n  width: 100%;\n}\n.visitors_count .filteroverall .filter-menu ul li:last-child {\n  border-bottom: 0px solid #d4d4d4;\n}\n.visitors_count .filteroverall .filter-menu ul li a {\n  display: inline-block;\n  padding: 25px 6px;\n  width: 100%;\n  margin: 1px 0;\n  box-sizing: border-box;\n  border-radius: 10px;\n  text-align: center;\n  font-size: 1.3em;\n  background: #fafafa;\n  color: #424242;\n  cursor: pointer;\n}\n.visitors_count .filteroverall .filter-menu ul li a:hover, .visitors_count .filteroverall .filter-menu ul li a.filterfootfall_active {\n  background: #ffb857;\n}\n.visitors_count .filteroverall .filter_menu_close {\n  display: none;\n  background-color: #433636;\n  color: #ffffff;\n  position: absolute;\n  bottom: 10px;\n  border-radius: 50%;\n  text-align: center;\n  font-family: arial;\n  cursor: pointer;\n  transform: translate(-50%, 0);\n  background-image: url(https://static.iviva.com/images/close.svg);\n  background-position: center center;\n  background-size: 44% auto;\n  filter: invert(1);\n  background-repeat: no-repeat;\n  left: 50%;\n  padding: 12px 12px;\n}\n.visitors_count .visitors_count-top {\n  width: 100%;\n  color: #fff;\n  text-align: center;\n  margin-top: 4em;\n  display: inline-block;\n  position: relative;\n  margin-top: 2em;\n}\n.visitors_count .visitors_count-top .visitors_count-no {\n  display: inline-block;\n  font-size: 2em;\n  width: 100%;\n  position: relative;\n}\n.visitors_count .visitors_count-top .visitors_count-no .visitors_icon {\n  display: inline-block;\n  background: url(https://static.iviva.com/images/Adani_UXP/visitors-icon1.svg) no-repeat 0 0;\n  width: 0.5em;\n  height: 0.5em;\n  position: absolute;\n  top: -15px;\n}\n.visitors_count .visitors_count-top .box {\n  position: absolute;\n  left: 12%;\n  width: 80%;\n}\n.visitors_count .visitors_count-top .box .uxp-form-select {\n  min-width: 111px !important;\n  margin-top: -8px;\n  margin-left: 7px;\n}\n.visitors_count .visitors_count-top .box .uxp-form-select .uxp-select-placeholder {\n  padding: 12px !important;\n  color: white;\n  background-color: rgba(133, 130, 204, 0.7882352941);\n  font-size: 9px;\n}\n.visitors_count .visitors_count-top .box .uxp-form-select .uxp-select-placeholder::before {\n  content: \"\";\n  position: absolute;\n  top: 51%;\n  right: 7px;\n  width: 20px;\n  height: 20px;\n  background-color: transparent;\n  transform: translateY(-50%);\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy45MzkiIGhlaWdodD0iOC45MDEiIHZpZXdCb3g9IjAgMCAxMy45MzkgOC45MDEiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOm5vbmU7c3Ryb2tlOiM0MjQyNDI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDozcHg7b3BhY2l0eTowLjYyOTt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0tMTQ0My43Nyw3NDcuNzQybDQuODM2LDUuMjgyLDQuODY0LTUuMjgyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDQ1Ljg4OSAtNzQ1LjYyMykiLz48L3N2Zz4=);\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 50%;\n}\n.visitors_count .visitors_count-top .box select {\n  background-color: rgba(133, 130, 204, 0.7882352941);\n  color: white;\n  padding: 12px;\n  width: 87%;\n  border: none;\n  font-size: 20px;\n  box-shadow: 0 0px 7px rgba(0, 0, 0, 0.2);\n  -webkit-appearance: button;\n  appearance: button;\n  outline: none;\n  padding-left: 29px;\n  font-size: 11px;\n  box-sizing: border-box;\n  border-radius: 12px;\n  height: 38px;\n}\n.visitors_count .visitors_count-top .box select option {\n  padding: 30px;\n}\n.visitors_count .visitors_count-top .box::before {\n  content: \"\";\n  position: absolute;\n  top: 18px;\n  width: 7px;\n  height: 7px;\n  text-align: center;\n  pointer-events: none;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 60% auto;\n  background-color: white;\n  border-radius: 50%;\n  padding: 2px 2px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.021' height='9.361' viewBox='0 0 7.021 9.361'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M4.681,2.633V.585a.585.585,0,0,1,1.17,0V2.633Zm2.048.293H.293A.293.293,0,0,0,0,3.218V3.8A.293.293,0,0,0,.293,4.1H.585v.585a2.926,2.926,0,0,0,2.34,2.867V9.361H4.1V7.547a2.926,2.926,0,0,0,2.34-2.867V4.1h.293A.293.293,0,0,0,7.021,3.8V3.218A.293.293,0,0,0,6.728,2.925ZM2.34,2.633V.585a.585.585,0,0,0-1.17,0V2.633Z'/%3E%3C/svg%3E\");\n}\n.visitors_count .visitors_count-top .box:hover::before {\n  color: rgba(255, 255, 255, 0.6);\n  background-color: rgba(255, 255, 255, 0.2);\n}\n.visitors_count .visitors_count-top p {\n  display: inline-block;\n  text-transform: uppercase;\n  color: #ffffff;\n  margin-top: 10em;\n  font-size: 11px;\n  line-height: 1.2em;\n  padding: 0 0 0 10px;\n  position: relative;\n  width: 80%;\n}\n.visitors_count .visitors_count-top p::before {\n  content: \"\";\n  position: absolute;\n  top: -3px;\n  left: -3px;\n  width: 10px;\n  height: 10px;\n  text-align: center;\n  pointer-events: none;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100% auto;\n  padding: 3px 3px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.149' height='19.38' viewBox='0 0 22.149 19.38'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;opacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M21.743,10.15,19.786,8.193a1.384,1.384,0,0,0-.979-.405h-2.2V4.326A2.076,2.076,0,0,0,14.535,2.25H7.614A2.076,2.076,0,0,0,5.537,4.326V7.787h-2.2a1.385,1.385,0,0,0-.979.405L.405,10.15A1.384,1.384,0,0,0,0,11.129v3.579H5.537v-.692a.692.692,0,0,1,.692-.692H7.614a.692.692,0,0,1,.692.692v.692h5.537v-.692a.692.692,0,0,1,.692-.692h1.384a.692.692,0,0,1,.692.692v.692h5.537v-3.58A1.384,1.384,0,0,0,21.743,10.15Zm-7.9-2.363H8.306V5.019h5.537Zm2.769,9a.692.692,0,0,1-.692.692H14.535a.692.692,0,0,1-.692-.692v-.692H8.306v.692a.692.692,0,0,1-.692.692H6.229a.692.692,0,0,1-.692-.692v-.692H0v4.153A1.384,1.384,0,0,0,1.384,21.63h19.38a1.384,1.384,0,0,0,1.384-1.384V16.093H16.611Z' transform='translate(0 -2.25)'/%3E%3C/svg%3E\");\n}\n.visitors_count .visitors_count-top em {\n  font-size: 0.6em;\n  display: inline-block;\n  margin-top: 0.7em;\n  width: 100%;\n}\n\n.environment_data_widget {\n  display: inline-block;\n  width: 100%;\n  overflow-x: auto;\n  overflow-y: hidden;\n}\n.environment_data_widget .environment_data {\n  display: inline-flex;\n  max-width: 100%;\n  min-width: 100%;\n}\n.environment_data_widget .environment_data .footfall-arrows {\n  position: absolute;\n  right: 5px;\n  top: 45px;\n  cursor: pointer;\n}\n.environment_data_widget .environment_data h5 {\n  display: inline-block;\n  width: 100%;\n  box-sizing: border-box;\n  font-size: 11px;\n  padding: 0 0 10px 10px;\n  text-transform: uppercase;\n  font-weight: 600;\n}\n\n.visitors_chart {\n  background-color: #ffffff;\n  float: right;\n  width: 80%;\n  height: 100%;\n}\n.visitors_chart .visitors_chart_task {\n  display: inline-block;\n  width: 100%;\n  padding: 10px 4% 0px;\n  box-sizing: border-box;\n  text-align: center;\n}\n.visitors_chart .visitors_chart_task ul {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  height: 10px;\n}\n.visitors_chart .visitors_chart_task ul li {\n  display: inline-block;\n  width: 25%;\n}\n.visitors_chart .visitors_chart_task ul li p {\n  display: inline-block;\n  width: 100%;\n  font-size: 9px;\n}\n.visitors_chart .visitors_chart_task ul li h4 {\n  display: inline-block;\n  width: 100%;\n  font-size: 19px;\n  font-weight: 100;\n  margin: 0;\n  position: relative;\n}\n.visitors_chart .visitors_chart_task ul li h4 em {\n  font-size: 0.7em;\n}\n.visitors_chart .visitors_chart_task ul li h4 span.session-pict {\n  display: inline-block;\n  width: 40px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 33.62 19.35'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23424242;%7D.cls-2,.cls-3%7Bisolation:isolate;%7D.cls-3%7Bfont-size:10px;fill:%23fff;font-family:Arial-BoldMT, Arial;font-weight:700;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cimage width='19' height='19' transform='translate(0 0.35)' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAA99JREFUOBFtVEtvW0UU/mbu3EfsPBw7TRyHpnmW0EXjUkRBbRBLVqSt2CGkbFk1P6ELNog/QSUW7OLsygYKQlUlQHVaQNA0aVrSxkmaxO/HvfadfnNN1FbqkebO3DNzvvOdx4zAG8TzMOH7WBQCWaGR1eAM5LVAXmrkLQerzSa23mD6usqWWLYkjji0bQntKaFdzjHOjhTa6M0+z1173fKVvwRFKbGiaOBY0CO9tn6r39GnEo5O9yo9HFe6h6B9ttSuglZcKwsrhEgcw5B9VwiUg8aiRQ0ZQDLGuCPRbGuQHWp+GB00a78DVIMO2qGG1shx44rZtMxHMjQBcU0QwGUMAz2KABZcW8DmfzJuIUZghoZKy4BqBJxCDkuKOZqVCHpHmGS3WrhLMglJVI/wQz02GYVIxiwEnZBAFpKeQkjdo2qAKgErrTZImmAE1aJo2+45S4RYooPLRI/E4W6HAOMJBwuTSRxVm3h7ZAAXp9O4NJfBv0+fo1DtAhkDSRYk6mmEj2UIacoeiQmzQf4t5sJ4LtRCpDwHn56dxXqhjO9uP0SFuWsZShRzPvh/jRBZ1QnDbJeVYDI1DHCHCXZsm8PF7MwQHObs9MkR9oqLqZEmDxxhvdw0yY+EZSAw5hX/5o0mNJWhhp0Bz7YwkezB0sVJtJoBYqHEVMLGhekp3FzbRL1Nb4aB7kSAESgbnIXGGse8cRIxYxHKrP1O0WdIASSd/LZ9QN8+lCvx68MC9lsE02FUzShlTDqprEkhkY9iI5jJQchDikXYazVx78kOavQ+MZZAvM/Dg/1DPCkGzGub55h82pgo6J89x2tGihOE/cSUOKoMkU/0K2QGFW6vl5CJCRwdVlFpNvDLxnPc36ljbNBGuU5mPBs1bpfNDck+yyklSwaI/WJSiURcRl6z6V7kd6oYGR1EXVvYKNSRiiukkzbGUi5D6aZOCF3yPC9ntdso8kI3yZrsJGYzcQzGBUxl3h9PQ1oKK39sYX23jPfGezF32gTSxmHFx8QJF3Vfo6PFl74f3CJ2V0YH3dyHc6nFuCPw336JVQXOZTI4MzqMZ0WG2WggkUrhpwdPMRRrsZl9XjugFYjV3O8Hlw1KdDfN4rMPTt5UqvOOZYm5dKoffBTY6T4uXVgAXwrMnF9A70wWf939GXsV4MypfhZUr3pObCm/VWTzRVGb6aV88fHocn6zer3d0QNTwwpXr36Os+c/QoOv4dfffIVa+QB9PU7pn+3K8nqh9u1Ly1eYHSvvbVXvvDsZ+/7v7erjvZLeLe1uiMmp6XTQ9tc27v/4w+aef+PPR7XlZ8XGrWOb4/kF9gqg+/+VcegAAAAASUVORK5CYII='/%3E%3Cimage width='19' height='19' transform='translate(7.53 0.35)' xlink:href='../../Ellipse%252014/Ellipse%252014.png'/%3E%3Ccircle class='cls-1' cx='24.12' cy='9.5' r='9.5'/%3E%3Cg class='cls-2'%3E%3Ctext class='cls-3' transform='translate(18.45 13)'%3E+8%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  position: absolute;\n  height: 20px;\n  right: 10px;\n}\n.visitors_chart .prev_next a {\n  cursor: pointer;\n}\n.visitors_chart .company_list {\n  display: inline-block;\n  width: 13%;\n  margin: 1% 0px 0 1%;\n}\n.visitors_chart .company_list ul {\n  margin: 0;\n  padding: 0;\n}\n.visitors_chart .company_list ul li {\n  display: inline-block;\n  width: 85%;\n  font-size: 0.65em;\n  padding: 11px 0;\n  word-wrap: break-word;\n}\n.visitors_chart .company_data {\n  display: inline-flex;\n  width: 84%;\n  height: 100%;\n  vertical-align: top;\n}\n.visitors_chart .company_data p.no_maintain {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  width: auto;\n  font-size: 15px;\n  color: #424242;\n  font-weight: bold;\n}\n.visitors_chart .company_data .company_data_data {\n  display: flex;\n  width: 100%;\n  height: 100%;\n  margin-left: 17px;\n}\n.visitors_chart .company_data .ButtonsDiv {\n  position: absolute;\n  display: flex;\n  width: 68%;\n  justify-content: space-around;\n  top: 21em;\n  margin-left: 17px;\n}\n.visitors_chart .company_data .ButtonsDiv .data_events {\n  display: flex;\n  font-size: 10px;\n  background: #bd55ac;\n  border-radius: 20px;\n  width: 57px;\n  height: 15px;\n  padding: 2px 0 0 0;\n  color: #fff;\n  margin-top: 5px;\n  box-shadow: 0 0 5px #383838;\n  cursor: pointer;\n  text-align: center;\n}\n.visitors_chart .company_data .ButtonsDiv .data_events i {\n  width: 14px;\n  text-align: center;\n}\n.visitors_chart .company_data .ButtonsDiv .data_events h6 {\n  width: 55px;\n  margin: 1px 7px;\n  font-size: 7.8px;\n}\n.visitors_chart .company_data .arrows {\n  background: #bd55ac;\n  border-radius: 28%;\n  padding: 4px 4px;\n  height: 17px;\n  width: 18px;\n  margin-top: 4px;\n  /* text-align: center; */\n  position: absolute;\n  top: 21em;\n}\n.visitors_chart .company_data .arrows .updownBtn {\n  font-size: 10px;\n}\n.visitors_chart .company_data .arrows .upBtn {\n  background-image: url(\"https://static.iviva.com/images/dn-arrow1.svg\");\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 10px;\n  height: 10px;\n  background-size: contain;\n  text-align: center;\n  cursor: pointer;\n  z-index: 11;\n  position: relative;\n  transform: rotate(180deg);\n}\n.visitors_chart .company_data .arrows .downBtn {\n  background-image: url(\"https://static.iviva.com/images/dn-arrow1.svg\");\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 10px;\n  height: 10px;\n  background-size: contain;\n  text-align: center;\n  cursor: pointer;\n  z-index: 11;\n  position: relative;\n}\n.visitors_chart .company_data .disabled {\n  opacity: 0.5;\n  pointer-events: none;\n  cursor: not-allowed;\n  padding: 3px 3px;\n}\n.visitors_chart .company_data .company_data_sec {\n  width: 20%;\n  margin: 0 1px 0;\n  height: 280px;\n  display: flex;\n  flex-direction: column;\n  position: relative;\n}\n.visitors_chart .company_data .company_data_sec h6 {\n  display: inline-block;\n  font-size: 8px;\n  width: 100%;\n  text-align: center;\n  margin-top: 13px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec {\n  display: inline-block;\n  box-sizing: border-box;\n  background: rgba(226, 226, 226, 0.7803921569);\n  height: 224px;\n  margin-top: -14px;\n  width: 100%;\n  position: relative;\n  overflow: hidden;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec::-webkit-scrollbar {\n  width: 1px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData {\n  width: 100%;\n  height: 45em;\n  position: relative;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData .parent-card {\n  height: auto;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData hr {\n  margin-bottom: 0px;\n  margin-top: 33px;\n  border-top: 1px solid rgba(220, 254, 255, 0.0392156863) !important;\n  visibility: collapse;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall {\n  display: inline-block;\n  width: 100%;\n  padding: 2em 0;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall.second-orange-overall {\n  padding: 10px 0;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall h5 {\n  position: absolute;\n  top: -5px;\n  left: 0px;\n  margin: 0;\n  color: #fff;\n  background: #ac39c8;\n  border-radius: 100%;\n  text-align: center;\n  padding: 4px 6px;\n  font-size: 10px;\n  box-shadow: 0px 0px 2px rgba(65, 65, 65, 0.6784313725);\n  font-weight: bold;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box {\n  color: #fff;\n  border-radius: 5px;\n  margin: -18px 4px;\n  height: 38px;\n  width: 90%;\n  padding: 12px 0;\n  font-weight: bold;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box span {\n  display: inline-block;\n  font-size: 8px;\n  position: relative;\n  padding-left: 14px;\n  font-weight: bold;\n  width: 90%;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  margin-top: -3px;\n  position: absolute;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box span::before {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"12.417\" height=\"11.406\" viewBox=\"0 0 12.417 11.406\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M0,10.336a1.222,1.222,0,0,0,1.33,1.069h9.756a1.222,1.222,0,0,0,1.33-1.069V4.277H0ZM1.774,6.059A.408.408,0,0,1,2.217,5.7H4.878a.408.408,0,0,1,.443.356V8.2a.408.408,0,0,1-.443.356H2.217A.408.408,0,0,1,1.774,8.2Zm9.313-4.634H9.756V.356A.408.408,0,0,0,9.313,0H8.426a.408.408,0,0,0-.443.356V1.426H4.435V.356A.408.408,0,0,0,3.991,0H3.1a.408.408,0,0,0-.443.356V1.426H1.33A1.222,1.222,0,0,0,0,2.495V3.564H12.417V2.495A1.222,1.222,0,0,0,11.087,1.426Z\"/%3E%3C/svg%3E');\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 1em;\n  height: 1em;\n  content: \"\";\n  position: absolute;\n  left: 2px;\n  background-size: contain;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box p {\n  display: inline-block;\n  font-size: 7px;\n  line-height: 1.5em;\n  margin-left: 4px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box.company-hv-data {\n  position: absolute;\n  cursor: pointer;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box {\n  display: none;\n  width: 174px;\n  background-color: #ffffff;\n  border-radius: 10px;\n  position: fixed;\n  height: fit-content;\n  box-sizing: border-box;\n  padding: 0px 7px;\n  box-shadow: 0px 0px 10px #717171;\n  bottom: -65px;\n  z-index: 3;\n  color: #424242;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box h6 {\n  font-size: 8px;\n  width: 100%;\n  display: inline-block;\n  padding: 0px 0 7px 0;\n  margin-bottom: 0;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box p {\n  font-size: 9px;\n  display: inline-block;\n  line-height: 10px;\n  width: 100%;\n  margin: 5px 0;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul {\n  margin: 5px 0 0 0;\n  padding: 0;\n  display: inline-block;\n  width: 100%;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li {\n  display: inline-block;\n  width: 100%;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li label {\n  display: inline-block;\n  text-transform: uppercase;\n  font-size: 6px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span {\n  font-size: 8px;\n  text-align: right;\n  float: right;\n  margin-top: 6px;\n  width: auto;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle {\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  display: inline-block;\n  margin-right: 4px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Assignment {\n  background-color: rgba(66, 122, 222, 0.7019607843);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Upcoming {\n  background-color: rgba(255, 83, 20, 0.6901960784);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Delayed {\n  background-color: rgba(255, 83, 20, 0.6901960784);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.NotAttended {\n  background-color: rgba(128, 128, 128, 0.5882352941);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Onhold {\n  background-color: rgba(128, 128, 128, 0.8509803922);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.InProgress {\n  background-color: rgba(255, 83, 20, 0.6901960784);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Complete {\n  background-color: rgba(44, 189, 102, 0.8705882353);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Closed {\n  background-color: rgba(128, 128, 128, 0.8509803922);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Cancel {\n  background-color: rgba(255, 0, 0, 0.7215686275);\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events {\n  display: inline-block;\n  font-size: 10px;\n  background: #bd55ac;\n  border-radius: 20px;\n  width: 60%;\n  padding: 6px 0 6px 10px;\n  color: #fff;\n  margin-top: 1em;\n  margin-left: 15%;\n  position: absolute;\n  box-shadow: 0 0 5px #383838;\n  left: 0;\n  bottom: 10px;\n  cursor: pointer;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events::before {\n  content: \"\";\n  position: absolute;\n  top: 7px;\n  right: 7px;\n  pointer-events: none;\n  width: 0;\n  height: 0;\n  margin-top: 4px;\n  border-top: 4px solid #f9f9f9;\n  border-left: 4px solid transparent;\n  border-right: 4px solid transparent;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events select#data_events {\n  display: none;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall {\n  position: absolute;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall::before {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23ec4b7b;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cg transform='translate(-0.306)'%3E%3Ccircle class='a' cx='7' cy='7' r='7' transform='translate(0.306)'/%3E%3Cpath class='b' d='M5.275.285,4.227,2.411l-2.346.342a.514.514,0,0,0-.284.877l1.7,1.654-.4,2.336a.513.513,0,0,0,.745.541l2.1-1.1,2.1,1.1a.514.514,0,0,0,.745-.541l-.4-2.336,1.7-1.654a.514.514,0,0,0-.284-.877L7.245,2.411,6.2.285a.514.514,0,0,0-.922,0Z' transform='translate(1.389 2.454)'/%3E%3C/g%3E%3C/svg%3E\");\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 12px;\n  height: 12px;\n  content: \"\";\n  position: absolute;\n  right: 0px;\n  top: -5px;\n  background-size: contain;\n  z-index: 2;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall {\n  background: #ff8354;\n  position: relative;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall .data_box {\n  background: rgba(208, 97, 31, 0.7294117647);\n  margin-top: 0em;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall::before {\n  display: none;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box {\n  background: #8e8e8e;\n  margin-top: 1em;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box {\n  top: -62px;\n  bottom: unset;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box p {\n  margin-top: 1px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont {\n  margin-top: 3px;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont h6 {\n  font-size: 10px;\n  text-align: left;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont p {\n  color: #15ca12;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box ul li {\n  padding: 3px 0;\n}\n.visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_grey_sec {\n  background-color: rgba(249, 249, 249, 0.9098039216);\n}\n.visitors_chart .company_data .updatePrevCardsTime {\n  display: none;\n}\n.visitors_chart #chart1 {\n  height: 12em;\n  margin: 10px;\n  display: inline-block;\n  width: 95%;\n}\n\n.status-Assignment {\n  background: rgba(66, 122, 222, 0.7019607843);\n}\n\n.status-Assignment-Highlight {\n  background: rgba(87, 144, 232, 0.4);\n}\n\n.status-upcoming-Inprogess-Delayed {\n  background: rgba(255, 83, 20, 0.8509803922);\n}\n\n.status-upcoming-Inprogess-Delayed-Highlight {\n  background: rgba(245, 102, 48, 0.6);\n}\n\n.status-NotAttended-OnHold-Closed {\n  background: rgba(128, 128, 128, 0.8509803922);\n}\n\n.status-NotAttended-OnHold-Closed-Highlight {\n  background: rgba(131, 133, 134, 0.4);\n}\n\n.status-Complete {\n  background: rgba(44, 189, 102, 0.8705882353);\n}\n\n.status-Complete-Hightlight {\n  background: rgba(69, 186, 106, 0.5);\n}\n\n.status-Cancel {\n  background: rgba(255, 0, 0, 0.7215686275);\n}\n\n.status-Cancel-Highlight {\n  background: rgba(255, 0, 0, 0.4);\n}\n\n.company_data_timeslot {\n  margin-top: 26px;\n  width: 100%;\n  position: absolute;\n}\n.company_data_timeslot .timingsOfCards {\n  display: flex;\n  flex-direction: row;\n  justify-self: flex-start;\n}\n.company_data_timeslot .timingsOfCards .HoursText {\n  font-size: 8px;\n  margin: 10px 0 0 -5px;\n  font-weight: 500;\n  width: 15px;\n}\n\n.company_data_timeslot hr {\n  margin: 0 0 26px 8px;\n  width: 563px;\n  border-top: 1px solid rgba(0, 0, 0, 0.1);\n}\n\n.box-overall-removeBackground {\n  margin-top: 0px;\n  background: none !important;\n}\n\n.previous-cards-child {\n  margin-top: -30px !important;\n  height: 21px !important;\n  padding: 3px 2px !important;\n}\n\n.singlehourMeetingCard-Child {\n  height: 22px !important;\n  margin-top: -11px !important;\n  width: 90% !important;\n  padding: 5px 0 0 0 !important;\n}\n\n.boxProprty {\n  display: block;\n  top: 340.900146px;\n  left: 530.746399px;\n  background-color: #ffffff;\n  border-radius: 10px;\n  position: fixed;\n  height: fit-content;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n  padding: 7px 7px;\n  -webkit-box-shadow: 0px 0px 10px #717171;\n  box-shadow: 0px 0px 10px #717171;\n  bottom: -65px;\n  z-index: 3;\n  color: #424242;\n}\n\n.uxp-dashboard-container .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .remove-star-badge::before {\n  background-image: none;\n}\n\n.showTimeSlot {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  height: 303px;\n}\n\n.timeslott {\n  font-size: 8px;\n  margin: 27px 0 0 -20px;\n}\n\n.cards-nums-of-eachday {\n  background: rgba(87, 82, 201, 0.568627451);\n  color: white;\n  position: absolute;\n  height: 12px;\n  width: 13px;\n  text-align: center;\n  top: -7px;\n  font-size: 7px;\n  border-radius: 50%;\n  padding: 3px 0px;\n  font-weight: bolder;\n}\n\n.hide {\n  display: none;\n}\n\n/*caught Up Start*/\n.all_caught_widget {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 100%;\n  height: 100%;\n  background-size: cover;\n  background-image: url(https://static.iviva.com/images/Adani_UXP/all_caught_widget.png);\n  border-radius: 10px;\n  position: relative;\n}\n.all_caught_widget .caught_widget-iviva {\n  background-image: url(https://static.iviva.com/images/Logo.png);\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 100%;\n  height: 100%;\n  background-size: 75% auto;\n}\n.all_caught_widget .footfall-arrowsUp {\n  float: right;\n  width: 30px;\n  position: absolute;\n  right: 1em;\n  top: 1em;\n  cursor: pointer;\n}\n.all_caught_widget .footfall-arrowsUp a.top-arrow {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1em;\n  height: 1em;\n  font-size: 17px;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30.128' height='30.128' viewBox='0 0 30.128 30.128'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;opacity:0.789;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M30.128,15.064A15.064,15.064,0,1,1,15.064,0,15.061,15.061,0,0,1,30.128,15.064ZM12.391,8.018v7.046H8.085a.729.729,0,0,0-.516,1.245l6.979,6.943a.722.722,0,0,0,1.027,0l6.979-6.943a.729.729,0,0,0-.516-1.245h-4.3V8.018a.731.731,0,0,0-.729-.729H13.12A.731.731,0,0,0,12.391,8.018Z' transform='translate(30.128 30.128) rotate(-180)'/%3E%3C/svg%3E\");\n}\n.all_caught_widget h4 {\n  font-size: 1.7em;\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  margin-top: 4em;\n  color: #fff;\n  font-weight: 100;\n}\n\n/* Caught Up end */\n/* Recent Incidents */\n.incident_data .violations_inner_widget {\n  margin-top: -10px;\n}\n.incident_data .violations_inner_widget .inner_widget-top {\n  width: 92%;\n  border-radius: 10px;\n  margin: 1em 4% 0em 4%;\n  display: inline-flex;\n  overflow: hidden;\n  margin-top: 0;\n}\n.incident_data .violations_inner_widget .inner_widget-top p {\n  display: inline-block;\n  width: 100%;\n  font-size: 9px;\n  text-transform: uppercase;\n  box-sizing: border-box;\n}\n.incident_data .violations_inner_widget .inner_widget-top .inner_widget-top-lft {\n  display: inline-block;\n  width: 65%;\n  background-color: #48d1dd;\n  text-align: center;\n}\n.incident_data .violations_inner_widget .inner_widget-top .inner_widget-top-lft p {\n  text-align: right;\n}\n.incident_data .violations_inner_widget .inner_widget-top .inner_widget-top-rgt {\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  background-color: #aae271;\n  height: 40px;\n}\n.incident_data .violations_inner_widget .inner_widget-top .inner_widget-top-rgt h5 {\n  margin: 8px 0 0 0;\n  display: inline-block;\n  width: 100%;\n  font-size: 14px;\n  font-weight: unset;\n}\n.incident_data .violations_inner_widget .inner_widget-top .inner_widget-top-rgt p {\n  margin-top: 0;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall {\n  display: inline-block;\n  width: 88%;\n  overflow-x: auto;\n  overflow-y: hidden;\n  margin: 0px 6%;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub {\n  display: inline-flex;\n  max-width: 1800px;\n  min-width: 100%;\n  height: 177px;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box {\n  display: inline-block;\n  width: 160px;\n  background: #f3f3f3;\n  border-radius: 10px;\n  padding: 10px 8px;\n  box-sizing: border-box;\n  margin-left: 6px;\n  margin-top: 0.5em;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box h6 {\n  font-size: 10px;\n  width: 100%;\n  display: inline-block;\n  margin: 12px 0;\n  font-weight: unset;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box p {\n  font-size: 8px;\n  display: inline-block;\n  line-height: 13px;\n  width: 100%;\n  height: 17px;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box ul {\n  margin: -17px 0 0 0;\n  padding: 0;\n  display: inline-block;\n  width: 100%;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box ul li {\n  display: inline-block;\n  width: 100%;\n  margin-top: -6px;\n  display: flex;\n  justify-content: space-between;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box ul li label {\n  display: inline-block;\n  text-transform: uppercase;\n  font-size: 9px;\n  padding: 8px 0px;\n  margin-bottom: 0;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box ul li span {\n  font-size: 8px;\n  text-align: right;\n  float: right;\n  color: #9b3131 !important;\n  padding: 8px 0;\n  word-break: break-all;\n  width: 60%;\n  text-decoration: none;\n  font-weight: bolder;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box ul li span a {\n  color: #9b3131 !important;\n  text-decoration: none;\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box:nth-child(even) {\n  background-color: rgba(227, 95, 95, 0.231372549);\n}\n.incident_data .violations_inner_widget .violations-widget-box-overall .violations-widget-box-overall_sub .violations-widget-box:first-child {\n  margin-left: 0;\n}\n.incident_data .footfall-arrows {\n  position: absolute;\n  top: 65%;\n  width: 100%;\n  left: 0;\n  margin: 0;\n}\n.incident_data .footfall-arrows a.lft-arrow {\n  position: absolute;\n  left: 10px;\n  top: 0;\n  cursor: pointer;\n  font-size: 16px;\n}\n.incident_data .footfall-arrows a.rgt-arrow {\n  position: absolute;\n  right: 10px;\n  top: 0;\n  cursor: pointer;\n  font-size: 16px;\n}\n\n.footfall-arrows {\n  float: right;\n  width: 60px;\n  margin-left: 3em;\n}\n.footfall-arrows a {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1em;\n  height: 1em;\n  background-size: contain;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n}\n.footfall-arrows a.rgt-arrow {\n  transform: rotate(180deg);\n  margin-left: 5px;\n}\n\n/* Recent Incident End */\n.uxp-form-group .uxp-form-select {\n  min-width: 130px !important;\n}\n\n.box1 {\n  margin-left: -115px;\n  background: #0bccb2;\n  height: 16px;\n}\n\n.disabled {\n  border: 1px solid #999999;\n  background-color: #cccccc;\n  color: #666666;\n  pointer-events: none;\n  cursor: not-allowed !important;\n  opacity: 0.3;\n}\n\n.parking-weblet .action-section {\n  width: 123px;\n  margin-top: 5px;\n}\n.parking-weblet .parking_cur_month {\n  font-weight: 600;\n  color: rgba(117, 108, 108, 0.7882352941);\n  float: left;\n  font-size: 10px;\n}\n.parking-weblet .buttons {\n  float: right;\n  margin-top: -5px;\n  cursor: pointer;\n}\n.parking-weblet .buttons .parking-previous,\n.parking-weblet .buttons .parking-next {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1.2em;\n  height: 1.2em;\n  background-size: contain;\n  font-size: 15px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E\");\n}\n.parking-weblet .buttons .parking-next {\n  transform: rotate(180deg);\n  margin-left: 4px;\n}\n.parking-weblet .parkingInfo .parkingData {\n  display: flex;\n  justify-content: center;\n  padding: 8px;\n  font-size: 15px;\n  margin-top: 9px;\n}\n.parking-weblet .parkingInfo .parkingData .floorName {\n  background-color: #e0546d;\n  height: 59px;\n  width: 62px;\n  text-align: center;\n  border-radius: 15%;\n  font-size: 44px;\n  color: white;\n}\n.parking-weblet .parkingInfo .parkingData .floorName h6 {\n  margin: 13px;\n}\n.parking-weblet .parkingInfo .parkingData .floorData {\n  margin: 0px 3px 3px 11px;\n}\n.parking-weblet .parkingInfo .parkingData .floorConsumption {\n  font-size: 32px;\n  color: rgba(0, 0, 0, 0.5294117647);\n}\n.parking-weblet .parkingInfo .parkingData .floorConsumptionUnit {\n  font-size: 16px;\n  margin: 0px 0 0 3px;\n}\n.parking-weblet .parkingInfo .parkingData .parkingCostUnit {\n  font-weight: 600;\n}\n.parking-weblet .parkingInfo .parkingData .parkingPrice {\n  margin-left: 5px;\n  font-weight: 600;\n}\n.parking-weblet .parkingInfo .parkingData .indicateArrow:before {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/green-down-arrow.png);\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 15px;\n  height: 15px;\n  content: \"\";\n  position: absolute;\n  background-size: cover;\n  margin-top: -4px;\n}\n.parking-weblet .parkingInfo .parkingData .up-direction:before {\n  transform: rotate(180deg);\n}\n.parking-weblet .parkingInfo .parkingData .energyConsumed {\n  font-size: 11px;\n  color: black;\n  margin: -2px 0 0 20px;\n}\n\n.energy-consumption-per-person_widget .curr_month {\n  color: #756c6c;\n  font-size: 9px;\n  font-weight: 600;\n  margin-top: -3px;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget {\n  display: inline;\n  margin-top: 22px;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul {\n  display: inline-flex;\n  padding: 11px;\n  text-align: center;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul li {\n  display: inline-block;\n  margin: 0 1%;\n  width: 98%;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul li .person-icon {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 4em;\n  height: 4em;\n  background-size: contain;\n  background-image: url(https://static.iviva.com/images/Adani_UXP/person.png);\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul li h4 {\n  display: inline-block;\n  font-size: 24px;\n  width: 100%;\n  font-weight: 100;\n  margin: 4px 0;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul li span {\n  display: inline-block;\n  font-size: 11px;\n}\n.energy-consumption-per-person_widget .energy-consumption_widget .energy-consumption-list ul li p {\n  font-size: 15px;\n  margin-top: 7px;\n  width: 100%;\n  font-weight: 600;\n}\n\n.raw-backup-weblet .action-section {\n  width: 66%;\n  margin-top: -9px;\n}\n.raw-backup-weblet .RB_month {\n  font-size: 11px;\n  font-weight: 400;\n  color: #756c6c;\n  margin: 15px 0 0 0;\n  padding: 6px;\n  float: left;\n  width: 37%;\n}\n.raw-backup-weblet .raw-backup-frequency {\n  float: left;\n  margin-left: -15em;\n}\n.raw-backup-weblet .raw-backup-frequency ul {\n  display: inline-flex;\n  margin-left: 20em;\n  margin-top: 15px;\n}\n.raw-backup-weblet .raw-backup-frequency ul li {\n  padding: 2px 8px;\n  margin: 3px 2px;\n  border-radius: 18px;\n  font-size: 10px;\n  cursor: pointer;\n  font-weight: 600;\n  list-style: none;\n  height: 15px;\n}\n.raw-backup-weblet .togglebar {\n  float: right;\n  margin-top: 10px;\n  /* Toggle button */\n}\n.raw-backup-weblet .togglebar input.toggleBtn {\n  -webkit-appearance: none;\n  position: relative;\n  width: 36px;\n  height: 19px;\n  background-color: lightslategray;\n  border-radius: 50px;\n  outline: none;\n  margin-top: 5px;\n}\n.raw-backup-weblet .togglebar input.toggleBtn:before {\n  content: \"\";\n  position: absolute;\n  height: 17px;\n  width: 17px;\n  background-color: white;\n  transition: all 0.6s;\n  border-radius: 50px;\n  margin: 1px;\n}\n.raw-backup-weblet .togglebar input.toggleBtn:checked {\n  background-color: #4d81ca;\n}\n.raw-backup-weblet .togglebar input.toggleBtn:checked:before {\n  transform: translate(100%);\n  transition: all 0.6s;\n}\n\n/* Actual and basline widget start  */\n.actual-baseline-widget .actual-baseline-titlebar {\n  margin-bottom: 44px;\n}\n.actual-baseline-widget .action-section {\n  display: flex;\n  width: 62%;\n}\n.actual-baseline-widget .action-section .baseline_cur_month {\n  font-size: 11px;\n  font-weight: 400;\n  color: #756c6c;\n  margin: 7px 0 0 0;\n  padding: 6px;\n  float: left;\n}\n.actual-baseline-widget .filterInfoBaseline {\n  font-size: 11px;\n  margin: 0px 0 0 2px;\n  font-weight: 400;\n  color: #756c6c;\n}\n.actual-baseline-widget .actual-baseline-btns {\n  margin-left: -10px;\n}\n.actual-baseline-widget .actual-baseline-btns ul {\n  display: inline-flex;\n  margin-left: 20em;\n  margin-top: 4px;\n}\n.actual-baseline-widget .actual-baseline-btns ul li {\n  padding: 4px 8px;\n  margin: 3px 2px;\n  border-radius: 18px;\n  font-size: 9px;\n  font-weight: 600;\n  cursor: pointer;\n  list-style: none;\n  height: 18px;\n}\n.actual-baseline-widget .actual-baseline-btns-child {\n  padding: 3px 8px;\n  margin: 0px 2px;\n  border-radius: 18px;\n  font-size: 11px;\n  font-weight: 500;\n  cursor: pointer;\n}\n.actual-baseline-widget .baseline-widget {\n  text-align: center;\n  font-size: 11px;\n}\n.actual-baseline-widget .baseline-widget .actual {\n  padding: 5px;\n}\n.actual-baseline-widget .baseline-widget .actual b {\n  color: #f690a9;\n}\n.actual-baseline-widget .baseline-widget .baseline b {\n  color: #77b8b7;\n}\n\n/* Actual and basline widget end  */\n/* Carbon Consumption Widget Start */\n.carbon-footprint-widget .action-section {\n  width: 77%;\n}\n.carbon-footprint-widget .action-section .carbon_curr_month {\n  float: left;\n  font-size: 10px;\n  margin-top: 2px;\n}\n.carbon-footprint-widget .action-section .carbon-footprint-frequency {\n  display: flex;\n  float: right;\n}\n.carbon-footprint-widget .action-section .carbon-footprint-frequency .carbon-footprint-frequency-child {\n  padding: 3px 9px;\n  margin: 0 2px;\n  border-radius: 18px;\n  font-size: 9px;\n  font-weight: 600;\n  cursor: pointer;\n  height: 15px;\n}\n.carbon-footprint-widget .carbon-footprint-parts {\n  display: flex;\n  height: 43px;\n  margin-bottom: 20px;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list {\n  margin-left: 45px;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data {\n  display: flex;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-icon {\n  background: #535353;\n  height: 34px;\n  width: 34px;\n  display: flex;\n  justify-content: center;\n  border-radius: 50%;\n  border: 1px solid rgba(153, 153, 153, 0.3882352941);\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .power-cons-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"33\" height=\"33\" viewBox=\"0 0 33 33\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23535353;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ccircle class=\"a\" cx=\"16.5\" cy=\"16.5\" r=\"16.5\"/%3E%3Cpath class=\"b\" d=\"M7.316,1.928,2.571,8.256H7.316L4.153,14.583,15.226,6.674H8.9l4.746-4.746Z\" transform=\"translate(7.385 8.602)\"/%3E%3C/svg%3E');\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .co2-emit-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"33\" height=\"33\" viewBox=\"0 0 33 33\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23535353;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ccircle class=\"a\" cx=\"16.5\" cy=\"16.5\" r=\"16.5\"/%3E%3Cpath class=\"b\" d=\"M7.608,12.061a3.251,3.251,0,0,1,.734-2.08A3.188,3.188,0,0,1,10.2,8.817a4.046,4.046,0,0,1,6.454-2.311,3.955,3.955,0,0,1,1.428,2.22H18.3A3.258,3.258,0,0,1,20.68,9.7a3.2,3.2,0,0,1,.982,2.352,3.253,3.253,0,0,1-.305,1.4,3.377,3.377,0,0,1-.85,1.131v.025a2.07,2.07,0,0,1-.462,1.312,2.007,2.007,0,0,1-1.155.734,2.574,2.574,0,0,1-2.1,1.964,1.443,1.443,0,0,1-1.081,2.385,1.36,1.36,0,0,1-1.015-.429,1.4,1.4,0,0,1-.421-1.023,1.347,1.347,0,0,1,.083-.47h-.083a1.775,1.775,0,0,1-1.758-1.758,1.6,1.6,0,0,1,.248-.883,2.05,2.05,0,0,1-.924-1.032H10.785V15.4a3.323,3.323,0,0,1-2.253-1.048A3.184,3.184,0,0,1,7.608,12.061Zm1.155-.206a2.367,2.367,0,0,0,2.368,2.377,2.32,2.32,0,0,0,1.131-.281,2.529,2.529,0,0,0,.858,1.535,2.448,2.448,0,0,0,1.667.611,2.5,2.5,0,0,0,1.832-.759,1.591,1.591,0,0,0,1.271.586,1.691,1.691,0,0,0,1.7-1.7,2.374,2.374,0,0,0,.784-.858,2.327,2.327,0,0,0,.289-1.131,2.232,2.232,0,0,0-.7-1.667,2.349,2.349,0,0,0-1.692-.685,2.323,2.323,0,0,0-1.263.363,2.729,2.729,0,0,0,.066-.652,2.743,2.743,0,0,0-.85-2.03,2.931,2.931,0,0,0-4.06-.033,2.724,2.724,0,0,0-.883,1.956h-.14a2.3,2.3,0,0,0-1.675.693A2.276,2.276,0,0,0,8.763,11.854Z\" transform=\"translate(1.332 3.3)\"/%3E%3C/svg%3E');\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .trees-off-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"33\" height=\"33\" viewBox=\"0 0 33 33\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23535353;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ccircle class=\"a\" cx=\"16.5\" cy=\"16.5\" r=\"16.5\"/%3E%3Cpath class=\"b\" d=\"M14.215,4.221a.43.43,0,0,1-.2-.369,4.239,4.239,0,0,0-8.443,0,.432.432,0,0,1-.2.369A4.25,4.25,0,0,0,6.717,11.8a1.159,1.159,0,0,0,.738.039,1.953,1.953,0,0,0,.369-1.433,1.4,1.4,0,0,0-.657-.328A2.506,2.506,0,0,1,5.324,7.664,2.466,2.466,0,0,1,5.98,5.981a2.3,2.3,0,0,1,.614-.49,1.451,1.451,0,0,0,.738-1.272,2.357,2.357,0,0,1,.122-.778,2.5,2.5,0,0,1,4.753,0,2.357,2.357,0,0,1,.122.778,1.365,1.365,0,0,0,.739,1.264,1.722,1.722,0,0,1,.612.487,2.445,2.445,0,0,1,.657,1.682,2.485,2.485,0,0,1-2.5,2.5,2.87,2.87,0,0,0-2.869,2.859v1.633a1.528,1.528,0,0,0,.123.739,1.849,1.849,0,0,0,1.475,0,1.421,1.421,0,0,0,.126-.739V12.973A1.109,1.109,0,0,1,11.8,11.864,4.211,4.211,0,0,0,14.225,4.2l-.01.021Z\" transform=\"translate(7 8.769)\"/%3E%3C/svg%3E');\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-CostUnit {\n  margin: 0 0 0 11px;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-CostUnit .carbon-footprint-list-unit {\n  font-weight: 400;\n  font-size: 18px;\n  font-family: \"Segoe UI\", Arial, sans-serif;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-CostUnit .treesTextLabel {\n  margin: 4px 0 0 18px;\n  font-size: 10px;\n  font-weight: 700;\n  color: #5cabff;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-CostUnit .carbon-footprint-list-cost {\n  font-weight: 500;\n  font-size: 11px;\n  margin-top: 5px;\n  font-family: \"Segoe UI\", Arial, sans-serif;\n  font-weight: 400;\n}\n.carbon-footprint-widget .carbon-footprint-parts .carbon-footprint-list .carbon-footprint-list-data .carbon-footprint-list-CostUnit .div {\n  display: flex;\n}\n.carbon-footprint-widget .treesBar {\n  margin: -15px 0 0 0;\n  padding: 0 30px 0 37px;\n}\n.carbon-footprint-widget .treesBar .textLabelOfTrees {\n  float: left;\n  margin-left: 10px;\n}\n.carbon-footprint-widget .treesBar .textLabelOfTrees h6 {\n  font-weight: 500;\n  font-size: 11px;\n  font-family: \"Segoe UI\", Arial, sans-serif;\n}\n.carbon-footprint-widget .treesBar .progessBarOfTrees {\n  background: #dee2e6;\n  width: 62%;\n  height: 12px;\n  float: left;\n  margin: 27px 10px;\n  border-radius: 15px;\n  padding: 3px;\n}\n.carbon-footprint-widget .treesBar .progessBarOfTrees .fillBar {\n  background: #4cb6bb;\n  height: 6px;\n  border-radius: 5px;\n}\n.carbon-footprint-widget .treesBar .numOfTrees {\n  float: right;\n  font-weight: 700;\n  color: #4cb6bb;\n  font-size: 11px;\n  font-family: \"Segoe UI\", Arial, sans-serif;\n  margin-top: 22px;\n}\n\n/* Carbon Consumption Widget End */\n/* Energy Consumption Widget Start */\n.energy-consumption .action-section {\n  position: absolute;\n  margin-left: 16em;\n}\n.energy-consumption .action-section .currentDate-energy {\n  font-size: 9.5px;\n  font-weight: 400;\n}\n.energy-consumption .info {\n  display: flex;\n  margin-left: 46px;\n  margin-top: -42px;\n}\n.energy-consumption .costInfo {\n  display: flex;\n}\n.energy-consumption .costInfo h6 {\n  font-size: 11px;\n  font-weight: 700;\n}\n.energy-consumption .costInfo .energyCWTotalCost {\n  font-size: 13px;\n  font-weight: 450;\n  color: #2fb9a5;\n  font-weight: 500;\n}\n.energy-consumption .costInfo .energyCWTitleChild {\n  padding: 0 2px;\n  font-size: 13px;\n  font-weight: 450;\n  color: #2fb9a5;\n  font-weight: 500;\n}\n.energy-consumption .costInfo2 {\n  margin-left: 80px;\n}\n.energy-consumption .energy-consumption-frequency {\n  margin-left: 28em;\n  position: absolute;\n  margin-top: 17px;\n}\n.energy-consumption .energy-consumption-frequency ul {\n  display: inline-flex;\n  margin-left: 20em;\n  margin-top: 4px;\n}\n.energy-consumption .energy-consumption-frequency ul li {\n  padding: 4px 8px;\n  margin: 3px 2px;\n  border-radius: 18px;\n  font-size: 11px;\n  cursor: pointer;\n  list-style: none;\n}\n.energy-consumption .energy-consumption-frequency .energy-consumption-frequency-list {\n  padding: 4px 9px;\n  margin: 0 2px;\n  border-radius: 18px;\n  font-size: 10px;\n  font-weight: 600;\n  cursor: pointer;\n  height: 18px;\n}\n.energy-consumption .energy-consumption-Category {\n  display: flex;\n  justify-content: space-around;\n  height: 87px;\n  margin-top: -10px;\n  border-bottom: 1px solid rgba(128, 128, 128, 0.3019607843);\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-list {\n  margin-bottom: 25px;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-list .energy-consumption-listName h6 {\n  font-size: 11px;\n  font-weight: 900;\n  margin: 0px 0 5px 0px;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data {\n  display: flex;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .energy-consumption-icon {\n  background: #535353;\n  height: 38px;\n  width: 39px;\n  display: flex;\n  justify-content: center;\n  border-radius: 50%;\n  border: 1px solid rgba(153, 153, 153, 0.3882352941);\n  background-repeat: no-repeat;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .power-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"42\" height=\"42\" viewBox=\"0 0 37 37\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23535353;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ccircle class=\"a\" cx=\"16.5\" cy=\"16.5\" r=\"16.5\"/%3E%3Cpath class=\"b\" d=\"M7.316,1.928,2.571,8.256H7.316L4.153,14.583,15.226,6.674H8.9l4.746-4.746Z\" transform=\"translate(7.385 8.602)\"/%3E%3C/svg%3E');\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .gas-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"42\" height=\"42\" viewBox=\"4 -5 10 46\"%3E%3Cdefs%3E%3Cstyle%3E.a,.e%7Bfill:none;%7D.a,.c%7Bstroke:%23ffff;%7D.b%7Bfill:%23ffff;%7D.c%7Bfill:%23fff;%7D.d%7Bstroke:none;%7D%3C/style%3E%3C/defs%3E%3Cg transform=\"translate(-1461 -841)\"%3E%3Cg class=\"a\" transform=\"translate(1461 845)\"%3E%3Crect class=\"d\" width=\"14\" height=\"20\" rx=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" width=\"13\" height=\"19\" rx=\"1.5\"/%3E%3C/g%3E%3Cpath class=\"b\" d=\"M0,0H14a0,0,0,0,1,0,0V2a2,2,0,0,1-2,2H2A2,2,0,0,1,0,2V0A0,0,0,0,1,0,0Z\" transform=\"translate(1461 863)\"/%3E%3Cg class=\"c\" transform=\"translate(1464 841)\"%3E%3Cpath class=\"d\" d=\"M1,0H7A1,1,0,0,1,8,1V2A0,0,0,0,1,8,2H0A0,0,0,0,1,0,2V1A1,1,0,0,1,1,0Z\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" width=\"7\" height=\"1\" rx=\"0.5\"/%3E%3C/g%3E%3Cg class=\"c\" transform=\"translate(1464 843)\"%3E%3Crect class=\"d\" width=\"1\" height=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" height=\"1\"/%3E%3C/g%3E%3Cg class=\"c\" transform=\"translate(1471 843)\"%3E%3Crect class=\"d\" width=\"1\" height=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" height=\"1\"/%3E%3C/g%3E%3Cg class=\"c\" transform=\"translate(1467 843)\"%3E%3Crect class=\"d\" width=\"2\" height=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" width=\"1\" height=\"1\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .water-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"32.12\" height=\"35.778\" viewBox=\"-8 0 31.12 21.778\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23ffff;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M13.677,11.445c-.556,4.481-3.4,5.278-3.4,8.394a3.527,3.527,0,0,0,7.053,0c0-3.116-2.842-3.913-3.4-8.394a.132.132,0,0,0-.256,0Zm-6.533-9.8c-.556,4.481-3.4,5.277-3.4,8.394a3.526,3.526,0,0,0,7.052,0c0-3.116-2.842-3.913-3.4-8.394a.131.131,0,0,0-.255,0Zm13.067,0c-.556,4.481-3.4,5.278-3.4,8.394a3.526,3.526,0,0,0,7.052,0c0-3.116-2.842-3.913-3.4-8.394a.131.131,0,0,0-.255,0Z\" transform=\"translate(-3.746 -1.544)\"/%3E%3C/svg%3E');\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .waste-icon {\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"32.12\" height=\"35.778\" viewBox=\"-10 -1 31.12 21.778\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23ffff;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M6.5,9.219a.564.564,0,0,1-.847.6l-1.434-.9L2.425,11.793a1.128,1.128,0,0,0,.955,1.724H5.21a.422.422,0,0,1,.422.422v1.408a.422.422,0,0,1-.422.422H3.383A3.381,3.381,0,0,1,.518,10.6L2.307,7.735l-1.434-.9a.564.564,0,0,1,.172-1.026l3.88-.9a.563.563,0,0,1,.675.422l.9,3.88ZM9.966,2.78l1.453,2.326L9.985,6a.564.564,0,0,0,.172,1.026l3.88.9a.563.563,0,0,0,.675-.422l.9-3.88a.564.564,0,0,0-.847-.6l-1.432.895L11.877,1.587a3.381,3.381,0,0,0-5.731,0L5.513,2.6a.422.422,0,0,0,.134.582l1.194.746a.422.422,0,0,0,.582-.134l.632-1.012A1.128,1.128,0,0,1,9.966,2.78ZM17.5,10.6l-.969-1.551a.422.422,0,0,0-.582-.134l-1.192.745a.422.422,0,0,0-.134.582l.97,1.553a1.128,1.128,0,0,1-.955,1.723H11.264V11.828a.564.564,0,0,0-.961-.4L7.487,14.245a.563.563,0,0,0,0,.8L10.3,17.857a.564.564,0,0,0,.961-.4V15.77h3.375A3.381,3.381,0,0,0,17.5,10.6Z\" transform=\"translate(0 0)\"/%3E%3C/svg%3E');\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .energy-consumption-val-unit {\n  margin: 0px 0 0 7px;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .energy-consumption-val-unit .energy-consumption-unit {\n  font-size: 16px;\n}\n.energy-consumption .energy-consumption-Category .energy-consumption-Data .energy-consumption-val-unit .energy-consumption-val {\n  font-weight: 900;\n  font-size: 10px;\n  margin-top: 4px;\n}\n.energy-consumption .energyMatric {\n  display: flex;\n}\n.energy-consumption .energyMatric .energy-consumption-widget {\n  margin: 15px 0 0 35px;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMatricTitle h6 {\n  font-size: 11px;\n  font-weight: 900;\n  margin: 0px;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMDropdownPart {\n  position: relative;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMDropdownPart:focus {\n  outline: none !important;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMDropdownPart .EMDropdownPartName {\n  position: absolute;\n  display: flex;\n  margin: 10px;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMDropdownPart select#EMDropdown {\n  width: 112px;\n  height: 36px;\n  border-radius: 4px;\n  background: #f79606;\n  border: none;\n  font-size: 10px;\n  font-weight: 600;\n  text-align-last: center;\n  margin-top: 5px;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .EMDropdownPart select#EMDropdown option.EMDropdownList {\n  background: bisque;\n  /* antiquewhite; */\n  font-size: 12px;\n  font-weight: 400;\n  text-align: center;\n  /* #f7960699; */\n}\n.energy-consumption .energyMatric .energy-consumption-widget .energy-consumption-legend .last-list {\n  margin-left: -10px;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .energy-consumption-legend .energy-consumption-legend-list {\n  display: flex;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .energy-consumption-legend .energy-consumption-legend-list .energy-consumption-legend-list-btn1 {\n  background: #f79606;\n  width: 7px;\n  height: 7px;\n  margin-top: 4px;\n  border-radius: 50%;\n  border: 1px solid #999999;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .energy-consumption-legend .energy-consumption-legend-list .energy-consumption-legend-list-btn2 {\n  background: rgba(247, 150, 6, 0.3803921569);\n  width: 7px;\n  height: 7px;\n  border-radius: 50%;\n  margin: 3px 0 0 10px;\n  border: 1px solid #999999;\n}\n.energy-consumption .energyMatric .energy-consumption-widget .energy-consumption-legend .energy-consumption-legend-list .energy-consumption-legend-list-name {\n  font-size: 7px;\n  font-weight: bold;\n  margin: 5px 0 0 2px;\n}\n.energy-consumption .energyMatric .energy-consumption-data {\n  display: flex;\n  width: 84%;\n  justify-content: space-around;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets {\n  margin: -14px 0 0 14px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-date h6 {\n  font-size: 11px;\n  font-weight: 900;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar {\n  height: 53px;\n  width: 170px;\n  display: flex;\n  margin-top: -16px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar1 {\n  height: 59%;\n  border-top-left-radius: 12px;\n  border-bottom-left-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar11 {\n  height: 59%;\n  border-top-right-radius: 12px;\n  border-bottom-right-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar2 {\n  height: 59%;\n  border-top-left-radius: 12px;\n  border-bottom-left-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar21 {\n  height: 59%;\n  border-top-right-radius: 12px;\n  border-bottom-right-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar3 {\n  height: 59%;\n  border-top-left-radius: 12px;\n  border-bottom-left-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .EMProgressBar31 {\n  height: 59%;\n  border-top-right-radius: 12px;\n  border-bottom-right-radius: 12px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .WHourProgessBar {\n  background: #f79606;\n  max-width: 70%;\n  min-width: 30%;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .energy-consumption-widgets-bar .NWHourProgessBar {\n  background: rgba(247, 150, 6, 0.3803921569);\n  max-width: 70%;\n  min-width: 30%;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit {\n  display: flex;\n  margin-top: -16px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .energy-consumption-legend-list-btn1 {\n  background: #f79606;\n  width: 7px;\n  height: 7px;\n  margin-top: 4px;\n  border-radius: 50%;\n  border: 1px solid #999999;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .energy-consumption-legend-list-btn2 {\n  background: rgba(247, 150, 6, 0.3803921569);\n  width: 7px;\n  height: 7px;\n  border-radius: 50%;\n  margin: 3px 0 0 10px;\n  border: 1px solid #999999;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .EMProgressBarText {\n  text-align: center;\n  /* margin-top: 8px; */\n  font-size: 9px;\n  font-weight: 900;\n  margin: 5px 0 0 3px;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .WHours {\n  text-align: left;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .NWHours {\n  text-align: right;\n}\n.energy-consumption .energyMatric .energy-consumption-data .energy-consumption-widgets .EMValueUnit .EMValueUnitVal {\n  font-size: 8px;\n  font-weight: 500;\n  /* width: 50%; */\n  margin-top: 5px;\n}\n\n/* Energy Consumption Widget End */\n.footfall_widget .footfall_widget-top {\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  vertical-align: top;\n  margin-top: 0.7em;\n}\n.footfall_widget .footfall_widget-top em.users {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/users.svg);\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 7em;\n  height: 6em;\n  background-size: contain;\n  margin-left: 1em;\n  margin-top: 1em;\n  display: inline-block;\n}\n.footfall_widget .footfall_widget-top h3 {\n  font-size: 2.5em;\n  position: relative;\n  display: inline-block;\n  line-height: 0.6em;\n  margin-top: 0.8em;\n  margin-left: 0em;\n  vertical-align: top;\n}\n.footfall_widget .footfall_widget-top h3 p {\n  display: inline-block;\n  font-size: 17px;\n  text-transform: uppercase;\n  width: 100%;\n  margin-left: 14px;\n}\n.footfall_widget .user-list {\n  display: inline-block;\n  margin-top: 1em;\n  margin-left: 0.5em;\n}\n.footfall_widget .user-list ul {\n  display: inline-block;\n  width: 100%;\n}\n.footfall_widget .user-list ul li {\n  display: inline-flex;\n  margin: -15px 2%;\n}\n.footfall_widget .user-list ul li .user-icon {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 3em;\n  height: 3em;\n  background-size: contain;\n  /*&.partner-user-icon{\n            background-image: url(https://static.iviva.com/images/Adani_UXP/partners-user.png);\n        }\n        &.sudexho-user-icon{\n            background-image: url(https://static.iviva.com/images/Adani_UXP/sodexo-user.png);\n        }\n        &.security-user-icon{\n            background-image: url(https://static.iviva.com/images/Adani_UXP/security-user.png);\n        }*/\n}\n.footfall_widget .user-list ul li h4 {\n  display: inline-block;\n  font-size: 1.6em;\n  line-height: 0.6em;\n  margin-left: 10%;\n  margin-top: 0.2em;\n  font-weight: unset;\n}\n.footfall_widget .user-list ul li h4 span {\n  display: inline-block;\n  font-size: 9px;\n  width: 100%;\n}\n.footfall_widget .user-list ul li:first-child {\n  width: 100%;\n  margin: 0;\n  text-align: center;\n  display: inline-block;\n  margin-bottom: 2em;\n}\n.footfall_widget .user-list ul li:first-child .user-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/users.svg);\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 10em;\n  height: 7em;\n  background-size: contain;\n  margin-left: 1em;\n  margin-top: 0em;\n  display: inline-block;\n}\n.footfall_widget .user-list ul li:first-child h4 {\n  font-size: 39px;\n  position: relative;\n  display: inline-block;\n  line-height: 0.6em;\n  margin-top: 14px;\n  font-weight: 100 !important;\n  margin-left: 0em;\n  vertical-align: top;\n  text-align: left;\n}\n.footfall_widget .user-list ul li:first-child h4 span {\n  display: inline-block;\n  font-size: 12px;\n  text-transform: uppercase;\n  width: 100%;\n  margin-left: 3px;\n}\n.footfall_widget .user-list ul li:first-child .user-icon {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/users.svg) !important;\n}\n\n.HotDesking-widget .visitors_plan .wing_angle1 {\n  margin: 0px 0 0 0;\n}\n.HotDesking-widget .visitors_plan .wing_angle {\n  float: right;\n  margin-right: 1em;\n  position: relative;\n  margin-top: 1em;\n  float: right;\n  margin-right: 1em;\n  position: relative;\n  /* ///  DECORATION CSS ///  */\n  /* ///  END DECORATION CSS  ///  */\n  /* etiqueta <p> con la opcion selecionada  */\n}\n.HotDesking-widget .visitors_plan .wing_angle p {\n  font-size: 0.6em;\n  margin-bottom: 6px;\n}\n.HotDesking-widget .visitors_plan .wing_angle .wing_map {\n  position: absolute;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.181' height='9.361' viewBox='0 0 6.181 9.361'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.73;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.09,0a3.09,3.09,0,0,1,3.09,3.09c0,1.707-3.09,6.271-3.09,6.271S0,4.8,0,3.09A3.09,3.09,0,0,1,3.09,0Z'/%3E%3C/svg%3E\");\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  top: 10px;\n  left: 10px;\n  width: 15px;\n  height: 15px;\n}\n.HotDesking-widget .visitors_plan .wing_angle .wing_map.wing_calen {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9.729' height='8.72' viewBox='0 0 9.729 8.72'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.729;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M0,7.9a.951.951,0,0,0,1.042.818H8.687A.951.951,0,0,0,9.729,7.9V3.27H0Zm1.39-3.27a.318.318,0,0,1,.347-.273H7.992a.318.318,0,0,1,.347.273v1.09A.318.318,0,0,1,7.992,6H1.737a.318.318,0,0,1-.347-.273Zm7.3-3.543H7.644V.273A.318.318,0,0,0,7.3,0H6.6a.318.318,0,0,0-.347.273V1.09H3.475V.273A.318.318,0,0,0,3.127,0H2.432a.318.318,0,0,0-.347.273V1.09H1.042A.951.951,0,0,0,0,1.908v.818H9.729V1.908A.951.951,0,0,0,8.687,1.09Z'/%3E%3C/svg%3E\");\n}\n.HotDesking-widget .visitors_plan .wing_angle .wing_map.wing_floor {\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath d='M497,0C482.634,0,29.318,0,15,0C6.716,0,0,6.716,0,15c0,14.366,0,467.682,0,482c0,8.284,6.716,15,15,15 c14.366,0,467.682,0,482,0c8.284,0,15-6.716,15-15V166V15C512,6.716,505.284,0,497,0z M30,30h121c0,9.412,0,291.444,0,301H30V30z M331,482H30V361c9.412,0,291.444,0,301,0V482z M331,331H181V181h150V331z M482,482H361c0-9.412,0-291.444,0-301h121V482z M482,151c-9.412,0-291.444,0-301,0V30h301V151z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A\");\n  background-size: contain;\n  left: 8px;\n  top: 9px;\n  opacity: 0.6;\n  width: 12px;\n  height: 12px;\n}\n.HotDesking-widget .visitors_plan .wing_angle .dept_wing_map {\n  top: 25px;\n  left: 100px;\n}\n.HotDesking-widget .visitors_plan .wing_angle select.wings {\n  display: inline-block;\n  background: #ffffff;\n  border: none;\n  color: #424242;\n  font-size: 0.6em;\n  padding: 8px 10px 8px 20px;\n  border-radius: 15px;\n  outline: none;\n  box-sizing: border-box;\n  box-shadow: 0px 0px 3px #b9b9b9;\n}\n.HotDesking-widget .visitors_plan .wing_angle select.wings.east_wing {\n  border-radius: 5px;\n}\n.HotDesking-widget .visitors_plan .wing_angle nav {\n  width: 160px;\n  display: inline-block;\n}\n.HotDesking-widget .visitors_plan .wing_angle nav ul {\n  margin-left: 0;\n  padding-left: 0;\n  width: 100%;\n  list-style: none;\n  position: relative;\n  display: inline-table;\n}\n.HotDesking-widget .visitors_plan .wing_angle nav ul ul {\n  display: none;\n  border-radius: 0px;\n  padding: 0;\n  position: absolute;\n  top: 100%;\n  z-index: 1;\n  left: 0;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_center {\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_heg_50 {\n  position: absolute;\n  height: 50%;\n  left: 0;\n  top: 0;\n  width: 100%;\n  background-color: #fd7b52;\n}\n.HotDesking-widget .visitors_plan .wing_angle .icon_select_mate {\n  position: absolute;\n  top: 5px;\n  right: 2%;\n  font-size: 20px;\n  height: 20px;\n  transition: all 275ms;\n}\n.HotDesking-widget .visitors_plan .wing_angle .select_mate {\n  position: relative;\n  float: left;\n  min-width: 120px;\n  width: 135px;\n  min-height: 25px;\n  color: #777;\n  font-weight: 300;\n  background-color: #fff;\n  border-radius: 15px;\n  transition: all 375ms ease-in-out;\n  box-shadow: 0px 0px 3px #b9b9b9;\n}\n.HotDesking-widget .visitors_plan .wing_angle .select_mate select {\n  position: absolute;\n  overflow: hidden;\n  height: 0px;\n  opacity: 0;\n  z-index: -1;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_list_select_mate {\n  position: relative;\n  float: left;\n  width: 100%;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int {\n  position: absolute;\n  left: 0px;\n  top: 0px;\n  z-index: 999;\n  overflow: hidden;\n  height: 0px;\n  width: 100%;\n  background-color: #fff;\n  padding: 0px;\n  margin-bottom: 0px;\n  margin-top: 0px;\n  border-radius: 0px 0px 3px 3px;\n  box-shadow: 1px 4px 10px -2px rgba(0, 0, 0, 0.2);\n  transition: all 375ms ease-in-out;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li {\n  position: relative;\n  float: left;\n  width: 80%;\n  border-bottom: 1px solid #e0e0e0;\n  background-color: #ffffff;\n  list-style-type: none;\n  padding: 13px 10%;\n  margin: 0px;\n  transition: all 275ms ease-in-out;\n  display: block;\n  cursor: pointer;\n  font-size: 11px;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li .strip {\n  display: inline-block;\n  width: 3px;\n  height: 30px;\n  position: absolute;\n  left: 4px;\n  top: 2px;\n  background: #92d971;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li .strip.strip.red-strip {\n  background: #f25b5b;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li:last-child {\n  border-radius: 3px;\n  border-bottom: 0px;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li:hover {\n  background-color: #ffffff;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int li:hover .strip {\n  background: #f25b5b;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int .active {\n  background-color: #ffffff;\n}\n.HotDesking-widget .visitors_plan .wing_angle .cont_select_int .active .strip {\n  background: #f25b5b;\n}\n.HotDesking-widget .visitors_plan .wing_angle .selecionado_opcion {\n  padding: 10px 10%;\n  width: 80%;\n  display: block;\n  margin: 0px;\n  cursor: pointer;\n  font-size: 11px;\n}\n.HotDesking-widget .desk-cont {\n  display: inline-block;\n  background-image: url(https://static.iviva.com/images/Adani_UXP/table.png);\n  background-position: bottom left;\n  background-repeat: no-repeat;\n  width: 100%;\n  height: 28vh;\n  margin-top: 1.2em;\n  background-size: contain;\n}\n.HotDesking-widget .desk-cont .desk-cont_value {\n  width: 24%;\n  margin-left: 5%;\n  margin-top: 4em;\n  float: left;\n}\n.HotDesking-widget .desk-cont .desk-cont_value h3 {\n  display: inline-block;\n  font-size: 2.8em;\n  position: relative;\n  font-weight: 500;\n}\n.HotDesking-widget .desk-cont .desk-cont_value h3 em {\n  display: inline-block;\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  width: 32px;\n  height: 25px;\n  background-size: contain;\n  position: absolute;\n  top: -15px;\n  right: -30px;\n}\n.HotDesking-widget .desk-cont .desk-cont_value p {\n  display: inline-block;\n  font-size: 0.8em;\n  text-transform: uppercase;\n}\n.HotDesking-widget .desk-cont .desk-cont_value.desk-cont_used {\n  margin-left: 40%;\n}\n.HotDesking-widget .desk-cont .desk-cont_value.desk-cont_used h3 em {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/orange-chair.png);\n}\n.HotDesking-widget .desk-cont .desk-cont_value.desk-cont_avail h3 em {\n  background-image: url(https://static.iviva.com/images/Adani_UXP/green-chair.png);\n}\n\n.Visitor-Count-widget {\n  border-radius: 7px;\n  box-sizing: border-box;\n  position: absolute;\n  box-shadow: 0px 2px 26px rgba(0, 0, 0, 0.0901960784);\n  background-color: #5752c9;\n  flex-direction: row;\n}\n.Visitor-Count-widget .visitors_count {\n  float: left;\n  width: 20%;\n  position: relative;\n}\n.Visitor-Count-widget .visitors_count .filteroverall {\n  display: inline-block;\n  position: absolute;\n  width: 86%;\n  left: 3%;\n  top: 0;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter_sec {\n  display: inline-block;\n  margin: 1em 0 0 1em;\n  background: url(https://static.iviva.com/images/Adani_UXP/filter-icon.svg) no-repeat center center;\n  width: 0.7em;\n  height: 0.7em;\n  background-size: 40% auto;\n  background-color: #b7b7b7;\n  padding: 10px 10px;\n  border-radius: 50%;\n  cursor: pointer;\n  position: relative;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter_sec:hover {\n  background-color: #ffb857;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu {\n  background: #fff;\n  border-radius: 10px;\n  font-size: 10px;\n  padding: 2px 5px;\n  box-shadow: 0px 0px 6px #c1c1c1;\n  width: 100%;\n  position: absolute;\n  top: 42px;\n  left: 5px;\n  z-index: 1;\n  display: none;\n  min-height: 26em;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu.filter-menu-nav {\n  display: inline-block;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul {\n  margin: 0;\n  padding: 0;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul li {\n  display: inline-block;\n  padding: 0 0;\n  width: 100%;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul li:last-child {\n  border-bottom: 0px solid #d4d4d4;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul li a {\n  display: inline-block;\n  padding: 25px 6px;\n  width: 100%;\n  margin: 1px 0;\n  box-sizing: border-box;\n  border-radius: 10px;\n  text-align: center;\n  font-size: 1.3em;\n  background: #fafafa;\n  color: #424242;\n  cursor: pointer;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul li a:hover, .Visitor-Count-widget .visitors_count .filteroverall .filter-menu ul li a.filterfootfall_active {\n  background: #ffb857;\n}\n.Visitor-Count-widget .visitors_count .filteroverall .filter_menu_close {\n  display: none;\n  background-color: #433636;\n  color: #ffffff;\n  position: absolute;\n  bottom: 10px;\n  border-radius: 50%;\n  text-align: center;\n  font-family: arial;\n  cursor: pointer;\n  transform: translate(-50%, 0);\n  background-image: url(https://static.iviva.com/images/close.svg);\n  background-position: center center;\n  background-size: 44% auto;\n  filter: invert(1);\n  background-repeat: no-repeat;\n  left: 50%;\n  padding: 12px 12px;\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top {\n  width: 100%;\n  color: #fff;\n  text-align: center;\n  margin-top: 5em;\n  display: inline-block;\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top .visitors_count-no {\n  display: inline-block;\n  font-size: 3em;\n  width: 100%;\n  position: relative;\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top .visitors_count-no .visitors_icon {\n  display: inline-block;\n  background: url(https://static.iviva.com/images/Adani_UXP/visitors-icon1.svg) no-repeat 0 0;\n  width: 1.5em;\n  height: 1.5em;\n  position: absolute;\n  top: -15px;\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top p {\n  font-size: 10px;\n  display: inline-block;\n  margin-top: 0.5em;\n  text-transform: uppercase;\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top p::before {\n  content: \"\";\n  position: absolute;\n  top: -2px;\n  left: -5px;\n  width: 7px;\n  height: 10px;\n  text-align: center;\n  pointer-events: none;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100% auto;\n  padding: 3px 3px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.149' height='19.38' viewBox='0 0 22.149 19.38'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;opacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M21.743,10.15,19.786,8.193a1.384,1.384,0,0,0-.979-.405h-2.2V4.326A2.076,2.076,0,0,0,14.535,2.25H7.614A2.076,2.076,0,0,0,5.537,4.326V7.787h-2.2a1.385,1.385,0,0,0-.979.405L.405,10.15A1.384,1.384,0,0,0,0,11.129v3.579H5.537v-.692a.692.692,0,0,1,.692-.692H7.614a.692.692,0,0,1,.692.692v.692h5.537v-.692a.692.692,0,0,1,.692-.692h1.384a.692.692,0,0,1,.692.692v.692h5.537v-3.58A1.384,1.384,0,0,0,21.743,10.15Zm-7.9-2.363H8.306V5.019h5.537Zm2.769,9a.692.692,0,0,1-.692.692H14.535a.692.692,0,0,1-.692-.692v-.692H8.306v.692a.692.692,0,0,1-.692.692H6.229a.692.692,0,0,1-.692-.692v-.692H0v4.153A1.384,1.384,0,0,0,1.384,21.63h19.38a1.384,1.384,0,0,0,1.384-1.384V16.093H16.611Z' transform='translate(0 -2.25)'/%3E%3C/svg%3E\");\n}\n.Visitor-Count-widget .visitors_count .visitors_count-top em {\n  font-size: 0.6em;\n  display: inline-block;\n  margin-top: 0.7em;\n  width: 100%;\n}\n.Visitor-Count-widget .visitors_chart .visitors_data .visitors_chart_top .visitor_chart_details ul {\n  list-style: none;\n  display: flex;\n  flex-direction: row;\n}\n.Visitor-Count-widget .visitors_chart .visitors_data .visitors_chart_top .visitor_chart_details ul li {\n  display: flex;\n  flex-direction: row;\n  margin: 15px 35px 0 28px;\n  font-size: 9px;\n}\n.Visitor-Count-widget .visitors_chart .visitors_data .visitors_chart_top .visitor_chart_details ul li h5 {\n  margin: 7px 0 0 8px;\n  font-size: 12px;\n  font-weight: 500;\n}\n.Visitor-Count-widget .visitors_chart .prev_next {\n  list-style: none;\n  margin-left: 47em;\n  margin-top: -32px;\n  width: 13%;\n}\n.Visitor-Count-widget .visitors_chart .prev_next ul {\n  display: flex;\n  flex-direction: row;\n  list-style: none;\n  padding: 0;\n}\n.Visitor-Count-widget .visitors_chart .prev_next ul li {\n  font-size: 9px;\n  margin-right: 7px;\n}\n.Visitor-Count-widget .visitors_chart .prev_next ul li a {\n  display: inline-block;\n  padding: 3px 11px;\n  background: #f1f1f1;\n  border-radius: 15px;\n  cursor: pointer;\n}\n.Visitor-Count-widget .visitors_chart .prev_next a {\n  cursor: pointer;\n}\n.Visitor-Count-widget .visitors_count-bot {\n  width: 100%;\n  display: inline-block;\n  margin-top: 7em;\n  text-align: center;\n}\n.Visitor-Count-widget .visitors_count-bot .visitors_count-bot-grey {\n  /* margin-top: 1.5em;\n    background: #f1f1f1;\n    border-radius: 5px;\n    width: 90%;\n    padding: 10px 10px;\n    box-sizing: border-box;\n    margin-left: 5%;*/\n  margin-top: 1.5em;\n  background: #f1f1f1;\n  border-radius: 5px;\n  width: 84%;\n  padding: 10px 10px;\n  box-sizing: border-box;\n  margin-left: 7%;\n  text-align: center;\n}\n.Visitor-Count-widget .visitors_count-bot p {\n  font-size: 1em;\n  color: rgba(250, 91, 91, 0.8470588235);\n  font-weight: 600;\n}\n.Visitor-Count-widget .visitors_count-bot em {\n  font-size: 9px;\n  color: rgba(250, 91, 91, 0.8470588235);\n  font-weight: 600;\n}\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-tabs,\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-data {\n  display: inline-flex;\n  padding: 0;\n}\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-tabs li,\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-data li {\n  display: inline-block;\n}\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-tabs li a,\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-data li a {\n  background: none;\n  color: #fff;\n  padding: 7px 6px;\n  font-size: 8px;\n  outline: none;\n  font-weight: 600;\n  cursor: pointer;\n}\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-tabs li a.meeting_active,\n.Visitor-Count-widget .visitors_count-bot ul.meeting-room-top-data li a.data_meeting_active {\n  background-color: #fff;\n  color: #424242;\n  position: relative;\n  border-radius: 12px;\n  padding: 4px 4px;\n}\n\n.Daily-Campus-Footfall-widget {\n  display: flex;\n  flex-direction: row;\n}\n.Daily-Campus-Footfall-widget .footfall-scroll-arrow {\n  /*  width: 15px;\n        background-color: #9c9c9cb3;\n        height: 93%;\n        vertical-align: top;\n        float: right;\n        border-radius: 4px;\n        margin-right: 0px;\n        position: absolute;\n        top: 10px;           \n        cursor: pointer;*/\n  width: 23px;\n  /* background-color: #9c9c9c52;*/\n  background-color: #e6e4e4;\n  box-shadow: -2px 0px 7px 0px rgba(0, 0, 0, 0.2196078431);\n  height: 93%;\n  vertical-align: top;\n  float: right;\n  border-radius: 6px;\n  margin-right: 0px;\n  position: absolute;\n  top: 15px;\n  /* right: 9px; */\n  cursor: pointer;\n}\n.Daily-Campus-Footfall-widget .footfall-scroll-arrow .footfall_arrow {\n  /* width: 0; \n              height: 0; \n              border-top: 8px solid transparent;\n              border-bottom: 8px solid transparent;\n              text-align: center;\n              border-left: 8px solid#424242;\n              position: absolute;\n              top: 50%;\n              left: 4px;\n              margin-top: -2px;*/\n  width: 0;\n  height: 0;\n  border-top: 8px solid transparent;\n  border-bottom: 8px solid transparent;\n  text-align: center;\n  border-left: 8px solid #424242;\n  position: absolute;\n  top: 50%;\n  left: 4px;\n  margin-top: -2px;\n}\n.Daily-Campus-Footfall-widget .footfall-scroll-arrow#RTLS_slide_lft {\n  height: 260px;\n  right: -35px;\n  transform: rotate(180deg);\n  z-index: 2;\n  top: 10px;\n  width: 14px;\n}\n.Daily-Campus-Footfall-widget .footfall-scroll-arrow#RTLS_slide_rgt {\n  right: 11px;\n  height: 260px;\n  z-index: 2;\n  top: 10px;\n  width: 14px;\n}\n.Daily-Campus-Footfall-widget .visitors_count {\n  float: left;\n  width: 23%;\n  position: relative;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall {\n  display: inline-block;\n  position: absolute;\n  width: 86%;\n  left: 3%;\n  top: 0;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter_sec {\n  display: inline-block;\n  margin: 1.5em 0 0 1.5em;\n  background: url(https://static.iviva.com/images/Adani_UXP/filter-icon.svg) no-repeat center center;\n  width: 2.5em;\n  height: 2.5em;\n  background-size: 40% auto;\n  background-color: #b7b7b7;\n  padding: 10px 10px;\n  border-radius: 50%;\n  cursor: pointer;\n  position: relative;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter_sec:hover {\n  background-color: #ffb857;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu {\n  display: none;\n  background: #fff;\n  border-radius: 10px;\n  font-size: 10px;\n  padding: 2px 5px;\n  box-shadow: 0px 0px 6px #c1c1c1;\n  width: 100%;\n  top: 42px;\n  left: 17px;\n  height: 21em;\n  z-index: 1;\n  min-height: unset;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul {\n  margin: 0;\n  padding: 0;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul li {\n  display: inline-block;\n  padding: 1px 0;\n  width: 100%;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul li:last-child {\n  border-bottom: 0px solid #d4d4d4;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul li a {\n  display: inline-block;\n  padding: 19px 6px;\n  width: 100%;\n  margin: 1px 0;\n  box-sizing: border-box;\n  border-radius: 10px;\n  text-align: center;\n  font-size: 1.3em;\n  background: #fafafa;\n  color: #424242;\n  cursor: pointer;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul li a:hover, .Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter-menu ul li a.filterfootfall_active {\n  background: #ffb857;\n}\n.Daily-Campus-Footfall-widget .visitors_count .filteroverall .filter_menu_close {\n  display: flex;\n  background-color: #433636;\n  border-radius: 50%;\n  text-align: center;\n  font-family: arial;\n  cursor: pointer;\n  transform: translate(-50%, 0);\n  background-image: url(https://static.iviva.com/images/close.svg);\n  background-position: center center;\n  background-size: 44% auto;\n  filter: invert(1);\n  background-repeat: no-repeat;\n  left: 50%;\n  padding: 12px 12px;\n}\n.Daily-Campus-Footfall-widget .visitors_count .wing_angle {\n  left: 58%;\n  position: absolute;\n  top: 7%;\n}\n.Daily-Campus-Footfall-widget .visitors_count .wing_angle .footfall_wrapper .wing_map {\n  position: absolute;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.181' height='9.361' viewBox='0 0 6.181 9.361'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.73;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.09,0a3.09,3.09,0,0,1,3.09,3.09c0,1.707-3.09,6.271-3.09,6.271S0,4.8,0,3.09A3.09,3.09,0,0,1,3.09,0Z'/%3E%3C/svg%3E\");\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  top: 7px;\n  left: 10px;\n  width: 15px;\n  height: 15px;\n}\n.Daily-Campus-Footfall-widget .visitors_count .wing_angle .footfall_wrapper select.dropdown_footfall {\n  display: inline-block;\n  background: #ffffff;\n  border: none;\n  color: #424242;\n  font-size: 0.6em;\n  padding: 5px 25px 4px 20px;\n  height: 22px;\n  border-radius: 15px;\n  outline: none;\n  box-sizing: border-box;\n  box-shadow: 0px 0px 3px #b9b9b9;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata {\n  top: 21%;\n  position: absolute;\n  text-align: center;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec {\n  position: relative;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-top {\n  width: 100%;\n  color: #fff;\n  text-align: center;\n  margin-top: 3em;\n  display: inline-block;\n  left: 3px;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-top .visitors_count-no {\n  display: inline-block;\n  font-size: 40px;\n  width: 100%;\n  position: relative;\n  font-weight: 100;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-top .visitors_count-no .visitors_icon {\n  display: inline-block;\n  background: url(https://static.iviva.com/images/Adani_UXP/visitors-icon1.svg) no-repeat 0 0;\n  width: 0.5em;\n  height: 0.5em;\n  position: absolute;\n  top: -15px;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-top p {\n  font-size: 1.3em;\n  width: 100%;\n  font-weight: 400;\n  display: inline-block;\n  text-transform: uppercase;\n  color: black;\n  margin: 5px 0;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-top em {\n  font-size: 8px;\n  display: inline-block;\n  margin-top: 0.3em;\n  width: 100%;\n  font-style: normal;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-bot {\n  width: 91%;\n  display: inline-block;\n  text-align: center;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-bot-grey {\n  margin-top: 1.5em;\n  background: #f1f1f1;\n  border-radius: 5px;\n  padding: 10px 10px;\n  box-sizing: border-box;\n  margin-left: 7%;\n  text-align: center;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-bot-grey p {\n  font-size: 1em;\n  color: rgba(250, 91, 91, 0.8470588235);\n  font-weight: 600;\n  margin: 0px 0 3px 0;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec .visitors_count-bot-grey em {\n  font-size: 9px;\n  color: rgba(250, 91, 91, 0.8470588235);\n  font-weight: 600;\n  font-style: normal;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-tabs,\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-data {\n  display: inline-flex;\n  padding: 0;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-tabs li,\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-data li {\n  display: inline-block;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-tabs li a,\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-data li a {\n  background: none;\n  color: #fff;\n  padding: 7px 6px;\n  font-size: 8px;\n  outline: none;\n  font-weight: 600;\n  cursor: pointer;\n}\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-tabs li a.meeting_active,\n.Daily-Campus-Footfall-widget .visitors_count .footfalldailydata .visitors_count-sec ul.meeting-room-top-data li a.data_meeting_active {\n  background-color: #fff;\n  color: #424242;\n  position: relative;\n  border-radius: 12px;\n  padding: 4px 4px;\n}\n.Daily-Campus-Footfall-widget .floor_details {\n  display: inline-block;\n  width: 77%;\n  overflow: auto;\n  margin-top: 5px;\n  min-height: 17em;\n  margin-left: 3.7em;\n  height: 97%;\n  margin-right: 2em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont {\n  display: inline-block;\n  width: auto;\n  max-width: 130%;\n  min-width: 100%;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .floor-thead-time {\n  display: inline-block;\n  padding: 3px 0px;\n  width: 64px;\n  text-align: center;\n  font-size: 10px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .floor-thead-time.time-txt {\n  width: 56px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .footfall_data-header {\n  position: sticky;\n  top: 0px;\n  background: #ffffff;\n  z-index: 2;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .footfall_data-header ul {\n  margin: 0;\n  padding: 0;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .floor-no {\n  display: inline-block;\n  padding: 0;\n  width: 51px;\n  text-align: center;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul {\n  display: inline-flex;\n  width: 100%;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li {\n  display: inline-block;\n  font-size: 12px;\n  padding: 7px 3px;\n  background-color: #fff;\n  box-sizing: border-box;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data {\n  display: inline-block;\n  padding: 9px 0px;\n  background: rgba(66, 66, 66, 0.1803921569);\n  border-radius: 100px;\n  font-size: 10px;\n  width: 63.5px;\n  color: #424242;\n  font-weight: bold;\n  position: relative;\n  text-align: center;\n  cursor: pointer;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.table-txt {\n  background: transparent;\n  color: #f25b5b;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.table-txt .steps_mark_red {\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 7px;\n  height: 10px;\n  display: inline-block;\n  margin-right: 1px;\n  position: relative;\n  top: 1px;\n  background-size: 100% auto;\n  background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"15.986\" height=\"22.416\" viewBox=\"0 0 15.986 22.416\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23F25B5B;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M11.757,3.856c-1.879,0-3.4,2.509-3.4,5.6a49.058,49.058,0,0,0,.851,6.368c.333,2.209,1.143,4.039,2.552,4.039s2.354-1.221,2.354-3.452c0-.76-.625-1.97-.652-3-.051-1.863,1.249-2.606,1.249-4.328,0-3.095-1.072-5.229-2.95-5.229Zm9.181,6.4c-1.879,0-2.95,2.134-2.95,5.229,0,1.722,1.3,2.465,1.249,4.328-.028,1.033-.652,2.243-.652,3,0,2.231.944,3.452,2.354,3.452s2.219-1.831,2.552-4.039a49.057,49.057,0,0,0,.851-6.368C24.34,12.77,22.817,10.261,20.938,10.261Z\" transform=\"translate(-8.355 -3.856)\"/%3E%3C/svg%3E');\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.optimal, .Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.Optimal {\n  background: #92d971;\n  color: #424242;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.Acceptable {\n  background: #49f2aa;\n  color: #424242;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.OverLoaded {\n  background: #ffb550;\n  color: #424242;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.grey-box_data {\n  background: #dddddd;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.NA {\n  background: rgba(66, 66, 66, 0.1803921569);\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.noData {\n  background: rgba(66, 66, 66, 0.1803921569);\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.unacceptable {\n  background: #f25b5b;\n  color: #ffffff;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.Severely {\n  background: #faf11a;\n  color: #424242;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data.UnderLoaded {\n  background: rgba(113, 217, 174, 0.4509803922);\n  color: #424242;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data .steps_mark {\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 8px;\n  height: 9px;\n  display: inline-block;\n  margin-right: 2px;\n  position: relative;\n  top: 1px;\n  filter: invert(1);\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data .steps_mark.steps_mark_white {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.256' height='8.772' viewBox='0 0 6.256 8.772'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;opacity:0.63;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M9.686,3.856c-.735,0-1.332.982-1.332,2.193a19.2,19.2,0,0,0,.333,2.492c.13.864.447,1.581,1,1.581s.921-.478.921-1.351c0-.3-.244-.771-.255-1.175-.02-.729.489-1.02.489-1.694,0-1.211-.419-2.046-1.155-2.046Zm3.593,2.506c-.735,0-1.155.835-1.155,2.046,0,.674.509.965.489,1.694-.011.4-.255.878-.255,1.175,0,.873.37,1.351.921,1.351s.868-.716,1-1.581a19.2,19.2,0,0,0,.333-2.492C14.611,7.344,14.015,6.362,13.279,6.362Z' transform='translate(-8.355 -3.856)'/%3E%3C/svg%3E\");\n  background-size: 100%;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data .steps_mark.steps_mark_grey {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.256' height='8.772' viewBox='0 0 6.256 8.772'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23a2a2a2;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M9.686,3.856c-.735,0-1.332.982-1.332,2.193a19.2,19.2,0,0,0,.333,2.492c.13.864.447,1.581,1,1.581s.921-.478.921-1.351c0-.3-.244-.771-.255-1.175-.02-.729.489-1.02.489-1.694,0-1.211-.419-2.046-1.155-2.046Zm3.593,2.506c-.735,0-1.155.835-1.155,2.046,0,.674.509.965.489,1.694-.011.4-.255.878-.255,1.175,0,.873.37,1.351.921,1.351s.868-.716,1-1.581a19.2,19.2,0,0,0,.333-2.492C14.611,7.344,14.015,6.362,13.279,6.362Z' transform='translate(-8.355 -3.856)'/%3E%3C/svg%3E\");\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data .tooltip {\n  display: none;\n  position: absolute;\n  bottom: -17px;\n  left: 10px;\n  background: #ffffff;\n  padding: 5px 10px;\n  border: 1px solid #d5d5d5;\n  font-size: 11px;\n  z-index: 1;\n  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2784313725);\n  color: #424242;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  white-space: nowrap;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .table_data:hover .tooltip {\n  display: block;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow {\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1.2em;\n  height: 1.2em;\n  display: inline-block;\n  border-radius: 50%;\n  text-align: center;\n  margin-right: 4px;\n  position: relative;\n  top: 2px;\n  padding: 1px;\n  background-size: 50% auto;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.WithinRange {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80px' height='80px' viewBox='0 0 5.449 6.787'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.01,7.372,5.325,9.687a.407.407,0,0,1,0,.577l-.385.385a.407.407,0,0,1-.577,0L2.721,9.009,1.08,10.65a.407.407,0,0,1-.577,0l-.386-.385a.407.407,0,0,1,0-.577L2.432,7.373A.407.407,0,0,1,3.01,7.372ZM2.432,4.1.116,6.418A.407.407,0,0,0,.116,7L.5,7.38a.407.407,0,0,0,.577,0L2.719,5.739,4.36,7.38a.407.407,0,0,0,.577,0L5.322,7a.407.407,0,0,0,0-.577L3.007,4.1A.4.4,0,0,0,2.432,4.1Z' transform='translate(0.004 -3.983)'/%3E%3C/svg%3E\");\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.WithoutRange {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.449' height='6.787' viewBox='0 0 5.449 6.787'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.01,7.372,5.325,9.687a.407.407,0,0,1,0,.577l-.385.385a.407.407,0,0,1-.577,0L2.721,9.009,1.08,10.65a.407.407,0,0,1-.577,0l-.386-.385a.407.407,0,0,1,0-.577L2.432,7.373A.407.407,0,0,1,3.01,7.372ZM2.432,4.1.116,6.418A.407.407,0,0,0,.116,7L.5,7.38a.407.407,0,0,0,.577,0L2.719,5.739,4.36,7.38a.407.407,0,0,0,.577,0L5.322,7a.407.407,0,0,0,0-.577L3.007,4.1A.4.4,0,0,0,2.432,4.1Z' transform='translate(0.004 -3.983)'/%3E%3C/svg%3E\");\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.noData {\n  background-image: url(\"data:image/svg+xml,%3Csvg height='365pt' viewBox='0 0 365.71733 365' width='365pt' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff'%3E%3Cpath d='m356.339844 296.347656-286.613282-286.613281c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503906-12.5 32.769532 0 45.25l286.613281 286.613282c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082032c12.523438-12.480468 12.523438-32.75.019532-45.25zm0 0'/%3E%3Cpath d='m295.988281 9.734375-286.613281 286.613281c-12.5 12.5-12.5 32.769532 0 45.25l15.082031 15.082032c12.503907 12.5 32.769531 12.5 45.25 0l286.632813-286.59375c12.503906-12.5 12.503906-32.765626 0-45.246094l-15.082032-15.082032c-12.5-12.523437-32.765624-12.523437-45.269531-.023437zm0 0'/%3E%3C/g%3E%3C/svg%3E\");\n  background-size: 50% auto;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.Up {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.449' height='6.787' viewBox='0 0 5.449 6.787'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.01,7.372,5.325,9.687a.407.407,0,0,1,0,.577l-.385.385a.407.407,0,0,1-.577,0L2.721,9.009,1.08,10.65a.407.407,0,0,1-.577,0l-.386-.385a.407.407,0,0,1,0-.577L2.432,7.373A.407.407,0,0,1,3.01,7.372ZM2.432,4.1.116,6.418A.407.407,0,0,0,.116,7L.5,7.38a.407.407,0,0,0,.577,0L2.719,5.739,4.36,7.38a.407.407,0,0,0,.577,0L5.322,7a.407.407,0,0,0,0-.577L3.007,4.1A.4.4,0,0,0,2.432,4.1Z' transform='translate(0.004 -3.983)'/%3E%3C/svg%3E\");\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.Down {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.449' height='6.787' viewBox='0 0 5.449 6.787'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M3.01,7.372,5.325,9.687a.407.407,0,0,1,0,.577l-.385.385a.407.407,0,0,1-.577,0L2.721,9.009,1.08,10.65a.407.407,0,0,1-.577,0l-.386-.385a.407.407,0,0,1,0-.577L2.432,7.373A.407.407,0,0,1,3.01,7.372ZM2.432,4.1.116,6.418A.407.407,0,0,0,.116,7L.5,7.38a.407.407,0,0,0,.577,0L2.719,5.739,4.36,7.38a.407.407,0,0,0,.577,0L5.322,7a.407.407,0,0,0,0-.577L3.007,4.1A.4.4,0,0,0,2.432,4.1Z' transform='translate(0.004 -3.983)'/%3E%3C/svg%3E\");\n  transform: rotate(180deg);\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li .floor_arrow.Cross {\n  background-image: url(\"data:image/svg+xml,%3Csvg height='365pt' viewBox='0 0 365.71733 365' width='365pt' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff'%3E%3Cpath d='m356.339844 296.347656-286.613282-286.613281c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503906-12.5 32.769532 0 45.25l286.613281 286.613282c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082032c12.523438-12.480468 12.523438-32.75.019532-45.25zm0 0'/%3E%3Cpath d='m295.988281 9.734375-286.613281 286.613281c-12.5 12.5-12.5 32.769532 0 45.25l15.082031 15.082032c12.503907 12.5 32.769531 12.5 45.25 0l286.632813-286.59375c12.503906-12.5 12.503906-32.765626 0-45.246094l-15.082032-15.082032c-12.5-12.523437-32.765624-12.523437-45.269531-.023437zm0 0'/%3E%3C/g%3E%3C/svg%3E\");\n  background-size: 50% auto;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall ul li h3 {\n  display: inline-block;\n  font-size: 9px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .footfall_data ul {\n  margin: 0;\n  padding: 0;\n  height: 36px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .table_footfall .footfall_data ul li:first-child {\n  position: sticky;\n  left: 0;\n  z-index: 1;\n  background: #fff;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor {\n  display: block;\n  width: 83%;\n  margin-top: 6em;\n  text-align: center;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor {\n  float: left;\n  width: 26%;\n  margin-top: 3.5em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p {\n  font-size: 12px;\n  width: 46%;\n  position: relative;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p span.floor_arrow {\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 1.2em;\n  height: 1.2em;\n  display: inline-block;\n  border-radius: 50%;\n  text-align: center;\n  margin-right: 3px;\n  position: relative;\n  top: 2px;\n  padding: 1px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p span.floor_arrow.floor_up_arrow {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.449' height='6.787' viewBox='0 0 5.449 6.787'%3E%3Cpath d='M3.01,7.372,5.325,9.687a.407.407,0,0,1,0,.577l-.385.385a.407.407,0,0,1-.577,0L2.721,9.009,1.08,10.65a.407.407,0,0,1-.577,0l-.386-.385a.407.407,0,0,1,0-.577L2.432,7.373A.407.407,0,0,1,3.01,7.372ZM2.432,4.1.116,6.418A.407.407,0,0,0,.116,7L.5,7.38a.407.407,0,0,0,.577,0L2.719,5.739,4.36,7.38a.407.407,0,0,0,.577,0L5.322,7a.407.407,0,0,0,0-.577L3.007,4.1A.4.4,0,0,0,2.432,4.1Z' transform='translate(0.004 -3.983)'/%3E%3C/svg%3E\");\n  background-color: #92d971;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p a {\n  width: 0;\n  height: 0;\n  position: absolute;\n  left: 34px;\n  cursor: pointer;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p a.floor_up-arrow {\n  border-bottom: 5px solid #424242;\n  border-left: 5px solid transparent;\n  border-right: 5px solid transparent;\n  top: -15px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor p a.floor_down-arrow {\n  border-top: 5px solid #424242;\n  border-left: 5px solid transparent;\n  border-right: 5px solid transparent;\n  bottom: -15px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section {\n  float: left;\n  width: 74%;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont {\n  display: inline-block;\n  vertical-align: top;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont h3 {\n  display: inline-block;\n  width: 3.2em;\n  text-align: center;\n  padding: 1em 0em;\n  border-radius: 10px;\n  color: #424242;\n  font-size: 2em;\n  position: relative;\n  min-height: 1.1em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont h3 em {\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 10px;\n  height: 16px;\n  display: inline-block;\n  margin-right: 1px;\n  position: absolute;\n  top: 15px;\n  background-size: 100% auto;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.256' height='8.772' viewBox='0 0 6.256 8.772'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23a2a2a2;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M9.686,3.856c-.735,0-1.332.982-1.332,2.193a19.2,19.2,0,0,0,.333,2.492c.13.864.447,1.581,1,1.581s.921-.478.921-1.351c0-.3-.244-.771-.255-1.175-.02-.729.489-1.02.489-1.694,0-1.211-.419-2.046-1.155-2.046Zm3.593,2.506c-.735,0-1.155.835-1.155,2.046,0,.674.509.965.489,1.694-.011.4-.255.878-.255,1.175,0,.873.37,1.351.921,1.351s.868-.716,1-1.581a19.2,19.2,0,0,0,.333-2.492C14.611,7.344,14.015,6.362,13.279,6.362Z' transform='translate(-8.355 -3.856)'/%3E%3C/svg%3E\");\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont p {\n  display: inline-block;\n  font-size: 15px;\n  vertical-align: top;\n  padding-top: 2.5em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont.floor-section-lft h3 {\n  background-color: #ffcc98;\n  margin-left: 1em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor .floor-section .floor-section-cont.floor-section-rgt h3 {\n  background-color: #b6e59f;\n  margin-right: 1em;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor.diffetent_view .floor p a.floor_up-arrow {\n  border-bottom: 7px solid #424242;\n  border-left: 7px solid transparent;\n  border-right: 7px solid transparent;\n  top: -15px;\n  left: 33px;\n}\n.Daily-Campus-Footfall-widget .floor_details .floor_details-cont .footfall_data-diff .graph_by_floor.diffetent_view .floor p a.floor_down-arrow {\n  border-top: 7px solid #424242;\n  border-left: 7px solid transparent;\n  border-right: 7px solid transparent;\n  bottom: -15px;\n  left: 33px;\n}\n.Daily-Campus-Footfall-widget .meet_room_top {\n  display: inline-block;\n  width: 100%;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab {\n  display: inline-block;\n  width: 100%;\n  margin-left: 10px;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .tab {\n  overflow: hidden;\n  height: auto;\n  font-size: 12px;\n  padding: 0;\n  line-height: normal;\n  margin-top: 1em;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .tab button {\n  padding: 4px 10px;\n  display: inline-block;\n  text-align: center;\n  box-sizing: border-box;\n  font-size: 11px;\n  font-weight: 900;\n  font-family: inherit;\n  border: 0px;\n  color: #424242;\n  cursor: pointer;\n  background: transparent;\n  outline: none;\n  border-radius: 20px;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .tab button:hover {\n  background-color: #424242;\n  color: #fff;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .tab .active {\n  background-color: #424242;\n  color: #fff;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .prev_next {\n  float: right;\n  margin-left: 0;\n  margin-right: 1em;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .prev_next ul li a {\n  background: none;\n  color: rgba(36, 35, 35, 0.4588235294);\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .prev_next ul li:last-child a {\n  color: #242323;\n}\n.Daily-Campus-Footfall-widget .meet_room_top .room_usage_tab .tabcontent {\n  display: none;\n  width: 100%;\n}\n\n.uxp-widget.actionicon {\n  width: 15%;\n  display: inline-block;\n  margin: 0 3%;\n  position: relative;\n  height: 200px;\n}\n.uxp-widget.actionicon:first-child {\n  margin-left: 0;\n}\n.uxp-widget.actionicon:last-child {\n  margin-right: 0;\n}\n.uxp-widget.actionicon .icon {\n  background-repeat: no-repeat;\n  background-position: center;\n  background-color: #ffffff;\n  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1607843137);\n  border-radius: 10px;\n  width: 76%;\n  position: absolute;\n  height: 60%;\n  left: 12%;\n  cursor: pointer;\n  top: 10%;\n  background-size: 80%;\n  border: 1px solid #e8e8e8;\n}\n.uxp-widget.actionicon .icon .caught_widget-iviva {\n  background-image: url(https://static.iviva.com/images/Logo.png);\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  width: 100%;\n  height: 100%;\n  background-size: 75% auto;\n}\n.uxp-widget.actionicon .title {\n  position: absolute;\n  bottom: 10px;\n  left: 5px;\n  right: 5px;\n  text-align: center;\n  font-size: 12px;\n  font-weight: bold;\n  color: #424242;\n}\n\n.gridster .gs-w {\n  z-index: 2;\n  position: absolute;\n}\n\n.alarm_map .transport_map {\n  width: 100%;\n  display: inline-block;\n  height: 88%;\n}\n.alarm_map .transport_map .transport_map-sec {\n  position: relative;\n  z-index: 0;\n}\n.alarm_map .map_spot {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  width: 30px;\n  height: 30px;\n  cursor: pointer;\n  border-radius: 50%;\n}\n.alarm_map .map_spot.camera {\n  background-image: url(https://static.iviva.com/images/uxp-generic-widgets/camera.svg);\n}\n.alarm_map .map_spot.chart {\n  background-image: url(https://static.iviva.com/images/SABB/bell.png);\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  text-align: center;\n}\n.alarm_map .map_spot.chart .chart-count {\n  display: inline-block;\n  color: #fff;\n  font-size: 1.1em;\n  padding-top: 7px;\n}\n.alarm_map .map_spot.orange-light {\n  background-color: #ff9a36;\n}\n.alarm_map .map_spot.grey-light {\n  background-color: #574d50;\n}\n.alarm_map #uxp-map-component-container {\n  width: 98%;\n  height: 100%;\n  border-radius: 10px;\n  margin: 0 1%;\n}\n.alarm_map .leaflet-popup-content-wrapper {\n  box-shadow: none;\n  border: none;\n  outline: none;\n}\n.alarm_map .leaflet-popup a.leaflet-popup-close-button {\n  top: 2px;\n  right: -2px;\n  width: 30px;\n  height: 30px;\n  font: 21px/14px Tahoma, Verdana, sans-serif;\n}\n.alarm_map .leaflet-popup .leaflet-popup-content-wrapper {\n  padding: 0;\n}\n.alarm_map .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content {\n  margin: 0;\n}\n.alarm_map .leaflet-popup .leaflet-popup-content-wrapper .spot_content {\n  background-color: #000000;\n  border-radius: 12px;\n  padding: 13px 19px;\n  outline: none;\n  border: 1px solid #FC9142;\n}\n.alarm_map .leaflet-popup .leaflet-popup-content-wrapper .spot_content .section-content {\n  display: inline-block;\n  width: 100%;\n  margin-top: 1em;\n}\n.alarm_map .leaflet-popup .leaflet-popup-content-wrapper .spot_content .section-content .icon {\n  display: inline-block;\n}\n.alarm_map .leaflet-popup .leaflet-popup-content-wrapper .spot_content .section-content h5 {\n  display: inline-block;\n  width: 100%;\n  color: #ffffff;\n  font-size: 1.2em;\n  padding: 5px 0 5px 0px;\n  margin: 0;\n}\n.alarm_map .leaflet-popup .leaflet-popup-content-wrapper .spot_content .section-content p {\n  color: #ffffff;\n  font-size: 0.9em;\n  padding: 5px 0 5px 0px;\n  margin: 0;\n}\n.alarm_map .leaflet-popup .leaflet-popup-content-wrapper .spot_content .section-content a {\n  color: #ebff01;\n  text-decoration: none;\n  margin-top: 4px;\n  display: inline-block;\n  font-size: 0.9em;\n}\n.alarm_map #uxp-map-component-container {\n  background: #2c2e31;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/widget_trans.scss":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/widget_trans.scss ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".widget-container-block .layout .layout-item {\n  transform: translate(20px, 0px);\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -217,6 +235,151 @@ function toComment(sourceMap) {
   var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
   return "/*# ".concat(data, " */");
 }
+
+/***/ }),
+
+/***/ "./node_modules/deepmerge/dist/cjs.js":
+/*!********************************************!*\
+  !*** ./node_modules/deepmerge/dist/cjs.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isMergeableObject = function isMergeableObject(value) {
+	return isNonNullObject(value)
+		&& !isSpecial(value)
+};
+
+function isNonNullObject(value) {
+	return !!value && typeof value === 'object'
+}
+
+function isSpecial(value) {
+	var stringValue = Object.prototype.toString.call(value);
+
+	return stringValue === '[object RegExp]'
+		|| stringValue === '[object Date]'
+		|| isReactElement(value)
+}
+
+// see https://github.com/facebook/react/blob/b5ac963fb791d1298e7f396236383bc955f916c1/src/isomorphic/classic/element/ReactElement.js#L21-L25
+var canUseSymbol = typeof Symbol === 'function' && Symbol.for;
+var REACT_ELEMENT_TYPE = canUseSymbol ? Symbol.for('react.element') : 0xeac7;
+
+function isReactElement(value) {
+	return value.$$typeof === REACT_ELEMENT_TYPE
+}
+
+function emptyTarget(val) {
+	return Array.isArray(val) ? [] : {}
+}
+
+function cloneUnlessOtherwiseSpecified(value, options) {
+	return (options.clone !== false && options.isMergeableObject(value))
+		? deepmerge(emptyTarget(value), value, options)
+		: value
+}
+
+function defaultArrayMerge(target, source, options) {
+	return target.concat(source).map(function(element) {
+		return cloneUnlessOtherwiseSpecified(element, options)
+	})
+}
+
+function getMergeFunction(key, options) {
+	if (!options.customMerge) {
+		return deepmerge
+	}
+	var customMerge = options.customMerge(key);
+	return typeof customMerge === 'function' ? customMerge : deepmerge
+}
+
+function getEnumerableOwnPropertySymbols(target) {
+	return Object.getOwnPropertySymbols
+		? Object.getOwnPropertySymbols(target).filter(function(symbol) {
+			return target.propertyIsEnumerable(symbol)
+		})
+		: []
+}
+
+function getKeys(target) {
+	return Object.keys(target).concat(getEnumerableOwnPropertySymbols(target))
+}
+
+function propertyIsOnObject(object, property) {
+	try {
+		return property in object
+	} catch(_) {
+		return false
+	}
+}
+
+// Protects from prototype poisoning and unexpected merging up the prototype chain.
+function propertyIsUnsafe(target, key) {
+	return propertyIsOnObject(target, key) // Properties are safe to merge if they don't exist in the target yet,
+		&& !(Object.hasOwnProperty.call(target, key) // unsafe if they exist up the prototype chain,
+			&& Object.propertyIsEnumerable.call(target, key)) // and also unsafe if they're nonenumerable.
+}
+
+function mergeObject(target, source, options) {
+	var destination = {};
+	if (options.isMergeableObject(target)) {
+		getKeys(target).forEach(function(key) {
+			destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
+		});
+	}
+	getKeys(source).forEach(function(key) {
+		if (propertyIsUnsafe(target, key)) {
+			return
+		}
+
+		if (propertyIsOnObject(target, key) && options.isMergeableObject(source[key])) {
+			destination[key] = getMergeFunction(key, options)(target[key], source[key], options);
+		} else {
+			destination[key] = cloneUnlessOtherwiseSpecified(source[key], options);
+		}
+	});
+	return destination
+}
+
+function deepmerge(target, source, options) {
+	options = options || {};
+	options.arrayMerge = options.arrayMerge || defaultArrayMerge;
+	options.isMergeableObject = options.isMergeableObject || isMergeableObject;
+	// cloneUnlessOtherwiseSpecified is added to `options` so that custom arrayMerge()
+	// implementations can use it. The caller may not replace it.
+	options.cloneUnlessOtherwiseSpecified = cloneUnlessOtherwiseSpecified;
+
+	var sourceIsArray = Array.isArray(source);
+	var targetIsArray = Array.isArray(target);
+	var sourceAndTargetTypesMatch = sourceIsArray === targetIsArray;
+
+	if (!sourceAndTargetTypesMatch) {
+		return cloneUnlessOtherwiseSpecified(source, options)
+	} else if (sourceIsArray) {
+		return options.arrayMerge(target, source, options)
+	} else {
+		return mergeObject(target, source, options)
+	}
+}
+
+deepmerge.all = function deepmergeAll(array, options) {
+	if (!Array.isArray(array)) {
+		throw new Error('first argument should be an array')
+	}
+
+	return array.reduce(function(prev, next) {
+		return deepmerge(prev, next, options)
+	}, {})
+};
+
+var deepmerge_1 = deepmerge;
+
+module.exports = deepmerge_1;
+
 
 /***/ }),
 
@@ -871,6 +1034,6338 @@ brightness:.2}}});return c}(u);v(w.prototype,{alignDataLabel:y.prototype.alignDa
 
 /***/ }),
 
+/***/ "./node_modules/load-script/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/load-script/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+module.exports = function load (src, opts, cb) {
+  var head = document.head || document.getElementsByTagName('head')[0]
+  var script = document.createElement('script')
+
+  if (typeof opts === 'function') {
+    cb = opts
+    opts = {}
+  }
+
+  opts = opts || {}
+  cb = cb || function() {}
+
+  script.type = opts.type || 'text/javascript'
+  script.charset = opts.charset || 'utf8';
+  script.async = 'async' in opts ? !!opts.async : true
+  script.src = src
+
+  if (opts.attrs) {
+    setAttributes(script, opts.attrs)
+  }
+
+  if (opts.text) {
+    script.text = '' + opts.text
+  }
+
+  var onend = 'onload' in script ? stdOnEnd : ieOnEnd
+  onend(script, cb)
+
+  // some good legacy browsers (firefox) fail the 'in' detection above
+  // so as a fallback we always set onload
+  // old IE will ignore this and new IE will set onload
+  if (!script.onload) {
+    stdOnEnd(script, cb);
+  }
+
+  head.appendChild(script)
+}
+
+function setAttributes(script, attrs) {
+  for (var attr in attrs) {
+    script.setAttribute(attr, attrs[attr]);
+  }
+}
+
+function stdOnEnd (script, cb) {
+  script.onload = function () {
+    this.onerror = this.onload = null
+    cb(null, script)
+  }
+  script.onerror = function () {
+    // this.onload = null here is necessary
+    // because even IE9 works not like others
+    this.onerror = this.onload = null
+    cb(new Error('Failed to load ' + this.src), script)
+  }
+}
+
+function ieOnEnd (script, cb) {
+  script.onreadystatechange = function () {
+    if (this.readyState != 'complete' && this.readyState != 'loaded') return
+    this.onreadystatechange = null
+    cb(null, script) // there is no way to catch loading errors in IE8
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/memoize-one/dist/memoize-one.esm.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/memoize-one/dist/memoize-one.esm.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var safeIsNaN = Number.isNaN ||
+    function ponyfill(value) {
+        return typeof value === 'number' && value !== value;
+    };
+function isEqual(first, second) {
+    if (first === second) {
+        return true;
+    }
+    if (safeIsNaN(first) && safeIsNaN(second)) {
+        return true;
+    }
+    return false;
+}
+function areInputsEqual(newInputs, lastInputs) {
+    if (newInputs.length !== lastInputs.length) {
+        return false;
+    }
+    for (var i = 0; i < newInputs.length; i++) {
+        if (!isEqual(newInputs[i], lastInputs[i])) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function memoizeOne(resultFn, isEqual) {
+    if (isEqual === void 0) { isEqual = areInputsEqual; }
+    var lastThis;
+    var lastArgs = [];
+    var lastResult;
+    var calledOnce = false;
+    function memoized() {
+        var newArgs = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            newArgs[_i] = arguments[_i];
+        }
+        if (calledOnce && lastThis === this && isEqual(newArgs, lastArgs)) {
+            return lastResult;
+        }
+        lastResult = resultFn.apply(this, newArgs);
+        calledOnce = true;
+        lastThis = this;
+        lastArgs = newArgs;
+        return lastResult;
+    }
+    return memoized;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (memoizeOne);
+
+
+/***/ }),
+
+/***/ "./node_modules/object-assign/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/object-assign/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+
+/* eslint-disable no-unused-vars */
+var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+var propIsEnumerable = Object.prototype.propertyIsEnumerable;
+
+function toObject(val) {
+	if (val === null || val === undefined) {
+		throw new TypeError('Object.assign cannot be called with null or undefined');
+	}
+
+	return Object(val);
+}
+
+function shouldUseNative() {
+	try {
+		if (!Object.assign) {
+			return false;
+		}
+
+		// Detect buggy property enumeration order in older V8 versions.
+
+		// https://bugs.chromium.org/p/v8/issues/detail?id=4118
+		var test1 = new String('abc');  // eslint-disable-line no-new-wrappers
+		test1[5] = 'de';
+		if (Object.getOwnPropertyNames(test1)[0] === '5') {
+			return false;
+		}
+
+		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
+		var test2 = {};
+		for (var i = 0; i < 10; i++) {
+			test2['_' + String.fromCharCode(i)] = i;
+		}
+		var order2 = Object.getOwnPropertyNames(test2).map(function (n) {
+			return test2[n];
+		});
+		if (order2.join('') !== '0123456789') {
+			return false;
+		}
+
+		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
+		var test3 = {};
+		'abcdefghijklmnopqrst'.split('').forEach(function (letter) {
+			test3[letter] = letter;
+		});
+		if (Object.keys(Object.assign({}, test3)).join('') !==
+				'abcdefghijklmnopqrst') {
+			return false;
+		}
+
+		return true;
+	} catch (err) {
+		// We don't expect any of the above to throw, but better to be safe.
+		return false;
+	}
+}
+
+module.exports = shouldUseNative() ? Object.assign : function (target, source) {
+	var from;
+	var to = toObject(target);
+	var symbols;
+
+	for (var s = 1; s < arguments.length; s++) {
+		from = Object(arguments[s]);
+
+		for (var key in from) {
+			if (hasOwnProperty.call(from, key)) {
+				to[key] = from[key];
+			}
+		}
+
+		if (getOwnPropertySymbols) {
+			symbols = getOwnPropertySymbols(from);
+			for (var i = 0; i < symbols.length; i++) {
+				if (propIsEnumerable.call(from, symbols[i])) {
+					to[symbols[i]] = from[symbols[i]];
+				}
+			}
+		}
+	}
+
+	return to;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/checkPropTypes.js":
+/*!***************************************************!*\
+  !*** ./node_modules/prop-types/checkPropTypes.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+var printWarning = function() {};
+
+if (true) {
+  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+  var loggedTypeFailures = {};
+  var has = Function.call.bind(Object.prototype.hasOwnProperty);
+
+  printWarning = function(text) {
+    var message = 'Warning: ' + text;
+    if (typeof console !== 'undefined') {
+      console.error(message);
+    }
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  };
+}
+
+/**
+ * Assert that the values match with the type specs.
+ * Error messages are memorized and will only be shown once.
+ *
+ * @param {object} typeSpecs Map of name to a ReactPropType
+ * @param {object} values Runtime values that need to be type-checked
+ * @param {string} location e.g. "prop", "context", "child context"
+ * @param {string} componentName Name of the component for error messages.
+ * @param {?Function} getStack Returns the component stack.
+ * @private
+ */
+function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
+  if (true) {
+    for (var typeSpecName in typeSpecs) {
+      if (has(typeSpecs, typeSpecName)) {
+        var error;
+        // Prop type validation may throw. In case they do, we don't want to
+        // fail the render phase where it didn't fail before. So we log it.
+        // After these have been cleaned up, we'll let them throw.
+        try {
+          // This is intentionally an invariant that gets caught. It's the same
+          // behavior as without this statement except with a better message.
+          if (typeof typeSpecs[typeSpecName] !== 'function') {
+            var err = Error(
+              (componentName || 'React class') + ': ' + location + ' type `' + typeSpecName + '` is invalid; ' +
+              'it must be a function, usually from the `prop-types` package, but received `' + typeof typeSpecs[typeSpecName] + '`.'
+            );
+            err.name = 'Invariant Violation';
+            throw err;
+          }
+          error = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, ReactPropTypesSecret);
+        } catch (ex) {
+          error = ex;
+        }
+        if (error && !(error instanceof Error)) {
+          printWarning(
+            (componentName || 'React class') + ': type specification of ' +
+            location + ' `' + typeSpecName + '` is invalid; the type checker ' +
+            'function must return `null` or an `Error` but returned a ' + typeof error + '. ' +
+            'You may have forgotten to pass an argument to the type checker ' +
+            'creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and ' +
+            'shape all require an argument).'
+          );
+        }
+        if (error instanceof Error && !(error.message in loggedTypeFailures)) {
+          // Only monitor this failure once because there tends to be a lot of the
+          // same error.
+          loggedTypeFailures[error.message] = true;
+
+          var stack = getStack ? getStack() : '';
+
+          printWarning(
+            'Failed ' + location + ' type: ' + error.message + (stack != null ? stack : '')
+          );
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Resets warning cache when testing.
+ *
+ * @private
+ */
+checkPropTypes.resetWarningCache = function() {
+  if (true) {
+    loggedTypeFailures = {};
+  }
+}
+
+module.exports = checkPropTypes;
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/factoryWithTypeCheckers.js":
+/*!************************************************************!*\
+  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
+
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
+
+var has = Function.call.bind(Object.prototype.hasOwnProperty);
+var printWarning = function() {};
+
+if (true) {
+  printWarning = function(text) {
+    var message = 'Warning: ' + text;
+    if (typeof console !== 'undefined') {
+      console.error(message);
+    }
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  };
+}
+
+function emptyFunctionThatReturnsNull() {
+  return null;
+}
+
+module.exports = function(isValidElement, throwOnDirectAccess) {
+  /* global Symbol */
+  var ITERATOR_SYMBOL = typeof Symbol === 'function' && Symbol.iterator;
+  var FAUX_ITERATOR_SYMBOL = '@@iterator'; // Before Symbol spec.
+
+  /**
+   * Returns the iterator method function contained on the iterable object.
+   *
+   * Be sure to invoke the function with the iterable as context:
+   *
+   *     var iteratorFn = getIteratorFn(myIterable);
+   *     if (iteratorFn) {
+   *       var iterator = iteratorFn.call(myIterable);
+   *       ...
+   *     }
+   *
+   * @param {?object} maybeIterable
+   * @return {?function}
+   */
+  function getIteratorFn(maybeIterable) {
+    var iteratorFn = maybeIterable && (ITERATOR_SYMBOL && maybeIterable[ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL]);
+    if (typeof iteratorFn === 'function') {
+      return iteratorFn;
+    }
+  }
+
+  /**
+   * Collection of methods that allow declaration and validation of props that are
+   * supplied to React components. Example usage:
+   *
+   *   var Props = require('ReactPropTypes');
+   *   var MyArticle = React.createClass({
+   *     propTypes: {
+   *       // An optional string prop named "description".
+   *       description: Props.string,
+   *
+   *       // A required enum prop named "category".
+   *       category: Props.oneOf(['News','Photos']).isRequired,
+   *
+   *       // A prop named "dialog" that requires an instance of Dialog.
+   *       dialog: Props.instanceOf(Dialog).isRequired
+   *     },
+   *     render: function() { ... }
+   *   });
+   *
+   * A more formal specification of how these methods are used:
+   *
+   *   type := array|bool|func|object|number|string|oneOf([...])|instanceOf(...)
+   *   decl := ReactPropTypes.{type}(.isRequired)?
+   *
+   * Each and every declaration produces a function with the same signature. This
+   * allows the creation of custom validation functions. For example:
+   *
+   *  var MyLink = React.createClass({
+   *    propTypes: {
+   *      // An optional string or URI prop named "href".
+   *      href: function(props, propName, componentName) {
+   *        var propValue = props[propName];
+   *        if (propValue != null && typeof propValue !== 'string' &&
+   *            !(propValue instanceof URI)) {
+   *          return new Error(
+   *            'Expected a string or an URI for ' + propName + ' in ' +
+   *            componentName
+   *          );
+   *        }
+   *      }
+   *    },
+   *    render: function() {...}
+   *  });
+   *
+   * @internal
+   */
+
+  var ANONYMOUS = '<<anonymous>>';
+
+  // Important!
+  // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
+  var ReactPropTypes = {
+    array: createPrimitiveTypeChecker('array'),
+    bool: createPrimitiveTypeChecker('boolean'),
+    func: createPrimitiveTypeChecker('function'),
+    number: createPrimitiveTypeChecker('number'),
+    object: createPrimitiveTypeChecker('object'),
+    string: createPrimitiveTypeChecker('string'),
+    symbol: createPrimitiveTypeChecker('symbol'),
+
+    any: createAnyTypeChecker(),
+    arrayOf: createArrayOfTypeChecker,
+    element: createElementTypeChecker(),
+    elementType: createElementTypeTypeChecker(),
+    instanceOf: createInstanceTypeChecker,
+    node: createNodeChecker(),
+    objectOf: createObjectOfTypeChecker,
+    oneOf: createEnumTypeChecker,
+    oneOfType: createUnionTypeChecker,
+    shape: createShapeTypeChecker,
+    exact: createStrictShapeTypeChecker,
+  };
+
+  /**
+   * inlined Object.is polyfill to avoid requiring consumers ship their own
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+   */
+  /*eslint-disable no-self-compare*/
+  function is(x, y) {
+    // SameValue algorithm
+    if (x === y) {
+      // Steps 1-5, 7-10
+      // Steps 6.b-6.e: +0 != -0
+      return x !== 0 || 1 / x === 1 / y;
+    } else {
+      // Step 6.a: NaN == NaN
+      return x !== x && y !== y;
+    }
+  }
+  /*eslint-enable no-self-compare*/
+
+  /**
+   * We use an Error-like object for backward compatibility as people may call
+   * PropTypes directly and inspect their output. However, we don't use real
+   * Errors anymore. We don't inspect their stack anyway, and creating them
+   * is prohibitively expensive if they are created too often, such as what
+   * happens in oneOfType() for any type before the one that matched.
+   */
+  function PropTypeError(message) {
+    this.message = message;
+    this.stack = '';
+  }
+  // Make `instanceof Error` still work for returned errors.
+  PropTypeError.prototype = Error.prototype;
+
+  function createChainableTypeChecker(validate) {
+    if (true) {
+      var manualPropTypeCallCache = {};
+      var manualPropTypeWarningCount = 0;
+    }
+    function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
+      componentName = componentName || ANONYMOUS;
+      propFullName = propFullName || propName;
+
+      if (secret !== ReactPropTypesSecret) {
+        if (throwOnDirectAccess) {
+          // New behavior only for users of `prop-types` package
+          var err = new Error(
+            'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
+            'Use `PropTypes.checkPropTypes()` to call them. ' +
+            'Read more at http://fb.me/use-check-prop-types'
+          );
+          err.name = 'Invariant Violation';
+          throw err;
+        } else if ( true && typeof console !== 'undefined') {
+          // Old behavior for people using React.PropTypes
+          var cacheKey = componentName + ':' + propName;
+          if (
+            !manualPropTypeCallCache[cacheKey] &&
+            // Avoid spamming the console because they are often not actionable except for lib authors
+            manualPropTypeWarningCount < 3
+          ) {
+            printWarning(
+              'You are manually calling a React.PropTypes validation ' +
+              'function for the `' + propFullName + '` prop on `' + componentName  + '`. This is deprecated ' +
+              'and will throw in the standalone `prop-types` package. ' +
+              'You may be seeing this warning due to a third-party PropTypes ' +
+              'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.'
+            );
+            manualPropTypeCallCache[cacheKey] = true;
+            manualPropTypeWarningCount++;
+          }
+        }
+      }
+      if (props[propName] == null) {
+        if (isRequired) {
+          if (props[propName] === null) {
+            return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required ' + ('in `' + componentName + '`, but its value is `null`.'));
+          }
+          return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required in ' + ('`' + componentName + '`, but its value is `undefined`.'));
+        }
+        return null;
+      } else {
+        return validate(props, propName, componentName, location, propFullName);
+      }
+    }
+
+    var chainedCheckType = checkType.bind(null, false);
+    chainedCheckType.isRequired = checkType.bind(null, true);
+
+    return chainedCheckType;
+  }
+
+  function createPrimitiveTypeChecker(expectedType) {
+    function validate(props, propName, componentName, location, propFullName, secret) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== expectedType) {
+        // `propValue` being instance of, say, date/regexp, pass the 'object'
+        // check, but we can offer a more precise error message here rather than
+        // 'of type `object`'.
+        var preciseType = getPreciseType(propValue);
+
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createAnyTypeChecker() {
+    return createChainableTypeChecker(emptyFunctionThatReturnsNull);
+  }
+
+  function createArrayOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside arrayOf.');
+      }
+      var propValue = props[propName];
+      if (!Array.isArray(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
+      }
+      for (var i = 0; i < propValue.length; i++) {
+        var error = typeChecker(propValue, i, componentName, location, propFullName + '[' + i + ']', ReactPropTypesSecret);
+        if (error instanceof Error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createElementTypeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      if (!isValidElement(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createElementTypeTypeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      if (!ReactIs.isValidElementType(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement type.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createInstanceTypeChecker(expectedClass) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!(props[propName] instanceof expectedClass)) {
+        var expectedClassName = expectedClass.name || ANONYMOUS;
+        var actualClassName = getClassName(props[propName]);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createEnumTypeChecker(expectedValues) {
+    if (!Array.isArray(expectedValues)) {
+      if (true) {
+        if (arguments.length > 1) {
+          printWarning(
+            'Invalid arguments supplied to oneOf, expected an array, got ' + arguments.length + ' arguments. ' +
+            'A common mistake is to write oneOf(x, y, z) instead of oneOf([x, y, z]).'
+          );
+        } else {
+          printWarning('Invalid argument supplied to oneOf, expected an array.');
+        }
+      }
+      return emptyFunctionThatReturnsNull;
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      for (var i = 0; i < expectedValues.length; i++) {
+        if (is(propValue, expectedValues[i])) {
+          return null;
+        }
+      }
+
+      var valuesString = JSON.stringify(expectedValues, function replacer(key, value) {
+        var type = getPreciseType(value);
+        if (type === 'symbol') {
+          return String(value);
+        }
+        return value;
+      });
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of value `' + String(propValue) + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createObjectOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside objectOf.');
+      }
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
+      }
+      for (var key in propValue) {
+        if (has(propValue, key)) {
+          var error = typeChecker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+          if (error instanceof Error) {
+            return error;
+          }
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createUnionTypeChecker(arrayOfTypeCheckers) {
+    if (!Array.isArray(arrayOfTypeCheckers)) {
+       true ? printWarning('Invalid argument supplied to oneOfType, expected an instance of array.') : undefined;
+      return emptyFunctionThatReturnsNull;
+    }
+
+    for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+      var checker = arrayOfTypeCheckers[i];
+      if (typeof checker !== 'function') {
+        printWarning(
+          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
+          'received ' + getPostfixForTypeWarning(checker) + ' at index ' + i + '.'
+        );
+        return emptyFunctionThatReturnsNull;
+      }
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+        var checker = arrayOfTypeCheckers[i];
+        if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret) == null) {
+          return null;
+        }
+      }
+
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createNodeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!isNode(props[propName])) {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      for (var key in shapeTypes) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          continue;
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createStrictShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      // We need to check all keys in case some are required but missing from
+      // props.
+      var allKeys = assign({}, props[propName], shapeTypes);
+      for (var key in allKeys) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          return new PropTypeError(
+            'Invalid ' + location + ' `' + propFullName + '` key `' + key + '` supplied to `' + componentName + '`.' +
+            '\nBad object: ' + JSON.stringify(props[propName], null, '  ') +
+            '\nValid keys: ' +  JSON.stringify(Object.keys(shapeTypes), null, '  ')
+          );
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+
+    return createChainableTypeChecker(validate);
+  }
+
+  function isNode(propValue) {
+    switch (typeof propValue) {
+      case 'number':
+      case 'string':
+      case 'undefined':
+        return true;
+      case 'boolean':
+        return !propValue;
+      case 'object':
+        if (Array.isArray(propValue)) {
+          return propValue.every(isNode);
+        }
+        if (propValue === null || isValidElement(propValue)) {
+          return true;
+        }
+
+        var iteratorFn = getIteratorFn(propValue);
+        if (iteratorFn) {
+          var iterator = iteratorFn.call(propValue);
+          var step;
+          if (iteratorFn !== propValue.entries) {
+            while (!(step = iterator.next()).done) {
+              if (!isNode(step.value)) {
+                return false;
+              }
+            }
+          } else {
+            // Iterator will provide entry [k,v] tuples rather than values.
+            while (!(step = iterator.next()).done) {
+              var entry = step.value;
+              if (entry) {
+                if (!isNode(entry[1])) {
+                  return false;
+                }
+              }
+            }
+          }
+        } else {
+          return false;
+        }
+
+        return true;
+      default:
+        return false;
+    }
+  }
+
+  function isSymbol(propType, propValue) {
+    // Native Symbol.
+    if (propType === 'symbol') {
+      return true;
+    }
+
+    // falsy value can't be a Symbol
+    if (!propValue) {
+      return false;
+    }
+
+    // 19.4.3.5 Symbol.prototype[@@toStringTag] === 'Symbol'
+    if (propValue['@@toStringTag'] === 'Symbol') {
+      return true;
+    }
+
+    // Fallback for non-spec compliant Symbols which are polyfilled.
+    if (typeof Symbol === 'function' && propValue instanceof Symbol) {
+      return true;
+    }
+
+    return false;
+  }
+
+  // Equivalent of `typeof` but with special handling for array and regexp.
+  function getPropType(propValue) {
+    var propType = typeof propValue;
+    if (Array.isArray(propValue)) {
+      return 'array';
+    }
+    if (propValue instanceof RegExp) {
+      // Old webkits (at least until Android 4.0) return 'function' rather than
+      // 'object' for typeof a RegExp. We'll normalize this here so that /bla/
+      // passes PropTypes.object.
+      return 'object';
+    }
+    if (isSymbol(propType, propValue)) {
+      return 'symbol';
+    }
+    return propType;
+  }
+
+  // This handles more types than `getPropType`. Only used for error messages.
+  // See `createPrimitiveTypeChecker`.
+  function getPreciseType(propValue) {
+    if (typeof propValue === 'undefined' || propValue === null) {
+      return '' + propValue;
+    }
+    var propType = getPropType(propValue);
+    if (propType === 'object') {
+      if (propValue instanceof Date) {
+        return 'date';
+      } else if (propValue instanceof RegExp) {
+        return 'regexp';
+      }
+    }
+    return propType;
+  }
+
+  // Returns a string that is postfixed to a warning about an invalid type.
+  // For example, "undefined" or "of type array"
+  function getPostfixForTypeWarning(value) {
+    var type = getPreciseType(value);
+    switch (type) {
+      case 'array':
+      case 'object':
+        return 'an ' + type;
+      case 'boolean':
+      case 'date':
+      case 'regexp':
+        return 'a ' + type;
+      default:
+        return type;
+    }
+  }
+
+  // Returns class name of the object, if any.
+  function getClassName(propValue) {
+    if (!propValue.constructor || !propValue.constructor.name) {
+      return ANONYMOUS;
+    }
+    return propValue.constructor.name;
+  }
+
+  ReactPropTypes.checkPropTypes = checkPropTypes;
+  ReactPropTypes.resetWarningCache = checkPropTypes.resetWarningCache;
+  ReactPropTypes.PropTypes = ReactPropTypes;
+
+  return ReactPropTypes;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/index.js":
+/*!******************************************!*\
+  !*** ./node_modules/prop-types/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+if (true) {
+  var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+
+  // By explicitly using `prop-types` you are opting into new development behavior.
+  // http://fb.me/prop-types-in-prod
+  var throwOnDirectAccess = true;
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
+} else {}
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
+
+module.exports = ReactPropTypesSecret;
+
+
+/***/ }),
+
+/***/ "./node_modules/react-fast-compare/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/react-fast-compare/index.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* global Map:readonly, Set:readonly, ArrayBuffer:readonly */
+
+var hasElementType = typeof Element !== 'undefined';
+var hasMap = typeof Map === 'function';
+var hasSet = typeof Set === 'function';
+var hasArrayBuffer = typeof ArrayBuffer === 'function' && !!ArrayBuffer.isView;
+
+// Note: We **don't** need `envHasBigInt64Array` in fde es6/index.js
+
+function equal(a, b) {
+  // START: fast-deep-equal es6/index.js 3.1.1
+  if (a === b) return true;
+
+  if (a && b && typeof a == 'object' && typeof b == 'object') {
+    if (a.constructor !== b.constructor) return false;
+
+    var length, i, keys;
+    if (Array.isArray(a)) {
+      length = a.length;
+      if (length != b.length) return false;
+      for (i = length; i-- !== 0;)
+        if (!equal(a[i], b[i])) return false;
+      return true;
+    }
+
+    // START: Modifications:
+    // 1. Extra `has<Type> &&` helpers in initial condition allow es6 code
+    //    to co-exist with es5.
+    // 2. Replace `for of` with es5 compliant iteration using `for`.
+    //    Basically, take:
+    //
+    //    ```js
+    //    for (i of a.entries())
+    //      if (!b.has(i[0])) return false;
+    //    ```
+    //
+    //    ... and convert to:
+    //
+    //    ```js
+    //    it = a.entries();
+    //    while (!(i = it.next()).done)
+    //      if (!b.has(i.value[0])) return false;
+    //    ```
+    //
+    //    **Note**: `i` access switches to `i.value`.
+    var it;
+    if (hasMap && (a instanceof Map) && (b instanceof Map)) {
+      if (a.size !== b.size) return false;
+      it = a.entries();
+      while (!(i = it.next()).done)
+        if (!b.has(i.value[0])) return false;
+      it = a.entries();
+      while (!(i = it.next()).done)
+        if (!equal(i.value[1], b.get(i.value[0]))) return false;
+      return true;
+    }
+
+    if (hasSet && (a instanceof Set) && (b instanceof Set)) {
+      if (a.size !== b.size) return false;
+      it = a.entries();
+      while (!(i = it.next()).done)
+        if (!b.has(i.value[0])) return false;
+      return true;
+    }
+    // END: Modifications
+
+    if (hasArrayBuffer && ArrayBuffer.isView(a) && ArrayBuffer.isView(b)) {
+      length = a.length;
+      if (length != b.length) return false;
+      for (i = length; i-- !== 0;)
+        if (a[i] !== b[i]) return false;
+      return true;
+    }
+
+    if (a.constructor === RegExp) return a.source === b.source && a.flags === b.flags;
+    if (a.valueOf !== Object.prototype.valueOf) return a.valueOf() === b.valueOf();
+    if (a.toString !== Object.prototype.toString) return a.toString() === b.toString();
+
+    keys = Object.keys(a);
+    length = keys.length;
+    if (length !== Object.keys(b).length) return false;
+
+    for (i = length; i-- !== 0;)
+      if (!Object.prototype.hasOwnProperty.call(b, keys[i])) return false;
+    // END: fast-deep-equal
+
+    // START: react-fast-compare
+    // custom handling for DOM elements
+    if (hasElementType && a instanceof Element) return false;
+
+    // custom handling for React/Preact
+    for (i = length; i-- !== 0;) {
+      if ((keys[i] === '_owner' || keys[i] === '__v' || keys[i] === '__o') && a.$$typeof) {
+        // React-specific: avoid traversing React elements' _owner
+        // Preact-specific: avoid traversing Preact elements' __v and __o
+        //    __v = $_original / $_vnode
+        //    __o = $_owner
+        // These properties contain circular references and are not needed when
+        // comparing the actual elements (and not their owners)
+        // .$$typeof and ._store on just reasonable markers of elements
+
+        continue;
+      }
+
+      // all other properties should be traversed as usual
+      if (!equal(a[keys[i]], b[keys[i]])) return false;
+    }
+    // END: react-fast-compare
+
+    // START: fast-deep-equal
+    return true;
+  }
+
+  return a !== a && b !== b;
+}
+// end fast-deep-equal
+
+module.exports = function isEqual(a, b) {
+  try {
+    return equal(a, b);
+  } catch (error) {
+    if (((error.message || '').match(/stack|recursion/i))) {
+      // warn on circular references, don't crash
+      // browsers give this different errors name and messages:
+      // chrome/safari: "RangeError", "Maximum call stack size exceeded"
+      // firefox: "InternalError", too much recursion"
+      // edge: "Error", "Out of stack space"
+      console.warn('react-fast-compare cannot handle circular refs');
+      return false;
+    }
+    // some other error. we should definitely know about these
+    throw error;
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/react-is/cjs/react-is.development.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+// nor polyfill, then a plain number is used for performance.
+var hasSymbol = typeof Symbol === 'function' && Symbol.for;
+var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
+var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
+var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
+var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
+var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
+var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
+var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+// (unstable) APIs that have been removed. Can we remove the symbols?
+
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
+var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
+var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
+var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
+var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
+var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
+var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
+var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for('react.block') : 0xead9;
+var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
+var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
+var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
+
+function isValidElementType(type) {
+  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+}
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
+          case REACT_CONCURRENT_MODE_TYPE:
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+            return type;
+
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_LAZY_TYPE:
+              case REACT_MEMO_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+
+              default:
+                return $$typeof;
+            }
+
+        }
+
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+} // AsyncMode is deprecated along with isAsyncMode
+
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
+var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
+    }
+  }
+
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+}
+function isConcurrentMode(object) {
+  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+
+exports.AsyncMode = AsyncMode;
+exports.ConcurrentMode = ConcurrentMode;
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+exports.isValidElementType = isValidElementType;
+exports.typeOf = typeOf;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-is/index.js":
+/*!****************************************!*\
+  !*** ./node_modules/react-is/index.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/Player.js":
+/*!*************************************************!*\
+  !*** ./node_modules/react-player/lib/Player.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _reactFastCompare = _interopRequireDefault(__webpack_require__(/*! react-fast-compare */ "./node_modules/react-fast-compare/index.js"));
+
+var _props = __webpack_require__(/*! ./props */ "./node_modules/react-player/lib/props.js");
+
+var _utils = __webpack_require__(/*! ./utils */ "./node_modules/react-player/lib/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SEEK_ON_PLAY_EXPIRY = 5000;
+
+var Player = /*#__PURE__*/function (_Component) {
+  _inherits(Player, _Component);
+
+  var _super = _createSuper(Player);
+
+  function Player() {
+    var _this;
+
+    _classCallCheck(this, Player);
+
+    for (var _len = arguments.length, _args = new Array(_len), _key = 0; _key < _len; _key++) {
+      _args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(_args));
+
+    _defineProperty(_assertThisInitialized(_this), "mounted", false);
+
+    _defineProperty(_assertThisInitialized(_this), "isReady", false);
+
+    _defineProperty(_assertThisInitialized(_this), "isPlaying", false);
+
+    _defineProperty(_assertThisInitialized(_this), "isLoading", true);
+
+    _defineProperty(_assertThisInitialized(_this), "loadOnReady", null);
+
+    _defineProperty(_assertThisInitialized(_this), "startOnPlay", true);
+
+    _defineProperty(_assertThisInitialized(_this), "seekOnPlay", null);
+
+    _defineProperty(_assertThisInitialized(_this), "onDurationCalled", false);
+
+    _defineProperty(_assertThisInitialized(_this), "handlePlayerMount", function (player) {
+      if (_this.player) return; // Prevent loading twice in strict mode
+
+      _this.player = player;
+
+      _this.player.load(_this.props.url);
+
+      _this.progress();
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "getInternalPlayer", function (key) {
+      if (!_this.player) return null;
+      return _this.player[key];
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "progress", function () {
+      if (_this.props.url && _this.player && _this.isReady) {
+        var playedSeconds = _this.getCurrentTime() || 0;
+
+        var loadedSeconds = _this.getSecondsLoaded();
+
+        var duration = _this.getDuration();
+
+        if (duration) {
+          var progress = {
+            playedSeconds: playedSeconds,
+            played: playedSeconds / duration
+          };
+
+          if (loadedSeconds !== null) {
+            progress.loadedSeconds = loadedSeconds;
+            progress.loaded = loadedSeconds / duration;
+          } // Only call onProgress if values have changed
+
+
+          if (progress.playedSeconds !== _this.prevPlayed || progress.loadedSeconds !== _this.prevLoaded) {
+            _this.props.onProgress(progress);
+          }
+
+          _this.prevPlayed = progress.playedSeconds;
+          _this.prevLoaded = progress.loadedSeconds;
+        }
+      }
+
+      _this.progressTimeout = setTimeout(_this.progress, _this.props.progressFrequency || _this.props.progressInterval);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "handleReady", function () {
+      if (!_this.mounted) return;
+      _this.isReady = true;
+      _this.isLoading = false;
+      var _this$props = _this.props,
+          onReady = _this$props.onReady,
+          playing = _this$props.playing,
+          volume = _this$props.volume,
+          muted = _this$props.muted;
+      onReady();
+
+      if (!muted && volume !== null) {
+        _this.player.setVolume(volume);
+      }
+
+      if (_this.loadOnReady) {
+        _this.player.load(_this.loadOnReady, true);
+
+        _this.loadOnReady = null;
+      } else if (playing) {
+        _this.player.play();
+      }
+
+      _this.handleDurationCheck();
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "handlePlay", function () {
+      _this.isPlaying = true;
+      _this.isLoading = false;
+      var _this$props2 = _this.props,
+          onStart = _this$props2.onStart,
+          onPlay = _this$props2.onPlay,
+          playbackRate = _this$props2.playbackRate;
+
+      if (_this.startOnPlay) {
+        if (_this.player.setPlaybackRate && playbackRate !== 1) {
+          _this.player.setPlaybackRate(playbackRate);
+        }
+
+        onStart();
+        _this.startOnPlay = false;
+      }
+
+      onPlay();
+
+      if (_this.seekOnPlay) {
+        _this.seekTo(_this.seekOnPlay);
+
+        _this.seekOnPlay = null;
+      }
+
+      _this.handleDurationCheck();
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "handlePause", function (e) {
+      _this.isPlaying = false;
+
+      if (!_this.isLoading) {
+        _this.props.onPause(e);
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "handleEnded", function () {
+      var _this$props3 = _this.props,
+          activePlayer = _this$props3.activePlayer,
+          loop = _this$props3.loop,
+          onEnded = _this$props3.onEnded;
+
+      if (activePlayer.loopOnEnded && loop) {
+        _this.seekTo(0);
+      }
+
+      if (!loop) {
+        _this.isPlaying = false;
+        onEnded();
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "handleError", function () {
+      var _this$props4;
+
+      _this.isLoading = false;
+
+      (_this$props4 = _this.props).onError.apply(_this$props4, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "handleDurationCheck", function () {
+      clearTimeout(_this.durationCheckTimeout);
+
+      var duration = _this.getDuration();
+
+      if (duration) {
+        if (!_this.onDurationCalled) {
+          _this.props.onDuration(duration);
+
+          _this.onDurationCalled = true;
+        }
+      } else {
+        _this.durationCheckTimeout = setTimeout(_this.handleDurationCheck, 100);
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "handleLoaded", function () {
+      // Sometimes we know loading has stopped but onReady/onPlay are never called
+      // so this provides a way for players to avoid getting stuck
+      _this.isLoading = false;
+    });
+
+    return _this;
+  }
+
+  _createClass(Player, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.mounted = true;
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      clearTimeout(this.progressTimeout);
+      clearTimeout(this.durationCheckTimeout);
+
+      if (this.isReady && this.props.stopOnUnmount) {
+        this.player.stop();
+
+        if (this.player.disablePIP) {
+          this.player.disablePIP();
+        }
+      }
+
+      this.mounted = false;
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      var _this2 = this;
+
+      // If there isn’t a player available, don’t do anything
+      if (!this.player) {
+        return;
+      } // Invoke player methods based on changed props
+
+
+      var _this$props5 = this.props,
+          url = _this$props5.url,
+          playing = _this$props5.playing,
+          volume = _this$props5.volume,
+          muted = _this$props5.muted,
+          playbackRate = _this$props5.playbackRate,
+          pip = _this$props5.pip,
+          loop = _this$props5.loop,
+          activePlayer = _this$props5.activePlayer,
+          disableDeferredLoading = _this$props5.disableDeferredLoading;
+
+      if (!(0, _reactFastCompare["default"])(prevProps.url, url)) {
+        if (this.isLoading && !activePlayer.forceLoad && !disableDeferredLoading && !(0, _utils.isMediaStream)(url)) {
+          console.warn("ReactPlayer: the attempt to load ".concat(url, " is being deferred until the player has loaded"));
+          this.loadOnReady = url;
+          return;
+        }
+
+        this.isLoading = true;
+        this.startOnPlay = true;
+        this.onDurationCalled = false;
+        this.player.load(url, this.isReady);
+      }
+
+      if (!prevProps.playing && playing && !this.isPlaying) {
+        this.player.play();
+      }
+
+      if (prevProps.playing && !playing && this.isPlaying) {
+        this.player.pause();
+      }
+
+      if (!prevProps.pip && pip && this.player.enablePIP) {
+        this.player.enablePIP();
+      }
+
+      if (prevProps.pip && !pip && this.player.disablePIP) {
+        this.player.disablePIP();
+      }
+
+      if (prevProps.volume !== volume && volume !== null) {
+        this.player.setVolume(volume);
+      }
+
+      if (prevProps.muted !== muted) {
+        if (muted) {
+          this.player.mute();
+        } else {
+          this.player.unmute();
+
+          if (volume !== null) {
+            // Set volume next tick to fix a bug with DailyMotion
+            setTimeout(function () {
+              return _this2.player.setVolume(volume);
+            });
+          }
+        }
+      }
+
+      if (prevProps.playbackRate !== playbackRate && this.player.setPlaybackRate) {
+        this.player.setPlaybackRate(playbackRate);
+      }
+
+      if (prevProps.loop !== loop && this.player.setLoop) {
+        this.player.setLoop(loop);
+      }
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      if (!this.isReady) return null;
+      return this.player.getDuration();
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      if (!this.isReady) return null;
+      return this.player.getCurrentTime();
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      if (!this.isReady) return null;
+      return this.player.getSecondsLoaded();
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(amount, type) {
+      var _this3 = this;
+
+      // When seeking before player is ready, store value and seek later
+      if (!this.isReady) {
+        if (amount !== 0) {
+          this.seekOnPlay = amount;
+          setTimeout(function () {
+            _this3.seekOnPlay = null;
+          }, SEEK_ON_PLAY_EXPIRY);
+        }
+
+        return;
+      }
+
+      var isFraction = !type ? amount > 0 && amount < 1 : type === 'fraction';
+
+      if (isFraction) {
+        // Convert fraction to seconds based on duration
+        var duration = this.player.getDuration();
+
+        if (!duration) {
+          console.warn('ReactPlayer: could not seek using fraction – duration not yet available');
+          return;
+        }
+
+        this.player.seekTo(duration * amount);
+        return;
+      }
+
+      this.player.seekTo(amount);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var Player = this.props.activePlayer;
+
+      if (!Player) {
+        return null;
+      }
+
+      return /*#__PURE__*/_react["default"].createElement(Player, _extends({}, this.props, {
+        onMount: this.handlePlayerMount,
+        onReady: this.handleReady,
+        onPlay: this.handlePlay,
+        onPause: this.handlePause,
+        onEnded: this.handleEnded,
+        onLoaded: this.handleLoaded,
+        onError: this.handleError
+      }));
+    }
+  }]);
+
+  return Player;
+}(_react.Component);
+
+exports["default"] = Player;
+
+_defineProperty(Player, "displayName", 'Player');
+
+_defineProperty(Player, "propTypes", _props.propTypes);
+
+_defineProperty(Player, "defaultProps", _props.defaultProps);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/Preview.js":
+/*!**************************************************!*\
+  !*** ./node_modules/react-player/lib/Preview.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var ICON_SIZE = '64px';
+var cache = {};
+
+var Preview = /*#__PURE__*/function (_Component) {
+  _inherits(Preview, _Component);
+
+  var _super = _createSuper(Preview);
+
+  function Preview() {
+    var _this;
+
+    _classCallCheck(this, Preview);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "mounted", false);
+
+    _defineProperty(_assertThisInitialized(_this), "state", {
+      image: null
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "handleKeyPress", function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        _this.props.onClick();
+      }
+    });
+
+    return _this;
+  }
+
+  _createClass(Preview, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.mounted = true;
+      this.fetchImage(this.props);
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      var _this$props = this.props,
+          url = _this$props.url,
+          light = _this$props.light;
+
+      if (prevProps.url !== url || prevProps.light !== light) {
+        this.fetchImage(this.props);
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.mounted = false;
+    }
+  }, {
+    key: "fetchImage",
+    value: function fetchImage(_ref) {
+      var _this2 = this;
+
+      var url = _ref.url,
+          light = _ref.light,
+          oEmbedUrl = _ref.oEmbedUrl;
+
+      if (typeof light === 'string') {
+        this.setState({
+          image: light
+        });
+        return;
+      }
+
+      if (cache[url]) {
+        this.setState({
+          image: cache[url]
+        });
+        return;
+      }
+
+      this.setState({
+        image: null
+      });
+      return window.fetch(oEmbedUrl.replace('{url}', url)).then(function (response) {
+        return response.json();
+      }).then(function (data) {
+        if (data.thumbnail_url && _this2.mounted) {
+          var image = data.thumbnail_url.replace('height=100', 'height=480');
+
+          _this2.setState({
+            image: image
+          });
+
+          cache[url] = image;
+        }
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props2 = this.props,
+          onClick = _this$props2.onClick,
+          playIcon = _this$props2.playIcon,
+          previewTabIndex = _this$props2.previewTabIndex;
+      var image = this.state.image;
+      var flexCenter = {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      };
+      var styles = {
+        preview: _objectSpread({
+          width: '100%',
+          height: '100%',
+          backgroundImage: image ? "url(".concat(image, ")") : undefined,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          cursor: 'pointer'
+        }, flexCenter),
+        shadow: _objectSpread({
+          background: 'radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)',
+          borderRadius: ICON_SIZE,
+          width: ICON_SIZE,
+          height: ICON_SIZE
+        }, flexCenter),
+        playIcon: {
+          borderStyle: 'solid',
+          borderWidth: '16px 0 16px 26px',
+          borderColor: 'transparent transparent transparent white',
+          marginLeft: '7px'
+        }
+      };
+
+      var defaultPlayIcon = /*#__PURE__*/_react["default"].createElement("div", {
+        style: styles.shadow,
+        className: "react-player__shadow"
+      }, /*#__PURE__*/_react["default"].createElement("div", {
+        style: styles.playIcon,
+        className: "react-player__play-icon"
+      }));
+
+      return /*#__PURE__*/_react["default"].createElement("div", {
+        style: styles.preview,
+        className: "react-player__preview",
+        onClick: onClick,
+        tabIndex: previewTabIndex,
+        onKeyPress: this.handleKeyPress
+      }, playIcon || defaultPlayIcon);
+    }
+  }]);
+
+  return Preview;
+}(_react.Component);
+
+exports["default"] = Preview;
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/ReactPlayer.js":
+/*!******************************************************!*\
+  !*** ./node_modules/react-player/lib/ReactPlayer.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.createReactPlayer = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _deepmerge = _interopRequireDefault(__webpack_require__(/*! deepmerge */ "./node_modules/deepmerge/dist/cjs.js"));
+
+var _memoizeOne = _interopRequireDefault(__webpack_require__(/*! memoize-one */ "./node_modules/memoize-one/dist/memoize-one.esm.js"));
+
+var _reactFastCompare = _interopRequireDefault(__webpack_require__(/*! react-fast-compare */ "./node_modules/react-fast-compare/index.js"));
+
+var _props = __webpack_require__(/*! ./props */ "./node_modules/react-player/lib/props.js");
+
+var _utils = __webpack_require__(/*! ./utils */ "./node_modules/react-player/lib/utils.js");
+
+var _Player3 = _interopRequireDefault(__webpack_require__(/*! ./Player */ "./node_modules/react-player/lib/Player.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+var Preview = /*#__PURE__*/(0, _react.lazy)(function () {
+  return Promise.resolve().then(function () {
+    return _interopRequireWildcard(__webpack_require__(/*! ./Preview */ "./node_modules/react-player/lib/Preview.js"));
+  });
+});
+var IS_BROWSER = typeof window !== 'undefined' && window.document;
+var IS_GLOBAL = typeof global !== 'undefined' && global.window && global.window.document;
+var SUPPORTED_PROPS = Object.keys(_props.propTypes); // Return null when rendering on the server
+// as Suspense is not supported yet
+
+var UniversalSuspense = IS_BROWSER || IS_GLOBAL ? _react.Suspense : function () {
+  return null;
+};
+var customPlayers = [];
+
+var createReactPlayer = function createReactPlayer(players, fallback) {
+  var _class, _temp;
+
+  return _temp = _class = /*#__PURE__*/function (_Component) {
+    _inherits(ReactPlayer, _Component);
+
+    var _super = _createSuper(ReactPlayer);
+
+    function ReactPlayer() {
+      var _this;
+
+      _classCallCheck(this, ReactPlayer);
+
+      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      _this = _super.call.apply(_super, [this].concat(args));
+
+      _defineProperty(_assertThisInitialized(_this), "state", {
+        showPreview: !!_this.props.light
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "references", {
+        wrapper: function wrapper(_wrapper) {
+          _this.wrapper = _wrapper;
+        },
+        player: function player(_player) {
+          _this.player = _player;
+        }
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "handleClickPreview", function (e) {
+        _this.setState({
+          showPreview: false
+        });
+
+        _this.props.onClickPreview(e);
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "showPreview", function () {
+        _this.setState({
+          showPreview: true
+        });
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "getDuration", function () {
+        if (!_this.player) return null;
+        return _this.player.getDuration();
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "getCurrentTime", function () {
+        if (!_this.player) return null;
+        return _this.player.getCurrentTime();
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "getSecondsLoaded", function () {
+        if (!_this.player) return null;
+        return _this.player.getSecondsLoaded();
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "getInternalPlayer", function () {
+        var key = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'player';
+        if (!_this.player) return null;
+        return _this.player.getInternalPlayer(key);
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "seekTo", function (fraction, type) {
+        if (!_this.player) return null;
+
+        _this.player.seekTo(fraction, type);
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "handleReady", function () {
+        _this.props.onReady(_assertThisInitialized(_this));
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "getActivePlayer", (0, _memoizeOne["default"])(function (url) {
+        for (var _i = 0, _arr = [].concat(customPlayers, _toConsumableArray(players)); _i < _arr.length; _i++) {
+          var player = _arr[_i];
+
+          if (player.canPlay(url)) {
+            return player;
+          }
+        }
+
+        if (fallback) {
+          return fallback;
+        }
+
+        return null;
+      }));
+
+      _defineProperty(_assertThisInitialized(_this), "getConfig", (0, _memoizeOne["default"])(function (url, key) {
+        var config = _this.props.config;
+        return _deepmerge["default"].all([_props.defaultProps.config, _props.defaultProps.config[key] || {}, config, config[key] || {}]);
+      }));
+
+      _defineProperty(_assertThisInitialized(_this), "getAttributes", (0, _memoizeOne["default"])(function (url) {
+        return (0, _utils.omit)(_this.props, SUPPORTED_PROPS);
+      }));
+
+      _defineProperty(_assertThisInitialized(_this), "renderActivePlayer", function (url) {
+        if (!url) return null;
+
+        var player = _this.getActivePlayer(url);
+
+        if (!player) return null;
+
+        var config = _this.getConfig(url, player.key);
+
+        return /*#__PURE__*/_react["default"].createElement(_Player3["default"], _extends({}, _this.props, {
+          key: player.key,
+          ref: _this.references.player,
+          config: config,
+          activePlayer: player.lazyPlayer || player,
+          onReady: _this.handleReady
+        }));
+      });
+
+      return _this;
+    }
+
+    _createClass(ReactPlayer, [{
+      key: "shouldComponentUpdate",
+      value: function shouldComponentUpdate(nextProps, nextState) {
+        return !(0, _reactFastCompare["default"])(this.props, nextProps) || !(0, _reactFastCompare["default"])(this.state, nextState);
+      }
+    }, {
+      key: "componentDidUpdate",
+      value: function componentDidUpdate(prevProps) {
+        var light = this.props.light;
+
+        if (!prevProps.light && light) {
+          this.setState({
+            showPreview: true
+          });
+        }
+
+        if (prevProps.light && !light) {
+          this.setState({
+            showPreview: false
+          });
+        }
+      }
+    }, {
+      key: "renderPreview",
+      value: function renderPreview(url) {
+        if (!url) return null;
+        var _this$props = this.props,
+            light = _this$props.light,
+            playIcon = _this$props.playIcon,
+            previewTabIndex = _this$props.previewTabIndex,
+            oEmbedUrl = _this$props.oEmbedUrl;
+        return /*#__PURE__*/_react["default"].createElement(Preview, {
+          url: url,
+          light: light,
+          playIcon: playIcon,
+          previewTabIndex: previewTabIndex,
+          oEmbedUrl: oEmbedUrl,
+          onClick: this.handleClickPreview
+        });
+      }
+    }, {
+      key: "render",
+      value: function render() {
+        var _this$props2 = this.props,
+            url = _this$props2.url,
+            style = _this$props2.style,
+            width = _this$props2.width,
+            height = _this$props2.height,
+            fallback = _this$props2.fallback,
+            Wrapper = _this$props2.wrapper;
+        var showPreview = this.state.showPreview;
+        var attributes = this.getAttributes(url);
+        return /*#__PURE__*/_react["default"].createElement(Wrapper, _extends({
+          ref: this.references.wrapper,
+          style: _objectSpread(_objectSpread({}, style), {}, {
+            width: width,
+            height: height
+          })
+        }, attributes), /*#__PURE__*/_react["default"].createElement(UniversalSuspense, {
+          fallback: fallback
+        }, showPreview ? this.renderPreview(url) : this.renderActivePlayer(url)));
+      }
+    }]);
+
+    return ReactPlayer;
+  }(_react.Component), _defineProperty(_class, "displayName", 'ReactPlayer'), _defineProperty(_class, "propTypes", _props.propTypes), _defineProperty(_class, "defaultProps", _props.defaultProps), _defineProperty(_class, "addCustomPlayer", function (player) {
+    customPlayers.push(player);
+  }), _defineProperty(_class, "removeCustomPlayers", function () {
+    customPlayers.length = 0;
+  }), _defineProperty(_class, "canPlay", function (url) {
+    for (var _i2 = 0, _arr2 = [].concat(customPlayers, _toConsumableArray(players)); _i2 < _arr2.length; _i2++) {
+      var _Player = _arr2[_i2];
+
+      if (_Player.canPlay(url)) {
+        return true;
+      }
+    }
+
+    return false;
+  }), _defineProperty(_class, "canEnablePIP", function (url) {
+    for (var _i3 = 0, _arr3 = [].concat(customPlayers, _toConsumableArray(players)); _i3 < _arr3.length; _i3++) {
+      var _Player2 = _arr3[_i3];
+
+      if (_Player2.canEnablePIP && _Player2.canEnablePIP(url)) {
+        return true;
+      }
+    }
+
+    return false;
+  }), _temp;
+};
+
+exports.createReactPlayer = createReactPlayer;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/react-player/lib/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _players = _interopRequireDefault(__webpack_require__(/*! ./players */ "./node_modules/react-player/lib/players/index.js"));
+
+var _ReactPlayer = __webpack_require__(/*! ./ReactPlayer */ "./node_modules/react-player/lib/ReactPlayer.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+// Fall back to FilePlayer if nothing else can play the URL
+var fallback = _players["default"][_players["default"].length - 1];
+
+var _default = (0, _ReactPlayer.createReactPlayer)(_players["default"], fallback);
+
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/patterns.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-player/lib/patterns.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.canPlay = exports.FLV_EXTENSIONS = exports.DASH_EXTENSIONS = exports.HLS_EXTENSIONS = exports.VIDEO_EXTENSIONS = exports.AUDIO_EXTENSIONS = exports.MATCH_URL_KALTURA = exports.MATCH_URL_VIDYARD = exports.MATCH_URL_MIXCLOUD = exports.MATCH_URL_DAILYMOTION = exports.MATCH_URL_TWITCH_CHANNEL = exports.MATCH_URL_TWITCH_VIDEO = exports.MATCH_URL_WISTIA = exports.MATCH_URL_STREAMABLE = exports.MATCH_URL_FACEBOOK_WATCH = exports.MATCH_URL_FACEBOOK = exports.MATCH_URL_VIMEO = exports.MATCH_URL_SOUNDCLOUD = exports.MATCH_URL_YOUTUBE = void 0;
+
+var _utils = __webpack_require__(/*! ./utils */ "./node_modules/react-player/lib/utils.js");
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+var MATCH_URL_YOUTUBE = /(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:embed\/|v\/|watch\/|watch\?v=|watch\?.+&v=|shorts\/))((\w|-){11})|youtube\.com\/playlist\?list=|youtube\.com\/user\//;
+exports.MATCH_URL_YOUTUBE = MATCH_URL_YOUTUBE;
+var MATCH_URL_SOUNDCLOUD = /(?:soundcloud\.com|snd\.sc)\/[^.]+$/;
+exports.MATCH_URL_SOUNDCLOUD = MATCH_URL_SOUNDCLOUD;
+var MATCH_URL_VIMEO = /vimeo\.com\/(?!progressive_redirect).+/;
+exports.MATCH_URL_VIMEO = MATCH_URL_VIMEO;
+var MATCH_URL_FACEBOOK = /^https?:\/\/(www\.)?facebook\.com.*\/(video(s)?|watch|story)(\.php?|\/).+$/;
+exports.MATCH_URL_FACEBOOK = MATCH_URL_FACEBOOK;
+var MATCH_URL_FACEBOOK_WATCH = /^https?:\/\/fb\.watch\/.+$/;
+exports.MATCH_URL_FACEBOOK_WATCH = MATCH_URL_FACEBOOK_WATCH;
+var MATCH_URL_STREAMABLE = /streamable\.com\/([a-z0-9]+)$/;
+exports.MATCH_URL_STREAMABLE = MATCH_URL_STREAMABLE;
+var MATCH_URL_WISTIA = /(?:wistia\.(?:com|net)|wi\.st)\/(?:medias|embed)\/(?:iframe\/)?(.*)$/;
+exports.MATCH_URL_WISTIA = MATCH_URL_WISTIA;
+var MATCH_URL_TWITCH_VIDEO = /(?:www\.|go\.)?twitch\.tv\/videos\/(\d+)($|\?)/;
+exports.MATCH_URL_TWITCH_VIDEO = MATCH_URL_TWITCH_VIDEO;
+var MATCH_URL_TWITCH_CHANNEL = /(?:www\.|go\.)?twitch\.tv\/([a-zA-Z0-9_]+)($|\?)/;
+exports.MATCH_URL_TWITCH_CHANNEL = MATCH_URL_TWITCH_CHANNEL;
+var MATCH_URL_DAILYMOTION = /^(?:(?:https?):)?(?:\/\/)?(?:www\.)?(?:(?:dailymotion\.com(?:\/embed)?\/video)|dai\.ly)\/([a-zA-Z0-9]+)(?:_[\w_-]+)?$/;
+exports.MATCH_URL_DAILYMOTION = MATCH_URL_DAILYMOTION;
+var MATCH_URL_MIXCLOUD = /mixcloud\.com\/([^/]+\/[^/]+)/;
+exports.MATCH_URL_MIXCLOUD = MATCH_URL_MIXCLOUD;
+var MATCH_URL_VIDYARD = /vidyard.com\/(?:watch\/)?([a-zA-Z0-9-_]+)/;
+exports.MATCH_URL_VIDYARD = MATCH_URL_VIDYARD;
+var MATCH_URL_KALTURA = /^https?:\/\/[a-zA-Z]+\.kaltura.(com|org)\/p\/([0-9]+)\/sp\/([0-9]+)00\/embedIframeJs\/uiconf_id\/([0-9]+)\/partner_id\/([0-9]+)(.*)entry_id.([a-zA-Z0-9-_].*)$/;
+exports.MATCH_URL_KALTURA = MATCH_URL_KALTURA;
+var AUDIO_EXTENSIONS = /\.(m4a|m4b|mp4a|mpga|mp2|mp2a|mp3|m2a|m3a|wav|weba|aac|oga|spx)($|\?)/i;
+exports.AUDIO_EXTENSIONS = AUDIO_EXTENSIONS;
+var VIDEO_EXTENSIONS = /\.(mp4|og[gv]|webm|mov|m4v)(#t=[,\d+]+)?($|\?)/i;
+exports.VIDEO_EXTENSIONS = VIDEO_EXTENSIONS;
+var HLS_EXTENSIONS = /\.(m3u8)($|\?)/i;
+exports.HLS_EXTENSIONS = HLS_EXTENSIONS;
+var DASH_EXTENSIONS = /\.(mpd)($|\?)/i;
+exports.DASH_EXTENSIONS = DASH_EXTENSIONS;
+var FLV_EXTENSIONS = /\.(flv)($|\?)/i;
+exports.FLV_EXTENSIONS = FLV_EXTENSIONS;
+
+var canPlayFile = function canPlayFile(url) {
+  if (url instanceof Array) {
+    var _iterator = _createForOfIteratorHelper(url),
+        _step;
+
+    try {
+      for (_iterator.s(); !(_step = _iterator.n()).done;) {
+        var item = _step.value;
+
+        if (typeof item === 'string' && canPlayFile(item)) {
+          return true;
+        }
+
+        if (canPlayFile(item.src)) {
+          return true;
+        }
+      }
+    } catch (err) {
+      _iterator.e(err);
+    } finally {
+      _iterator.f();
+    }
+
+    return false;
+  }
+
+  if ((0, _utils.isMediaStream)(url) || (0, _utils.isBlobUrl)(url)) {
+    return true;
+  }
+
+  return AUDIO_EXTENSIONS.test(url) || VIDEO_EXTENSIONS.test(url) || HLS_EXTENSIONS.test(url) || DASH_EXTENSIONS.test(url) || FLV_EXTENSIONS.test(url);
+};
+
+var canPlay = {
+  youtube: function youtube(url) {
+    if (url instanceof Array) {
+      return url.every(function (item) {
+        return MATCH_URL_YOUTUBE.test(item);
+      });
+    }
+
+    return MATCH_URL_YOUTUBE.test(url);
+  },
+  soundcloud: function soundcloud(url) {
+    return MATCH_URL_SOUNDCLOUD.test(url) && !AUDIO_EXTENSIONS.test(url);
+  },
+  vimeo: function vimeo(url) {
+    return MATCH_URL_VIMEO.test(url) && !VIDEO_EXTENSIONS.test(url) && !HLS_EXTENSIONS.test(url);
+  },
+  facebook: function facebook(url) {
+    return MATCH_URL_FACEBOOK.test(url) || MATCH_URL_FACEBOOK_WATCH.test(url);
+  },
+  streamable: function streamable(url) {
+    return MATCH_URL_STREAMABLE.test(url);
+  },
+  wistia: function wistia(url) {
+    return MATCH_URL_WISTIA.test(url);
+  },
+  twitch: function twitch(url) {
+    return MATCH_URL_TWITCH_VIDEO.test(url) || MATCH_URL_TWITCH_CHANNEL.test(url);
+  },
+  dailymotion: function dailymotion(url) {
+    return MATCH_URL_DAILYMOTION.test(url);
+  },
+  mixcloud: function mixcloud(url) {
+    return MATCH_URL_MIXCLOUD.test(url);
+  },
+  vidyard: function vidyard(url) {
+    return MATCH_URL_VIDYARD.test(url);
+  },
+  kaltura: function kaltura(url) {
+    return MATCH_URL_KALTURA.test(url);
+  },
+  file: canPlayFile
+};
+exports.canPlay = canPlay;
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/DailyMotion.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/react-player/lib/players/DailyMotion.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://api.dmcdn.net/all.js';
+var SDK_GLOBAL = 'DM';
+var SDK_GLOBAL_READY = 'dmAsyncInit';
+
+var DailyMotion = /*#__PURE__*/function (_Component) {
+  _inherits(DailyMotion, _Component);
+
+  var _super = _createSuper(DailyMotion);
+
+  function DailyMotion() {
+    var _this;
+
+    _classCallCheck(this, DailyMotion);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "onDurationChange", function () {
+      var duration = _this.getDuration();
+
+      _this.props.onDuration(duration);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.callPlayer('setMuted', true);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      _this.callPlayer('setMuted', false);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "ref", function (container) {
+      _this.container = container;
+    });
+
+    return _this;
+  }
+
+  _createClass(DailyMotion, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "load",
+    value: function load(url) {
+      var _this2 = this;
+
+      var _this$props = this.props,
+          controls = _this$props.controls,
+          config = _this$props.config,
+          onError = _this$props.onError,
+          playing = _this$props.playing;
+
+      var _url$match = url.match(_patterns.MATCH_URL_DAILYMOTION),
+          _url$match2 = _slicedToArray(_url$match, 2),
+          id = _url$match2[1];
+
+      if (this.player) {
+        this.player.load(id, {
+          start: (0, _utils.parseStartTime)(url),
+          autoplay: playing
+        });
+        return;
+      }
+
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL, SDK_GLOBAL_READY, function (DM) {
+        return DM.player;
+      }).then(function (DM) {
+        if (!_this2.container) return;
+        var Player = DM.player;
+        _this2.player = new Player(_this2.container, {
+          width: '100%',
+          height: '100%',
+          video: id,
+          params: _objectSpread({
+            controls: controls,
+            autoplay: _this2.props.playing,
+            mute: _this2.props.muted,
+            start: (0, _utils.parseStartTime)(url),
+            origin: window.location.origin
+          }, config.params),
+          events: {
+            apiready: _this2.props.onReady,
+            seeked: function seeked() {
+              return _this2.props.onSeek(_this2.player.currentTime);
+            },
+            video_end: _this2.props.onEnded,
+            durationchange: _this2.onDurationChange,
+            pause: _this2.props.onPause,
+            playing: _this2.props.onPlay,
+            waiting: _this2.props.onBuffer,
+            error: function error(event) {
+              return onError(event);
+            }
+          }
+        });
+      }, onError);
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      this.callPlayer('play');
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {// Nothing to do
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(seconds) {
+      this.callPlayer('seek', seconds);
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.callPlayer('setVolume', fraction);
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.player.duration || null;
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.player.currentTime;
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return this.player.bufferedTime;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var display = this.props.display;
+      var style = {
+        width: '100%',
+        height: '100%',
+        display: display
+      };
+      return /*#__PURE__*/_react["default"].createElement("div", {
+        style: style
+      }, /*#__PURE__*/_react["default"].createElement("div", {
+        ref: this.ref
+      }));
+    }
+  }]);
+
+  return DailyMotion;
+}(_react.Component);
+
+exports["default"] = DailyMotion;
+
+_defineProperty(DailyMotion, "displayName", 'DailyMotion');
+
+_defineProperty(DailyMotion, "canPlay", _patterns.canPlay.dailymotion);
+
+_defineProperty(DailyMotion, "loopOnEnded", true);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/Facebook.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-player/lib/players/Facebook.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://connect.facebook.net/en_US/sdk.js';
+var SDK_GLOBAL = 'FB';
+var SDK_GLOBAL_READY = 'fbAsyncInit';
+var PLAYER_ID_PREFIX = 'facebook-player-';
+
+var Facebook = /*#__PURE__*/function (_Component) {
+  _inherits(Facebook, _Component);
+
+  var _super = _createSuper(Facebook);
+
+  function Facebook() {
+    var _this;
+
+    _classCallCheck(this, Facebook);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "playerID", _this.props.config.playerId || "".concat(PLAYER_ID_PREFIX).concat((0, _utils.randomString)()));
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.callPlayer('mute');
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      _this.callPlayer('unmute');
+    });
+
+    return _this;
+  }
+
+  _createClass(Facebook, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "load",
+    value: function load(url, isReady) {
+      var _this2 = this;
+
+      if (isReady) {
+        (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL, SDK_GLOBAL_READY).then(function (FB) {
+          return FB.XFBML.parse();
+        });
+        return;
+      }
+
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL, SDK_GLOBAL_READY).then(function (FB) {
+        FB.init({
+          appId: _this2.props.config.appId,
+          xfbml: true,
+          version: _this2.props.config.version
+        });
+        FB.Event.subscribe('xfbml.render', function (msg) {
+          // Here we know the SDK has loaded, even if onReady/onPlay
+          // is not called due to a video that cannot be embedded
+          _this2.props.onLoaded();
+        });
+        FB.Event.subscribe('xfbml.ready', function (msg) {
+          if (msg.type === 'video' && msg.id === _this2.playerID) {
+            _this2.player = msg.instance;
+
+            _this2.player.subscribe('startedPlaying', _this2.props.onPlay);
+
+            _this2.player.subscribe('paused', _this2.props.onPause);
+
+            _this2.player.subscribe('finishedPlaying', _this2.props.onEnded);
+
+            _this2.player.subscribe('startedBuffering', _this2.props.onBuffer);
+
+            _this2.player.subscribe('finishedBuffering', _this2.props.onBufferEnd);
+
+            _this2.player.subscribe('error', _this2.props.onError);
+
+            if (_this2.props.muted) {
+              _this2.callPlayer('mute');
+            } else {
+              _this2.callPlayer('unmute');
+            }
+
+            _this2.props.onReady(); // For some reason Facebook have added `visibility: hidden`
+            // to the iframe when autoplay fails, so here we set it back
+
+
+            document.getElementById(_this2.playerID).querySelector('iframe').style.visibility = 'visible';
+          }
+        });
+      });
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      this.callPlayer('play');
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {// Nothing to do
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(seconds) {
+      this.callPlayer('seek', seconds);
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.callPlayer('setVolume', fraction);
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.callPlayer('getDuration');
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.callPlayer('getCurrentPosition');
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return null;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var attributes = this.props.config.attributes;
+      var style = {
+        width: '100%',
+        height: '100%'
+      };
+      return /*#__PURE__*/_react["default"].createElement("div", _extends({
+        style: style,
+        id: this.playerID,
+        className: "fb-video",
+        "data-href": this.props.url,
+        "data-autoplay": this.props.playing ? 'true' : 'false',
+        "data-allowfullscreen": "true",
+        "data-controls": this.props.controls ? 'true' : 'false'
+      }, attributes));
+    }
+  }]);
+
+  return Facebook;
+}(_react.Component);
+
+exports["default"] = Facebook;
+
+_defineProperty(Facebook, "displayName", 'Facebook');
+
+_defineProperty(Facebook, "canPlay", _patterns.canPlay.facebook);
+
+_defineProperty(Facebook, "loopOnEnded", true);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/FilePlayer.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-player/lib/players/FilePlayer.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var HAS_NAVIGATOR = typeof navigator !== 'undefined';
+var IS_IPAD_PRO = HAS_NAVIGATOR && navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1;
+var IS_IOS = HAS_NAVIGATOR && (/iPad|iPhone|iPod/.test(navigator.userAgent) || IS_IPAD_PRO) && !window.MSStream;
+var HLS_SDK_URL = 'https://cdn.jsdelivr.net/npm/hls.js@VERSION/dist/hls.min.js';
+var HLS_GLOBAL = 'Hls';
+var DASH_SDK_URL = 'https://cdnjs.cloudflare.com/ajax/libs/dashjs/VERSION/dash.all.min.js';
+var DASH_GLOBAL = 'dashjs';
+var FLV_SDK_URL = 'https://cdn.jsdelivr.net/npm/flv.js@VERSION/dist/flv.min.js';
+var FLV_GLOBAL = 'flvjs';
+var MATCH_DROPBOX_URL = /www\.dropbox\.com\/.+/;
+var MATCH_CLOUDFLARE_STREAM = /https:\/\/watch\.cloudflarestream\.com\/([a-z0-9]+)/;
+var REPLACE_CLOUDFLARE_STREAM = 'https://videodelivery.net/{id}/manifest/video.m3u8';
+
+var FilePlayer = /*#__PURE__*/function (_Component) {
+  _inherits(FilePlayer, _Component);
+
+  var _super = _createSuper(FilePlayer);
+
+  function FilePlayer() {
+    var _this;
+
+    _classCallCheck(this, FilePlayer);
+
+    for (var _len = arguments.length, _args = new Array(_len), _key = 0; _key < _len; _key++) {
+      _args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(_args));
+
+    _defineProperty(_assertThisInitialized(_this), "onReady", function () {
+      var _this$props;
+
+      return (_this$props = _this.props).onReady.apply(_this$props, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onPlay", function () {
+      var _this$props2;
+
+      return (_this$props2 = _this.props).onPlay.apply(_this$props2, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onBuffer", function () {
+      var _this$props3;
+
+      return (_this$props3 = _this.props).onBuffer.apply(_this$props3, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onBufferEnd", function () {
+      var _this$props4;
+
+      return (_this$props4 = _this.props).onBufferEnd.apply(_this$props4, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onPause", function () {
+      var _this$props5;
+
+      return (_this$props5 = _this.props).onPause.apply(_this$props5, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onEnded", function () {
+      var _this$props6;
+
+      return (_this$props6 = _this.props).onEnded.apply(_this$props6, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onError", function () {
+      var _this$props7;
+
+      return (_this$props7 = _this.props).onError.apply(_this$props7, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onPlayBackRateChange", function (event) {
+      return _this.props.onPlaybackRateChange(event.target.playbackRate);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onEnablePIP", function () {
+      var _this$props8;
+
+      return (_this$props8 = _this.props).onEnablePIP.apply(_this$props8, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onDisablePIP", function (e) {
+      var _this$props9 = _this.props,
+          onDisablePIP = _this$props9.onDisablePIP,
+          playing = _this$props9.playing;
+      onDisablePIP(e);
+
+      if (playing) {
+        _this.play();
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onPresentationModeChange", function (e) {
+      if (_this.player && (0, _utils.supportsWebKitPresentationMode)(_this.player)) {
+        var webkitPresentationMode = _this.player.webkitPresentationMode;
+
+        if (webkitPresentationMode === 'picture-in-picture') {
+          _this.onEnablePIP(e);
+        } else if (webkitPresentationMode === 'inline') {
+          _this.onDisablePIP(e);
+        }
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onSeek", function (e) {
+      _this.props.onSeek(e.target.currentTime);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.player.muted = true;
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      _this.player.muted = false;
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderSourceElement", function (source, index) {
+      if (typeof source === 'string') {
+        return /*#__PURE__*/_react["default"].createElement("source", {
+          key: index,
+          src: source
+        });
+      }
+
+      return /*#__PURE__*/_react["default"].createElement("source", _extends({
+        key: index
+      }, source));
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderTrack", function (track, index) {
+      return /*#__PURE__*/_react["default"].createElement("track", _extends({
+        key: index
+      }, track));
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "ref", function (player) {
+      if (_this.player) {
+        // Store previous player to be used by removeListeners()
+        _this.prevPlayer = _this.player;
+      }
+
+      _this.player = player;
+    });
+
+    return _this;
+  }
+
+  _createClass(FilePlayer, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+      this.addListeners(this.player);
+
+      if (IS_IOS) {
+        this.player.load();
+      }
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      if (this.shouldUseAudio(this.props) !== this.shouldUseAudio(prevProps)) {
+        this.removeListeners(this.prevPlayer, prevProps.url);
+        this.addListeners(this.player);
+      }
+
+      if (this.props.url !== prevProps.url && !(0, _utils.isMediaStream)(this.props.url)) {
+        this.player.srcObject = null;
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.removeListeners(this.player);
+
+      if (this.hls) {
+        this.hls.destroy();
+      }
+    }
+  }, {
+    key: "addListeners",
+    value: function addListeners(player) {
+      var _this$props10 = this.props,
+          url = _this$props10.url,
+          playsinline = _this$props10.playsinline;
+      player.addEventListener('play', this.onPlay);
+      player.addEventListener('waiting', this.onBuffer);
+      player.addEventListener('playing', this.onBufferEnd);
+      player.addEventListener('pause', this.onPause);
+      player.addEventListener('seeked', this.onSeek);
+      player.addEventListener('ended', this.onEnded);
+      player.addEventListener('error', this.onError);
+      player.addEventListener('ratechange', this.onPlayBackRateChange);
+      player.addEventListener('enterpictureinpicture', this.onEnablePIP);
+      player.addEventListener('leavepictureinpicture', this.onDisablePIP);
+      player.addEventListener('webkitpresentationmodechanged', this.onPresentationModeChange);
+
+      if (!this.shouldUseHLS(url)) {
+        // onReady is handled by hls.js
+        player.addEventListener('canplay', this.onReady);
+      }
+
+      if (playsinline) {
+        player.setAttribute('playsinline', '');
+        player.setAttribute('webkit-playsinline', '');
+        player.setAttribute('x5-playsinline', '');
+      }
+    }
+  }, {
+    key: "removeListeners",
+    value: function removeListeners(player, url) {
+      player.removeEventListener('canplay', this.onReady);
+      player.removeEventListener('play', this.onPlay);
+      player.removeEventListener('waiting', this.onBuffer);
+      player.removeEventListener('playing', this.onBufferEnd);
+      player.removeEventListener('pause', this.onPause);
+      player.removeEventListener('seeked', this.onSeek);
+      player.removeEventListener('ended', this.onEnded);
+      player.removeEventListener('error', this.onError);
+      player.removeEventListener('ratechange', this.onPlayBackRateChange);
+      player.removeEventListener('enterpictureinpicture', this.onEnablePIP);
+      player.removeEventListener('leavepictureinpicture', this.onDisablePIP);
+      player.removeEventListener('webkitpresentationmodechanged', this.onPresentationModeChange);
+
+      if (!this.shouldUseHLS(url)) {
+        // onReady is handled by hls.js
+        player.removeEventListener('canplay', this.onReady);
+      }
+    } // Proxy methods to prevent listener leaks
+
+  }, {
+    key: "shouldUseAudio",
+    value: function shouldUseAudio(props) {
+      if (props.config.forceVideo) {
+        return false;
+      }
+
+      if (props.config.attributes.poster) {
+        return false; // Use <video> so that poster is shown
+      }
+
+      return _patterns.AUDIO_EXTENSIONS.test(props.url) || props.config.forceAudio;
+    }
+  }, {
+    key: "shouldUseHLS",
+    value: function shouldUseHLS(url) {
+      if (this.props.config.forceHLS) {
+        return true;
+      }
+
+      if (IS_IOS) {
+        return false;
+      }
+
+      return _patterns.HLS_EXTENSIONS.test(url) || MATCH_CLOUDFLARE_STREAM.test(url);
+    }
+  }, {
+    key: "shouldUseDASH",
+    value: function shouldUseDASH(url) {
+      return _patterns.DASH_EXTENSIONS.test(url) || this.props.config.forceDASH;
+    }
+  }, {
+    key: "shouldUseFLV",
+    value: function shouldUseFLV(url) {
+      return _patterns.FLV_EXTENSIONS.test(url) || this.props.config.forceFLV;
+    }
+  }, {
+    key: "load",
+    value: function load(url) {
+      var _this2 = this;
+
+      var _this$props$config = this.props.config,
+          hlsVersion = _this$props$config.hlsVersion,
+          hlsOptions = _this$props$config.hlsOptions,
+          dashVersion = _this$props$config.dashVersion,
+          flvVersion = _this$props$config.flvVersion;
+
+      if (this.hls) {
+        this.hls.destroy();
+      }
+
+      if (this.dash) {
+        this.dash.reset();
+      }
+
+      if (this.shouldUseHLS(url)) {
+        (0, _utils.getSDK)(HLS_SDK_URL.replace('VERSION', hlsVersion), HLS_GLOBAL).then(function (Hls) {
+          _this2.hls = new Hls(hlsOptions);
+
+          _this2.hls.on(Hls.Events.MANIFEST_PARSED, function () {
+            _this2.props.onReady();
+          });
+
+          _this2.hls.on(Hls.Events.ERROR, function (e, data) {
+            _this2.props.onError(e, data, _this2.hls, Hls);
+          });
+
+          if (MATCH_CLOUDFLARE_STREAM.test(url)) {
+            var id = url.match(MATCH_CLOUDFLARE_STREAM)[1];
+
+            _this2.hls.loadSource(REPLACE_CLOUDFLARE_STREAM.replace('{id}', id));
+          } else {
+            _this2.hls.loadSource(url);
+          }
+
+          _this2.hls.attachMedia(_this2.player);
+
+          _this2.props.onLoaded();
+        });
+      }
+
+      if (this.shouldUseDASH(url)) {
+        (0, _utils.getSDK)(DASH_SDK_URL.replace('VERSION', dashVersion), DASH_GLOBAL).then(function (dashjs) {
+          _this2.dash = dashjs.MediaPlayer().create();
+
+          _this2.dash.initialize(_this2.player, url, _this2.props.playing);
+
+          _this2.dash.on('error', _this2.props.onError);
+
+          if (parseInt(dashVersion) < 3) {
+            _this2.dash.getDebug().setLogToBrowserConsole(false);
+          } else {
+            _this2.dash.updateSettings({
+              debug: {
+                logLevel: dashjs.Debug.LOG_LEVEL_NONE
+              }
+            });
+          }
+
+          _this2.props.onLoaded();
+        });
+      }
+
+      if (this.shouldUseFLV(url)) {
+        (0, _utils.getSDK)(FLV_SDK_URL.replace('VERSION', flvVersion), FLV_GLOBAL).then(function (flvjs) {
+          _this2.flv = flvjs.createPlayer({
+            type: 'flv',
+            url: url
+          });
+
+          _this2.flv.attachMediaElement(_this2.player);
+
+          _this2.flv.on(flvjs.Events.ERROR, function (e, data) {
+            _this2.props.onError(e, data, _this2.flv, flvjs);
+          });
+
+          _this2.flv.load();
+
+          _this2.props.onLoaded();
+        });
+      }
+
+      if (url instanceof Array) {
+        // When setting new urls (<source>) on an already loaded video,
+        // HTMLMediaElement.load() is needed to reset the media element
+        // and restart the media resource. Just replacing children source
+        // dom nodes is not enough
+        this.player.load();
+      } else if ((0, _utils.isMediaStream)(url)) {
+        try {
+          this.player.srcObject = url;
+        } catch (e) {
+          this.player.src = window.URL.createObjectURL(url);
+        }
+      }
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      var promise = this.player.play();
+
+      if (promise) {
+        promise["catch"](this.props.onError);
+      }
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.player.pause();
+    }
+  }, {
+    key: "stop",
+    value: function stop() {
+      this.player.removeAttribute('src');
+
+      if (this.dash) {
+        this.dash.reset();
+      }
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(seconds) {
+      this.player.currentTime = seconds;
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.player.volume = fraction;
+    }
+  }, {
+    key: "enablePIP",
+    value: function enablePIP() {
+      if (this.player.requestPictureInPicture && document.pictureInPictureElement !== this.player) {
+        this.player.requestPictureInPicture();
+      } else if ((0, _utils.supportsWebKitPresentationMode)(this.player) && this.player.webkitPresentationMode !== 'picture-in-picture') {
+        this.player.webkitSetPresentationMode('picture-in-picture');
+      }
+    }
+  }, {
+    key: "disablePIP",
+    value: function disablePIP() {
+      if (document.exitPictureInPicture && document.pictureInPictureElement === this.player) {
+        document.exitPictureInPicture();
+      } else if ((0, _utils.supportsWebKitPresentationMode)(this.player) && this.player.webkitPresentationMode !== 'inline') {
+        this.player.webkitSetPresentationMode('inline');
+      }
+    }
+  }, {
+    key: "setPlaybackRate",
+    value: function setPlaybackRate(rate) {
+      try {
+        this.player.playbackRate = rate;
+      } catch (error) {
+        this.props.onError(error);
+      }
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      if (!this.player) return null;
+      var _this$player = this.player,
+          duration = _this$player.duration,
+          seekable = _this$player.seekable; // on iOS, live streams return Infinity for the duration
+      // so instead we use the end of the seekable timerange
+
+      if (duration === Infinity && seekable.length > 0) {
+        return seekable.end(seekable.length - 1);
+      }
+
+      return duration;
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      if (!this.player) return null;
+      return this.player.currentTime;
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      if (!this.player) return null;
+      var buffered = this.player.buffered;
+
+      if (buffered.length === 0) {
+        return 0;
+      }
+
+      var end = buffered.end(buffered.length - 1);
+      var duration = this.getDuration();
+
+      if (end > duration) {
+        return duration;
+      }
+
+      return end;
+    }
+  }, {
+    key: "getSource",
+    value: function getSource(url) {
+      var useHLS = this.shouldUseHLS(url);
+      var useDASH = this.shouldUseDASH(url);
+      var useFLV = this.shouldUseFLV(url);
+
+      if (url instanceof Array || (0, _utils.isMediaStream)(url) || useHLS || useDASH || useFLV) {
+        return undefined;
+      }
+
+      if (MATCH_DROPBOX_URL.test(url)) {
+        return url.replace('www.dropbox.com', 'dl.dropboxusercontent.com');
+      }
+
+      return url;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props11 = this.props,
+          url = _this$props11.url,
+          playing = _this$props11.playing,
+          loop = _this$props11.loop,
+          controls = _this$props11.controls,
+          muted = _this$props11.muted,
+          config = _this$props11.config,
+          width = _this$props11.width,
+          height = _this$props11.height;
+      var useAudio = this.shouldUseAudio(this.props);
+      var Element = useAudio ? 'audio' : 'video';
+      var style = {
+        width: width === 'auto' ? width : '100%',
+        height: height === 'auto' ? height : '100%'
+      };
+      return /*#__PURE__*/_react["default"].createElement(Element, _extends({
+        ref: this.ref,
+        src: this.getSource(url),
+        style: style,
+        preload: "auto",
+        autoPlay: playing || undefined,
+        controls: controls,
+        muted: muted,
+        loop: loop
+      }, config.attributes), url instanceof Array && url.map(this.renderSourceElement), config.tracks.map(this.renderTrack));
+    }
+  }]);
+
+  return FilePlayer;
+}(_react.Component);
+
+exports["default"] = FilePlayer;
+
+_defineProperty(FilePlayer, "displayName", 'FilePlayer');
+
+_defineProperty(FilePlayer, "canPlay", _patterns.canPlay.file);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/Kaltura.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/react-player/lib/players/Kaltura.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://cdn.embed.ly/player-0.1.0.min.js';
+var SDK_GLOBAL = 'playerjs';
+
+var Kaltura = /*#__PURE__*/function (_Component) {
+  _inherits(Kaltura, _Component);
+
+  var _super = _createSuper(Kaltura);
+
+  function Kaltura() {
+    var _this;
+
+    _classCallCheck(this, Kaltura);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "duration", null);
+
+    _defineProperty(_assertThisInitialized(_this), "currentTime", null);
+
+    _defineProperty(_assertThisInitialized(_this), "secondsLoaded", null);
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.callPlayer('mute');
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      _this.callPlayer('unmute');
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "ref", function (iframe) {
+      _this.iframe = iframe;
+    });
+
+    return _this;
+  }
+
+  _createClass(Kaltura, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "load",
+    value: function load(url) {
+      var _this2 = this;
+
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL).then(function (playerjs) {
+        if (!_this2.iframe) return;
+        _this2.player = new playerjs.Player(_this2.iframe);
+
+        _this2.player.on('ready', function () {
+          // An arbitrary timeout is required otherwise
+          // the event listeners won’t work
+          setTimeout(function () {
+            _this2.player.isReady = true;
+
+            _this2.player.setLoop(_this2.props.loop);
+
+            if (_this2.props.muted) {
+              _this2.player.mute();
+            }
+
+            _this2.addListeners(_this2.player, _this2.props);
+
+            _this2.props.onReady();
+          }, 500);
+        });
+      }, this.props.onError);
+    }
+  }, {
+    key: "addListeners",
+    value: function addListeners(player, props) {
+      var _this3 = this;
+
+      player.on('play', props.onPlay);
+      player.on('pause', props.onPause);
+      player.on('ended', props.onEnded);
+      player.on('error', props.onError);
+      player.on('timeupdate', function (_ref) {
+        var duration = _ref.duration,
+            seconds = _ref.seconds;
+        _this3.duration = duration;
+        _this3.currentTime = seconds;
+      });
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      this.callPlayer('play');
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {// Nothing to do
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(seconds) {
+      this.callPlayer('setCurrentTime', seconds);
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.callPlayer('setVolume', fraction);
+    }
+  }, {
+    key: "setLoop",
+    value: function setLoop(loop) {
+      this.callPlayer('setLoop', loop);
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.duration;
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.currentTime;
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return this.secondsLoaded;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var style = {
+        width: '100%',
+        height: '100%'
+      };
+      return /*#__PURE__*/_react["default"].createElement("iframe", {
+        ref: this.ref,
+        src: this.props.url,
+        frameBorder: "0",
+        scrolling: "no",
+        style: style,
+        allow: "encrypted-media; autoplay; fullscreen;",
+        referrerPolicy: "no-referrer-when-downgrade"
+      });
+    }
+  }]);
+
+  return Kaltura;
+}(_react.Component);
+
+exports["default"] = Kaltura;
+
+_defineProperty(Kaltura, "displayName", 'Kaltura');
+
+_defineProperty(Kaltura, "canPlay", _patterns.canPlay.kaltura);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/Mixcloud.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-player/lib/players/Mixcloud.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://widget.mixcloud.com/media/js/widgetApi.js';
+var SDK_GLOBAL = 'Mixcloud';
+
+var Mixcloud = /*#__PURE__*/function (_Component) {
+  _inherits(Mixcloud, _Component);
+
+  var _super = _createSuper(Mixcloud);
+
+  function Mixcloud() {
+    var _this;
+
+    _classCallCheck(this, Mixcloud);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "duration", null);
+
+    _defineProperty(_assertThisInitialized(_this), "currentTime", null);
+
+    _defineProperty(_assertThisInitialized(_this), "secondsLoaded", null);
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {// No volume support
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {// No volume support
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "ref", function (iframe) {
+      _this.iframe = iframe;
+    });
+
+    return _this;
+  }
+
+  _createClass(Mixcloud, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "load",
+    value: function load(url) {
+      var _this2 = this;
+
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL).then(function (Mixcloud) {
+        _this2.player = Mixcloud.PlayerWidget(_this2.iframe);
+
+        _this2.player.ready.then(function () {
+          _this2.player.events.play.on(_this2.props.onPlay);
+
+          _this2.player.events.pause.on(_this2.props.onPause);
+
+          _this2.player.events.ended.on(_this2.props.onEnded);
+
+          _this2.player.events.error.on(_this2.props.error);
+
+          _this2.player.events.progress.on(function (seconds, duration) {
+            _this2.currentTime = seconds;
+            _this2.duration = duration;
+          });
+
+          _this2.props.onReady();
+        });
+      }, this.props.onError);
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      this.callPlayer('play');
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {// Nothing to do
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(seconds) {
+      this.callPlayer('seek', seconds);
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {// No volume support
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.duration;
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.currentTime;
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return null;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          url = _this$props.url,
+          config = _this$props.config;
+      var id = url.match(_patterns.MATCH_URL_MIXCLOUD)[1];
+      var style = {
+        width: '100%',
+        height: '100%'
+      };
+      var query = (0, _utils.queryString)(_objectSpread(_objectSpread({}, config.options), {}, {
+        feed: "/".concat(id, "/")
+      })); // We have to give the iframe a key here to prevent a
+      // weird dialog appearing when loading a new track
+
+      return /*#__PURE__*/_react["default"].createElement("iframe", {
+        key: id,
+        ref: this.ref,
+        style: style,
+        src: "https://www.mixcloud.com/widget/iframe/?".concat(query),
+        frameBorder: "0"
+      });
+    }
+  }]);
+
+  return Mixcloud;
+}(_react.Component);
+
+exports["default"] = Mixcloud;
+
+_defineProperty(Mixcloud, "displayName", 'Mixcloud');
+
+_defineProperty(Mixcloud, "canPlay", _patterns.canPlay.mixcloud);
+
+_defineProperty(Mixcloud, "loopOnEnded", true);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/SoundCloud.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-player/lib/players/SoundCloud.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://w.soundcloud.com/player/api.js';
+var SDK_GLOBAL = 'SC';
+
+var SoundCloud = /*#__PURE__*/function (_Component) {
+  _inherits(SoundCloud, _Component);
+
+  var _super = _createSuper(SoundCloud);
+
+  function SoundCloud() {
+    var _this;
+
+    _classCallCheck(this, SoundCloud);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "duration", null);
+
+    _defineProperty(_assertThisInitialized(_this), "currentTime", null);
+
+    _defineProperty(_assertThisInitialized(_this), "fractionLoaded", null);
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.setVolume(0);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      if (_this.props.volume !== null) {
+        _this.setVolume(_this.props.volume);
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "ref", function (iframe) {
+      _this.iframe = iframe;
+    });
+
+    return _this;
+  }
+
+  _createClass(SoundCloud, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "load",
+    value: function load(url, isReady) {
+      var _this2 = this;
+
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL).then(function (SC) {
+        if (!_this2.iframe) return;
+        var _SC$Widget$Events = SC.Widget.Events,
+            PLAY = _SC$Widget$Events.PLAY,
+            PLAY_PROGRESS = _SC$Widget$Events.PLAY_PROGRESS,
+            PAUSE = _SC$Widget$Events.PAUSE,
+            FINISH = _SC$Widget$Events.FINISH,
+            ERROR = _SC$Widget$Events.ERROR;
+
+        if (!isReady) {
+          _this2.player = SC.Widget(_this2.iframe);
+
+          _this2.player.bind(PLAY, _this2.props.onPlay);
+
+          _this2.player.bind(PAUSE, function () {
+            var remaining = _this2.duration - _this2.currentTime;
+
+            if (remaining < 0.05) {
+              // Prevent onPause firing right before onEnded
+              return;
+            }
+
+            _this2.props.onPause();
+          });
+
+          _this2.player.bind(PLAY_PROGRESS, function (e) {
+            _this2.currentTime = e.currentPosition / 1000;
+            _this2.fractionLoaded = e.loadedProgress;
+          });
+
+          _this2.player.bind(FINISH, function () {
+            return _this2.props.onEnded();
+          });
+
+          _this2.player.bind(ERROR, function (e) {
+            return _this2.props.onError(e);
+          });
+        }
+
+        _this2.player.load(url, _objectSpread(_objectSpread({}, _this2.props.config.options), {}, {
+          callback: function callback() {
+            _this2.player.getDuration(function (duration) {
+              _this2.duration = duration / 1000;
+
+              _this2.props.onReady();
+            });
+          }
+        }));
+      });
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      this.callPlayer('play');
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {// Nothing to do
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(seconds) {
+      this.callPlayer('seekTo', seconds * 1000);
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.callPlayer('setVolume', fraction * 100);
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.duration;
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.currentTime;
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return this.fractionLoaded * this.duration;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var display = this.props.display;
+      var style = {
+        width: '100%',
+        height: '100%',
+        display: display
+      };
+      return /*#__PURE__*/_react["default"].createElement("iframe", {
+        ref: this.ref,
+        src: "https://w.soundcloud.com/player/?url=".concat(encodeURIComponent(this.props.url)),
+        style: style,
+        frameBorder: 0,
+        allow: "autoplay"
+      });
+    }
+  }]);
+
+  return SoundCloud;
+}(_react.Component);
+
+exports["default"] = SoundCloud;
+
+_defineProperty(SoundCloud, "displayName", 'SoundCloud');
+
+_defineProperty(SoundCloud, "canPlay", _patterns.canPlay.soundcloud);
+
+_defineProperty(SoundCloud, "loopOnEnded", true);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/Streamable.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-player/lib/players/Streamable.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://cdn.embed.ly/player-0.1.0.min.js';
+var SDK_GLOBAL = 'playerjs';
+
+var Streamable = /*#__PURE__*/function (_Component) {
+  _inherits(Streamable, _Component);
+
+  var _super = _createSuper(Streamable);
+
+  function Streamable() {
+    var _this;
+
+    _classCallCheck(this, Streamable);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "duration", null);
+
+    _defineProperty(_assertThisInitialized(_this), "currentTime", null);
+
+    _defineProperty(_assertThisInitialized(_this), "secondsLoaded", null);
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.callPlayer('mute');
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      _this.callPlayer('unmute');
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "ref", function (iframe) {
+      _this.iframe = iframe;
+    });
+
+    return _this;
+  }
+
+  _createClass(Streamable, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "load",
+    value: function load(url) {
+      var _this2 = this;
+
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL).then(function (playerjs) {
+        if (!_this2.iframe) return;
+        _this2.player = new playerjs.Player(_this2.iframe);
+
+        _this2.player.setLoop(_this2.props.loop);
+
+        _this2.player.on('ready', _this2.props.onReady);
+
+        _this2.player.on('play', _this2.props.onPlay);
+
+        _this2.player.on('pause', _this2.props.onPause);
+
+        _this2.player.on('seeked', _this2.props.onSeek);
+
+        _this2.player.on('ended', _this2.props.onEnded);
+
+        _this2.player.on('error', _this2.props.onError);
+
+        _this2.player.on('timeupdate', function (_ref) {
+          var duration = _ref.duration,
+              seconds = _ref.seconds;
+          _this2.duration = duration;
+          _this2.currentTime = seconds;
+        });
+
+        _this2.player.on('buffered', function (_ref2) {
+          var percent = _ref2.percent;
+
+          if (_this2.duration) {
+            _this2.secondsLoaded = _this2.duration * percent;
+          }
+        });
+
+        if (_this2.props.muted) {
+          _this2.player.mute();
+        }
+      }, this.props.onError);
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      this.callPlayer('play');
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {// Nothing to do
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(seconds) {
+      this.callPlayer('setCurrentTime', seconds);
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.callPlayer('setVolume', fraction * 100);
+    }
+  }, {
+    key: "setLoop",
+    value: function setLoop(loop) {
+      this.callPlayer('setLoop', loop);
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.duration;
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.currentTime;
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return this.secondsLoaded;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var id = this.props.url.match(_patterns.MATCH_URL_STREAMABLE)[1];
+      var style = {
+        width: '100%',
+        height: '100%'
+      };
+      return /*#__PURE__*/_react["default"].createElement("iframe", {
+        ref: this.ref,
+        src: "https://streamable.com/o/".concat(id),
+        frameBorder: "0",
+        scrolling: "no",
+        style: style,
+        allow: "encrypted-media; autoplay; fullscreen;"
+      });
+    }
+  }]);
+
+  return Streamable;
+}(_react.Component);
+
+exports["default"] = Streamable;
+
+_defineProperty(Streamable, "displayName", 'Streamable');
+
+_defineProperty(Streamable, "canPlay", _patterns.canPlay.streamable);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/Twitch.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-player/lib/players/Twitch.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://player.twitch.tv/js/embed/v1.js';
+var SDK_GLOBAL = 'Twitch';
+var PLAYER_ID_PREFIX = 'twitch-player-';
+
+var Twitch = /*#__PURE__*/function (_Component) {
+  _inherits(Twitch, _Component);
+
+  var _super = _createSuper(Twitch);
+
+  function Twitch() {
+    var _this;
+
+    _classCallCheck(this, Twitch);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "playerID", _this.props.config.playerId || "".concat(PLAYER_ID_PREFIX).concat((0, _utils.randomString)()));
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.callPlayer('setMuted', true);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      _this.callPlayer('setMuted', false);
+    });
+
+    return _this;
+  }
+
+  _createClass(Twitch, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "load",
+    value: function load(url, isReady) {
+      var _this2 = this;
+
+      var _this$props = this.props,
+          playsinline = _this$props.playsinline,
+          onError = _this$props.onError,
+          config = _this$props.config,
+          controls = _this$props.controls;
+
+      var isChannel = _patterns.MATCH_URL_TWITCH_CHANNEL.test(url);
+
+      var id = isChannel ? url.match(_patterns.MATCH_URL_TWITCH_CHANNEL)[1] : url.match(_patterns.MATCH_URL_TWITCH_VIDEO)[1];
+
+      if (isReady) {
+        if (isChannel) {
+          this.player.setChannel(id);
+        } else {
+          this.player.setVideo('v' + id);
+        }
+
+        return;
+      }
+
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL).then(function (Twitch) {
+        _this2.player = new Twitch.Player(_this2.playerID, _objectSpread({
+          video: isChannel ? '' : id,
+          channel: isChannel ? id : '',
+          height: '100%',
+          width: '100%',
+          playsinline: playsinline,
+          autoplay: _this2.props.playing,
+          muted: _this2.props.muted,
+          // https://github.com/CookPete/react-player/issues/733#issuecomment-549085859
+          controls: isChannel ? true : controls,
+          time: (0, _utils.parseStartTime)(url)
+        }, config.options));
+        var _Twitch$Player = Twitch.Player,
+            READY = _Twitch$Player.READY,
+            PLAYING = _Twitch$Player.PLAYING,
+            PAUSE = _Twitch$Player.PAUSE,
+            ENDED = _Twitch$Player.ENDED,
+            ONLINE = _Twitch$Player.ONLINE,
+            OFFLINE = _Twitch$Player.OFFLINE,
+            SEEK = _Twitch$Player.SEEK;
+
+        _this2.player.addEventListener(READY, _this2.props.onReady);
+
+        _this2.player.addEventListener(PLAYING, _this2.props.onPlay);
+
+        _this2.player.addEventListener(PAUSE, _this2.props.onPause);
+
+        _this2.player.addEventListener(ENDED, _this2.props.onEnded);
+
+        _this2.player.addEventListener(SEEK, _this2.props.onSeek); // Prevent weird isLoading behaviour when streams are offline
+
+
+        _this2.player.addEventListener(ONLINE, _this2.props.onLoaded);
+
+        _this2.player.addEventListener(OFFLINE, _this2.props.onLoaded);
+      }, onError);
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      this.callPlayer('play');
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(seconds) {
+      this.callPlayer('seek', seconds);
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.callPlayer('setVolume', fraction);
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.callPlayer('getDuration');
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.callPlayer('getCurrentTime');
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return null;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var style = {
+        width: '100%',
+        height: '100%'
+      };
+      return /*#__PURE__*/_react["default"].createElement("div", {
+        style: style,
+        id: this.playerID
+      });
+    }
+  }]);
+
+  return Twitch;
+}(_react.Component);
+
+exports["default"] = Twitch;
+
+_defineProperty(Twitch, "displayName", 'Twitch');
+
+_defineProperty(Twitch, "canPlay", _patterns.canPlay.twitch);
+
+_defineProperty(Twitch, "loopOnEnded", true);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/Vidyard.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/react-player/lib/players/Vidyard.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://play.vidyard.com/embed/v4.js';
+var SDK_GLOBAL = 'VidyardV4';
+var SDK_GLOBAL_READY = 'onVidyardAPI';
+
+var Vidyard = /*#__PURE__*/function (_Component) {
+  _inherits(Vidyard, _Component);
+
+  var _super = _createSuper(Vidyard);
+
+  function Vidyard() {
+    var _this;
+
+    _classCallCheck(this, Vidyard);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.setVolume(0);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      if (_this.props.volume !== null) {
+        _this.setVolume(_this.props.volume);
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "ref", function (container) {
+      _this.container = container;
+    });
+
+    return _this;
+  }
+
+  _createClass(Vidyard, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "load",
+    value: function load(url) {
+      var _this2 = this;
+
+      var _this$props = this.props,
+          playing = _this$props.playing,
+          config = _this$props.config,
+          onError = _this$props.onError,
+          onDuration = _this$props.onDuration;
+      var id = url && url.match(_patterns.MATCH_URL_VIDYARD)[1];
+
+      if (this.player) {
+        this.stop();
+      }
+
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL, SDK_GLOBAL_READY).then(function (Vidyard) {
+        if (!_this2.container) return;
+        Vidyard.api.addReadyListener(function (data, player) {
+          if (_this2.player) {
+            return;
+          }
+
+          _this2.player = player;
+
+          _this2.player.on('ready', _this2.props.onReady);
+
+          _this2.player.on('play', _this2.props.onPlay);
+
+          _this2.player.on('pause', _this2.props.onPause);
+
+          _this2.player.on('seek', _this2.props.onSeek);
+
+          _this2.player.on('playerComplete', _this2.props.onEnded);
+        }, id);
+        Vidyard.api.renderPlayer(_objectSpread({
+          uuid: id,
+          container: _this2.container,
+          autoplay: playing ? 1 : 0
+        }, config.options));
+        Vidyard.api.getPlayerMetadata(id).then(function (meta) {
+          _this2.duration = meta.length_in_seconds;
+          onDuration(meta.length_in_seconds);
+        });
+      }, onError);
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      this.callPlayer('play');
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {
+      window.VidyardV4.api.destroyPlayer(this.player);
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(amount) {
+      this.callPlayer('seek', amount);
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.callPlayer('setVolume', fraction);
+    }
+  }, {
+    key: "setPlaybackRate",
+    value: function setPlaybackRate(rate) {
+      this.callPlayer('setPlaybackSpeed', rate);
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.duration;
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.callPlayer('currentTime');
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return null;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var display = this.props.display;
+      var style = {
+        width: '100%',
+        height: '100%',
+        display: display
+      };
+      return /*#__PURE__*/_react["default"].createElement("div", {
+        style: style
+      }, /*#__PURE__*/_react["default"].createElement("div", {
+        ref: this.ref
+      }));
+    }
+  }]);
+
+  return Vidyard;
+}(_react.Component);
+
+exports["default"] = Vidyard;
+
+_defineProperty(Vidyard, "displayName", 'Vidyard');
+
+_defineProperty(Vidyard, "canPlay", _patterns.canPlay.vidyard);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/Vimeo.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-player/lib/players/Vimeo.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://player.vimeo.com/api/player.js';
+var SDK_GLOBAL = 'Vimeo';
+
+var Vimeo = /*#__PURE__*/function (_Component) {
+  _inherits(Vimeo, _Component);
+
+  var _super = _createSuper(Vimeo);
+
+  function Vimeo() {
+    var _this;
+
+    _classCallCheck(this, Vimeo);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "duration", null);
+
+    _defineProperty(_assertThisInitialized(_this), "currentTime", null);
+
+    _defineProperty(_assertThisInitialized(_this), "secondsLoaded", null);
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.setVolume(0);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      if (_this.props.volume !== null) {
+        _this.setVolume(_this.props.volume);
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "ref", function (container) {
+      _this.container = container;
+    });
+
+    return _this;
+  }
+
+  _createClass(Vimeo, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "load",
+    value: function load(url) {
+      var _this2 = this;
+
+      this.duration = null;
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL).then(function (Vimeo) {
+        if (!_this2.container) return;
+        var _this2$props$config = _this2.props.config,
+            playerOptions = _this2$props$config.playerOptions,
+            title = _this2$props$config.title;
+        _this2.player = new Vimeo.Player(_this2.container, _objectSpread({
+          url: url,
+          autoplay: _this2.props.playing,
+          muted: _this2.props.muted,
+          loop: _this2.props.loop,
+          playsinline: _this2.props.playsinline,
+          controls: _this2.props.controls
+        }, playerOptions));
+
+        _this2.player.ready().then(function () {
+          var iframe = _this2.container.querySelector('iframe');
+
+          iframe.style.width = '100%';
+          iframe.style.height = '100%';
+
+          if (title) {
+            iframe.title = title;
+          }
+        })["catch"](_this2.props.onError);
+
+        _this2.player.on('loaded', function () {
+          _this2.props.onReady();
+
+          _this2.refreshDuration();
+        });
+
+        _this2.player.on('play', function () {
+          _this2.props.onPlay();
+
+          _this2.refreshDuration();
+        });
+
+        _this2.player.on('pause', _this2.props.onPause);
+
+        _this2.player.on('seeked', function (e) {
+          return _this2.props.onSeek(e.seconds);
+        });
+
+        _this2.player.on('ended', _this2.props.onEnded);
+
+        _this2.player.on('error', _this2.props.onError);
+
+        _this2.player.on('timeupdate', function (_ref) {
+          var seconds = _ref.seconds;
+          _this2.currentTime = seconds;
+        });
+
+        _this2.player.on('progress', function (_ref2) {
+          var seconds = _ref2.seconds;
+          _this2.secondsLoaded = seconds;
+        });
+
+        _this2.player.on('bufferstart', _this2.props.onBuffer);
+
+        _this2.player.on('bufferend', _this2.props.onBufferEnd);
+      }, this.props.onError);
+    }
+  }, {
+    key: "refreshDuration",
+    value: function refreshDuration() {
+      var _this3 = this;
+
+      this.player.getDuration().then(function (duration) {
+        _this3.duration = duration;
+      });
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      var promise = this.callPlayer('play');
+
+      if (promise) {
+        promise["catch"](this.props.onError);
+      }
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {
+      this.callPlayer('unload');
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(seconds) {
+      this.callPlayer('setCurrentTime', seconds);
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.callPlayer('setVolume', fraction);
+    }
+  }, {
+    key: "setLoop",
+    value: function setLoop(loop) {
+      this.callPlayer('setLoop', loop);
+    }
+  }, {
+    key: "setPlaybackRate",
+    value: function setPlaybackRate(rate) {
+      this.callPlayer('setPlaybackRate', rate);
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.duration;
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.currentTime;
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return this.secondsLoaded;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var display = this.props.display;
+      var style = {
+        width: '100%',
+        height: '100%',
+        overflow: 'hidden',
+        display: display
+      };
+      return /*#__PURE__*/_react["default"].createElement("div", {
+        key: this.props.url,
+        ref: this.ref,
+        style: style
+      });
+    }
+  }]);
+
+  return Vimeo;
+}(_react.Component);
+
+exports["default"] = Vimeo;
+
+_defineProperty(Vimeo, "displayName", 'Vimeo');
+
+_defineProperty(Vimeo, "canPlay", _patterns.canPlay.vimeo);
+
+_defineProperty(Vimeo, "forceLoad", true);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/Wistia.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-player/lib/players/Wistia.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://fast.wistia.com/assets/external/E-v1.js';
+var SDK_GLOBAL = 'Wistia';
+var PLAYER_ID_PREFIX = 'wistia-player-';
+
+var Wistia = /*#__PURE__*/function (_Component) {
+  _inherits(Wistia, _Component);
+
+  var _super = _createSuper(Wistia);
+
+  function Wistia() {
+    var _this;
+
+    _classCallCheck(this, Wistia);
+
+    for (var _len = arguments.length, _args = new Array(_len), _key = 0; _key < _len; _key++) {
+      _args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(_args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "playerID", _this.props.config.playerId || "".concat(PLAYER_ID_PREFIX).concat((0, _utils.randomString)()));
+
+    _defineProperty(_assertThisInitialized(_this), "onPlay", function () {
+      var _this$props;
+
+      return (_this$props = _this.props).onPlay.apply(_this$props, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onPause", function () {
+      var _this$props2;
+
+      return (_this$props2 = _this.props).onPause.apply(_this$props2, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onSeek", function () {
+      var _this$props3;
+
+      return (_this$props3 = _this.props).onSeek.apply(_this$props3, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onEnded", function () {
+      var _this$props4;
+
+      return (_this$props4 = _this.props).onEnded.apply(_this$props4, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onPlaybackRateChange", function () {
+      var _this$props5;
+
+      return (_this$props5 = _this.props).onPlaybackRateChange.apply(_this$props5, arguments);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.callPlayer('mute');
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      _this.callPlayer('unmute');
+    });
+
+    return _this;
+  }
+
+  _createClass(Wistia, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "load",
+    value: function load(url) {
+      var _this2 = this;
+
+      var _this$props6 = this.props,
+          playing = _this$props6.playing,
+          muted = _this$props6.muted,
+          controls = _this$props6.controls,
+          _onReady = _this$props6.onReady,
+          config = _this$props6.config,
+          onError = _this$props6.onError;
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL).then(function (Wistia) {
+        if (config.customControls) {
+          config.customControls.forEach(function (control) {
+            return Wistia.defineControl(control);
+          });
+        }
+
+        window._wq = window._wq || [];
+
+        window._wq.push({
+          id: _this2.playerID,
+          options: _objectSpread({
+            autoPlay: playing,
+            silentAutoPlay: 'allow',
+            muted: muted,
+            controlsVisibleOnLoad: controls,
+            fullscreenButton: controls,
+            playbar: controls,
+            playbackRateControl: controls,
+            qualityControl: controls,
+            volumeControl: controls,
+            settingsControl: controls,
+            smallPlayButton: controls
+          }, config.options),
+          onReady: function onReady(player) {
+            _this2.player = player;
+
+            _this2.unbind();
+
+            _this2.player.bind('play', _this2.onPlay);
+
+            _this2.player.bind('pause', _this2.onPause);
+
+            _this2.player.bind('seek', _this2.onSeek);
+
+            _this2.player.bind('end', _this2.onEnded);
+
+            _this2.player.bind('playbackratechange', _this2.onPlaybackRateChange);
+
+            _onReady();
+          }
+        });
+      }, onError);
+    }
+  }, {
+    key: "unbind",
+    value: function unbind() {
+      this.player.unbind('play', this.onPlay);
+      this.player.unbind('pause', this.onPause);
+      this.player.unbind('seek', this.onSeek);
+      this.player.unbind('end', this.onEnded);
+      this.player.unbind('playbackratechange', this.onPlaybackRateChange);
+    } // Proxy methods to prevent listener leaks
+
+  }, {
+    key: "play",
+    value: function play() {
+      this.callPlayer('play');
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pause');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {
+      this.unbind();
+      this.callPlayer('remove');
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(seconds) {
+      this.callPlayer('time', seconds);
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.callPlayer('volume', fraction);
+    }
+  }, {
+    key: "setPlaybackRate",
+    value: function setPlaybackRate(rate) {
+      this.callPlayer('playbackRate', rate);
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.callPlayer('duration');
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.callPlayer('time');
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return null;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var url = this.props.url;
+      var videoID = url && url.match(_patterns.MATCH_URL_WISTIA)[1];
+      var className = "wistia_embed wistia_async_".concat(videoID);
+      var style = {
+        width: '100%',
+        height: '100%'
+      };
+      return /*#__PURE__*/_react["default"].createElement("div", {
+        id: this.playerID,
+        key: videoID,
+        className: className,
+        style: style
+      });
+    }
+  }]);
+
+  return Wistia;
+}(_react.Component);
+
+exports["default"] = Wistia;
+
+_defineProperty(Wistia, "displayName", 'Wistia');
+
+_defineProperty(Wistia, "canPlay", _patterns.canPlay.wistia);
+
+_defineProperty(Wistia, "loopOnEnded", true);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/YouTube.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/react-player/lib/players/YouTube.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var SDK_URL = 'https://www.youtube.com/iframe_api';
+var SDK_GLOBAL = 'YT';
+var SDK_GLOBAL_READY = 'onYouTubeIframeAPIReady';
+var MATCH_PLAYLIST = /[?&](?:list|channel)=([a-zA-Z0-9_-]+)/;
+var MATCH_USER_UPLOADS = /user\/([a-zA-Z0-9_-]+)\/?/;
+var MATCH_NOCOOKIE = /youtube-nocookie\.com/;
+var NOCOOKIE_HOST = 'https://www.youtube-nocookie.com';
+
+var YouTube = /*#__PURE__*/function (_Component) {
+  _inherits(YouTube, _Component);
+
+  var _super = _createSuper(YouTube);
+
+  function YouTube() {
+    var _this;
+
+    _classCallCheck(this, YouTube);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "callPlayer", _utils.callPlayer);
+
+    _defineProperty(_assertThisInitialized(_this), "parsePlaylist", function (url) {
+      if (url instanceof Array) {
+        return {
+          listType: 'playlist',
+          playlist: url.map(_this.getID).join(',')
+        };
+      }
+
+      if (MATCH_PLAYLIST.test(url)) {
+        var _url$match = url.match(MATCH_PLAYLIST),
+            _url$match2 = _slicedToArray(_url$match, 2),
+            playlistId = _url$match2[1];
+
+        return {
+          listType: 'playlist',
+          list: playlistId.replace(/^UC/, 'UU')
+        };
+      }
+
+      if (MATCH_USER_UPLOADS.test(url)) {
+        var _url$match3 = url.match(MATCH_USER_UPLOADS),
+            _url$match4 = _slicedToArray(_url$match3, 2),
+            username = _url$match4[1];
+
+        return {
+          listType: 'user_uploads',
+          list: username
+        };
+      }
+
+      return {};
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onStateChange", function (event) {
+      var data = event.data;
+      var _this$props = _this.props,
+          onPlay = _this$props.onPlay,
+          onPause = _this$props.onPause,
+          onBuffer = _this$props.onBuffer,
+          onBufferEnd = _this$props.onBufferEnd,
+          onEnded = _this$props.onEnded,
+          onReady = _this$props.onReady,
+          loop = _this$props.loop,
+          _this$props$config = _this$props.config,
+          playerVars = _this$props$config.playerVars,
+          onUnstarted = _this$props$config.onUnstarted;
+      var _window$SDK_GLOBAL$Pl = window[SDK_GLOBAL].PlayerState,
+          UNSTARTED = _window$SDK_GLOBAL$Pl.UNSTARTED,
+          PLAYING = _window$SDK_GLOBAL$Pl.PLAYING,
+          PAUSED = _window$SDK_GLOBAL$Pl.PAUSED,
+          BUFFERING = _window$SDK_GLOBAL$Pl.BUFFERING,
+          ENDED = _window$SDK_GLOBAL$Pl.ENDED,
+          CUED = _window$SDK_GLOBAL$Pl.CUED;
+      if (data === UNSTARTED) onUnstarted();
+
+      if (data === PLAYING) {
+        onPlay();
+        onBufferEnd();
+      }
+
+      if (data === PAUSED) onPause();
+      if (data === BUFFERING) onBuffer();
+
+      if (data === ENDED) {
+        var isPlaylist = !!_this.callPlayer('getPlaylist'); // Only loop manually if not playing a playlist
+
+        if (loop && !isPlaylist) {
+          if (playerVars.start) {
+            _this.seekTo(playerVars.start);
+          } else {
+            _this.play();
+          }
+        }
+
+        onEnded();
+      }
+
+      if (data === CUED) onReady();
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "mute", function () {
+      _this.callPlayer('mute');
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "unmute", function () {
+      _this.callPlayer('unMute');
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "ref", function (container) {
+      _this.container = container;
+    });
+
+    return _this;
+  }
+
+  _createClass(YouTube, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.props.onMount && this.props.onMount(this);
+    }
+  }, {
+    key: "getID",
+    value: function getID(url) {
+      if (!url || url instanceof Array || MATCH_PLAYLIST.test(url)) {
+        return null;
+      }
+
+      return url.match(_patterns.MATCH_URL_YOUTUBE)[1];
+    }
+  }, {
+    key: "load",
+    value: function load(url, isReady) {
+      var _this2 = this;
+
+      var _this$props2 = this.props,
+          playing = _this$props2.playing,
+          muted = _this$props2.muted,
+          playsinline = _this$props2.playsinline,
+          controls = _this$props2.controls,
+          loop = _this$props2.loop,
+          config = _this$props2.config,
+          _onError = _this$props2.onError;
+      var playerVars = config.playerVars,
+          embedOptions = config.embedOptions;
+      var id = this.getID(url);
+
+      if (isReady) {
+        if (MATCH_PLAYLIST.test(url) || MATCH_USER_UPLOADS.test(url) || url instanceof Array) {
+          this.player.loadPlaylist(this.parsePlaylist(url));
+          return;
+        }
+
+        this.player.cueVideoById({
+          videoId: id,
+          startSeconds: (0, _utils.parseStartTime)(url) || playerVars.start,
+          endSeconds: (0, _utils.parseEndTime)(url) || playerVars.end
+        });
+        return;
+      }
+
+      (0, _utils.getSDK)(SDK_URL, SDK_GLOBAL, SDK_GLOBAL_READY, function (YT) {
+        return YT.loaded;
+      }).then(function (YT) {
+        if (!_this2.container) return;
+        _this2.player = new YT.Player(_this2.container, _objectSpread({
+          width: '100%',
+          height: '100%',
+          videoId: id,
+          playerVars: _objectSpread(_objectSpread({
+            autoplay: playing ? 1 : 0,
+            mute: muted ? 1 : 0,
+            controls: controls ? 1 : 0,
+            start: (0, _utils.parseStartTime)(url),
+            end: (0, _utils.parseEndTime)(url),
+            origin: window.location.origin,
+            playsinline: playsinline ? 1 : 0
+          }, _this2.parsePlaylist(url)), playerVars),
+          events: {
+            onReady: function onReady() {
+              if (loop) {
+                _this2.player.setLoop(true); // Enable playlist looping
+
+              }
+
+              _this2.props.onReady();
+            },
+            onPlaybackRateChange: function onPlaybackRateChange(event) {
+              return _this2.props.onPlaybackRateChange(event.data);
+            },
+            onStateChange: _this2.onStateChange,
+            onError: function onError(event) {
+              return _onError(event.data);
+            }
+          },
+          host: MATCH_NOCOOKIE.test(url) ? NOCOOKIE_HOST : undefined
+        }, embedOptions));
+      }, _onError);
+
+      if (embedOptions.events) {
+        console.warn('Using `embedOptions.events` will likely break things. Use ReactPlayer’s callback props instead, eg onReady, onPlay, onPause');
+      }
+    }
+  }, {
+    key: "play",
+    value: function play() {
+      this.callPlayer('playVideo');
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.callPlayer('pauseVideo');
+    }
+  }, {
+    key: "stop",
+    value: function stop() {
+      if (!document.body.contains(this.callPlayer('getIframe'))) return;
+      this.callPlayer('stopVideo');
+    }
+  }, {
+    key: "seekTo",
+    value: function seekTo(amount) {
+      this.callPlayer('seekTo', amount);
+
+      if (!this.props.playing) {
+        this.pause();
+      }
+    }
+  }, {
+    key: "setVolume",
+    value: function setVolume(fraction) {
+      this.callPlayer('setVolume', fraction * 100);
+    }
+  }, {
+    key: "setPlaybackRate",
+    value: function setPlaybackRate(rate) {
+      this.callPlayer('setPlaybackRate', rate);
+    }
+  }, {
+    key: "setLoop",
+    value: function setLoop(loop) {
+      this.callPlayer('setLoop', loop);
+    }
+  }, {
+    key: "getDuration",
+    value: function getDuration() {
+      return this.callPlayer('getDuration');
+    }
+  }, {
+    key: "getCurrentTime",
+    value: function getCurrentTime() {
+      return this.callPlayer('getCurrentTime');
+    }
+  }, {
+    key: "getSecondsLoaded",
+    value: function getSecondsLoaded() {
+      return this.callPlayer('getVideoLoadedFraction') * this.getDuration();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var display = this.props.display;
+      var style = {
+        width: '100%',
+        height: '100%',
+        display: display
+      };
+      return /*#__PURE__*/_react["default"].createElement("div", {
+        style: style
+      }, /*#__PURE__*/_react["default"].createElement("div", {
+        ref: this.ref
+      }));
+    }
+  }]);
+
+  return YouTube;
+}(_react.Component);
+
+exports["default"] = YouTube;
+
+_defineProperty(YouTube, "displayName", 'YouTube');
+
+_defineProperty(YouTube, "canPlay", _patterns.canPlay.youtube);
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-player/lib/players/index.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = __webpack_require__(/*! react */ "react");
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+
+var _patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+var _default = [{
+  key: 'youtube',
+  name: 'YouTube',
+  canPlay: _patterns.canPlay.youtube,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./YouTube */ "./node_modules/react-player/lib/players/YouTube.js"));
+    });
+  })
+}, {
+  key: 'soundcloud',
+  name: 'SoundCloud',
+  canPlay: _patterns.canPlay.soundcloud,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./SoundCloud */ "./node_modules/react-player/lib/players/SoundCloud.js"));
+    });
+  })
+}, {
+  key: 'vimeo',
+  name: 'Vimeo',
+  canPlay: _patterns.canPlay.vimeo,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./Vimeo */ "./node_modules/react-player/lib/players/Vimeo.js"));
+    });
+  })
+}, {
+  key: 'facebook',
+  name: 'Facebook',
+  canPlay: _patterns.canPlay.facebook,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./Facebook */ "./node_modules/react-player/lib/players/Facebook.js"));
+    });
+  })
+}, {
+  key: 'streamable',
+  name: 'Streamable',
+  canPlay: _patterns.canPlay.streamable,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./Streamable */ "./node_modules/react-player/lib/players/Streamable.js"));
+    });
+  })
+}, {
+  key: 'wistia',
+  name: 'Wistia',
+  canPlay: _patterns.canPlay.wistia,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./Wistia */ "./node_modules/react-player/lib/players/Wistia.js"));
+    });
+  })
+}, {
+  key: 'twitch',
+  name: 'Twitch',
+  canPlay: _patterns.canPlay.twitch,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./Twitch */ "./node_modules/react-player/lib/players/Twitch.js"));
+    });
+  })
+}, {
+  key: 'dailymotion',
+  name: 'DailyMotion',
+  canPlay: _patterns.canPlay.dailymotion,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./DailyMotion */ "./node_modules/react-player/lib/players/DailyMotion.js"));
+    });
+  })
+}, {
+  key: 'mixcloud',
+  name: 'Mixcloud',
+  canPlay: _patterns.canPlay.mixcloud,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./Mixcloud */ "./node_modules/react-player/lib/players/Mixcloud.js"));
+    });
+  })
+}, {
+  key: 'vidyard',
+  name: 'Vidyard',
+  canPlay: _patterns.canPlay.vidyard,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./Vidyard */ "./node_modules/react-player/lib/players/Vidyard.js"));
+    });
+  })
+}, {
+  key: 'kaltura',
+  name: 'Kaltura',
+  canPlay: _patterns.canPlay.kaltura,
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./Kaltura */ "./node_modules/react-player/lib/players/Kaltura.js"));
+    });
+  })
+}, {
+  key: 'file',
+  name: 'FilePlayer',
+  canPlay: _patterns.canPlay.file,
+  canEnablePIP: function canEnablePIP(url) {
+    return _patterns.canPlay.file(url) && (document.pictureInPictureEnabled || (0, _utils.supportsWebKitPresentationMode)()) && !_patterns.AUDIO_EXTENSIONS.test(url);
+  },
+  lazyPlayer: /*#__PURE__*/(0, _react.lazy)(function () {
+    return Promise.resolve().then(function () {
+      return _interopRequireWildcard(__webpack_require__(/*! ./FilePlayer */ "./node_modules/react-player/lib/players/FilePlayer.js"));
+    });
+  })
+}];
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/props.js":
+/*!************************************************!*\
+  !*** ./node_modules/react-player/lib/props.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.defaultProps = exports.propTypes = void 0;
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var string = _propTypes["default"].string,
+    bool = _propTypes["default"].bool,
+    number = _propTypes["default"].number,
+    array = _propTypes["default"].array,
+    oneOfType = _propTypes["default"].oneOfType,
+    shape = _propTypes["default"].shape,
+    object = _propTypes["default"].object,
+    func = _propTypes["default"].func,
+    node = _propTypes["default"].node;
+var propTypes = {
+  url: oneOfType([string, array, object]),
+  playing: bool,
+  loop: bool,
+  controls: bool,
+  volume: number,
+  muted: bool,
+  playbackRate: number,
+  width: oneOfType([string, number]),
+  height: oneOfType([string, number]),
+  style: object,
+  progressInterval: number,
+  playsinline: bool,
+  pip: bool,
+  stopOnUnmount: bool,
+  light: oneOfType([bool, string]),
+  playIcon: node,
+  previewTabIndex: number,
+  fallback: node,
+  oEmbedUrl: string,
+  wrapper: oneOfType([string, func, shape({
+    render: func.isRequired
+  })]),
+  config: shape({
+    soundcloud: shape({
+      options: object
+    }),
+    youtube: shape({
+      playerVars: object,
+      embedOptions: object,
+      onUnstarted: func
+    }),
+    facebook: shape({
+      appId: string,
+      version: string,
+      playerId: string,
+      attributes: object
+    }),
+    dailymotion: shape({
+      params: object
+    }),
+    vimeo: shape({
+      playerOptions: object,
+      title: string
+    }),
+    file: shape({
+      attributes: object,
+      tracks: array,
+      forceVideo: bool,
+      forceAudio: bool,
+      forceHLS: bool,
+      forceDASH: bool,
+      forceFLV: bool,
+      hlsOptions: object,
+      hlsVersion: string,
+      dashVersion: string,
+      flvVersion: string
+    }),
+    wistia: shape({
+      options: object,
+      playerId: string,
+      customControls: array
+    }),
+    mixcloud: shape({
+      options: object
+    }),
+    twitch: shape({
+      options: object,
+      playerId: string
+    }),
+    vidyard: shape({
+      options: object
+    })
+  }),
+  onReady: func,
+  onStart: func,
+  onPlay: func,
+  onPause: func,
+  onBuffer: func,
+  onBufferEnd: func,
+  onEnded: func,
+  onError: func,
+  onDuration: func,
+  onSeek: func,
+  onPlaybackRateChange: func,
+  onProgress: func,
+  onClickPreview: func,
+  onEnablePIP: func,
+  onDisablePIP: func
+};
+exports.propTypes = propTypes;
+
+var noop = function noop() {};
+
+var defaultProps = {
+  playing: false,
+  loop: false,
+  controls: false,
+  volume: null,
+  muted: false,
+  playbackRate: 1,
+  width: '640px',
+  height: '360px',
+  style: {},
+  progressInterval: 1000,
+  playsinline: false,
+  pip: false,
+  stopOnUnmount: true,
+  light: false,
+  fallback: null,
+  wrapper: 'div',
+  previewTabIndex: 0,
+  oEmbedUrl: 'https://noembed.com/embed?url={url}',
+  config: {
+    soundcloud: {
+      options: {
+        visual: true,
+        // Undocumented, but makes player fill container and look better
+        buying: false,
+        liking: false,
+        download: false,
+        sharing: false,
+        show_comments: false,
+        show_playcount: false
+      }
+    },
+    youtube: {
+      playerVars: {
+        playsinline: 1,
+        showinfo: 0,
+        rel: 0,
+        iv_load_policy: 3,
+        modestbranding: 1
+      },
+      embedOptions: {},
+      onUnstarted: noop
+    },
+    facebook: {
+      appId: '1309697205772819',
+      version: 'v3.3',
+      playerId: null,
+      attributes: {}
+    },
+    dailymotion: {
+      params: {
+        api: 1,
+        'endscreen-enable': false
+      }
+    },
+    vimeo: {
+      playerOptions: {
+        autopause: false,
+        byline: false,
+        portrait: false,
+        title: false
+      },
+      title: null
+    },
+    file: {
+      attributes: {},
+      tracks: [],
+      forceVideo: false,
+      forceAudio: false,
+      forceHLS: false,
+      forceDASH: false,
+      forceFLV: false,
+      hlsOptions: {},
+      hlsVersion: '1.1.4',
+      dashVersion: '3.1.3',
+      flvVersion: '1.5.0'
+    },
+    wistia: {
+      options: {},
+      playerId: null,
+      customControls: null
+    },
+    mixcloud: {
+      options: {
+        hide_cover: 1
+      }
+    },
+    twitch: {
+      options: {},
+      playerId: null
+    },
+    vidyard: {
+      options: {}
+    }
+  },
+  onReady: noop,
+  onStart: noop,
+  onPlay: noop,
+  onPause: noop,
+  onBuffer: noop,
+  onBufferEnd: noop,
+  onEnded: noop,
+  onError: noop,
+  onDuration: noop,
+  onSeek: noop,
+  onPlaybackRateChange: noop,
+  onProgress: noop,
+  onClickPreview: noop,
+  onEnablePIP: noop,
+  onDisablePIP: noop
+};
+exports.defaultProps = defaultProps;
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/utils.js":
+/*!************************************************!*\
+  !*** ./node_modules/react-player/lib/utils.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.parseStartTime = parseStartTime;
+exports.parseEndTime = parseEndTime;
+exports.randomString = randomString;
+exports.queryString = queryString;
+exports.getSDK = getSDK;
+exports.getConfig = getConfig;
+exports.omit = omit;
+exports.callPlayer = callPlayer;
+exports.isMediaStream = isMediaStream;
+exports.isBlobUrl = isBlobUrl;
+exports.supportsWebKitPresentationMode = supportsWebKitPresentationMode;
+
+var _loadScript = _interopRequireDefault(__webpack_require__(/*! load-script */ "./node_modules/load-script/index.js"));
+
+var _deepmerge = _interopRequireDefault(__webpack_require__(/*! deepmerge */ "./node_modules/deepmerge/dist/cjs.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+var MATCH_START_QUERY = /[?&#](?:start|t)=([0-9hms]+)/;
+var MATCH_END_QUERY = /[?&#]end=([0-9hms]+)/;
+var MATCH_START_STAMP = /(\d+)(h|m|s)/g;
+var MATCH_NUMERIC = /^\d+$/; // Parse YouTube URL for a start time param, ie ?t=1h14m30s
+// and return the start time in seconds
+
+function parseTimeParam(url, pattern) {
+  if (url instanceof Array) {
+    return undefined;
+  }
+
+  var match = url.match(pattern);
+
+  if (match) {
+    var stamp = match[1];
+
+    if (stamp.match(MATCH_START_STAMP)) {
+      return parseTimeString(stamp);
+    }
+
+    if (MATCH_NUMERIC.test(stamp)) {
+      return parseInt(stamp);
+    }
+  }
+
+  return undefined;
+}
+
+function parseTimeString(stamp) {
+  var seconds = 0;
+  var array = MATCH_START_STAMP.exec(stamp);
+
+  while (array !== null) {
+    var _array = array,
+        _array2 = _slicedToArray(_array, 3),
+        count = _array2[1],
+        period = _array2[2];
+
+    if (period === 'h') seconds += parseInt(count, 10) * 60 * 60;
+    if (period === 'm') seconds += parseInt(count, 10) * 60;
+    if (period === 's') seconds += parseInt(count, 10);
+    array = MATCH_START_STAMP.exec(stamp);
+  }
+
+  return seconds;
+}
+
+function parseStartTime(url) {
+  return parseTimeParam(url, MATCH_START_QUERY);
+}
+
+function parseEndTime(url) {
+  return parseTimeParam(url, MATCH_END_QUERY);
+} // http://stackoverflow.com/a/38622545
+
+
+function randomString() {
+  return Math.random().toString(36).substr(2, 5);
+}
+
+function queryString(object) {
+  return Object.keys(object).map(function (key) {
+    return "".concat(key, "=").concat(object[key]);
+  }).join('&');
+}
+
+function getGlobal(key) {
+  if (window[key]) {
+    return window[key];
+  }
+
+  if (window.exports && window.exports[key]) {
+    return window.exports[key];
+  }
+
+  if (window.module && window.module.exports && window.module.exports[key]) {
+    return window.module.exports[key];
+  }
+
+  return null;
+} // Util function to load an external SDK
+// or return the SDK if it is already loaded
+
+
+var requests = {};
+
+function getSDK(url, sdkGlobal) {
+  var sdkReady = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
+  var isLoaded = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : function () {
+    return true;
+  };
+  var fetchScript = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : _loadScript["default"];
+  var existingGlobal = getGlobal(sdkGlobal);
+
+  if (existingGlobal && isLoaded(existingGlobal)) {
+    return Promise.resolve(existingGlobal);
+  }
+
+  return new Promise(function (resolve, reject) {
+    // If we are already loading the SDK, add the resolve and reject
+    // functions to the existing array of requests
+    if (requests[url]) {
+      requests[url].push({
+        resolve: resolve,
+        reject: reject
+      });
+      return;
+    }
+
+    requests[url] = [{
+      resolve: resolve,
+      reject: reject
+    }];
+
+    var onLoaded = function onLoaded(sdk) {
+      // When loaded, resolve all pending request promises
+      requests[url].forEach(function (request) {
+        return request.resolve(sdk);
+      });
+    };
+
+    if (sdkReady) {
+      var previousOnReady = window[sdkReady];
+
+      window[sdkReady] = function () {
+        if (previousOnReady) previousOnReady();
+        onLoaded(getGlobal(sdkGlobal));
+      };
+    }
+
+    fetchScript(url, function (err) {
+      if (err) {
+        // Loading the SDK failed – reject all requests and
+        // reset the array of requests for this SDK
+        requests[url].forEach(function (request) {
+          return request.reject(err);
+        });
+        requests[url] = null;
+      } else if (!sdkReady) {
+        onLoaded(getGlobal(sdkGlobal));
+      }
+    });
+  });
+}
+
+function getConfig(props, defaultProps) {
+  return (0, _deepmerge["default"])(defaultProps.config, props.config);
+}
+
+function omit(object) {
+  var _ref;
+
+  for (var _len = arguments.length, arrays = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    arrays[_key - 1] = arguments[_key];
+  }
+
+  var omitKeys = (_ref = []).concat.apply(_ref, arrays);
+
+  var output = {};
+  var keys = Object.keys(object);
+
+  for (var _i2 = 0, _keys = keys; _i2 < _keys.length; _i2++) {
+    var key = _keys[_i2];
+
+    if (omitKeys.indexOf(key) === -1) {
+      output[key] = object[key];
+    }
+  }
+
+  return output;
+}
+
+function callPlayer(method) {
+  var _this$player;
+
+  // Util method for calling a method on this.player
+  // but guard against errors and console.warn instead
+  if (!this.player || !this.player[method]) {
+    var message = "ReactPlayer: ".concat(this.constructor.displayName, " player could not call %c").concat(method, "%c \u2013 ");
+
+    if (!this.player) {
+      message += 'The player was not available';
+    } else if (!this.player[method]) {
+      message += 'The method was not available';
+    }
+
+    console.warn(message, 'font-weight: bold', '');
+    return null;
+  }
+
+  for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+    args[_key2 - 1] = arguments[_key2];
+  }
+
+  return (_this$player = this.player)[method].apply(_this$player, args);
+}
+
+function isMediaStream(url) {
+  return typeof window !== 'undefined' && typeof window.MediaStream !== 'undefined' && url instanceof window.MediaStream;
+}
+
+function isBlobUrl(url) {
+  return /^blob:/.test(url);
+}
+
+function supportsWebKitPresentationMode() {
+  var video = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : document.createElement('video');
+  // Check if Safari supports PiP, and is not on mobile (other than iPad)
+  // iPhone safari appears to "support" PiP through the check, however PiP does not function
+  var notMobile = /iPhone|iPod/.test(navigator.userAgent) === false;
+  return video.webkitSupportsPresentationMode && typeof video.webkitSetPresentationMode === 'function' && notMobile;
+}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
@@ -1151,6 +7646,37 @@ module.exports = function (list, options) {
 
 /***/ }),
 
+/***/ "./node_modules/webpack/buildin/global.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
 /***/ "./src/components/ActualBaseline.tsx":
 /*!*******************************************!*\
   !*** ./src/components/ActualBaseline.tsx ***!
@@ -1384,11 +7910,11 @@ const ActualBaseline = (props) => {
     }
     return React.createElement(components_1.WidgetWrapper, { className: "actual-baseline-widget" },
         React.createElement(components_1.TitleBar, { icon: "https://static.iviva.com/images/Adani_UXP/energy.svg", title: "ACTUAL VS BASELINE CONSUMPTION", className: "actual-baseline-titlebar icons" },
-            React.createElement("div", { className: "baseline_cur_month" }),
+            React.createElement("div", { className: "baseline_cur_month", style: { width: "100%", textAlign: 'center' } }),
             React.createElement("div", { className: "actual-baseline-btns" },
                 React.createElement("ul", null,
                     React.createElement("li", { id: 'baseline', className: "ABBaseline actual-baseline-btns-child selectedBtn", onClick: () => { renderBaseline(); } }, "Baseline"),
-                    React.createElement("li", { id: 'heatmap', className: "heatMap actual-baseline-btns-child", onClick: () => { RenderHeatMap(); } }, "Heatmap")))),
+                    React.createElement("li", { id: 'heatmap', className: "heatMap actual-baseline-btns-child", onClick: () => { RenderHeatMap(); } })))),
         React.createElement(Chart, null),
         React.createElement("div", { className: 'baseline-widget hide' },
             React.createElement("div", { className: "actual" },
@@ -1560,6 +8086,189 @@ exports.default = AfterHours;
 
 /***/ }),
 
+/***/ "./src/components/Alarm_map.tsx":
+/*!**************************************!*\
+  !*** ./src/components/Alarm_map.tsx ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(__webpack_require__(/*! react */ "react"));
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+__webpack_require__(/*! ../styles.scss */ "./src/styles.scss");
+const Alarm_Map = (props) => {
+    let [selected, setSelected] = React.useState("op-1");
+    let [regions, setRegions] = React.useState([]);
+    let [isAddingRegion, setIsAddingRegion] = React.useState(false);
+    let regionCoords = React.useRef([]);
+    const addRegion = () => {
+        setIsAddingRegion(true);
+    };
+    return (React.createElement(components_1.WidgetWrapper, { className: "alarm_map" },
+        React.createElement(components_1.TitleBar, { title: 'Alarm Map' }, " "),
+        React.createElement("div", { className: "transport_map" },
+            React.createElement("div", { className: "transport_map-sec", style: { width: "100%", height: "100%" } },
+                React.createElement(components_1.MapComponent
+                // mapUrl="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
+                // mapUrl="https://s3.amazonaws.com/ecyber.public/sabb-mzzanine.png" 
+                // mapUrl="https://osm.org/go/xqRY2M90?layers=H"
+                , { 
+                    // mapUrl="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
+                    // mapUrl="https://s3.amazonaws.com/ecyber.public/sabb-mzzanine.png" 
+                    // mapUrl="https://osm.org/go/xqRY2M90?layers=H"
+                    mapUrl: "", 
+                    //   staticImage={{url:'https://static.iviva.com/images/SABB/sabb-mzzanine.png', width:1800,height:1500}}
+                    staticImage: { url: 'https://s3.amazonaws.com/ecyber.public/sabb-mezzanine.png', width: 2000, height: 2000 }, onMarkerClick: (el, data) => {
+                        console.log(el);
+                        console.log(data);
+                    }, onClick: (e) => {
+                        console.log("Hi", e);
+                    }, center: { position: { latitude: 1000, longitude: 1000 }, renderMarker: false }, 
+                    // zoom={15}
+                    zoom: 0, maxZoom: 10, minZoom: -10, regions: regions, zoomOnScroll: true, markers: [
+                        {
+                            latitude: 752.1023753777986,
+                            longitude: 332.4224829678857,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "map_spot chart",
+                                html: "",
+                                iconSize: [23, 23]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "spot_content green-energy_content" },
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("h5", null, "Equipment : FAS-001"),
+                                        React.createElement("p", null, "Time : 2min ago"),
+                                        React.createElement("a", { href: "#" }, "View More")))
+                            }
+                        },
+                        {
+                            latitude: 927.5874392919324,
+                            longitude: 379.38180754130906,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "map_spot chart",
+                                html: "",
+                                iconSize: [23, 23]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "spot_content green-energy_content" },
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("h5", null, "Equipment : FAS-002"),
+                                        React.createElement("p", null, "Time : 5min ago"),
+                                        React.createElement("a", { href: "#" }, "View More")))
+                            }
+                        },
+                        {
+                            latitude: 661.3250475605643,
+                            longitude: 950.4962197017782,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "map_spot chart",
+                                html: "",
+                                iconSize: [23, 23]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "spot_content green-energy_content" },
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("h5", null, "Equipment : FAS-003"),
+                                        React.createElement("p", null, "Time : 2min ago"),
+                                        React.createElement("a", { href: "#" }, "View More")))
+                            }
+                        },
+                        {
+                            latitude: 889.6070685884912,
+                            longitude: 1098.5258746925829,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "map_spot chart",
+                                html: "",
+                                iconSize: [23, 23]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "spot_content green-energy_content" },
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("h5", null, "Equipment : FAS-004"),
+                                        React.createElement("p", null, "Time : 3min ago"),
+                                        React.createElement("a", { href: "#" }, "View More")))
+                            }
+                        },
+                        {
+                            latitude: 1038.5301010835633,
+                            longitude: 1211.5485166788053,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "map_spot chart",
+                                html: "",
+                                iconSize: [23, 23]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "spot_content green-energy_content" },
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("h5", null, "Equipment : FAS-005"),
+                                        React.createElement("p", null, "Time : 5min ago"),
+                                        React.createElement("a", { href: "#" }, "View More")))
+                            }
+                        },
+                        {
+                            latitude: 1330.9789577876963,
+                            longitude: 977.5016297338844,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "map_spot chart",
+                                html: "",
+                                iconSize: [23, 23]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "spot_content green-energy_content" },
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("h5", null, "Equipment : FAS-006"),
+                                        React.createElement("p", null, "Time : 1min ago"),
+                                        React.createElement("a", { href: "#" }, "View More")))
+                            }
+                        },
+                    ] })))));
+};
+exports.default = Alarm_Map;
+
+
+/***/ }),
+
 /***/ "./src/components/Cafeteria.tsx":
 /*!**************************************!*\
   !*** ./src/components/Cafeteria.tsx ***!
@@ -1606,7 +8315,8 @@ const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components")
 const Highcharts = __importStar(__webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js"));
 const highcharts_react_official_1 = __importDefault(__webpack_require__(/*! highcharts-react-official */ "./node_modules/highcharts-react-official/dist/highcharts-react.min.js"));
 __webpack_require__(/*! ../styles.scss */ "./src/styles.scss");
-const cafeteriaUtilization_json_1 = __importDefault(__webpack_require__(/*! ../json/cafeteriaUtilization.json */ "./src/json/cafeteriaUtilization.json"));
+//import cafeteriaUtilization from  '../json/cafeteriaUtilization.json'
+const cafeteriaUtilization1_json_1 = __importDefault(__webpack_require__(/*! ../json/cafeteriaUtilization1.json */ "./src/json/cafeteriaUtilization1.json"));
 const Cafeteria = (props) => {
     let [data, setData] = React.useState({});
     let [details, setDetails] = React.useState({});
@@ -1636,9 +8346,17 @@ const Cafeteria = (props) => {
             let params = {
                 DateQuery: DateQuery
             };
-            let cdata = cafeteriaUtilization_json_1.default;
+            let cdata = cafeteriaUtilization1_json_1.default;
             /* similar to this.setState({data:data}) */
-            let me = cdata.CafeteriaUtilization;
+            //  let cdata = (cafeteriaUtilization1 as any)[DateQuery];
+            // let me=cdata.CafeteriaUtilization.Weekly;
+            let me = cdata.CafeteriaUtilization.Weekly;
+            if (DateQuery == 'Monthly') {
+                me = cdata.CafeteriaUtilization.Monthly;
+            }
+            else if (DateQuery == 'Weekly') {
+                me = cdata.CafeteriaUtilization.Daily;
+            }
             let details = me.details;
             let result = details.result;
             setData(me);
@@ -1702,7 +8420,8 @@ const Cafeteria = (props) => {
             },
             series: [{
                     name: frequency,
-                    data: dt
+                    data: dt,
+                    color: '#5072ff'
                 }]
         };
         setHighchartsOptions(options);
@@ -1806,9 +8525,13 @@ const Carbon = (props) => {
                 document.getElementById('past5Yrs').style.background = '#D4FDC1';
             }
             //   let data = await props.uxpContext.executeAction('AdaniEnergyDashboard','CarbonFootprint',{json:true});
-            // let data = await props.uxpContext.executeAction('AdaniEnergyDashboard','CarbonFootprint',{json:true});
             // let data = carbonFootprint;
             var mydata = carbonFootprint_json_1.default;
+            //     var mydata = carbonFootprint1; 
+            //     let me=mydata.CorbonFootprint.;
+            //     if(DateQuery == 'Monthly'){
+            //         me=mydata.CorbonFootprint.Past_5Years;
+            //    }  
             Carbon(mydata, DateQuery);
         });
     }
@@ -1845,7 +8568,7 @@ const Carbon = (props) => {
             showInLegend: false,
             name: 'Consumption',
             data: data,
-            color: 'rgb(187 125 234 / 68%)'
+            color: '#5072ff'
         };
         CCData.push(CCDataObj);
         const options = {
@@ -2385,6 +9108,53 @@ const DailyCampusFootfall = (props) => {
                 React.createElement("span", { className: "footfall_arrow" }))));
 };
 exports.default = DailyCampusFootfall;
+
+
+/***/ }),
+
+/***/ "./src/components/DigtalTwin.tsx":
+/*!***************************************!*\
+  !*** ./src/components/DigtalTwin.tsx ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(__webpack_require__(/*! react */ "react"));
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+__webpack_require__(/*! ../styles.scss */ "./src/styles.scss");
+const react_player_1 = __importDefault(__webpack_require__(/*! react-player */ "./node_modules/react-player/lib/index.js"));
+// var styleWiget ={{width:"100%", height:"300px" }}   
+const DigitalTwin = (props) => {
+    return (React.createElement(components_1.WidgetWrapper, null,
+        React.createElement("div", { className: 'digitalTwin_widget' },
+            React.createElement(react_player_1.default, { controls: true, loop: true, playing: true, width: "100%", height: "100%", url: 'https://static.iviva.com/images/SABB/MAF_Digital_Twin_crop.mp4' }))));
+};
+exports.default = DigitalTwin;
 
 
 /***/ }),
@@ -3598,6 +10368,18 @@ const HotDesking = (props) => {
             // let fdata = await props.uxpContext.executeAction('AdaniDashboard','HotDeskingLoadData',params,{json:true});
             // hotdesking_LoadData(fdata);
             let fdata = hotDeskingLoadData_json_1.default;
+            //   let Cdata = hotDeskingLoadData1.HotDeskingLoadData;
+            //    let fdata = Cdata.Floors.EW;
+            //     if(selVal == 'WW'){
+            //         fdata = Cdata.Floors.WW;
+            //     }
+            //     else if(selVal == 'NW'){
+            //         fdata = Cdata.Floors.NW;
+            //     } 
+            //     else if(selVal == 'SW'){
+            //         fdata = Cdata.Floors.SW;
+            //     } 
+            // setseries_data(fdata);
             hotdesking_LoadData(fdata);
         });
     }
@@ -3670,6 +10452,9 @@ const HotDesking = (props) => {
         React.createElement("div", { className: "hotdesk_data" }));
 };
 exports.default = HotDesking;
+function setseries_data(fdata) {
+    throw new Error("Function not implemented.");
+}
 
 
 /***/ }),
@@ -3808,7 +10593,7 @@ const React = __importStar(__webpack_require__(/*! react */ "react"));
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
 __webpack_require__(/*! ../styles.scss */ "./src/styles.scss");
 const maintainenceSchedule_InitLoad_json_1 = __importDefault(__webpack_require__(/*! ../json/maintainenceSchedule_InitLoad.json */ "./src/json/maintainenceSchedule_InitLoad.json"));
-const maintainenceSchedule_LoadData_json_1 = __importDefault(__webpack_require__(/*! ../json/maintainenceSchedule_LoadData.json */ "./src/json/maintainenceSchedule_LoadData.json"));
+const maintainenceSchedule_LoadData1_json_1 = __importDefault(__webpack_require__(/*! ../json/maintainenceSchedule_LoadData1.json */ "./src/json/maintainenceSchedule_LoadData1.json"));
 const MaintenanceSchedule = (props) => {
     const boxRef = React.useRef(null);
     let { uxpContext } = props;
@@ -3874,7 +10659,8 @@ const MaintenanceSchedule = (props) => {
             //   { json: true }
             // );
             //let md = maintainenceSchedule_LoadData;
-            let md = maintainenceSchedule_LoadData_json_1.default[selectedService];
+            // let md = (maintainenceSchedule_LoadData as any)[selectedService];
+            let md = maintainenceSchedule_LoadData1_json_1.default[selectedService];
             setselService(md);
             MaintainenceScheduleInit(md);
             setdata(md.WRScheduleDatails);
@@ -4519,7 +11305,7 @@ const Meeting = (props) => {
                         React.createElement("div", { className: "calenderIcon calen" },
                             React.createElement("em", { className: "visitor_count" }, data.upcomingVisits))),
                     React.createElement("div", { className: "Visitor-info" },
-                        React.createElement("span", { className: 'st2' }, "No visits Scheduled for the day ")))));
+                        React.createElement("span", { className: 'st2' }, "No visits scheduled for the day ")))));
         }
         else if (data.upcomingVisits > 0 && data.VisitorName == "No Visitor") {
             return React.createElement(components_1.WidgetWrapper, null,
@@ -4608,7 +11394,8 @@ const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components")
 const Highcharts = __importStar(__webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js"));
 const highcharts_react_official_1 = __importDefault(__webpack_require__(/*! highcharts-react-official */ "./node_modules/highcharts-react-official/dist/highcharts-react.min.js"));
 __webpack_require__(/*! ../styles.scss */ "./src/styles.scss");
-const parking_json_1 = __importDefault(__webpack_require__(/*! ../json/parking.json */ "./src/json/parking.json"));
+// import parking from  '../json/parking.json'
+const parking1_json_1 = __importDefault(__webpack_require__(/*! ../json/parking1.json */ "./src/json/parking1.json"));
 const parkingUtilization = (props) => {
     let [data, setData] = React.useState({});
     let [details, setDetails] = React.useState({});
@@ -4638,8 +11425,16 @@ const parkingUtilization = (props) => {
             let params = {
                 DateQuery: DateQuery
             };
-            let cdata = parking_json_1.default;
-            let me = cdata.ParkingUtilization;
+            //  let cdata = parking;
+            let cdata = parking1_json_1.default;
+            // let me=cdata.ParkingUtilization;
+            let me = cdata.ParkingUtilization.Weekly;
+            if (DateQuery == 'Monthly') {
+                me = cdata.ParkingUtilization.Monthly;
+            }
+            else if (DateQuery == 'Weekly') {
+                me = cdata.ParkingUtilization.Daily;
+            }
             let details = me.details;
             let result = details.result;
             constructLables(me);
@@ -4760,7 +11555,7 @@ const parkingUtilization = (props) => {
             series: [{
                     name: 'Employee',
                     data: parking_final,
-                    color: '#c55dda'
+                    color: '#5072ff'
                 },
                 {
                     name: 'Visitor',
@@ -5245,6 +12040,57 @@ exports.default = ServiceNow;
 
 /***/ }),
 
+/***/ "./src/components/TopIcons.tsx":
+/*!*************************************!*\
+  !*** ./src/components/TopIcons.tsx ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(__webpack_require__(/*! react */ "react"));
+__webpack_require__(/*! ../styles.scss */ "./src/styles.scss");
+__webpack_require__(/*! ../widget_trans.scss */ "./src/widget_trans.scss");
+// var styleWiget ={{width:"100%", height:"300px" }}   
+const TopIcons = (props) => {
+    return (React.createElement("div", { className: 'topicons_widget' },
+        React.createElement("div", { "data-row": '1', "data-col": '1', "data-sizex": '1', "data-sizey": '1', className: 'uxp-widget actionicon' },
+            React.createElement("div", { className: 'icon', style: { backgroundImage: `url("https://static.iviva.com/images/SABB/ABB.jpg")` } })),
+        React.createElement("div", { "data-row": '1', "data-col": '2', "data-sizex": '1', "data-sizey": '1', className: 'uxp-widget actionicon' },
+            React.createElement("div", { className: 'icon condeco-icon', style: { backgroundImage: 'url("https://static.iviva.com/images/SABB/Bosch.png")' } })),
+        React.createElement("div", { "data-row": '1', "data-col": '4', "data-sizex": '1', "data-sizey": '1', className: 'uxp-widget actionicon' },
+            React.createElement("div", { className: 'icon', style: { backgroundSize: '100%', backgroundImage: `url("https://static.iviva.com/images/SABB/Parking_Eye.jpg")` } })),
+        React.createElement("div", { "data-row": '1', "data-col": '5', "data-sizex": '1', "data-sizey": '1', className: 'uxp-widget actionicon' },
+            React.createElement("div", { className: 'icon condeco-icon', style: { backgroundSize: '70%', backgroundImage: 'url("https://static.iviva.com/images/SABB/Siemens.jpg")' } })),
+        React.createElement("div", { "data-row": '1', "data-col": '6', "data-sizex": '1', "data-sizey": '1', className: 'uxp-widget actionicon' },
+            React.createElement("div", { className: 'icon', style: { backgroundImage: `url("https://static.iviva.com/images/SABB/Tririga.jpg")` } }))));
+};
+exports.default = TopIcons;
+
+
+/***/ }),
+
 /***/ "./src/components/VisitorCount.tsx":
 /*!*****************************************!*\
   !*** ./src/components/VisitorCount.tsx ***!
@@ -5291,10 +12137,11 @@ const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components")
 const Highcharts = __importStar(__webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js"));
 const highcharts_react_official_1 = __importDefault(__webpack_require__(/*! highcharts-react-official */ "./node_modules/highcharts-react-official/dist/highcharts-react.min.js"));
 __webpack_require__(/*! ../styles.scss */ "./src/styles.scss");
-const visitorCount_json_1 = __importDefault(__webpack_require__(/*! ../json/visitorCount.json */ "./src/json/visitorCount.json"));
+const visitorCount1_json_1 = __importDefault(__webpack_require__(/*! ../json/visitorCount1.json */ "./src/json/visitorCount1.json"));
 const VisitorCount = (props) => {
     let [highchartsOptions, setHighchartsOptions] = React.useState({});
     var series_data = [];
+    //  var [series_data, setseries_data] = React.useState<any>({})
     React.useEffect(() => {
         getVisitorCount('Daily');
     }, []);
@@ -5322,12 +12169,27 @@ const VisitorCount = (props) => {
                     ]
                 } };
             // let vdata = await props.uxpContext.executeAction('AdaniDashboard','Visitor',params,{json:true});
-            let vdata = visitorCount_json_1.default;
+            // let vdata = visitorCount;   
+            // let vdata = visitorCount1.Visitors;
+            // let vdata = visitorCount1.Visitors;
+            let vdata = visitorCount1_json_1.default.Visitors.Daily;
+            //    console.log(vdata);
+            if (selVal == 'Weekly') {
+                vdata = visitorCount1_json_1.default.Visitors.Weekly;
+            }
+            else if (selVal == 'Monthly') {
+                vdata = visitorCount1_json_1.default.Visitors.Monthly;
+            }
+            else if (selVal == 'Yearly') {
+                vdata = visitorCount1_json_1.default.Visitors.Yearly;
+            }
+            //  setseries_data(vdata);
             Visitors(vdata, selVal, properties, grad);
         });
     }
     function Visitors(data, selValue, properties, grad) {
         var cafeteriaString = [], year_list = [], cafeteria_final = [];
+        console.log('hi', data);
         document.querySelector('.visitors_data').innerHTML = '';
         document.querySelector('.visitors_dataCount').innerHTML = '';
         var visitorsDataCount = `   <div class="visitors_count-top">
@@ -5518,6 +12380,7 @@ const VisitorCount = (props) => {
             elems.classList.remove("meeting_active");
         }
         e.target.className = "meeting_active";
+        // getVisitorCount(selVal);
         getVisitorCount(selVal);
     }
     const Chart = () => (React.createElement("div", null,
@@ -5540,9 +12403,9 @@ const VisitorCount = (props) => {
             React.createElement("div", { className: "prev_next" },
                 React.createElement("ul", null,
                     React.createElement("li", null,
-                        React.createElement("a", { onClick: () => { getVisitorCount('PreviousDay'); } }, "Prev")),
+                        React.createElement("a", { onClick: () => { getVisitorCount('PreviousDay'); } }, " ")),
                     React.createElement("li", null,
-                        React.createElement("a", { onClick: () => { getVisitorCount('NextDay'); } }, "Next")))),
+                        React.createElement("a", { onClick: () => { getVisitorCount('NextDay'); } }, " ")))),
             React.createElement(Chart, null)));
 };
 exports.default = VisitorCount;
@@ -5857,6 +12720,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
+const TopIcons_1 = __importDefault(__webpack_require__(/*! ./components/TopIcons */ "./src/components/TopIcons.tsx"));
+const DigtalTwin_1 = __importDefault(__webpack_require__(/*! ./components/DigtalTwin */ "./src/components/DigtalTwin.tsx"));
+const Alarm_map_1 = __importDefault(__webpack_require__(/*! ./components/Alarm_map */ "./src/components/Alarm_map.tsx"));
 const EnvironmentMetrics_1 = __importDefault(__webpack_require__(/*! ./components/EnvironmentMetrics */ "./src/components/EnvironmentMetrics.tsx"));
 const Meeting_1 = __importDefault(__webpack_require__(/*! ./components/Meeting */ "./src/components/Meeting.tsx"));
 const Parking_1 = __importDefault(__webpack_require__(/*! ./components/Parking */ "./src/components/Parking.tsx"));
@@ -5877,6 +12743,19 @@ const FootfallType_1 = __importDefault(__webpack_require__(/*! ./components/Foot
 const HotDesking_1 = __importDefault(__webpack_require__(/*! ./components/HotDesking */ "./src/components/HotDesking.tsx"));
 const VisitorCount_1 = __importDefault(__webpack_require__(/*! ./components/VisitorCount */ "./src/components/VisitorCount.tsx"));
 const DailyCampusFootfall_1 = __importDefault(__webpack_require__(/*! ./components/DailyCampusFootfall */ "./src/components/DailyCampusFootfall.tsx"));
+uxp_1.registerWidget({
+    id: "TopIcons",
+    name: "TopIcons",
+    widget: TopIcons_1.default,
+    configs: {
+        layout: {
+            w: 9,
+            h: 9,
+            minW: 2,
+            minH: 2
+        }
+    }
+});
 uxp_1.registerWidget({
     id: "EnvironmentMetrics",
     name: "EnvironmentMetrics",
@@ -6185,6 +13064,32 @@ uxp_1.registerWidget({
         }
     }
 });
+uxp_1.registerWidget({
+    id: "DigitalTwin",
+    name: "Digital Twin",
+    widget: DigtalTwin_1.default,
+    configs: {
+        layout: {
+            w: 30,
+            h: 8,
+            minW: 3,
+            minH: 5
+        }
+    }
+});
+uxp_1.registerWidget({
+    id: "Alarm_Map",
+    name: "Alarm Map",
+    widget: Alarm_map_1.default,
+    configs: {
+        layout: {
+            w: 30,
+            h: 8,
+            minW: 3,
+            minH: 5
+        }
+    }
+});
 
 
 /***/ }),
@@ -6222,14 +13127,14 @@ module.exports = JSON.parse("{\"AfterHours\":[{\"DepartmentName\":\"ABEX\",\"Tot
 
 /***/ }),
 
-/***/ "./src/json/cafeteriaUtilization.json":
-/*!********************************************!*\
-  !*** ./src/json/cafeteriaUtilization.json ***!
-  \********************************************/
+/***/ "./src/json/cafeteriaUtilization1.json":
+/*!*********************************************!*\
+  !*** ./src/json/cafeteriaUtilization1.json ***!
+  \*********************************************/
 /*! exports provided: CafeteriaUtilization, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"CafeteriaUtilization\":{\"LiveHeadCount\":\"23\",\"details\":{\"AverageHeadCount\":\"16\",\"result\":[{\"TotalHeadCount\":\"29\",\"Number\":\"8\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-23T08:00:00\"},{\"TotalHeadCount\":\"17\",\"Number\":\"9\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-24T09:00:00\"},{\"TotalHeadCount\":\"12\",\"Number\":\"10\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-25T10:00:00\"},{\"TotalHeadCount\":\"7\",\"Number\":\"11\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-26T11:00:00\"},{\"TotalHeadCount\":\"10\",\"Number\":\"12\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-27T12:00:00\"},{\"TotalHeadCount\":\"23\",\"Number\":\"13\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-28T13:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"14\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-29T14:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"15\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T15:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"16\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-01-01T16:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"17\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-02T17:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"18\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-03T18:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"19\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-04T19:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"20\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-05T20:00:00\"}]}}}");
+module.exports = JSON.parse("{\"CafeteriaUtilization\":{\"Weekly\":{\"LiveHeadCount\":\"23\",\"details\":{\"AverageHeadCount\":\"17\",\"result\":[{\"TotalHeadCount\":\"35\",\"Number\":\"8\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-23T08:00:00\"},{\"TotalHeadCount\":\"60\",\"Number\":\"9\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-24T09:00:00\"},{\"TotalHeadCount\":\"42\",\"Number\":\"10\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-25T10:00:00\"},{\"TotalHeadCount\":\"7\",\"Number\":\"11\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-26T11:00:00\"},{\"TotalHeadCount\":\"10\",\"Number\":\"12\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-27T12:00:00\"},{\"TotalHeadCount\":\"23\",\"Number\":\"13\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-28T13:00:00\"},{\"TotalHeadCount\":\"24\",\"Number\":\"14\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-29T14:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"15\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T15:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"16\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-01-01T16:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"17\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-02T17:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"18\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-03T18:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"19\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-04T19:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"20\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-05T20:00:00\"}]}},\"Daily\":{\"LiveHeadCount\":\"27\",\"details\":{\"AverageHeadCount\":\"16\",\"result\":[{\"TotalHeadCount\":\"29\",\"Number\":\"8\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-23T08:00:00\"},{\"TotalHeadCount\":\"30\",\"Number\":\"9\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-24T09:00:00\"},{\"TotalHeadCount\":\"12\",\"Number\":\"10\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-25T10:00:00\"},{\"TotalHeadCount\":\"7\",\"Number\":\"11\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-26T11:00:00\"},{\"TotalHeadCount\":\"10\",\"Number\":\"12\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-27T12:00:00\"},{\"TotalHeadCount\":\"48\",\"Number\":\"13\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-28T13:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"14\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-29T14:00:00\"},{\"TotalHeadCount\":\"47\",\"Number\":\"15\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T15:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"16\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-01-01T16:00:00\"},{\"TotalHeadCount\":\"68\",\"Number\":\"17\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-02T17:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"18\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-03T18:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"19\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-04T19:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"20\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-05T20:00:00\"}]}},\"Monthly\":{\"LiveHeadCount\":\"31\",\"details\":{\"AverageHeadCount\":\"18\",\"result\":[{\"TotalHeadCount\":\"29\",\"Number\":\"8\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-23T08:00:00\"},{\"TotalHeadCount\":\"5\",\"Number\":\"9\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-24T09:00:00\"},{\"TotalHeadCount\":\"45\",\"Number\":\"10\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-25T10:00:00\"},{\"TotalHeadCount\":\"7\",\"Number\":\"11\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-26T11:00:00\"},{\"TotalHeadCount\":\"46\",\"Number\":\"12\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-27T12:00:00\"},{\"TotalHeadCount\":\"23\",\"Number\":\"13\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-28T13:00:00\"},{\"TotalHeadCount\":\"45\",\"Number\":\"14\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-29T14:00:00\"},{\"TotalHeadCount\":\"56\",\"Number\":\"15\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T15:00:00\"},{\"TotalHeadCount\":\"62\",\"Number\":\"16\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-01-01T16:00:00\"},{\"TotalHeadCount\":\"45\",\"Number\":\"17\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-02T17:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"18\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-03T18:00:00\"},{\"TotalHeadCount\":\"0\",\"Number\":\"19\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-04T19:00:00\"},{\"TotalHeadCount\":\"50\",\"Number\":\"20\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-05T20:00:00\"}]}}}}");
 
 /***/ }),
 
@@ -6251,7 +13156,7 @@ module.exports = JSON.parse("{\"CorbonFootprint\":{\"ElectricalConsumption\":{\"
 /*! exports provided: Consumption, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"Consumption\":{\"TotalCost\":\"INR 19,398\",\"CostperSqFt\":\"INR 0\",\"TotalSqFT\":\"1193746\",\"Electrical\":{\"Consumption\":{\"Value\":\"212\",\"Unit\":\"kWh\",\"Label\":\"212kWh\"},\"Cost\":{\"Value\":\"19,398\",\"Unit\":\"INR\",\"Label\":\"INR 19,398\"},\"Current\":{\"TrendDate\":\"2020-08-16T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"212\",\"Unit\":\"kWh\",\"label\":\"212 kWh\"},\"Cost\":{\"Value\":\"19,380\",\"Unit\":\"INR\",\"label\":\"INR 19,380\"}}},\"Prev\":{\"TrendDate\":\"2020-08-09T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"18619\",\"Unit\":\"kWh\",\"label\":\"18619 kWh\"},\"Cost\":{\"Value\":\"17,03,658\",\"Unit\":\"INR\",\"label\":\"INR 17,03,658\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"17191\",\"Unit\":\"kWh\",\"label\":\"17191 kWh\"},\"Cost\":{\"Value\":\"15,72,940\",\"Unit\":\"INR\",\"label\":\"INR 15,72,940\"}}},\"PrevtoPrev\":{\"TrendDate\":\"2020-08-02T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"19410\",\"Unit\":\"kWh\",\"label\":\"19410 kWh\"},\"Cost\":{\"Value\":\"17,76,045\",\"Unit\":\"INR\",\"label\":\"INR 17,76,045\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"19337\",\"Unit\":\"kWh\",\"label\":\"19337 kWh\"},\"Cost\":{\"Value\":\"17,69,354\",\"Unit\":\"INR\",\"label\":\"INR 17,69,354\"}}}},\"Water\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"m^3\",\"Label\":\"0m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"Label\":\"INR 0\"},\"Current\":{\"TrendDate\":\"2020-08-16T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"m^3\",\"label\":\"0 m^3\"},\"Cost\":{\"Value\":\"5\",\"Unit\":\"INR\",\"label\":\"INR 5\"}}},\"Prev\":{\"TrendDate\":\"2020-08-09T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"101\",\"Unit\":\"m^3\",\"label\":\"101 m^3\"},\"Cost\":{\"Value\":\"3,773\",\"Unit\":\"INR\",\"label\":\"INR 3,773\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"45\",\"Unit\":\"m^3\",\"label\":\"45 m^3\"},\"Cost\":{\"Value\":\"1,910\",\"Unit\":\"INR\",\"label\":\"INR 1,910\"}}},\"PrevtoPrev\":{\"TrendDate\":\"2020-08-02T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"529\",\"Unit\":\"m^3\",\"label\":\"529 m^3\"},\"Cost\":{\"Value\":\"10,473\",\"Unit\":\"INR\",\"label\":\"INR 10,473\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"225\",\"Unit\":\"m^3\",\"label\":\"225 m^3\"},\"Cost\":{\"Value\":\"6,850\",\"Unit\":\"INR\",\"label\":\"INR 6,850\"}}}},\"Gas\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"m^3\",\"Label\":\"0m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"Label\":\"INR 0\"},\"Current\":{\"TrendDate\":\"2020-08-16T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"m^3\",\"label\":\"0 m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"label\":\"INR 0\"}}},\"Prev\":{\"TrendDate\":\"2020-08-09T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"1106753713\",\"Unit\":\"m^3\",\"label\":\"1106753713 m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"label\":\"INR 0\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"2134742676\",\"Unit\":\"m^3\",\"label\":\"2134742676 m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"label\":\"INR 0\"}}},\"PrevtoPrev\":{\"TrendDate\":\"2020-08-04T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"3320715306\",\"Unit\":\"m^3\",\"label\":\"3320715306 m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"label\":\"INR 0\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"3314736919\",\"Unit\":\"m^3\",\"label\":\"3314736919 m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"label\":\"INR 0\"}}}},\"Waste\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"Label\":\"0Kg\"},\"Cost\":{\"Value\":\"NaN\",\"Unit\":\"INR\",\"Label\":\"INR NaN\"},\"Current\":{\"TrendDate\":\"2020-08-16T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"label\":\"0 Kg\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"label\":\"INR 0\"}}},\"Prev\":{\"TrendDate\":\"2020-08-09T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"label\":\"0 Kg\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"label\":\"INR 0\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"label\":\"0 Kg\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"label\":\"INR 0\"}}},\"PrevtoPrev\":{\"TrendDate\":\"2020-08-02T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"label\":\"0 Kg\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"label\":\"INR 0\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"label\":\"0 Kg\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"INR\",\"label\":\"INR 0\"}}}}}}");
+module.exports = JSON.parse("{\"Consumption\":{\"TotalCost\":\"SAR 19,398\",\"CostperSqFt\":\"SAR 0\",\"TotalSqFT\":\"1193746\",\"Electrical\":{\"Consumption\":{\"Value\":\"212\",\"Unit\":\"kWh\",\"Label\":\"212kWh\"},\"Cost\":{\"Value\":\"19,398\",\"Unit\":\"SAR\",\"Label\":\"SAR 19,398\"},\"Current\":{\"TrendDate\":\"2020-08-16T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"212\",\"Unit\":\"kWh\",\"label\":\"212 kWh\"},\"Cost\":{\"Value\":\"19,380\",\"Unit\":\"SAR\",\"label\":\"SAR 19,380\"}}},\"Prev\":{\"TrendDate\":\"2020-08-09T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"18619\",\"Unit\":\"kWh\",\"label\":\"18619 kWh\"},\"Cost\":{\"Value\":\"17,03,658\",\"Unit\":\"SAR\",\"label\":\"SAR 17,03,658\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"17191\",\"Unit\":\"kWh\",\"label\":\"17191 kWh\"},\"Cost\":{\"Value\":\"15,72,940\",\"Unit\":\"SAR\",\"label\":\"SAR 15,72,940\"}}},\"PrevtoPrev\":{\"TrendDate\":\"2020-08-02T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"19410\",\"Unit\":\"kWh\",\"label\":\"19410 kWh\"},\"Cost\":{\"Value\":\"17,76,045\",\"Unit\":\"SAR\",\"label\":\"SAR 17,76,045\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"19337\",\"Unit\":\"kWh\",\"label\":\"19337 kWh\"},\"Cost\":{\"Value\":\"17,69,354\",\"Unit\":\"SAR\",\"label\":\"SAR 17,69,354\"}}}},\"Water\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"m^3\",\"Label\":\"0m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"Label\":\"SAR 0\"},\"Current\":{\"TrendDate\":\"2020-08-16T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"m^3\",\"label\":\"0 m^3\"},\"Cost\":{\"Value\":\"5\",\"Unit\":\"SAR\",\"label\":\"SAR 5\"}}},\"Prev\":{\"TrendDate\":\"2020-08-09T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"101\",\"Unit\":\"m^3\",\"label\":\"101 m^3\"},\"Cost\":{\"Value\":\"3,773\",\"Unit\":\"SAR\",\"label\":\"SAR 3,773\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"45\",\"Unit\":\"m^3\",\"label\":\"45 m^3\"},\"Cost\":{\"Value\":\"1,910\",\"Unit\":\"SAR\",\"label\":\"SAR 1,910\"}}},\"PrevtoPrev\":{\"TrendDate\":\"2020-08-02T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"529\",\"Unit\":\"m^3\",\"label\":\"529 m^3\"},\"Cost\":{\"Value\":\"10,473\",\"Unit\":\"SAR\",\"label\":\"SAR 10,473\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"225\",\"Unit\":\"m^3\",\"label\":\"225 m^3\"},\"Cost\":{\"Value\":\"6,850\",\"Unit\":\"SAR\",\"label\":\"SAR 6,850\"}}}},\"Gas\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"m^3\",\"Label\":\"0m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"Label\":\"SAR 0\"},\"Current\":{\"TrendDate\":\"2020-08-16T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"m^3\",\"label\":\"0 m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"label\":\"SAR 0\"}}},\"Prev\":{\"TrendDate\":\"2020-08-09T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"1106753713\",\"Unit\":\"m^3\",\"label\":\"1106753713 m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"label\":\"SAR 0\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"2134742676\",\"Unit\":\"m^3\",\"label\":\"2134742676 m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"label\":\"SAR 0\"}}},\"PrevtoPrev\":{\"TrendDate\":\"2020-08-04T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"3320715306\",\"Unit\":\"m^3\",\"label\":\"3320715306 m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"label\":\"SAR 0\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"3314736919\",\"Unit\":\"m^3\",\"label\":\"3314736919 m^3\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"label\":\"SAR 0\"}}}},\"Waste\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"Label\":\"0Kg\"},\"Cost\":{\"Value\":\"NaN\",\"Unit\":\"SAR\",\"Label\":\"SAR NaN\"},\"Current\":{\"TrendDate\":\"2020-08-16T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"label\":\"0 Kg\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"label\":\"SAR 0\"}}},\"Prev\":{\"TrendDate\":\"2020-08-09T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"label\":\"0 Kg\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"label\":\"SAR 0\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"label\":\"0 Kg\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"label\":\"SAR 0\"}}},\"PrevtoPrev\":{\"TrendDate\":\"2020-08-02T00:00:00\",\"Frequency\":\"Week\",\"WorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"label\":\"0 Kg\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"label\":\"SAR 0\"}},\"NonWorkingHours\":{\"Consumption\":{\"Value\":\"0\",\"Unit\":\"Kg\",\"label\":\"0 Kg\"},\"Cost\":{\"Value\":\"0\",\"Unit\":\"SAR\",\"label\":\"SAR 0\"}}}}}}");
 
 /***/ }),
 
@@ -6339,7 +13244,7 @@ module.exports = JSON.parse("{\"SeatBookingDetails\":{\"Used\":\"11\",\"Availabl
 /*! exports provided: LoggedInEmployee, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"LoggedInEmployee\":{\"VisitorName\":\"No Visitor\",\"HostName\":\"ICT PrePro\",\"MeetingTime\":null,\"ISODateTime\":null,\"upcomingVisits\":\"0\"}}");
+module.exports = JSON.parse("{\"LoggedInEmployee\":{\"VisitorName\":\"No Visitor\",\"HostName\":\"SABB\",\"MeetingTime\":null,\"ISODateTime\":null,\"upcomingVisits\":\"0\"}}");
 
 /***/ }),
 
@@ -6350,29 +13255,29 @@ module.exports = JSON.parse("{\"LoggedInEmployee\":{\"VisitorName\":\"No Visitor
 /*! exports provided: MaintenanceService, Vendors, WRScheduleDatails, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"MaintenanceService\":[{\"ServiceCategoryName\":\"Electrical\",\"ServiceCategoryKey\":\"1\",\"IsSelected\":\"0\"},{\"ServiceCategoryName\":\"HVAC\",\"ServiceCategoryKey\":\"2\",\"IsSelected\":\"1\"},{\"ServiceCategoryName\":\"Civil\",\"ServiceCategoryKey\":\"3\",\"IsSelected\":\"0\"},{\"ServiceCategoryName\":\"Security\",\"ServiceCategoryKey\":\"4\",\"IsSelected\":\"0\"},{\"ServiceCategoryName\":\"Housekeeping\",\"ServiceCategoryKey\":\"5\",\"IsSelected\":\"0\"}],\"Vendors\":[{\"VendorName\":\"Carrier\",\"VendorKey\":\"1\"},{\"VendorName\":\"Johnson Controls\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"22-07-2020\":[{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-07-22T10:30:00\",\"ScheduleEndDT\":\"2020-07-22T12:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"\",\"Location\":\"3F\",\"System\":\"HVAC\",\"Date\":\"2020-07-20T02:55:00\",\"Status\":\"Upcoming\"}}],\"24-07-2020\":[{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-07-23T09:30:00\",\"ScheduleEndDT\":\"2020-07-23T11:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"Water Leakage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-22T13:30:00\",\"Status\":\"Delayed\"}},{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-07-23T14:30:00\",\"ScheduleEndDT\":\"2020-07-23T16:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Power Outage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-22T13:30:00\",\"Status\":\"Not Attended\"}}],\"25-07-2020\":[{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-07-25T09:30:00\",\"ScheduleEndDT\":\"2020-07-25T11:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"Water Leakage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-24T13:30:00\",\"Status\":\"Onhold\"}},{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-07-25T11:30:00\",\"ScheduleEndDT\":\"2020-07-25T12:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Power Outage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-24T13:30:00\",\"Status\":\"Cancel\"}},{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-07-25T14:30:00\",\"ScheduleEndDT\":\"2020-07-25T16:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Power Outage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-24T13:30:00\",\"Status\":\"Assignment\"}}],\"26-07-2020\":[{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-07-26T09:30:00\",\"ScheduleEndDT\":\"2020-07-26T11:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"Water Leakage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-25T13:30:00\",\"Status\":\"InProgress\"}},{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-07-26T11:30:00\",\"ScheduleEndDT\":\"2020-07-26T12:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Power Outage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-24T13:30:00\",\"Status\":\"Closed\"}}],\"27-07-2020\":[{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-07-27T11:30:00\",\"ScheduleEndDT\":\"2020-07-27T12:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Power Outage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-26T13:30:00\",\"Status\":\"Complete\"}}]}}");
+module.exports = JSON.parse("{\"MaintenanceService\":[{\"ServiceCategoryName\":\"Electrical\",\"ServiceCategoryKey\":\"1\",\"IsSelected\":\"0\"},{\"ServiceCategoryName\":\"HVAC\",\"ServiceCategoryKey\":\"2\",\"IsSelected\":\"1\"},{\"ServiceCategoryName\":\"Civil\",\"ServiceCategoryKey\":\"3\",\"IsSelected\":\"0\"},{\"ServiceCategoryName\":\"Security\",\"ServiceCategoryKey\":\"4\",\"IsSelected\":\"0\"},{\"ServiceCategoryName\":\"Housekeeping\",\"ServiceCategoryKey\":\"5\",\"IsSelected\":\"0\"}],\"Vendors\":[{\"VendorName\":\"Carrier\",\"VendorKey\":\"1\"},{\"VendorName\":\"Johnson Controls\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"22-07-2020\":[{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-07-22T15:30:00\",\"ScheduleEndDT\":\"2020-07-22T17:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"\",\"Location\":\"3F\",\"System\":\"HVAC\",\"Date\":\"2020-07-20T16:55:00\",\"Status\":\"Upcoming\"}}],\"24-07-2020\":[{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-07-23T09:30:00\",\"ScheduleEndDT\":\"2020-07-23T11:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"Water Leakage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-22T18:30:00\",\"Status\":\"Delayed\"}},{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-07-23T14:30:00\",\"ScheduleEndDT\":\"2020-07-23T16:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Power Outage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-22T16:30:00\",\"Status\":\"Not Attended\"}}],\"25-07-2020\":[{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-07-25T09:30:00\",\"ScheduleEndDT\":\"2020-07-25T11:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"Water Leakage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-24T14:30:00\",\"Status\":\"Onhold\"}},{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-07-25T11:30:00\",\"ScheduleEndDT\":\"2020-07-25T12:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Power Outage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-24T20:30:00\",\"Status\":\"Cancel\"}},{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-07-25T14:30:00\",\"ScheduleEndDT\":\"2020-07-25T16:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Power Outage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-24T21:30:00\",\"Status\":\"Assignment\"}}],\"26-07-2020\":[{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-07-26T09:30:00\",\"ScheduleEndDT\":\"2020-07-26T11:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"Water Leakage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-25T23:30:00\",\"Status\":\"InProgress\"}},{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-07-26T11:30:00\",\"ScheduleEndDT\":\"2020-07-26T12:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Power Outage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-24T10:30:00\",\"Status\":\"Closed\"}}],\"27-07-2020\":[{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-07-27T11:30:00\",\"ScheduleEndDT\":\"2020-07-27T12:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Power Outage in 5th floor AC\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-07-26T22:30:00\",\"Status\":\"Complete\"}}]}}");
 
 /***/ }),
 
-/***/ "./src/json/maintainenceSchedule_LoadData.json":
-/*!*****************************************************!*\
-  !*** ./src/json/maintainenceSchedule_LoadData.json ***!
-  \*****************************************************/
+/***/ "./src/json/maintainenceSchedule_LoadData1.json":
+/*!******************************************************!*\
+  !*** ./src/json/maintainenceSchedule_LoadData1.json ***!
+  \******************************************************/
 /*! exports provided: 1, 2, 3, 4, 5, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"1\":{\"Vendors\":[{\"VendorName\":\"Johnson Controls\",\"VendorKey\":\"1\"},{\"VendorName\":\"Carrier\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"14-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T07:30:00\",\"ScheduleEndDT\":\"2020-05-14T09:30:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Light off in 3rd floor with severity level high\",\"Location\":\"F3\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T02:55:00\",\"Status\":\"Upcoming\"}},{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-15T09:30:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Poor Light in 5th floor\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T13:30:00\",\"Status\":\"Upcoming\"}}],\"15-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-17T09:00:00\",\"ScheduleEndDT\":\"2020-05-17T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}}],\"20-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-20T07:30:00\",\"ScheduleEndDT\":\"2020-05-20T08:30:00\",\"CardDetails\":{\"Name\":\"L&T\",\"Subject\":\"No power in the 5th floor Z1\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T12:00:00\",\"Status\":\"Upcoming\"}}],\"22-05-2020\":[{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-05-22T11:30:00\",\"ScheduleEndDT\":\"2020-05-22T13:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No Power in 5th floor space 2\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-05-08T12:30:00\",\"Status\":\"Upcoming\"}}]}},\"2\":{\"Vendors\":[{\"VendorName\":\"L&T\",\"VendorKey\":\"1\"},{\"VendorName\":\"LG Electronics\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"14-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-15T07:30:00\",\"ScheduleEndDT\":\"2020-05-14T09:30:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Light off in 3rd floor with severity level high\",\"Location\":\"F3\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T02:55:00\",\"Status\":\"Upcoming\"}},{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T09:30:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Poor Light in 5th floor\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T13:30:00\",\"Status\":\"Upcoming\"}}],\"15-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-15T09:00:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}}],\"20-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-20T07:30:00\",\"ScheduleEndDT\":\"2020-05-20T08:30:00\",\"CardDetails\":{\"Name\":\"L&T\",\"Subject\":\"No power in the 5th floor Z1\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T12:00:00\",\"Status\":\"Upcoming\"}}],\"22-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-22T11:30:00\",\"ScheduleEndDT\":\"2020-05-22T13:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No Power in 5th floor space 2\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-05-08T12:30:00\",\"Status\":\"Upcoming\"}}]}},\"3\":{\"Vendors\":[{\"VendorName\":\"L&T\",\"VendorKey\":\"1\"},{\"VendorName\":\"LG Electronics\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"14-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T07:30:00\",\"ScheduleEndDT\":\"2020-05-14T09:30:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Light off in 3rd floor with severity level high\",\"Location\":\"F3\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T02:55:00\",\"Status\":\"Upcoming\"}},{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T09:30:00\",\"ScheduleEndDT\":\"2020-05-14T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Poor Light in 5th floor\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T13:30:00\",\"Status\":\"Upcoming\"}}],\"15-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-15T09:00:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}}],\"20-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-20T07:30:00\",\"ScheduleEndDT\":\"2020-05-20T08:30:00\",\"CardDetails\":{\"Name\":\"L&T\",\"Subject\":\"No power in the 5th floor Z1\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T12:00:00\",\"Status\":\"Upcoming\"}}],\"22-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-22T11:30:00\",\"ScheduleEndDT\":\"2020-05-22T13:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No Power in 5th floor space 2\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-05-08T12:30:00\",\"Status\":\"Upcoming\"}}]}},\"4\":{\"Vendors\":[{\"VendorName\":\"L&T\",\"VendorKey\":\"1\"},{\"VendorName\":\"LG Electronics\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"14-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T07:30:00\",\"ScheduleEndDT\":\"2020-05-14T09:30:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Light off in 3rd floor with severity level high\",\"Location\":\"F3\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T02:55:00\",\"Status\":\"Upcoming\"}},{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T09:30:00\",\"ScheduleEndDT\":\"2020-05-14T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Poor Light in 5th floor\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T13:30:00\",\"Status\":\"Upcoming\"}}],\"15-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-15T09:00:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}}],\"20-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-20T07:30:00\",\"ScheduleEndDT\":\"2020-05-20T08:30:00\",\"CardDetails\":{\"Name\":\"L&T\",\"Subject\":\"No power in the 5th floor Z1\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T12:00:00\",\"Status\":\"Upcoming\"}}],\"22-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-22T11:30:00\",\"ScheduleEndDT\":\"2020-05-22T13:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No Power in 5th floor space 2\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-05-08T12:30:00\",\"Status\":\"Upcoming\"}}]}},\"5\":{\"Vendors\":[{\"VendorName\":\"L&T\",\"VendorKey\":\"1\"},{\"VendorName\":\"LG Electronics\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"14-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T07:30:00\",\"ScheduleEndDT\":\"2020-05-14T09:30:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Light off in 3rd floor with severity level high\",\"Location\":\"F3\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T02:55:00\",\"Status\":\"Upcoming\"}},{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T09:30:00\",\"ScheduleEndDT\":\"2020-05-14T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Poor Light in 5th floor\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T13:30:00\",\"Status\":\"Upcoming\"}}],\"15-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-15T09:00:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}}],\"20-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-20T07:30:00\",\"ScheduleEndDT\":\"2020-05-20T08:30:00\",\"CardDetails\":{\"Name\":\"L&T\",\"Subject\":\"No power in the 5th floor Z1\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T12:00:00\",\"Status\":\"Upcoming\"}}],\"22-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-22T11:30:00\",\"ScheduleEndDT\":\"2020-05-22T13:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No Power in 5th floor space 2\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-05-08T12:30:00\",\"Status\":\"Upcoming\"}}]}}}");
+module.exports = JSON.parse("{\"1\":{\"Vendors\":[{\"VendorName\":\"Johnson Controls\",\"VendorKey\":\"1\"},{\"VendorName\":\"Carrier\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"14-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T07:30:00\",\"ScheduleEndDT\":\"2020-05-14T09:30:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Light off in 3rd floor with severity level high\",\"Location\":\"F3\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T02:55:00\",\"Status\":\"Upcoming\"}},{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T09:30:00\",\"ScheduleEndDT\":\"2020-05-14T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Poor Light in 5th floor\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T13:30:00\",\"Status\":\"Upcoming\"}}],\"15-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-15T09:00:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}}],\"19-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-20T07:30:00\",\"ScheduleEndDT\":\"2020-05-20T08:30:00\",\"CardDetails\":{\"Name\":\"L&T\",\"Subject\":\"No power in the 5th floor Z1\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T12:00:00\",\"Status\":\"Upcoming\"}}],\"22-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-22T11:30:00\",\"ScheduleEndDT\":\"2020-05-22T13:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No Power in 5th floor space 2\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-05-08T12:30:00\",\"Status\":\"Upcoming\"}}]}},\"2\":{\"Vendors\":[{\"VendorName\":\"L&T\",\"VendorKey\":\"1\"},{\"VendorName\":\"LG Electronics\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"14-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T07:30:00\",\"ScheduleEndDT\":\"2020-05-14T09:30:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Light off in 3rd floor with severity level high\",\"Location\":\"F3\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T02:55:00\",\"Status\":\"Upcoming\"}},{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T09:30:00\",\"ScheduleEndDT\":\"2020-05-14T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Poor Light in 5th floor\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T13:30:00\",\"Status\":\"Upcoming\"}}],\"15-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-15T09:00:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}}],\"20-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-20T07:30:00\",\"ScheduleEndDT\":\"2020-05-20T08:30:00\",\"CardDetails\":{\"Name\":\"L&T\",\"Subject\":\"No power in the 5th floor Z1\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T12:00:00\",\"Status\":\"Upcoming\"}}],\"22-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-22T11:30:00\",\"ScheduleEndDT\":\"2020-05-22T13:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No Power in 5th floor space 2\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-05-08T12:30:00\",\"Status\":\"Upcoming\"}}]}},\"3\":{\"Vendors\":[{\"VendorName\":\"Johnson Controls\",\"VendorKey\":\"1\"},{\"VendorName\":\"Carrier\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"14-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T07:30:00\",\"ScheduleEndDT\":\"2020-05-14T09:30:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Light off in 3rd floor with severity level high\",\"Location\":\"F3\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T02:55:00\",\"Status\":\"Upcoming\"}},{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T09:30:00\",\"ScheduleEndDT\":\"2020-05-14T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Poor Light in 5th floor\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T13:30:00\",\"Status\":\"Upcoming\"}}],\"15-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-15T09:00:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}},{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-05-15T09:00:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}}],\"20-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-20T07:30:00\",\"ScheduleEndDT\":\"2020-05-20T08:30:00\",\"CardDetails\":{\"Name\":\"L&T\",\"Subject\":\"No power in the 5th floor Z1\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T12:00:00\",\"Status\":\"Upcoming\"}}],\"22-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-22T11:30:00\",\"ScheduleEndDT\":\"2020-05-22T13:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No Power in 5th floor space 2\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-05-08T12:30:00\",\"Status\":\"Upcoming\"}}]}},\"4\":{\"Vendors\":[{\"VendorName\":\"Carrier\",\"VendorKey\":\"1\"},{\"VendorName\":\"Johnson Controls\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"14-05-2020\":[{\"Name\":\"Johnson Control\",\"ScheduleStartDT\":\"2020-05-14T07:30:00\",\"ScheduleEndDT\":\"2020-05-14T09:30:00\",\"CardDetails\":{\"Name\":\"Johnson Control\",\"Subject\":\"Light off in 3rd floor with severity level high\",\"Location\":\"F3\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T02:55:00\",\"Status\":\"Upcoming\"}}],\"15-05-2020\":[{\"Name\":\"Carrier\",\"ScheduleStartDT\":\"2020-05-15T09:00:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}}],\"20-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-20T07:30:00\",\"ScheduleEndDT\":\"2020-05-20T08:30:00\",\"CardDetails\":{\"Name\":\"L&T\",\"Subject\":\"No power in the 5th floor Z1\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T12:00:00\",\"Status\":\"Upcoming\"}}],\"22-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-22T11:30:00\",\"ScheduleEndDT\":\"2020-05-22T13:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No Power in 5th floor space 2\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-05-08T12:30:00\",\"Status\":\"Upcoming\"}}]}},\"5\":{\"Vendors\":[{\"VendorName\":\"L&T\",\"VendorKey\":\"1\"},{\"VendorName\":\"LG Electronics\",\"VendorKey\":\"2\"}],\"WRScheduleDatails\":{\"14-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T07:30:00\",\"ScheduleEndDT\":\"2020-05-14T09:30:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Light off in 3rd floor with severity level high\",\"Location\":\"F3\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T02:55:00\",\"Status\":\"Upcoming\"}},{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-14T09:30:00\",\"ScheduleEndDT\":\"2020-05-14T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"Poor Light in 5th floor\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-12T13:30:00\",\"Status\":\"Upcoming\"}}],\"15-05-2020\":[{\"Name\":\"LG Electronics\",\"ScheduleStartDT\":\"2020-05-15T09:00:00\",\"ScheduleEndDT\":\"2020-05-15T11:00:00\",\"CardDetails\":{\"Name\":\"LG Electronics\",\"Subject\":\"No power in 6th floor\",\"Location\":\"F6\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T02:57:00\",\"Status\":\"Upcoming\"}}],\"20-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-20T07:30:00\",\"ScheduleEndDT\":\"2020-05-20T08:30:00\",\"CardDetails\":{\"Name\":\"L&T\",\"Subject\":\"No power in the 5th floor Z1\",\"Location\":\"F5\",\"System\":\"Electrical\",\"Date\":\"2020-05-10T12:00:00\",\"Status\":\"Upcoming\"}}],\"22-05-2020\":[{\"Name\":\"L&T\",\"ScheduleStartDT\":\"2020-05-22T11:30:00\",\"ScheduleEndDT\":\"2020-05-22T13:30:00\",\"CardDetails\":{\"Name\":\"Carrier\",\"Subject\":\"No Power in 5th floor space 2\",\"Location\":\"F5\",\"System\":\"HVAC\",\"Date\":\"2020-05-08T12:30:00\",\"Status\":\"Upcoming\"}}]}}}");
 
 /***/ }),
 
-/***/ "./src/json/parking.json":
-/*!*******************************!*\
-  !*** ./src/json/parking.json ***!
-  \*******************************/
+/***/ "./src/json/parking1.json":
+/*!********************************!*\
+  !*** ./src/json/parking1.json ***!
+  \********************************/
 /*! exports provided: ParkingUtilization, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"ParkingUtilization\":{\"ParkingSpaceUsed\":\"3%\",\"EmployeeParkingSpaceUsed\":\"5\",\"TotalEmployeeParkingSpace\":\"200\",\"VisitorParkingSpaceUsed\":\"6\",\"TotalVistorParkingSpace\":\"100\",\"AvailableParkingSpace\":\"6%\",\"details\":{\"PeakHourOccupancy\":\"3%\",\"result\":[{\"TotalEmployeeVehicles\":\"1\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"0\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T00:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"1\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T01:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"2\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T02:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"3\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T03:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"4\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T04:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"5\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T05:38:35.833\"},{\"TotalEmployeeVehicles\":\"2\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"6\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T06:38:35.833\"},{\"TotalEmployeeVehicles\":\"5\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"7\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T07:38:35.833\"},{\"TotalEmployeeVehicles\":\"23\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"8\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T08:38:35.833\"},{\"TotalEmployeeVehicles\":\"35\",\"TotalVisitorVehicles\":\"2\",\"Number\":\"9\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T09:38:35.833\"},{\"TotalEmployeeVehicles\":\"28\",\"TotalVisitorVehicles\":\"3\",\"Number\":\"10\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T10:38:35.833\"},{\"TotalEmployeeVehicles\":\"56\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"11\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T11:38:35.833\"},{\"TotalEmployeeVehicles\":\"80\",\"TotalVisitorVehicles\":\"6\",\"Number\":\"12\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T12:38:35.833\"},{\"TotalEmployeeVehicles\":\"80\",\"TotalVisitorVehicles\":\"6\",\"Number\":\"13\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T13:38:35.833\"},{\"TotalEmployeeVehicles\":\"90\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"14\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T14:38:35.833\"},{\"TotalEmployeeVehicles\":\"95\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"15\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T15:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"5\",\"Number\":\"16\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T16:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"5\",\"Number\":\"17\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T17:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"18\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T18:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"19\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T19:38:35.833\"},{\"TotalEmployeeVehicles\":\"106\",\"TotalVisitorVehicles\":\"10\",\"Number\":\"20\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T20:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"21\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T21:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"22\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T22:38:35.833\"},{\"TotalEmployeeVehicles\":\"9\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"23\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T23:38:35.833\"}]}}}");
+module.exports = JSON.parse("{\"ParkingUtilization\":{\"Daily\":{\"ParkingSpaceUsed\":\"40%\",\"EmployeeParkingSpaceUsed\":\"25\",\"TotalEmployeeParkingSpace\":\"200\",\"VisitorParkingSpaceUsed\":\"20\",\"TotalVistorParkingSpace\":\"100\",\"AvailableParkingSpace\":\"25%\",\"details\":{\"PeakHourOccupancy\":\"3%\",\"result\":[{\"TotalEmployeeVehicles\":\"1\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"0\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T00:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"1\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-21T01:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"2\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-22T02:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"3\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-23T03:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"4\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-24T04:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"5\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T05:38:35.833\"},{\"TotalEmployeeVehicles\":\"2\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"6\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-25T06:38:35.833\"},{\"TotalEmployeeVehicles\":\"5\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"7\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-26T07:38:35.833\"},{\"TotalEmployeeVehicles\":\"23\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"8\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-27T08:38:35.833\"},{\"TotalEmployeeVehicles\":\"35\",\"TotalVisitorVehicles\":\"2\",\"Number\":\"9\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-28T09:38:35.833\"},{\"TotalEmployeeVehicles\":\"28\",\"TotalVisitorVehicles\":\"3\",\"Number\":\"10\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-29T10:38:35.833\"},{\"TotalEmployeeVehicles\":\"75\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"11\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T11:38:35.833\"},{\"TotalEmployeeVehicles\":\"80\",\"TotalVisitorVehicles\":\"6\",\"Number\":\"12\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-01T12:38:35.833\"},{\"TotalEmployeeVehicles\":\"80\",\"TotalVisitorVehicles\":\"6\",\"Number\":\"13\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-02T13:38:35.833\"},{\"TotalEmployeeVehicles\":\"90\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"14\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-03T14:38:35.833\"},{\"TotalEmployeeVehicles\":\"95\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"15\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-04T15:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"5\",\"Number\":\"16\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-05T16:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"5\",\"Number\":\"17\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-06T17:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"18\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-07T18:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"19\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-08T19:38:35.833\"},{\"TotalEmployeeVehicles\":\"106\",\"TotalVisitorVehicles\":\"10\",\"Number\":\"20\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-09T20:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"21\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-10T21:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"22\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-11T23:38:35.833\"},{\"TotalEmployeeVehicles\":\"89\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"23\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-12T23:38:35.833\"}]}},\"Weekly\":{\"ParkingSpaceUsed\":\"30%\",\"EmployeeParkingSpaceUsed\":\"7\",\"TotalEmployeeParkingSpace\":\"200\",\"VisitorParkingSpaceUsed\":\"6\",\"TotalVistorParkingSpace\":\"100\",\"AvailableParkingSpace\":\"25%\",\"details\":{\"PeakHourOccupancy\":\"3%\",\"result\":[{\"TotalEmployeeVehicles\":\"45\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"0\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T00:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"1\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-21T01:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"2\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-22T02:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"3\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-23T03:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"4\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-24T04:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"5\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-25T05:38:35.833\"},{\"TotalEmployeeVehicles\":\"2\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"6\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-26T06:38:35.833\"},{\"TotalEmployeeVehicles\":\"45\",\"TotalVisitorVehicles\":\"40\",\"Number\":\"7\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-27T07:38:35.833\"},{\"TotalEmployeeVehicles\":\"23\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"8\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-28T08:38:35.833\"},{\"TotalEmployeeVehicles\":\"25\",\"TotalVisitorVehicles\":\"20\",\"Number\":\"9\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-29T09:38:35.833\"},{\"TotalEmployeeVehicles\":\"28\",\"TotalVisitorVehicles\":\"3\",\"Number\":\"10\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T10:38:35.833\"},{\"TotalEmployeeVehicles\":\"75\",\"TotalVisitorVehicles\":\"80\",\"Number\":\"11\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-01T11:38:35.833\"},{\"TotalEmployeeVehicles\":\"80\",\"TotalVisitorVehicles\":\"6\",\"Number\":\"12\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-02T12:38:35.833\"},{\"TotalEmployeeVehicles\":\"60\",\"TotalVisitorVehicles\":\"45\",\"Number\":\"13\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-03T13:38:35.833\"},{\"TotalEmployeeVehicles\":\"77\",\"TotalVisitorVehicles\":\"45\",\"Number\":\"14\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-04T14:38:35.833\"},{\"TotalEmployeeVehicles\":\"95\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"15\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-05T15:38:35.833\"},{\"TotalEmployeeVehicles\":\"36\",\"TotalVisitorVehicles\":\"25\",\"Number\":\"16\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-06T16:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"5\",\"Number\":\"17\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-07T17:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"18\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-08T18:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"19\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-09T19:38:35.833\"},{\"TotalEmployeeVehicles\":\"106\",\"TotalVisitorVehicles\":\"10\",\"Number\":\"20\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-10T20:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"21\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-11T21:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"22\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-12T22:38:35.833\"},{\"TotalEmployeeVehicles\":\"89\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"23\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-13T23:38:35.833\"}]}},\"Monthly\":{\"ParkingSpaceUsed\":\"21%\",\"EmployeeParkingSpaceUsed\":\"15\",\"TotalEmployeeParkingSpace\":\"200\",\"VisitorParkingSpaceUsed\":\"15\",\"TotalVistorParkingSpace\":\"100\",\"AvailableParkingSpace\":\"14%\",\"details\":{\"PeakHourOccupancy\":\"3%\",\"result\":[{\"TotalEmployeeVehicles\":\"10\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"0\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T00:38:35.833\"},{\"TotalEmployeeVehicles\":\"5\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"1\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-21T01:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"2\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-22T02:38:35.833\"},{\"TotalEmployeeVehicles\":\"41\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"3\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-23T03:38:35.833\"},{\"TotalEmployeeVehicles\":\"12\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"4\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-24T04:38:35.833\"},{\"TotalEmployeeVehicles\":\"0\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"5\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-25T05:38:35.833\"},{\"TotalEmployeeVehicles\":\"2\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"6\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-26T06:38:35.833\"},{\"TotalEmployeeVehicles\":\"1\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"7\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-27T07:38:35.833\"},{\"TotalEmployeeVehicles\":\"23\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"8\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-28T08:38:35.833\"},{\"TotalEmployeeVehicles\":\"35\",\"TotalVisitorVehicles\":\"2\",\"Number\":\"9\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-29T09:38:35.833\"},{\"TotalEmployeeVehicles\":\"28\",\"TotalVisitorVehicles\":\"3\",\"Number\":\"10\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T10:38:35.833\"},{\"TotalEmployeeVehicles\":\"75\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"11\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-05-01T11:38:35.833\"},{\"TotalEmployeeVehicles\":\"47\",\"TotalVisitorVehicles\":\"45\",\"Number\":\"12\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T12:38:35.833\"},{\"TotalEmployeeVehicles\":\"80\",\"TotalVisitorVehicles\":\"6\",\"Number\":\"13\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T13:38:35.833\"},{\"TotalEmployeeVehicles\":\"26\",\"TotalVisitorVehicles\":\"0\",\"Number\":\"14\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T14:38:35.833\"},{\"TotalEmployeeVehicles\":\"95\",\"TotalVisitorVehicles\":\"65\",\"Number\":\"15\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T15:38:35.833\"},{\"TotalEmployeeVehicles\":\"45\",\"TotalVisitorVehicles\":\"5\",\"Number\":\"16\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T16:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"5\",\"Number\":\"17\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T17:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"72\",\"Number\":\"18\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T18:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"19\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T19:38:35.833\"},{\"TotalEmployeeVehicles\":\"106\",\"TotalVisitorVehicles\":\"10\",\"Number\":\"20\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T20:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"7\",\"Number\":\"21\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T21:38:35.833\"},{\"TotalEmployeeVehicles\":\"96\",\"TotalVisitorVehicles\":\"26\",\"Number\":\"22\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T22:38:35.833\"},{\"TotalEmployeeVehicles\":\"54\",\"TotalVisitorVehicles\":\"14\",\"Number\":\"23\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-20T23:38:35.833\"}]}}}}");
 
 /***/ }),
 
@@ -6383,7 +13288,7 @@ module.exports = JSON.parse("{\"ParkingUtilization\":{\"ParkingSpaceUsed\":\"3%\
 /*! exports provided: ParkingConsumption, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"ParkingConsumption\":{\"ISODate\":\"2020-07-01T00:00:00\",\"PrevISODate\":\"2020-06-01T00:00:00\",\"Details\":[{\"Name\":\"B1\",\"Consumption\":\"15166\",\"PrevConsumption\":\"15061\",\"Unit\":\"kWh\",\"Cost\":\"13,87,689\",\"CostUnit\":\"INR\",\"Icon\":\"/AccountResources/Dashboard/Icons/B1.png\",\"Percentage\":\"0.70% greater Energy Consumed\"},{\"Name\":\"B2\",\"Consumption\":\"14175\",\"PrevConsumption\":\"14305\",\"Unit\":\"kWh\",\"Cost\":\"12,97,013\",\"CostUnit\":\"INR\",\"Icon\":\"/AccountResources/Dashboard/Icons/B2.png\",\"Percentage\":\"0.91% lesser Energy Consumed\"},{\"Name\":\"B3\",\"Consumption\":\"2278808\",\"PrevConsumption\":\"14305\",\"Unit\":\"kWh\",\"Cost\":\"2085,10,932\",\"CostUnit\":\"INR\",\"Icon\":\"/AccountResources/Dashboard/Icons/B3.png\",\"Percentage\":\"14357.61% greater Energy Consumed\"}]}}");
+module.exports = JSON.parse("{\"ParkingConsumption\":{\"ISODate\":\"2020-07-01T00:00:00\",\"PrevISODate\":\"2020-06-01T00:00:00\",\"Details\":[{\"Name\":\"B1\",\"Consumption\":\"15166\",\"PrevConsumption\":\"15061\",\"Unit\":\"kWh\",\"Cost\":\"13,87,689\",\"CostUnit\":\"SAR\",\"Icon\":\"/AccountResources/Dashboard/Icons/B1.png\",\"Percentage\":\"0.70% greater Energy Consumed\"},{\"Name\":\"B2\",\"Consumption\":\"14175\",\"PrevConsumption\":\"14305\",\"Unit\":\"kWh\",\"Cost\":\"12,97,013\",\"CostUnit\":\"SAR\",\"Icon\":\"/AccountResources/Dashboard/Icons/B2.png\",\"Percentage\":\"0.91% lesser Energy Consumed\"},{\"Name\":\"B3\",\"Consumption\":\"2278808\",\"PrevConsumption\":\"14305\",\"Unit\":\"kWh\",\"Cost\":\"2085,10,932\",\"CostUnit\":\"SAR\",\"Icon\":\"/AccountResources/Dashboard/Icons/B3.png\",\"Percentage\":\"14357.61% greater Energy Consumed\"}]}}");
 
 /***/ }),
 
@@ -6394,7 +13299,7 @@ module.exports = JSON.parse("{\"ParkingConsumption\":{\"ISODate\":\"2020-07-01T0
 /*! exports provided: PerPersonConsumption, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"PerPersonConsumption\":{\"DateTime\":\"2020-07-01T00:00:00\",\"Details\":[{\"Label\":\"Floor G-14\",\"Icon\":\"/AccountResources/Dashboard/Icons/FLG_14.png\",\"Consumption\":{\"Value\":\"1018\",\"Unit\":\"kWh\",\"Label\":\"1018kWh\"},\"Cost\":{\"Value\":\"93,147\",\"Unit\":\"INR\",\"Label\":\"93,147INR\"}},{\"Label\":\"Floor 15-16\",\"Icon\":\"/AccountResources/Dashboard/Icons/FL15_16.png\",\"Consumption\":{\"Value\":\"363\",\"Unit\":\"kWh\",\"Label\":\"363kWh\"},\"Cost\":{\"Value\":\"33,215\",\"Unit\":\"INR\",\"Label\":\"33,215INR\"}}]}}");
+module.exports = JSON.parse("{\"PerPersonConsumption\":{\"DateTime\":\"2020-07-01T00:00:00\",\"Details\":[{\"Label\":\"Floor G-14\",\"Icon\":\"/AccountResources/Dashboard/Icons/FLG_14.png\",\"Consumption\":{\"Value\":\"1018\",\"Unit\":\"kWh\",\"Label\":\"1018kWh\"},\"Cost\":{\"Value\":\"93,147\",\"Unit\":\"SAR\",\"Label\":\"93,147SAR\"}},{\"Label\":\"Floor 15-16\",\"Icon\":\"/AccountResources/Dashboard/Icons/FL15_16.png\",\"Consumption\":{\"Value\":\"363\",\"Unit\":\"kWh\",\"Label\":\"363kWh\"},\"Cost\":{\"Value\":\"33,215\",\"Unit\":\"SAR\",\"Label\":\"33,215SAR\"}}]}}");
 
 /***/ }),
 
@@ -6420,14 +13325,14 @@ module.exports = JSON.parse("{\"TicketType\":[{\"Count\":\"2\",\"Name\":\"Unsolv
 
 /***/ }),
 
-/***/ "./src/json/visitorCount.json":
-/*!************************************!*\
-  !*** ./src/json/visitorCount.json ***!
-  \************************************/
+/***/ "./src/json/visitorCount1.json":
+/*!*************************************!*\
+  !*** ./src/json/visitorCount1.json ***!
+  \*************************************/
 /*! exports provided: Visitors, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"Visitors\":{\"TotalVisitorCount\":\"29\",\"InSession\":\"10\",\"WifiVisitors\":\"8\",\"Concluded\":\"12\",\"Pending\":\"3\",\"Cancelled\":\"0\",\"StartAverageVisit\":\"40\",\"EndAverageVisit\":\"50\",\"AverageVisitRangeLabel\":\"40 - 50\",\"VisitCancelled\":\"15%\",\"PeakHoursStartRange\":\"9am\",\"PeakHoursEndRange\":\"11am\",\"PeakHoursRangeLabel\":\"9:00am - 11:00am\",\"Details\":{\"2020-04-30\":[{\"VisitorCount\":\"3\",\"Number\":\"8\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T08:00:46.96\",\"RangeLabel\":\"8-9\"},{\"VisitorCount\":\"4\",\"Number\":\"9\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T09:00:46.96\",\"RangeLabel\":\"9-10\"},{\"VisitorCount\":\"3\",\"Number\":\"10\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T10:00:46.96\",\"RangeLabel\":\"10-11\"},{\"VisitorCount\":\"3\",\"Number\":\"11\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T11:00:46.96\",\"RangeLabel\":\"11-12\"},{\"VisitorCount\":\"2\",\"Number\":\"12\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T12:00:46.96\",\"RangeLabel\":\"12-13\"},{\"VisitorCount\":\"2\",\"Number\":\"13\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T13:00:46.96\",\"RangeLabel\":\"13-14\"},{\"VisitorCount\":\"3\",\"Number\":\"14\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T14:00:46.96\",\"RangeLabel\":\"14-15\"},{\"VisitorCount\":\"3\",\"Number\":\"15\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T15:00:46.96\",\"RangeLabel\":\"15-16\"},{\"VisitorCount\":\"3\",\"Number\":\"16\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T16:00:46.96\",\"RangeLabel\":\"16-17\"}]}}}");
+module.exports = JSON.parse("{\"Visitors\":{\"Daily\":{\"Visitors\":{\"TotalVisitorCount\":\"29\",\"InSession\":\"25\",\"WifiVisitors\":\"8\",\"Concluded\":\"12\",\"Pending\":\"3\",\"Cancelled\":\"10\",\"StartAverageVisit\":\"40\",\"EndAverageVisit\":\"50\",\"AverageVisitRangeLabel\":\"40 - 50\",\"VisitCancelled\":\"15%\",\"PeakHoursStartRange\":\"9am\",\"PeakHoursEndRange\":\"11am\",\"PeakHoursRangeLabel\":\"9:00am - 11:00am\",\"Details\":{\"2020-04-30\":[{\"VisitorCount\":\"18\",\"Number\":\"8\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T08:00:46.96\",\"RangeLabel\":\"8-9\"},{\"VisitorCount\":\"7\",\"Number\":\"9\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T09:00:46.96\",\"RangeLabel\":\"9-10\"},{\"VisitorCount\":\"10\",\"Number\":\"10\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T10:00:46.96\",\"RangeLabel\":\"10-11\"},{\"VisitorCount\":\"18\",\"Number\":\"11\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T11:00:46.96\",\"RangeLabel\":\"11-12\"},{\"VisitorCount\":\"23\",\"Number\":\"12\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T12:00:46.96\",\"RangeLabel\":\"12-13\"},{\"VisitorCount\":\"11\",\"Number\":\"13\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T13:00:46.96\",\"RangeLabel\":\"13-14\"},{\"VisitorCount\":\"12\",\"Number\":\"14\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T14:00:46.96\",\"RangeLabel\":\"14-15\"},{\"VisitorCount\":\"15\",\"Number\":\"15\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T15:00:46.96\",\"RangeLabel\":\"15-16\"},{\"VisitorCount\":\"18\",\"Number\":\"16\",\"Frequency\":\"Hour\",\"isoDate\":\"2020-04-30T16:00:46.96\",\"RangeLabel\":\"16-17\"}]}}},\"Weekly\":{\"Visitors\":{\"TotalVisitorCount\":\"18\",\"InSession\":\"14\",\"WifiVisitors\":\"18\",\"Concluded\":\"12\",\"Pending\":\"12\",\"Cancelled\":\"1\",\"StartAverageVisit\":\"35\",\"EndAverageVisit\":\"50\",\"AverageVisitRangeLabel\":\"40 - 50\",\"VisitCancelled\":\"15%\",\"PeakHoursStartRange\":\"9am\",\"PeakHoursEndRange\":\"11am\",\"PeakHoursRangeLabel\":\"9:00am - 11:00am\",\"Details\":{\"2020-04-30\":[{\"VisitorCount\":\"5\",\"Number\":\"8\",\"Frequency\":\"Day\",\"isoDate\":\"2020-04-30T08:00:46.96\",\"RangeLabel\":\"8-9\"},{\"VisitorCount\":\"8\",\"Number\":\"9\",\"Frequency\":\"Day\",\"isoDate\":\"2020-04-30T09:00:46.96\",\"RangeLabel\":\"9-10\"},{\"VisitorCount\":\"11\",\"Number\":\"10\",\"Frequency\":\"Day\",\"isoDate\":\"2020-04-30T10:00:46.96\",\"RangeLabel\":\"10-11\"},{\"VisitorCount\":\"12\",\"Number\":\"11\",\"Frequency\":\"Day\",\"isoDate\":\"2020-04-30T11:00:46.96\",\"RangeLabel\":\"11-12\"},{\"VisitorCount\":\"10\",\"Number\":\"12\",\"Frequency\":\"Day\",\"isoDate\":\"2020-04-30T12:00:46.96\",\"RangeLabel\":\"12-13\"},{\"VisitorCount\":\"15\",\"Number\":\"13\",\"Frequency\":\"Day\",\"isoDate\":\"2020-04-30T13:00:46.96\",\"RangeLabel\":\"13-14\"},{\"VisitorCount\":\"17\",\"Number\":\"14\",\"Frequency\":\"Day\",\"isoDate\":\"2020-04-30T14:00:46.96\",\"RangeLabel\":\"14-15\"},{\"VisitorCount\":\"5\",\"Number\":\"15\",\"Frequency\":\"Day\",\"isoDate\":\"2020-04-30T15:00:46.96\",\"RangeLabel\":\"15-16\"},{\"VisitorCount\":\"7\",\"Number\":\"16\",\"Frequency\":\"Day\",\"isoDate\":\"2020-04-30T16:00:46.96\",\"RangeLabel\":\"16-17\"}]}}},\"Monthly\":{\"Visitors\":{\"TotalVisitorCount\":\"45\",\"InSession\":\"18\",\"WifiVisitors\":\"4\",\"Concluded\":\"18\",\"Pending\":\"18\",\"Cancelled\":\"10\",\"StartAverageVisit\":\"40\",\"EndAverageVisit\":\"50\",\"AverageVisitRangeLabel\":\"40 - 50\",\"VisitCancelled\":\"15%\",\"PeakHoursStartRange\":\"9am\",\"PeakHoursEndRange\":\"11am\",\"PeakHoursRangeLabel\":\"9:00am - 11:00am\",\"Details\":{\"2020-04-30\":[{\"VisitorCount\":\"5\",\"Number\":\"8\",\"Frequency\":\"Week\",\"isoDate\":\"2020-04-30T08:00:46.96\",\"RangeLabel\":\"8-9\"},{\"VisitorCount\":\"12\",\"Number\":\"9\",\"Frequency\":\"Week\",\"isoDate\":\"2020-04-30T09:00:46.96\",\"RangeLabel\":\"9-10\"},{\"VisitorCount\":\"11\",\"Number\":\"10\",\"Frequency\":\"Week\",\"isoDate\":\"2020-04-30T10:00:46.96\",\"RangeLabel\":\"10-11\"},{\"VisitorCount\":\"15\",\"Number\":\"11\",\"Frequency\":\"Week\",\"isoDate\":\"2020-04-30T11:00:46.96\",\"RangeLabel\":\"11-12\"},{\"VisitorCount\":\"14\",\"Number\":\"12\",\"Frequency\":\"Week\",\"isoDate\":\"2020-04-30T12:00:46.96\",\"RangeLabel\":\"12-13\"},{\"VisitorCount\":\"10\",\"Number\":\"13\",\"Frequency\":\"Week\",\"isoDate\":\"2020-04-30T13:00:46.96\",\"RangeLabel\":\"13-14\"},{\"VisitorCount\":\"1\",\"Number\":\"14\",\"Frequency\":\"Week\",\"isoDate\":\"2020-04-30T14:00:46.96\",\"RangeLabel\":\"14-15\"},{\"VisitorCount\":\"11\",\"Number\":\"15\",\"Frequency\":\"Week\",\"isoDate\":\"2020-04-30T15:00:46.96\",\"RangeLabel\":\"15-16\"},{\"VisitorCount\":\"4\",\"Number\":\"16\",\"Frequency\":\"Week\",\"isoDate\":\"2020-04-30T16:00:46.96\",\"RangeLabel\":\"16-17\"}]}}},\"Yearly\":{\"Visitors\":{\"TotalVisitorCount\":\"15\",\"InSession\":\"20\",\"WifiVisitors\":\"18\",\"Concluded\":\"15\",\"Pending\":\"18\",\"Cancelled\":\"2\",\"StartAverageVisit\":\"15\",\"EndAverageVisit\":\"40\",\"AverageVisitRangeLabel\":\"15 - 40\",\"VisitCancelled\":\"15%\",\"PeakHoursStartRange\":\"9am\",\"PeakHoursEndRange\":\"11am\",\"PeakHoursRangeLabel\":\"9:00am - 11:00am\",\"Details\":{\"2020-04-30\":[{\"VisitorCount\":\"7\",\"Number\":\"8\",\"Frequency\":\"Month\",\"isoDate\":\"2020-04-30T08:00:46.96\",\"RangeLabel\":\"8-9\"},{\"VisitorCount\":\"6\",\"Number\":\"9\",\"Frequency\":\"Month\",\"isoDate\":\"2020-04-30T09:00:46.96\",\"RangeLabel\":\"9-10\"},{\"VisitorCount\":\"10\",\"Number\":\"10\",\"Frequency\":\"Month\",\"isoDate\":\"2020-04-30T10:00:46.96\",\"RangeLabel\":\"10-11\"},{\"VisitorCount\":\"14\",\"Number\":\"11\",\"Frequency\":\"Month\",\"isoDate\":\"2020-04-30T11:00:46.96\",\"RangeLabel\":\"11-12\"},{\"VisitorCount\":\"7\",\"Number\":\"12\",\"Frequency\":\"Month\",\"isoDate\":\"2020-04-30T12:00:46.96\",\"RangeLabel\":\"12-13\"},{\"VisitorCount\":\"8\",\"Number\":\"13\",\"Frequency\":\"Month\",\"isoDate\":\"2020-04-30T13:00:46.96\",\"RangeLabel\":\"13-14\"},{\"VisitorCount\":\"11\",\"Number\":\"14\",\"Frequency\":\"Month\",\"isoDate\":\"2020-04-30T14:00:46.96\",\"RangeLabel\":\"14-15\"},{\"VisitorCount\":\"8\",\"Number\":\"15\",\"Frequency\":\"Month\",\"isoDate\":\"2020-04-30T15:00:46.96\",\"RangeLabel\":\"15-16\"},{\"VisitorCount\":\"1\",\"Number\":\"16\",\"Frequency\":\"Month\",\"isoDate\":\"2020-04-30T16:00:46.96\",\"RangeLabel\":\"16-17\"}]}}}}}");
 
 /***/ }),
 
@@ -6495,6 +13400,35 @@ function registerLink(_link) {
 }
 exports.registerLink = registerLink;
 
+
+/***/ }),
+
+/***/ "./src/widget_trans.scss":
+/*!*******************************!*\
+  !*** ./src/widget_trans.scss ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./widget_trans.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/widget_trans.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 

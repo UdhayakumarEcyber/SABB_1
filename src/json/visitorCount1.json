@@ -1,0 +1,306 @@
+ 
+
+{
+	"Visitors": { 
+		 
+			"Daily": {
+				"Visitors": {
+					"TotalVisitorCount": "29",
+					"InSession": "25",
+					"WifiVisitors": "8",
+					"Concluded": "12",
+					"Pending": "3",
+					"Cancelled": "10",
+					"StartAverageVisit": "40",
+					"EndAverageVisit": "50",
+					"AverageVisitRangeLabel": "40 - 50",
+					"VisitCancelled": "15%",
+					"PeakHoursStartRange": "9am",
+					"PeakHoursEndRange": "11am",
+					"PeakHoursRangeLabel": "9:00am - 11:00am",
+					"Details": {
+						"2020-04-30": [{
+							"VisitorCount": "18",
+							"Number": "8",
+							"Frequency": "Hour",
+							"isoDate": "2020-04-30T08:00:46.96",
+							"RangeLabel": "8-9"
+						}, {
+							"VisitorCount": "7",
+							"Number": "9",
+							"Frequency": "Hour",
+							"isoDate": "2020-04-30T09:00:46.96",
+							"RangeLabel": "9-10"
+						}, {
+							"VisitorCount": "10",
+							"Number": "10",
+							"Frequency": "Hour",
+							"isoDate": "2020-04-30T10:00:46.96",
+							"RangeLabel": "10-11"
+						}, {
+							"VisitorCount": "18",
+							"Number": "11",
+							"Frequency": "Hour",
+							"isoDate": "2020-04-30T11:00:46.96",
+							"RangeLabel": "11-12"
+						}, {
+							"VisitorCount": "23",
+							"Number": "12",
+							"Frequency": "Hour",
+							"isoDate": "2020-04-30T12:00:46.96",
+							"RangeLabel": "12-13"
+						}, {
+							"VisitorCount": "11",
+							"Number": "13",
+							"Frequency": "Hour",
+							"isoDate": "2020-04-30T13:00:46.96",
+							"RangeLabel": "13-14"
+						}, {
+							"VisitorCount": "12",
+							"Number": "14",
+							"Frequency": "Hour",
+							"isoDate": "2020-04-30T14:00:46.96",
+							"RangeLabel": "14-15"
+						}, {
+							"VisitorCount": "15",
+							"Number": "15",
+							"Frequency": "Hour",
+							"isoDate": "2020-04-30T15:00:46.96",
+							"RangeLabel": "15-16"
+						}, {
+							"VisitorCount": "18",
+							"Number": "16",
+							"Frequency": "Hour",
+							"isoDate": "2020-04-30T16:00:46.96",
+							"RangeLabel": "16-17"
+						}]
+					}
+				}
+			},
+
+			"Weekly": {
+				"Visitors": {
+					"TotalVisitorCount": "18",
+					"InSession": "14",
+					"WifiVisitors": "18",
+					"Concluded": "12",
+					"Pending": "12",
+					"Cancelled": "1",
+					"StartAverageVisit": "35",
+					"EndAverageVisit": "50",
+					"AverageVisitRangeLabel": "40 - 50",
+					"VisitCancelled": "15%",
+					"PeakHoursStartRange": "9am",
+					"PeakHoursEndRange": "11am",
+					"PeakHoursRangeLabel": "9:00am - 11:00am",
+					"Details": {
+						"2020-04-30": [{
+							"VisitorCount": "5",
+							"Number": "8",
+							"Frequency": "Day",
+							"isoDate": "2020-04-30T08:00:46.96",
+							"RangeLabel": "8-9"
+						}, {
+							"VisitorCount": "8",
+							"Number": "9",
+							"Frequency": "Day",
+							"isoDate": "2020-04-30T09:00:46.96",
+							"RangeLabel": "9-10"
+						}, {
+							"VisitorCount": "11",
+							"Number": "10",
+							"Frequency": "Day",
+							"isoDate": "2020-04-30T10:00:46.96",
+							"RangeLabel": "10-11"
+						}, {
+							"VisitorCount": "12",
+							"Number": "11",
+							"Frequency": "Day",
+							"isoDate": "2020-04-30T11:00:46.96",
+							"RangeLabel": "11-12"
+						}, {
+							"VisitorCount": "10",
+							"Number": "12",
+							"Frequency": "Day",
+							"isoDate": "2020-04-30T12:00:46.96",
+							"RangeLabel": "12-13"
+						}, {
+							"VisitorCount": "15",
+							"Number": "13",
+							"Frequency": "Day",
+							"isoDate": "2020-04-30T13:00:46.96",
+							"RangeLabel": "13-14"
+						}, {
+							"VisitorCount": "17",
+							"Number": "14",
+							"Frequency": "Day",
+							"isoDate": "2020-04-30T14:00:46.96",
+							"RangeLabel": "14-15"
+						}, {
+							"VisitorCount": "5",
+							"Number": "15",
+							"Frequency": "Day",
+							"isoDate": "2020-04-30T15:00:46.96",
+							"RangeLabel": "15-16"
+						}, {
+							"VisitorCount": "7",
+							"Number": "16",
+							"Frequency": "Day",
+							"isoDate": "2020-04-30T16:00:46.96",
+							"RangeLabel": "16-17"
+						}]
+					}
+				}
+			},
+
+			"Monthly": {
+				"Visitors": {
+					"TotalVisitorCount": "45",
+					"InSession": "18",
+					"WifiVisitors": "4",
+					"Concluded": "18",
+					"Pending": "18",
+					"Cancelled": "10",
+					"StartAverageVisit": "40",
+					"EndAverageVisit": "50",
+					"AverageVisitRangeLabel": "40 - 50",
+					"VisitCancelled": "15%",
+					"PeakHoursStartRange": "9am",
+					"PeakHoursEndRange": "11am",
+					"PeakHoursRangeLabel": "9:00am - 11:00am",
+					"Details": {
+						"2020-04-30": [{
+							"VisitorCount": "5",
+							"Number": "8",
+							"Frequency": "Week",
+							"isoDate": "2020-04-30T08:00:46.96",
+							"RangeLabel": "8-9"
+						}, {
+							"VisitorCount": "12",
+							"Number": "9",
+							"Frequency": "Week",
+							"isoDate": "2020-04-30T09:00:46.96",
+							"RangeLabel": "9-10"
+						}, {
+							"VisitorCount": "11",
+							"Number": "10",
+							"Frequency": "Week",
+							"isoDate": "2020-04-30T10:00:46.96",
+							"RangeLabel": "10-11"
+						}, {
+							"VisitorCount": "15",
+							"Number": "11",
+							"Frequency": "Week",
+							"isoDate": "2020-04-30T11:00:46.96",
+							"RangeLabel": "11-12"
+						}, {
+							"VisitorCount": "14",
+							"Number": "12",
+							"Frequency": "Week",
+							"isoDate": "2020-04-30T12:00:46.96",
+							"RangeLabel": "12-13"
+						}, {
+							"VisitorCount": "10",
+							"Number": "13",
+							"Frequency": "Week",
+							"isoDate": "2020-04-30T13:00:46.96",
+							"RangeLabel": "13-14"
+						}, {
+							"VisitorCount": "1",
+							"Number": "14",
+							"Frequency": "Week",
+							"isoDate": "2020-04-30T14:00:46.96",
+							"RangeLabel": "14-15"
+						}, {
+							"VisitorCount": "11",
+							"Number": "15",
+							"Frequency": "Week",
+							"isoDate": "2020-04-30T15:00:46.96",
+							"RangeLabel": "15-16"
+						}, {
+							"VisitorCount": "4",
+							"Number": "16",
+							"Frequency": "Week",
+							"isoDate": "2020-04-30T16:00:46.96",
+							"RangeLabel": "16-17"
+						}]
+					}
+				}
+			},
+
+			"Yearly": {
+				"Visitors": {
+					"TotalVisitorCount": "15",
+					"InSession": "20",
+					"WifiVisitors": "18",
+					"Concluded": "15",
+					"Pending": "18",
+					"Cancelled": "2",
+					"StartAverageVisit": "15",
+					"EndAverageVisit": "40",
+					"AverageVisitRangeLabel": "15 - 40",
+					"VisitCancelled": "15%",
+					"PeakHoursStartRange": "9am",
+					"PeakHoursEndRange": "11am",
+					"PeakHoursRangeLabel": "9:00am - 11:00am",
+					"Details": {
+						"2020-04-30": [{
+							"VisitorCount": "7",
+							"Number": "8",
+							"Frequency": "Month",
+							"isoDate": "2020-04-30T08:00:46.96",
+							"RangeLabel": "8-9"
+						}, {
+							"VisitorCount": "6",
+							"Number": "9",
+							"Frequency": "Month",
+							"isoDate": "2020-04-30T09:00:46.96",
+							"RangeLabel": "9-10"
+						}, {
+							"VisitorCount": "10",
+							"Number": "10",
+							"Frequency": "Month",
+							"isoDate": "2020-04-30T10:00:46.96",
+							"RangeLabel": "10-11"
+						}, {
+							"VisitorCount": "14",
+							"Number": "11",
+							"Frequency": "Month",
+							"isoDate": "2020-04-30T11:00:46.96",
+							"RangeLabel": "11-12"
+						}, {
+							"VisitorCount": "7",
+							"Number": "12",
+							"Frequency": "Month",
+							"isoDate": "2020-04-30T12:00:46.96",
+							"RangeLabel": "12-13"
+						}, {
+							"VisitorCount": "8",
+							"Number": "13",
+							"Frequency": "Month",
+							"isoDate": "2020-04-30T13:00:46.96",
+							"RangeLabel": "13-14"
+						}, {
+							"VisitorCount": "11",
+							"Number": "14",
+							"Frequency": "Month",
+							"isoDate": "2020-04-30T14:00:46.96",
+							"RangeLabel": "14-15"
+						}, {
+							"VisitorCount": "8",
+							"Number": "15",
+							"Frequency": "Month",
+							"isoDate": "2020-04-30T15:00:46.96",
+							"RangeLabel": "15-16"
+						}, {
+							"VisitorCount": "1",
+							"Number": "16",
+							"Frequency": "Month",
+							"isoDate": "2020-04-30T16:00:46.96",
+							"RangeLabel": "16-17"
+						}]
+					}
+				}
+		}
+	} 
+}

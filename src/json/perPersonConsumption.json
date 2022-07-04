@@ -11,8 +11,8 @@
 			},
 			"Cost": {
 				"Value": "93,147",
-				"Unit": "INR",
-				"Label": "93,147INR"
+				"Unit": "SAR",
+				"Label": "93,147SAR"
 			}
 		}, {
 			"Label": "Floor 15-16",
@@ -24,8 +24,8 @@
 			},
 			"Cost": {
 				"Value": "33,215",
-				"Unit": "INR",
-				"Label": "33,215INR"
+				"Unit": "SAR",
+				"Label": "33,215SAR"
 			}
 		}]
 	}

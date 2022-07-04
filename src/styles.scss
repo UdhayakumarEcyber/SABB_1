@@ -5009,3 +5009,197 @@ $arrowLeft: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvM
   }
 }
 //Daily Campus Footfall Widget End
+
+
+
+.uxp-widget.actionicon {
+    width: 15%;
+    display: inline-block;
+    margin: 0 3%;
+    position: relative;
+    height: 200px;
+
+    &:first-child{
+      margin-left: 0;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+
+  .icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1607843137);
+    border-radius: 10px;
+    width: 76%;
+    position: absolute;
+    height: 60%;
+    left: 12%;
+    cursor: pointer;
+    top: 10%;
+    background-size: 80%;
+    border: 1px solid #e8e8e8;
+
+      .caught_widget-iviva {
+          background-image: url(https://static.iviva.com/images/Logo.png);
+          display: inline-block;
+          background-position: center center;
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          background-size: 75% auto;
+      }
+  }
+
+  .title {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #424242;
+  }
+}
+.gridster .gs-w {
+  z-index: 2;
+  position: absolute;
+} 
+ 
+
+.alarm_map{
+  .transport_map{
+      width: 100%;
+      display: inline-block;
+      // height: 75vh;
+      height: 88%;
+
+      .transport_map-sec{
+          position: relative;
+          z-index: 0;  
+      }
+  }
+
+ 
+
+.map_spot{
+  display: inline-block; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px; 
+  cursor: pointer;
+  border-radius: 50%;
+
+  &.camera{  
+      background-image: url(https://static.iviva.com/images/uxp-generic-widgets/camera.svg);
+  } 
+  &.chart{ 
+    background-image: url(https://static.iviva.com/images/SABB/bell.png);
+    
+    // background: #FC9142; 
+    width: 20px;
+    height: 20px;
+    // background: #FC9142;
+    border-radius: 50%;
+    text-align: center; 
+
+     .chart-count{
+                   display: inline-block;
+                  color: #fff;
+                  font-size: 1.1em;
+                  padding-top: 7px;
+     }
+  } 
+  &.orange-light{  
+     background-color: #ff9a36;
+  }
+  &.grey-light{  
+     background-color: #574d50;
+  }  
+}
+
+
+#uxp-map-component-container{ 
+  width: 98%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 0 1%;
+}
+
+.leaflet-popup-content-wrapper{
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.leaflet-popup{ 
+    a.leaflet-popup-close-button { 
+          top: 2px;
+  right: -2px;
+  width: 30px;
+  height: 30px;
+  font: 21px/14px Tahoma, Verdana, sans-serif;
+  }
+
+  .leaflet-popup-content-wrapper{ 
+      padding: 0; 
+
+  .leaflet-popup-content{
+      margin: 0;
+  }
+
+  .spot_content{  
+
+          background-color: #000000;
+          border-radius: 12px;
+          padding: 13px 19px;
+          outline: none;
+          border : 1px solid #FC9142;
+ 
+   .section-content{ 
+
+       display: inline-block;
+       width: 100%;
+       margin-top: 1em;
+
+              .icon{
+                  display: inline-block;
+              } 
+              h5{
+                  display: inline-block;
+                  width: 100%;
+                  color: #ffffff;
+                  font-size: 1.2em;
+                  padding: 5px 0 5px 0px;
+                  margin: 0;
+              }
+              p{
+                  color: #ffffff;
+                  font-size: 0.9em;
+                  padding: 5px 0 5px 0px;
+                  margin: 0;
+              }
+            a{
+              color: #ebff01;
+              text-decoration: none;
+              margin-top: 4px;
+              display: inline-block;
+              font-size: 0.9em;
+            }
+ 
+   }   
+
+  }
+}
+
+}
+
+ 
+#uxp-map-component-container{
+    background: #2c2e31;
+}
+
+}

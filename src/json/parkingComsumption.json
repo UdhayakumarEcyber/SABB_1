@@ -8,7 +8,7 @@
 			"PrevConsumption": "15061",
 			"Unit": "kWh",
 			"Cost": "13,87,689",
-			"CostUnit": "INR",
+			"CostUnit": "SAR",
 			"Icon": "/AccountResources/Dashboard/Icons/B1.png",
 			"Percentage": "0.70% greater Energy Consumed"
 		}, {
@@ -17,7 +17,7 @@
 			"PrevConsumption": "14305",
 			"Unit": "kWh",
 			"Cost": "12,97,013",
-			"CostUnit": "INR",
+			"CostUnit": "SAR",
 			"Icon": "/AccountResources/Dashboard/Icons/B2.png",
 			"Percentage": "0.91% lesser Energy Consumed"
 		}, {
@@ -26,7 +26,7 @@
 			"PrevConsumption": "14305",
 			"Unit": "kWh",
 			"Cost": "2085,10,932",
-			"CostUnit": "INR",
+			"CostUnit": "SAR",
 			"Icon": "/AccountResources/Dashboard/Icons/B3.png",
 			"Percentage": "14357.61% greater Energy Consumed"
 		}]

@@ -5,8 +5,8 @@ import '../styles.scss';
 
 
 import SeatBookingDetails from  '../json/hotDeskingInitData.json'
-import hotDeskingLoadData from  '../json/hotDeskingLoadData.json'
-
+ import hotDeskingLoadData from  '../json/hotDeskingLoadData.json'
+//import hotDeskingLoadData1 from  '../json/hotDeskingLoadData1.json'
 
 interface IHotDeskingeProps {
     uxpContext?: IContextProvider
@@ -62,8 +62,27 @@ async function loadHotDeskData(selVal:any){
     // let fdata = await props.uxpContext.executeAction('AdaniDashboard','HotDeskingLoadData',params,{json:true});
     // hotdesking_LoadData(fdata);
 
-    let fdata = hotDeskingLoadData;
-    hotdesking_LoadData(fdata);
+   let fdata = hotDeskingLoadData;
+
+//   let Cdata = hotDeskingLoadData1.HotDeskingLoadData;
+
+//    let fdata = Cdata.Floors.EW;
+
+//     if(selVal == 'WW'){
+//         fdata = Cdata.Floors.WW;
+//     }
+//     else if(selVal == 'NW'){
+//         fdata = Cdata.Floors.NW;
+//     } 
+//     else if(selVal == 'SW'){
+//         fdata = Cdata.Floors.SW;
+//     } 
+
+   // setseries_data(fdata);
+
+
+   hotdesking_LoadData(fdata);
+    
 }
 
 function bindFloorddl(selVal:any){
@@ -149,3 +168,7 @@ function hotdeskingFloor(v:any){
 }
 
 export default HotDesking;
+
+function setseries_data(fdata: { FloorFullName: string; FloorLocName: string; FloorKey: string; IsSelected: string; }[]) {
+    throw new Error("Function not implemented.");
+}

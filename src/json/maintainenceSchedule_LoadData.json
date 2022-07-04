@@ -61,20 +61,7 @@
 					"Date": "2020-05-10T12:00:00",
 					"Status": "Upcoming"
 				}
-			}],
-			"22-05-2020": [{
-				"Name": "Carrier",
-				"ScheduleStartDT": "2020-05-22T11:30:00",
-				"ScheduleEndDT": "2020-05-22T13:30:00",
-				"CardDetails": {
-					"Name": "Carrier",
-					"Subject": "No Power in 5th floor space 2",
-					"Location": "F5",
-					"System": "HVAC",
-					"Date": "2020-05-08T12:30:00",
-					"Status": "Upcoming"
-				}
-			}]
+			}] 
 		}
 	}, 
 	"2" :{
@@ -124,70 +111,7 @@
 					"Status": "Upcoming"
 				}
 			}],
-			"20-05-2020": [{
-				"Name": "L&T",
-				"ScheduleStartDT": "2020-05-20T07:30:00",
-				"ScheduleEndDT": "2020-05-20T08:30:00",
-				"CardDetails": {
-					"Name": "L&T",
-					"Subject": "No power in the 5th floor Z1",
-					"Location": "F5",
-					"System": "Electrical",
-					"Date": "2020-05-10T12:00:00",
-					"Status": "Upcoming"
-				}
-			}],
-			"22-05-2020": [{
-				"Name": "L&T",
-				"ScheduleStartDT": "2020-05-22T11:30:00",
-				"ScheduleEndDT": "2020-05-22T13:30:00",
-				"CardDetails": {
-					"Name": "Carrier",
-					"Subject": "No Power in 5th floor space 2",
-					"Location": "F5",
-					"System": "HVAC",
-					"Date": "2020-05-08T12:30:00",
-					"Status": "Upcoming"
-				}
-			}]
-		}
-	 
-	}, 
-	"3" :{
-		"Vendors": [{
-			"VendorName": "L&T",
-			"VendorKey": "1"
-		}, {
-			"VendorName": "LG Electronics",
-			"VendorKey": "2"
-		}],
-		"WRScheduleDatails": {
-			"14-05-2020": [{
-				"Name": "LG Electronics",
-				"ScheduleStartDT": "2020-05-14T07:30:00",
-				"ScheduleEndDT": "2020-05-14T09:30:00",
-				"CardDetails": {
-					"Name": "LG Electronics",
-					"Subject": "Light off in 3rd floor with severity level high",
-					"Location": "F3",
-					"System": "Electrical",
-					"Date": "2020-05-12T02:55:00",
-					"Status": "Upcoming"
-				}
-			}, {
-				"Name": "LG Electronics",
-				"ScheduleStartDT": "2020-05-14T09:30:00",
-				"ScheduleEndDT": "2020-05-14T11:00:00",
-				"CardDetails": {
-					"Name": "LG Electronics",
-					"Subject": "Poor Light in 5th floor",
-					"Location": "F5",
-					"System": "Electrical",
-					"Date": "2020-05-12T13:30:00",
-					"Status": "Upcoming"
-				}
-			}],
-			"15-05-2020": [{
+			"17-05-2020": [{
 				"Name": "LG Electronics",
 				"ScheduleStartDT": "2020-05-15T09:00:00",
 				"ScheduleEndDT": "2020-05-15T11:00:00",
@@ -228,18 +152,94 @@
 			}]
 		}
 	 
+	}, 
+	"3" :{
+		"Vendors": [{
+			"VendorName": "Carrier",
+			"VendorKey": "1"
+		}, {
+			"VendorName": "LG Electronics",
+			"VendorKey": "2"
+		}],
+		"WRScheduleDatails": {
+			"14-05-2020": [{
+				"Name": "LG Electronics",
+				"ScheduleStartDT": "2020-05-14T07:30:00",
+				"ScheduleEndDT": "2020-05-14T09:30:00",
+				"CardDetails": {
+					"Name": "LG Electronics",
+					"Subject": "Light off in 3rd floor with severity level high",
+					"Location": "F3",
+					"System": "Electrical",
+					"Date": "2020-05-12T02:55:00",
+					"Status": "Upcoming"
+				}
+			}, {
+				"Name": "LG Electronics",
+				"ScheduleStartDT": "2020-05-14T09:30:00",
+				"ScheduleEndDT": "2020-05-14T11:00:00",
+				"CardDetails": {
+					"Name": "LG Electronics",
+					"Subject": "Poor Light in 5th floor",
+					"Location": "F5",
+					"System": "Electrical",
+					"Date": "2020-05-12T13:30:00",
+					"Status": "Upcoming"
+				}
+			}],
+			"17-05-2020": [{
+				"Name": "LG Electronics",
+				"ScheduleStartDT": "2020-05-15T09:00:00",
+				"ScheduleEndDT": "2020-05-15T11:00:00",
+				"CardDetails": {
+					"Name": "LG Electronics",
+					"Subject": "No power in 6th floor",
+					"Location": "F6",
+					"System": "Electrical",
+					"Date": "2020-05-10T02:57:00",
+					"Status": "Upcoming"
+				}
+			}],
+			"18-05-2020": [{
+				"Name": "L&T",
+				"ScheduleStartDT": "2020-05-20T07:30:00",
+				"ScheduleEndDT": "2020-05-20T08:30:00",
+				"CardDetails": {
+					"Name": "L&T",
+					"Subject": "No power in the 5th floor Z1",
+					"Location": "F5",
+					"System": "Electrical",
+					"Date": "2020-05-10T12:00:00",
+					"Status": "Upcoming"
+				}
+			}],
+			"21-05-2020": [{
+				"Name": "L&T",
+				"ScheduleStartDT": "2020-05-22T11:30:00",
+				"ScheduleEndDT": "2020-05-22T13:30:00",
+				"CardDetails": {
+					"Name": "Carrier",
+					"Subject": "No Power in 5th floor space 2",
+					"Location": "F5",
+					"System": "HVAC",
+					"Date": "2020-05-08T12:30:00",
+					"Status": "Upcoming"
+				}
+			}]
+		}
+	 
 	},
 	"4" :{ 
 			"Vendors": [{
 				"VendorName": "L&T",
 				"VendorKey": "1"
 			}, {
-				"VendorName": "LG Electronics",
+				"VendorName": "Johnson Controls",
 				"VendorKey": "2"
 			}],
 			"WRScheduleDatails": {
 				"14-05-2020": [{
-					"Name": "LG Electronics",
+					"Name": "L&T Electronics",
 					"ScheduleStartDT": "2020-05-14T07:30:00",
 					"ScheduleEndDT": "2020-05-14T09:30:00",
 					"CardDetails": {
@@ -351,7 +351,7 @@
 					"Status": "Upcoming"
 				}
 			}],
-			"20-05-2020": [{
+			"16-05-2020": [{
 				"Name": "L&T",
 				"ScheduleStartDT": "2020-05-20T07:30:00",
 				"ScheduleEndDT": "2020-05-20T08:30:00",
@@ -364,7 +364,7 @@
 					"Status": "Upcoming"
 				}
 			}],
-			"22-05-2020": [{
+			"20-05-2020": [{
 				"Name": "L&T",
 				"ScheduleStartDT": "2020-05-22T11:30:00",
 				"ScheduleEndDT": "2020-05-22T13:30:00",

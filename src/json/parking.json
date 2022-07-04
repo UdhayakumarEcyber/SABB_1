@@ -75,7 +75,7 @@
 				"Frequency": "Hour",
 				"isoDate": "2020-04-20T10:38:35.833"
 			}, {
-				"TotalEmployeeVehicles": "56",
+				"TotalEmployeeVehicles": "75",
 				"TotalVisitorVehicles": "7",
 				"Number": "11",
 				"Frequency": "Hour",
@@ -147,7 +147,7 @@
 				"Frequency": "Hour",
 				"isoDate": "2020-04-20T22:38:35.833"
 			}, {
-				"TotalEmployeeVehicles": "9",
+				"TotalEmployeeVehicles": "89",
 				"TotalVisitorVehicles": "0",
 				"Number": "23",
 				"Frequency": "Hour",

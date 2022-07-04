@@ -221,11 +221,11 @@ async function renderBaseline() {
 
     return <WidgetWrapper className="actual-baseline-widget">
         <TitleBar icon="https://static.iviva.com/images/Adani_UXP/energy.svg" title="ACTUAL VS BASELINE CONSUMPTION" className="actual-baseline-titlebar icons">
-            <div className="baseline_cur_month"></div>
+            <div className="baseline_cur_month" style={{width:"100%", textAlign:'center'}}></div>
             <div className="actual-baseline-btns">
                 <ul>
                     <li id='baseline' className="ABBaseline actual-baseline-btns-child selectedBtn" onClick={() =>{renderBaseline()} }>Baseline</li>
-                    <li id='heatmap' className="heatMap actual-baseline-btns-child" onClick={() =>{RenderHeatMap()} }>Heatmap</li>
+                    <li id='heatmap' className="heatMap actual-baseline-btns-child" onClick={() =>{RenderHeatMap()} }></li>
                 </ul>
             </div>
         </TitleBar>        

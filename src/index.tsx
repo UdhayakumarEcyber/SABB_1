@@ -3,6 +3,11 @@ import { registerWidget,registerLink } from './uxp';
 
 import './styles.scss';
 
+
+import TopIcons from "./components/TopIcons";
+import DigitalTwin from "./components/DigtalTwin";
+import Alarm_Map from "./components/Alarm_map";
+
 import EnvironmentMetrics from "./components/EnvironmentMetrics";
 import Meeting from "./components/Meeting";
 import parkingUtilization from "./components/Parking";
@@ -23,6 +28,24 @@ import FootfallType from "./components/FootfallType";
 import HotDesking from "./components/HotDesking";
 import VisitorCount from "./components/VisitorCount";
 import DailyCampusFootfall from "./components/DailyCampusFootfall";
+
+
+
+
+registerWidget({
+    id: "TopIcons",
+    name: "TopIcons",
+    widget: TopIcons,
+    configs: {
+        layout: {
+            w: 9,
+            h: 9,
+            minW: 2,
+            minH: 2
+        }
+    }
+});
+
 
 registerWidget({
     id: "EnvironmentMetrics",
@@ -348,6 +371,34 @@ registerWidget({
             h: 8,
             minW: 30,
             minH: 8
+        }
+    }
+}); 
+
+registerWidget({
+    id: "DigitalTwin",
+    name: "Digital Twin",
+    widget: DigitalTwin,
+    configs: {
+        layout: {
+            w: 30,
+            h: 8,
+            minW: 3,
+            minH: 5
+        }
+    }
+}); 
+
+registerWidget({
+    id: "Alarm_Map",
+    name: "Alarm Map",
+    widget: Alarm_Map,
+    configs: {
+        layout: {
+            w: 30,
+            h: 8,
+            minW: 3,
+            minH: 5
         }
     }
 }); 

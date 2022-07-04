@@ -30,14 +30,14 @@
 	"WRScheduleDatails": {
 		"22-07-2020": [{
 			"Name": "Carrier",
-			"ScheduleStartDT": "2020-07-22T10:30:00",
-			"ScheduleEndDT": "2020-07-22T12:30:00",
+			"ScheduleStartDT": "2020-07-22T15:30:00",
+			"ScheduleEndDT": "2020-07-22T17:30:00",
 			"CardDetails": {
 				"Name": "Carrier",
 				"Subject": "",
 				"Location": "3F",
 				"System": "HVAC",
-				"Date": "2020-07-20T02:55:00",
+				"Date": "2020-07-20T16:55:00",
 				"Status": "Upcoming"
 			}
 		}],
@@ -50,7 +50,7 @@
 				"Subject": "Water Leakage in 5th floor AC",
 				"Location": "F5",
 				"System": "HVAC",
-				"Date": "2020-07-22T13:30:00",
+				"Date": "2020-07-22T18:30:00",
 				"Status": "Delayed"
 			}
 		}, {
@@ -62,7 +62,7 @@
 				"Subject": "Power Outage in 5th floor AC",
 				"Location": "F5",
 				"System": "HVAC",
-				"Date": "2020-07-22T13:30:00",
+				"Date": "2020-07-22T16:30:00",
 				"Status": "Not Attended"
 			}
 		}],
@@ -75,7 +75,7 @@
 				"Subject": "Water Leakage in 5th floor AC",
 				"Location": "F5",
 				"System": "HVAC",
-				"Date": "2020-07-24T13:30:00",
+				"Date": "2020-07-24T14:30:00",
 				"Status": "Onhold"
 			}
 		}, {
@@ -87,7 +87,7 @@
 				"Subject": "Power Outage in 5th floor AC",
 				"Location": "F5",
 				"System": "HVAC",
-				"Date": "2020-07-24T13:30:00",
+				"Date": "2020-07-24T20:30:00",
 				"Status": "Cancel"
 			}
 		}, {
@@ -99,7 +99,7 @@
 				"Subject": "Power Outage in 5th floor AC",
 				"Location": "F5",
 				"System": "HVAC",
-				"Date": "2020-07-24T13:30:00",
+				"Date": "2020-07-24T21:30:00",
 				"Status": "Assignment"
 			}
 		}],
@@ -112,7 +112,7 @@
 				"Subject": "Water Leakage in 5th floor AC",
 				"Location": "F5",
 				"System": "HVAC",
-				"Date": "2020-07-25T13:30:00",
+				"Date": "2020-07-25T23:30:00",
 				"Status": "InProgress"
 			}
 		}, {
@@ -124,7 +124,7 @@
 				"Subject": "Power Outage in 5th floor AC",
 				"Location": "F5",
 				"System": "HVAC",
-				"Date": "2020-07-24T13:30:00",
+				"Date": "2020-07-24T10:30:00",
 				"Status": "Closed"
 			}
 		}],
@@ -137,7 +137,7 @@
 				"Subject": "Power Outage in 5th floor AC",
 				"Location": "F5",
 				"System": "HVAC",
-				"Date": "2020-07-26T13:30:00",
+				"Date": "2020-07-26T22:30:00",
 				"Status": "Complete"
 			}
 		}]

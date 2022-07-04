@@ -1,7 +1,7 @@
 {
     "Consumption": {
-        "TotalCost": "INR 19,398",
-        "CostperSqFt": "INR 0",
+        "TotalCost": "SAR 19,398",
+        "CostperSqFt": "SAR 0",
         "TotalSqFT": "1193746",
         "Electrical": {
             "Consumption": {
@@ -11,8 +11,8 @@
             },
             "Cost": {
                 "Value": "19,398",
-                "Unit": "INR",
-                "Label": "INR 19,398"
+                "Unit": "SAR",
+                "Label": "SAR 19,398"
             },
             "Current": {
                 "TrendDate": "2020-08-16T00:00:00",
@@ -26,8 +26,8 @@
                     },
                     "Cost": {
                         "Value": "19,380",
-                        "Unit": "INR",
-                        "label": "INR 19,380"
+                        "Unit": "SAR",
+                        "label": "SAR 19,380"
                     }
                 }
             },
@@ -42,8 +42,8 @@
                     },
                     "Cost": {
                         "Value": "17,03,658",
-                        "Unit": "INR",
-                        "label": "INR 17,03,658"
+                        "Unit": "SAR",
+                        "label": "SAR 17,03,658"
                     }
                 },
                 "NonWorkingHours": {
@@ -54,8 +54,8 @@
                     },
                     "Cost": {
                         "Value": "15,72,940",
-                        "Unit": "INR",
-                        "label": "INR 15,72,940"
+                        "Unit": "SAR",
+                        "label": "SAR 15,72,940"
                     }
                 }
             },
@@ -70,8 +70,8 @@
                     },
                     "Cost": {
                         "Value": "17,76,045",
-                        "Unit": "INR",
-                        "label": "INR 17,76,045"
+                        "Unit": "SAR",
+                        "label": "SAR 17,76,045"
                     }
                 },
                 "NonWorkingHours": {
@@ -82,8 +82,8 @@
                     },
                     "Cost": {
                         "Value": "17,69,354",
-                        "Unit": "INR",
-                        "label": "INR 17,69,354"
+                        "Unit": "SAR",
+                        "label": "SAR 17,69,354"
                     }
                 }
             }
@@ -96,8 +96,8 @@
             },
             "Cost": {
                 "Value": "0",
-                "Unit": "INR",
-                "Label": "INR 0"
+                "Unit": "SAR",
+                "Label": "SAR 0"
             },
             "Current": {
                 "TrendDate": "2020-08-16T00:00:00",
@@ -111,8 +111,8 @@
                     },
                     "Cost": {
                         "Value": "5",
-                        "Unit": "INR",
-                        "label": "INR 5"
+                        "Unit": "SAR",
+                        "label": "SAR 5"
                     }
                 }
             },
@@ -127,8 +127,8 @@
                     },
                     "Cost": {
                         "Value": "3,773",
-                        "Unit": "INR",
-                        "label": "INR 3,773"
+                        "Unit": "SAR",
+                        "label": "SAR 3,773"
                     }
                 },
                 "NonWorkingHours": {
@@ -139,8 +139,8 @@
                     },
                     "Cost": {
                         "Value": "1,910",
-                        "Unit": "INR",
-                        "label": "INR 1,910"
+                        "Unit": "SAR",
+                        "label": "SAR 1,910"
                     }
                 }
             },
@@ -155,8 +155,8 @@
                     },
                     "Cost": {
                         "Value": "10,473",
-                        "Unit": "INR",
-                        "label": "INR 10,473"
+                        "Unit": "SAR",
+                        "label": "SAR 10,473"
                     }
                 },
                 "NonWorkingHours": {
@@ -167,8 +167,8 @@
                     },
                     "Cost": {
                         "Value": "6,850",
-                        "Unit": "INR",
-                        "label": "INR 6,850"
+                        "Unit": "SAR",
+                        "label": "SAR 6,850"
                     }
                 }
             }
@@ -181,8 +181,8 @@
             },
             "Cost": {
                 "Value": "0",
-                "Unit": "INR",
-                "Label": "INR 0"
+                "Unit": "SAR",
+                "Label": "SAR 0"
             },
             "Current": {
                 "TrendDate": "2020-08-16T00:00:00",
@@ -196,8 +196,8 @@
                     },
                     "Cost": {
                         "Value": "0",
-                        "Unit": "INR",
-                        "label": "INR 0"
+                        "Unit": "SAR",
+                        "label": "SAR 0"
                     }
                 }
             },
@@ -212,8 +212,8 @@
                     },
                     "Cost": {
                         "Value": "0",
-                        "Unit": "INR",
-                        "label": "INR 0"
+                        "Unit": "SAR",
+                        "label": "SAR 0"
                     }
                 },
                 "NonWorkingHours": {
@@ -224,8 +224,8 @@
                     },
                     "Cost": {
                         "Value": "0",
-                        "Unit": "INR",
-                        "label": "INR 0"
+                        "Unit": "SAR",
+                        "label": "SAR 0"
                     }
                 }
             },
@@ -240,8 +240,8 @@
                     },
                     "Cost": {
                         "Value": "0",
-                        "Unit": "INR",
-                        "label": "INR 0"
+                        "Unit": "SAR",
+                        "label": "SAR 0"
                     }
                 },
                 "NonWorkingHours": {
@@ -252,8 +252,8 @@
                     },
                     "Cost": {
                         "Value": "0",
-                        "Unit": "INR",
-                        "label": "INR 0"
+                        "Unit": "SAR",
+                        "label": "SAR 0"
                     }
                 }
             }
@@ -266,8 +266,8 @@
             },
             "Cost": {
                 "Value": "NaN",
-                "Unit": "INR",
-                "Label": "INR NaN"
+                "Unit": "SAR",
+                "Label": "SAR NaN"
             },
             "Current": {
                 "TrendDate": "2020-08-16T00:00:00",
@@ -281,8 +281,8 @@
                     },
                     "Cost": {
                         "Value": "0",
-                        "Unit": "INR",
-                        "label": "INR 0"
+                        "Unit": "SAR",
+                        "label": "SAR 0"
                     }
                 }
             },
@@ -297,8 +297,8 @@
                     },
                     "Cost": {
                         "Value": "0",
-                        "Unit": "INR",
-                        "label": "INR 0"
+                        "Unit": "SAR",
+                        "label": "SAR 0"
                     }
                 },
                 "NonWorkingHours": {
@@ -309,8 +309,8 @@
                     },
                     "Cost": {
                         "Value": "0",
-                        "Unit": "INR",
-                        "label": "INR 0"
+                        "Unit": "SAR",
+                        "label": "SAR 0"
                     }
                 }
             },
@@ -325,8 +325,8 @@
                     },
                     "Cost": {
                         "Value": "0",
-                        "Unit": "INR",
-                        "label": "INR 0"
+                        "Unit": "SAR",
+                        "label": "SAR 0"
                     }
                 },
                 "NonWorkingHours": {
@@ -337,8 +337,8 @@
                     },
                     "Cost": {
                         "Value": "0",
-                        "Unit": "INR",
-                        "label": "INR 0"
+                        "Unit": "SAR",
+                        "label": "SAR 0"
                     }
                 }
             }
