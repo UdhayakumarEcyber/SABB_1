@@ -5,30 +5,19 @@ import * as Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import '../styles.scss';
 
- 
-
- import visitorCount from  '../json/visitorCount.json'
-
- import visitorCount1 from  '../json/visitorCount1.json'
-
-
 interface IVisitorCountProps {
     uxpContext?: IContextProvider
 }
 
 const VisitorCount:React.FunctionComponent<IVisitorCountProps> = (props) => {
-  
 
     let [highchartsOptions, setHighchartsOptions] = React.useState<any>({})
-     var series_data:any=[];
-   //  var [series_data, setseries_data] = React.useState<any>({})
+    var series_data:any=[];
     React.useEffect(()=>{
         getVisitorCount('Daily');
     },[]);
 	
 async function getVisitorCount(selVal:any) {
- 
-
         let params = {            
             DateQuery: selVal
         }
@@ -50,39 +39,16 @@ async function getVisitorCount(selVal:any) {
             [1, '#5752C9']
             ]
         }}
-
-        // let vdata = await props.uxpContext.executeAction('AdaniDashboard','Visitor',params,{json:true});
+        let vdata = await props.uxpContext.executeAction('AdaniDashboard','Visitor',params,{json:true});
        
-        // let vdata = visitorCount;   
+        let cd=JSON.parse(vdata.data);
 
-        // let vdata = visitorCount1.Visitors;
-
-        // let vdata = visitorCount1.Visitors;
-
-      let vdata = visitorCount1.Visitors.Daily;
-
-      //    console.log(vdata);
-
-        if(selVal == 'Weekly'){
-            vdata = visitorCount1.Visitors.Weekly;
-        }
-        else if(selVal == 'Monthly'){
-            vdata = visitorCount1.Visitors.Monthly;
-        } 
-        else if(selVal == 'Yearly'){
-            vdata = visitorCount1.Visitors.Yearly;
-       } 
-      //  setseries_data(vdata);
-
-       Visitors(vdata, selVal, properties, grad);
-
-
+        Visitors(cd, selVal, properties, grad);
+        
     }
 
     function Visitors(data:any,  selValue:any, properties:any, grad:any){
         var cafeteriaString:any = [], year_list:any = [], cafeteria_final:any = [];
-        console.log('hi',data );
-
         document.querySelector('.visitors_data').innerHTML = '';
         document.querySelector('.visitors_dataCount').innerHTML = '';
 
@@ -188,10 +154,8 @@ async function getVisitorCount(selVal:any) {
                   year_list.push(monName); 
                   document.querySelector('.prev_next').classList.add('hide'); 
                 } 
-
                 cafeteriaString.push(data.VisitorCount);
                 });
-
             } 
         } else if(typeof(data.Visitors.Details) == 'object' && data.Visitors.Details.length != undefined){
             
@@ -220,9 +184,6 @@ async function getVisitorCount(selVal:any) {
                 cafeteriaString.push(v.VisitorCount);
             }); 
         }
-
- 
-       
              
     if(selValue == 'Weekly' || selValue == 'Monthly' || selValue == 'Yearly') {
         {
@@ -298,10 +259,7 @@ async function getVisitorCount(selVal:any) {
         }
         e.target.className = "meeting_active";
 
-        // getVisitorCount(selVal);
         getVisitorCount(selVal);
-
-         
     }
 
     const Chart = () => (
@@ -328,8 +286,8 @@ async function getVisitorCount(selVal:any) {
             <div className="visitors_data"></div>
             <div className="prev_next">
                 <ul>
-                    <li><a onClick={()=>{getVisitorCount('PreviousDay')}}> </a></li>
-                    <li><a onClick={()=>{getVisitorCount('NextDay')}}> </a></li>  
+                    <li><a onClick={()=>{getVisitorCount('PreviousDay')}}>Prev</a></li>
+                    <li><a onClick={()=>{getVisitorCount('NextDay')}}>Next</a></li>  
                 </ul>
             </div>
             <Chart/>

@@ -3,9 +3,6 @@ import { TitleBar,  WidgetWrapper,DataList } from "uxp/components";
 import { IContextProvider } from '../uxp';
 import '../styles.scss';
 
-
-import serviceNow from  '../json/serviceNow.json'
-
 interface IServiceNowProps {
     uxpContext?: IContextProvider
 }
@@ -21,11 +18,9 @@ let [Monthname, setMonthname] = React.useState<any>('')
 
 async function getServiceNowDetails() {
 
-       //let ldata = await props.uxpContext.executeAction('AdaniDashboard','ServiceNow',{json:true});
+let ldata = await props.uxpContext.executeAction('AdaniDashboard','ServiceNow',{},{json:true});
         /* similar to this.setState({data:data}) */
-		//let cdata=JSON.parse(ldata);
-
-        let cdata= serviceNow;
+		let cdata=JSON.parse(ldata.data);
 		let details=cdata.TicketType;
 		var d = new Date();         
         var monthname= ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];

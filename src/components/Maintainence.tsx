@@ -9,13 +9,6 @@ import {
 import { IContextProvider } from "../uxp";
 import "../styles.scss";
 
-
-import maintainenceSchedule_InitLoad from  '../json/maintainenceSchedule_InitLoad.json'
-
-import maintainenceSchedule_LoadData from  '../json/maintainenceSchedule_LoadData.json'
-
-import maintainenceSchedule_LoadData1 from  '../json/maintainenceSchedule_LoadData1.json'
-
 interface IMaintenanceScheduleProps2 {
   uxpContext?: IContextProvider;
 }
@@ -53,13 +46,8 @@ const MaintenanceSchedule: React.FunctionComponent<IMaintenanceScheduleProps2> =
     }
 
     async function getMaintainenceSchedule() {
-      // let mdata = await props.uxpContext.executeAction(
-      //   "AdaniDashboard",
-      //   "MaintainenceSchedule_InitLoad",
-      //   { json: true }
-      // );
-     // let md = JSON.parse(mdata);
-     let md = maintainenceSchedule_InitLoad;
+      let mdata = await props.uxpContext.executeAction( "AdaniDashboard", "MaintainenceSchedule_InitLoad",{},{json: true});
+      let md = JSON.parse(mdata.data);
       var newArray: Array<any> = [];
       md.MaintenanceService.forEach((i: any) => {
         newArray.push({
@@ -80,20 +68,10 @@ const MaintenanceSchedule: React.FunctionComponent<IMaintenanceScheduleProps2> =
       let params = {
         ServiceCategoryKey: selectedService,
       };
-      // let md = await props.uxpContext.executeAction(
-      //   "AdaniDashboard",
-      //   "MaintainenceSchedule_LoadData",
-      //   params,
-      //   { json: true }
-      // );
+      let cdata = await props.uxpContext.executeAction("AdaniDashboard", "MaintainenceSchedule_LoadData", params,{json: true});
 
-      //let md = maintainenceSchedule_LoadData;
-
-     // let md = (maintainenceSchedule_LoadData as any)[selectedService];
-
-     let md = (maintainenceSchedule_LoadData1 as any)[selectedService]; 
-
-      setselService(md);
+      let md = JSON.parse(cdata.data);
+      setselService(selectedService);
       MaintainenceScheduleInit(md);
       setdata(md.WRScheduleDatails);
     }

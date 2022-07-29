@@ -5,10 +5,6 @@ import * as Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import '../styles.scss';
 
-// import parking from  '../json/parking.json'
-
-import parking1 from  '../json/parking1.json'
-
 interface IParkingProps {
     uxpContext?: IContextProvider
 }
@@ -44,20 +40,11 @@ const parkingUtilization : React.FunctionComponent<IParkingProps> = (props) => {
         let params = {                    
                     DateQuery: DateQuery
                 }
-      //  let cdata = parking;
-      let cdata = parking1;
+        let cdata = await props.uxpContext.executeAction('AdaniDashboard','PMSOccupancy',params,{json:true});
                 
-       // let me=cdata.ParkingUtilization;
+        let cd=JSON.parse(cdata.data);
 
-        let me=cdata.ParkingUtilization.Weekly;
-    
-        if(DateQuery == 'Monthly'){
-            me=cdata.ParkingUtilization.Monthly;
-       } else if(DateQuery == 'Weekly'){
-            me=cdata.ParkingUtilization.Daily;
-       } 
-
-
+        let me=cd.ParkingUtilization;
         let details=me.details;
         let result=details.result;
                 
@@ -108,7 +95,7 @@ const parkingUtilization : React.FunctionComponent<IParkingProps> = (props) => {
             tm.push(parseInt(i.TotalEmployeeVehicles));
             tv.push(parseInt(i.TotalVisitorVehicles));
 
-            let dtt = new Date( i.isoDate);
+            let dtt = new Date(i.isoDate);
             var dows=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
             var dow= dows[(dtt).getDay()];  
             if(DateQuery == 'Daily'){
@@ -186,7 +173,7 @@ const parkingUtilization : React.FunctionComponent<IParkingProps> = (props) => {
             series: [{
                  name: 'Employee',
                 data: parking_final,
-                color : '#5072ff'
+                 color : '#c55dda'
               }, 
               {
                 name: 'Visitor',

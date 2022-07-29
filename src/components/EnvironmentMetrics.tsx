@@ -4,13 +4,6 @@ import { IContextProvider } from '../uxp';
 import '../styles.scss';
 
 
-
-import environmentalMatrixInitData from  '../json/environmentalMatrixInitData.json'
-
-
-import environmentalMatrixLoadData from  '../json/environmentalMatrixLoadData.json'
-
-
 interface IKeys { key1: string; key2: string }
 // notice the parentheses, to avoid confusion with a block scope
 
@@ -85,13 +78,10 @@ async function getFloorsForSelectedWing(selected_wing :any){
     let params = {
             WingLocName: selected_wing
         }
- // let ldata = await props.uxpContext.executeAction('AdaniDashboard','EnvironmentalMatrixLoadData',params,{json:true});
+  let ldata = await props.uxpContext.executeAction('AdaniDashboard','EnvironmentalMatrixLoadData',params,{json:true});
         /* similar to this.setState({data:data}) */
-
-
-        let ldata =  environmentalMatrixLoadData;
-
-        let me=ldata.EnvironmentMatricsDetails;    
+        data=JSON.parse(ldata.data); 
+        let me=data.EnvironmentMatricsDetails;    
        //LoadFloors..Start
        floors.length=0
         for (const [k, v] of Object.entries(me)) {
@@ -127,11 +117,10 @@ function handlefilterchange(value:any){
 
 async function getEnvironmentDetails() {
     setIsLoading(true);
-   // let data = await props.uxpContext.executeAction('AdaniDashboard','EnvironmentalMatrixInitData',{json:true});
+    let cdata = await props.uxpContext.executeAction('AdaniDashboard','EnvironmentalMatrixInitData',{},{json:true});
         /* similar to this.setState({data:data}) */
-
-        let data = environmentalMatrixInitData;
-     //  data=JSON.parse(data);       
+          
+       data=JSON.parse(cdata.data);       
         let me=data.EnvironmentMatricsDetails;		
         let wngs=data.Wings;
         //WingsFilter..start         

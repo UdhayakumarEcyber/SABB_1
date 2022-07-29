@@ -6,10 +6,6 @@ import HighchartsReact from 'highcharts-react-official';
 import '../styles.scss';
 
 
-//import cafeteriaUtilization from  '../json/cafeteriaUtilization.json'
-
- import cafeteriaUtilization1 from  '../json/cafeteriaUtilization1.json'
-
 interface ICafeteriaProps {
     uxpContext?: IContextProvider
 }
@@ -24,8 +20,9 @@ let [highchartsOptions, setHighchartsOptions] = React.useState<any>({})
 
 
 
-React.useEffect(()=>{ 
-        getCafeteriaDetails('Daily') 
+React.useEffect(()=>{
+        
+        getCafeteriaDetails('Daily')
 
     },[]);
 
@@ -49,33 +46,19 @@ async function getCafeteriaDetails(DateQuery:string) {
 let params = {            
             DateQuery: DateQuery
         }
-
-        
- let cdata = cafeteriaUtilization1;
+let cdata = await props.uxpContext.executeAction('AdaniDashboard','CafeteriaUtilization',params,{json:true});
         /* similar to this.setState({data:data}) */
-  //  let cdata = (cafeteriaUtilization1 as any)[DateQuery];
+
+ let cd=JSON.parse(cdata.data);
        
-    // let me=cdata.CafeteriaUtilization.Weekly;
+let me=cd.CafeteriaUtilization;
+let details=me.details;
+let result=details.result;
 
-   
-        let me=cdata.CafeteriaUtilization.Weekly;
-    
-        if(DateQuery == 'Monthly'){
-            me=cdata.CafeteriaUtilization.Monthly;
-       } else if(DateQuery == 'Weekly'){
-            me=cdata.CafeteriaUtilization.Daily;
-       } 
-   
-
-    let details=me.details;
-    let result=details.result;
-
-    setData(me);
-    setDetails(details);
-    setResult(result);
-    gethighchart(result,DateQuery);
-
-   
+setData(me);
+setDetails(details);
+setResult(result);
+gethighchart(result,DateQuery);
 }
 
 
@@ -86,20 +69,20 @@ let frequency=''
 
 for (var i of result) {
     dt.push(parseInt(i.TotalHeadCount));
-	 frequency=i.Frequency;
+	frequency=i.Frequency;
 	var checkdt = new Date( i.isoDate);
 	var dows=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 	var dow= dows[(checkdt).getDay()];
 	if(DateQuery=='Weekly'){
-        cat.push(dow);
+    cat.push(dow);
     }
 	else if (DateQuery=='Daily')
 	{
-	    cat.push(parseInt(i.Number)+ ':00');
+	cat.push(parseInt(i.Number)+ ':00');
 	}
 	else if (DateQuery=='Monthly')
 	{
-	    cat.push('WK'+parseInt(i.Number)+ '<br/>' +  i.isoDate.substring(0,10));
+	cat.push('WK'+parseInt(i.Number)+ '<br/>' +  i.isoDate.substring(0,10));
 	}
 }
 
@@ -139,8 +122,7 @@ const options = {
         },
     series: [{
         name: frequency,
-        data: dt,
-        color : '#5072ff'
+        data: dt
     }]
 };
 setHighchartsOptions(options)

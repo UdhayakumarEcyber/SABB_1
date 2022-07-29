@@ -3,9 +3,6 @@ import { TitleBar,  WidgetWrapper } from "uxp/components";
 import { IContextProvider } from '../uxp';
 import '../styles.scss';
 
-
-import FootFallTypes from  '../json/footFallTypes.json'
-
 interface IFootfallTypeProps {
     uxpContext?: IContextProvider
 }
@@ -17,13 +14,9 @@ React.useEffect(()=>{
     },[]);
 	
 async function getFootfallTypes() {
-        // let data = await props.uxpContext.executeAction('AdaniDashboard','FootFallTypes',{json:true}); 
-        // var fData = JSON.parse(data);
-
-        //var fData = footFallTypes.FootFallTypes;
-        //console.log('Hi', fData)
-
-        footFallTypes(FootFallTypes);
+        let cdata = await props.uxpContext.executeAction('AdaniDashboard','FootFallTypes',{},{json:true});
+        var fData = JSON.parse(cdata.data);
+        footFallTypes(fData);
     }
 
     function footFallTypes(value:any){

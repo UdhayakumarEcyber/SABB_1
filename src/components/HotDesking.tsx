@@ -3,11 +3,6 @@ import { TitleBar,  WidgetWrapper,DataList } from "uxp/components";
 import { IContextProvider } from '../uxp';
 import '../styles.scss';
 
-
-import SeatBookingDetails from  '../json/hotDeskingInitData.json'
- import hotDeskingLoadData from  '../json/hotDeskingLoadData.json'
-//import hotDeskingLoadData1 from  '../json/hotDeskingLoadData1.json'
-
 interface IHotDeskingeProps {
     uxpContext?: IContextProvider
 }
@@ -20,13 +15,9 @@ const HotDesking:React.FunctionComponent<IHotDeskingeProps> = (props) => {
     },[]);
 	
 async function getHotDesking() {
-        // let data = await props.uxpContext.executeAction('AdaniDashboard','HotDeskingInitData',{json:true});
-        // var fData = JSON.parse(data);
-        //HotDeskingInitData(fData);
-
-        HotDeskingInitData(SeatBookingDetails);
-
-        
+        let cdata = await props.uxpContext.executeAction('AdaniDashboard','HotDeskingInitData',{},{json:true});
+        var fData = JSON.parse(cdata.data);
+        HotDeskingInitData(fData);
     }
 
     function HotDeskingInitData(value:any){
@@ -59,30 +50,9 @@ async function loadHotDeskData(selVal:any){
     let params = {            
         FloorKey: selVal
     }
-    // let fdata = await props.uxpContext.executeAction('AdaniDashboard','HotDeskingLoadData',params,{json:true});
-    // hotdesking_LoadData(fdata);
-
-   let fdata = hotDeskingLoadData;
-
-//   let Cdata = hotDeskingLoadData1.HotDeskingLoadData;
-
-//    let fdata = Cdata.Floors.EW;
-
-//     if(selVal == 'WW'){
-//         fdata = Cdata.Floors.WW;
-//     }
-//     else if(selVal == 'NW'){
-//         fdata = Cdata.Floors.NW;
-//     } 
-//     else if(selVal == 'SW'){
-//         fdata = Cdata.Floors.SW;
-//     } 
-
-   // setseries_data(fdata);
-
-
-   hotdesking_LoadData(fdata);
-    
+    let cdata = await props.uxpContext.executeAction('AdaniDashboard','HotDeskingLoadData',params,{json:true});
+    var fData = JSON.parse(cdata.data);
+    hotdesking_LoadData(fData);
 }
 
 function bindFloorddl(selVal:any){
@@ -168,7 +138,3 @@ function hotdeskingFloor(v:any){
 }
 
 export default HotDesking;
-
-function setseries_data(fdata: { FloorFullName: string; FloorLocName: string; FloorKey: string; IsSelected: string; }[]) {
-    throw new Error("Function not implemented.");
-}

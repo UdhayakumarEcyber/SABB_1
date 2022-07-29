@@ -3,9 +3,6 @@ import { TitleBar,  WidgetWrapper,DataList } from "uxp/components";
 import { IContextProvider } from '../uxp';
 import '../styles.scss';
 
-
-import PerPersonConsumption from  '../json/perPersonConsumption.json'
-
 interface IEnergyConPerPersonProps {
     uxpContext?: IContextProvider
 }
@@ -19,9 +16,8 @@ React.useEffect(()=>{
     },[]);
 	
  async function getEnergyConPerPerson() {
-       // let sdata = await props.uxpContext.executeAction('AdaniEnergyDashboard','PerPersonConsumption',{json:true});
-        //  let sdata = PerPersonConsumption;
-		const myData = PerPersonConsumption;
+        let sdata = await props.uxpContext.executeAction('AdaniEnergyDashboard','PerPersonConsumption',{},{json:true});
+		const myData = JSON.parse(sdata.data);
         EnergyConsumptionPerPerson(myData);
     }
 

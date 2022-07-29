@@ -5,11 +5,7 @@ import * as Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import Heatmap from 'highcharts/modules/heatmap.js';
 Heatmap(Highcharts);
-import '../styles.scss'; 
-
-
-import BaselineComperison from  '../json/actualBaseline.json'
-
+import '../styles.scss';
 
 interface IActualBaselineProps {
     uxpContext?: IContextProvider
@@ -27,11 +23,9 @@ async function renderBaseline() {
         document.getElementById('baseline').style.background = '#D4FDC1';        
         document.getElementById('heatmap').style.background = '';
 
-        // let data = await props.uxpContext.executeAction('AdaniEnergyDashboard','BaselineComparison_Baseline',{json:true});
-		// let mydata = JSON.parse(data);
-
-        
-        ActualBaseline(BaselineComperison);
+        let cdata = await props.uxpContext.executeAction('AdaniEnergyDashboard','BaselineComparison_Baseline',{},{json:true});
+		let mydata = JSON.parse(cdata.data); 
+        ActualBaseline(mydata);
                 
     }
 
@@ -221,11 +215,11 @@ async function renderBaseline() {
 
     return <WidgetWrapper className="actual-baseline-widget">
         <TitleBar icon="https://static.iviva.com/images/Adani_UXP/energy.svg" title="ACTUAL VS BASELINE CONSUMPTION" className="actual-baseline-titlebar icons">
-            <div className="baseline_cur_month" style={{width:"100%", textAlign:'center'}}></div>
+            <div className="baseline_cur_month"></div>
             <div className="actual-baseline-btns">
                 <ul>
                     <li id='baseline' className="ABBaseline actual-baseline-btns-child selectedBtn" onClick={() =>{renderBaseline()} }>Baseline</li>
-                    <li id='heatmap' className="heatMap actual-baseline-btns-child" onClick={() =>{RenderHeatMap()} }></li>
+                    <li id='heatmap' className="heatMap actual-baseline-btns-child" onClick={() =>{RenderHeatMap()} }>Heatmap</li>
                 </ul>
             </div>
         </TitleBar>        

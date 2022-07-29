@@ -5,12 +5,6 @@ import * as Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import '../styles.scss';
 
-
-
-  import carbonFootprint from  '../json/carbonFootprint.json'
-
- //import carbonFootprint1 from  '../json/carbonFootprint1.json'
-
 interface ICarbonProps {
     uxpContext?: IContextProvider
 }
@@ -33,22 +27,8 @@ async function getCarbonData(DateQuery:string) {
         document.getElementById('past5Yrs').style.background = '#D4FDC1';
     }
     
-     //   let data = await props.uxpContext.executeAction('AdaniEnergyDashboard','CarbonFootprint',{json:true});
-  
-
-        // let data = carbonFootprint;
-
-		  var mydata = carbonFootprint;
-
-    //     var mydata = carbonFootprint1; 
-
-    //     let me=mydata.CorbonFootprint.;
-    
-    //     if(DateQuery == 'Monthly'){
-    //         me=mydata.CorbonFootprint.Past_5Years;
-    //    }  
-
-
+        let cdata = await props.uxpContext.executeAction('AdaniEnergyDashboard','CarbonFootprint',{},{json:true});
+		var mydata = JSON.parse(cdata.data);
         Carbon(mydata, DateQuery);
     }
 
@@ -90,7 +70,7 @@ async function getCarbonData(DateQuery:string) {
             showInLegend : false,
             name : 'Consumption',
             data : data,
-            color : '#5072ff'
+            color : 'rgb(187 125 234 / 68%)'
         }
         CCData.push(CCDataObj);
 

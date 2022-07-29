@@ -4,11 +4,6 @@ import { IContextProvider } from '../uxp';
 
 import '../styles.scss';
 
-
-
-import RecentActiveIncidents from  '../json/RecentActiveIncidents.json'
-
-
 interface IRecentIncidentProps {
     uxpContext?: IContextProvider
 }
@@ -45,12 +40,9 @@ async function getRecentIncidentDetails() {
         return strTime;
     }
 
-   // let ldata = await props.uxpContext.executeAction('AdaniDashboard','RecentActiveIncidents',{json:true});
+    let ldata = await props.uxpContext.executeAction('AdaniDashboard','RecentActiveIncidents',{},{json:true});
         /* similar to this.setState({data:data}) */
-		//let cdata= JSON.parse(ldata);
-
-        let cdata= RecentActiveIncidents;
-        
+		let cdata=JSON.parse(ldata.data);
 		let Lucydata=cdata.RecentActiveIncidents;
 		let details=Lucydata.IncidentDetails;
 		var arr=[],counter;

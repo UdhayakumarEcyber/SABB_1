@@ -4,9 +4,6 @@ import { Button, DataGrid, WidgetWrapper, TitleBar, FormField, Select, DataList 
 import { IContextProvider } from '../uxp';
 import '../styles.scss';
 
-
-import afterhours from  '../json/afterhours.json'
-
 interface IAfterHoursProps {
     uxpContext?: IContextProvider
 }
@@ -28,15 +25,15 @@ const AfterHours: React.FunctionComponent<IAfterHoursProps> = (props) => {
     },[]);
 
     async function getAfterHours() {
-        // let cdataa = await props.uxpContext.executeAction('AdaniDashboard','AfterHours',{json:true});
-        // console.log('helo', cdataa)
-       // let cd=JSON.parse(cdataa);
-        setsectionAfterHours(afterhours.AfterHours);
+        let cdataa = await props.uxpContext.executeAction('AdaniDashboard','AfterHours',{},{json:true});
+
+        let cd=JSON.parse(cdataa.data);
+        console.log("udhaya", cd);
+        setsectionAfterHours(cd.AfterHours);
         const StartIndex = 0, EndIndex = 5;
-        afterhoursFun(StartIndex, EndIndex, afterhours.AfterHours); 
+        afterhoursFun(StartIndex, EndIndex, cd.AfterHours);
         
     }
-
 
     function fnAfterHoursDown(CurrentIndex:number, MaxIndex:number) {   
         let StartIndex = 0;
@@ -123,7 +120,7 @@ const AfterHours: React.FunctionComponent<IAfterHoursProps> = (props) => {
     }
 
     return (<WidgetWrapper className="uxp-drag-handler">
-        <TitleBar title="After Hours A/C Utilization" icon="https://static.iviva.com/images/Adani_UXP/afterhours-icon.svg"></TitleBar>
+        <TitleBar title="After Hours" icon="https://static.iviva.com/images/Adani_UXP/afterhours-icon.svg"></TitleBar>
 
         <div className="body">
             <div className='afterhours_inner_widget'>

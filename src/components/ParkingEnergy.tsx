@@ -3,9 +3,6 @@ import { TitleBar,  WidgetWrapper,DataList } from "uxp/components";
 import { IContextProvider } from '../uxp';
 import '../styles.scss';
 
-
-import ParkingConsumption from  '../json/parkingComsumption.json'
-
 interface IParkingProps {
     uxpContext?: IContextProvider
 }
@@ -22,9 +19,9 @@ React.useEffect(()=>{
     },[]);
 	
  async function getParkingData() {
-       // let sdata = await props.uxpContext.executeAction('AdaniEnergyDashboard','ParkingComsumption',{json:true}); 
-		const myData =  ParkingConsumption ;
-        parking(ParkingConsumption);
+        let sdata = await props.uxpContext.executeAction('AdaniEnergyDashboard','ParkingComsumption',{},{json:true});
+		const myData = JSON.parse(sdata.data);
+        parking(myData);
         setDetails(myData.ParkingConsumption.Details);
         myData.ParkingConsumption.Details.forEach((v:any, i:any)=>{ 
             floors.push('floor ' + (i+1));

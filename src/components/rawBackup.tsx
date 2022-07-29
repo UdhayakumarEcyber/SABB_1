@@ -5,10 +5,6 @@ import * as Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import '../styles.scss';
 
-
-
-import ElectricalEnergyConsumption from  '../json/raw_Backup.json'
-
 interface IRawBackupProps {
     uxpContext?: IContextProvider
 }
@@ -55,10 +51,9 @@ async function getRawBackupData(DateQuery:string) {
     let params = {            
         DateQuery: DateQuery
     }
-        // let data = await props.uxpContext.executeAction('AdaniEnergyDashboard','Raw_Backup',params,{json:true});
+        let cdata = await props.uxpContext.executeAction('AdaniEnergyDashboard','Raw_Backup',params,{json:true});
 
-        let data = ElectricalEnergyConsumption;
-
+        let data = JSON.parse(cdata.data);
 		setdQuery(DateQuery);
         RawBackup(data, DateQuery);
         setbackup(data.ElectricalEnergyConsumption.Backup);

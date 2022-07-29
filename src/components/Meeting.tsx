@@ -3,14 +3,9 @@ import { TitleBar,  WidgetWrapper } from "uxp/components";
 import { IContextProvider } from '../uxp';
 import '../styles.scss';
 
-// import '../widget_trans.scss';
-
 interface IMeetingProps {
     uxpContext?: IContextProvider
 }
-
-
-import LoggedInEmployee from  '../json/loggedInEmployee.json'
 
 const Meeting:React.FunctionComponent<IMeetingProps> = (props) => {
 
@@ -20,13 +15,9 @@ React.useEffect(()=>{
     },[]);
 	
  async function getVisitor() {
-        // let sdata = await props.uxpContext.executeAction('AdaniDashboard','LoggedInEmployee',{json:true});
-		// const myData = JSON.parse(sdata);        
-		// setData(myData.LoggedInEmployee);
-
-        let sdata = LoggedInEmployee;
-		//const myData = JSON.parse(sdata);        
-		setData(sdata.LoggedInEmployee);
+        let sdata = await props.uxpContext.executeAction('AdaniDashboard','LoggedInEmployee',{},{json:true});
+		const myData = JSON.parse(sdata.data);        
+		setData(myData.LoggedInEmployee);
     }
     
 if(data.constructor === Object && Object.entries(data).length > 0)
@@ -45,7 +36,7 @@ if(data.constructor === Object && Object.entries(data).length > 0)
 
                         </div>
                         <div className="Visitor-info">
-                            <span className='st2'  >No visits scheduled for the day </span>                            
+                            <span className='st2'  >No visits Scheduled for the day </span>                            
                         </div>
                     </div>
                 }

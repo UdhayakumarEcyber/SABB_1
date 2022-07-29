@@ -3,9 +3,6 @@ import { TitleBar,  WidgetWrapper,DataList } from "uxp/components";
 import { IContextProvider } from '../uxp';
 import '../styles.scss';
 
-
-import energyConsumption from  '../json/energyConsumption.json'
-
 interface IEnergyConsumptionProps {
     uxpContext?: IContextProvider
 }
@@ -55,17 +52,13 @@ React.useEffect(()=>{
     let params = {            
         DateQuery: DateQuery
     }
-    // let edata = await props.uxpContext.executeAction('AdaniEnergyDashboard','EnergyConsumption',params,{json:true});
-
-      let edata = energyConsumption;
-
-    console.log(edata);
-
-    setdata(edata);
-    eConsumption = edata;
+    let edata = await props.uxpContext.executeAction('AdaniEnergyDashboard','EnergyConsumption',params,{json:true});
+    let cd=JSON.parse(edata.data);
+    setdata(cd);
+    eConsumption = cd;
     dq = DateQuery;
     setdateQueryVal(DateQuery);
-    EnergyConsumption(edata);
+    EnergyConsumption(cd);
     }
 
     function EnergyConsumption(value: any){

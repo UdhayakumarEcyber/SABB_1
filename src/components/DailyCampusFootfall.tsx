@@ -3,12 +3,6 @@ import { TitleBar,  WidgetWrapper } from "uxp/components";
 import { IContextProvider } from '../uxp';
 import '../styles.scss';
 
-
-
-import footFallInitLoad from  '../json/footFallInitLoad.json' 
-import footFallMatrix from  '../json/footFallMatrix.json'
-
-
 interface IDailyCampusFootfallProps {
     uxpContext?: IContextProvider
 }
@@ -27,12 +21,9 @@ const DailyCampusFootfall:React.FunctionComponent<IDailyCampusFootfallProps> = (
 	
 async function getDailyCampusFootfall() {
     
-        // let ddata = await props.uxpContext.executeAction('AdaniDashboard','FootFallInitLoad',{json:true});
-        // var cdata = JSON.parse(ddata);
-        // getFootfall(cdata);
-
-        
-        getFootfall(footFallInitLoad);
+        let ddata = await props.uxpContext.executeAction('AdaniDashboard','FootFallInitLoad',{},{json:true});
+        var cdata = JSON.parse(ddata.data);
+        getFootfall(cdata);
     }
     
     function getFootfall(value:any){
@@ -91,18 +82,12 @@ async function getDailyCampusFootfall() {
     }
 
     async function footfallDetailsAreaChart(selValue:any){
-       // debugger
+        debugger
         let params = {                    
             WingLocName: selValue
         }
-       //  let mdata = await props.uxpContext.executeAction('AdaniDashboard','FootFallMatrix',params,{json:true});
-       // getFootfallMatrix(mdata); 
-
-         let mdata = (footFallMatrix as any)[selValue];
-        console.log("footfall", mdata);
-
+        let mdata = await props.uxpContext.executeAction('AdaniDashboard','FootFallMatrix',params,{json:true});
         getFootfallMatrix(mdata);
-       
     }
 
     function getFootfallMatrix(value:any){
